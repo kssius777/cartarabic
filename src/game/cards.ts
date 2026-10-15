@@ -60,6 +60,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   tech: { label: 'Technologie', icon: '📱', color: '#3f51b5', light: '#d1d6f0' },
   loisirs: { label: 'Loisirs', icon: '⚽', color: '#43a047', light: '#cfe9d0' },
   religion: { label: 'Religion', icon: '🕌', color: '#00695c', light: '#c0e0dc' },
+  societe: { label: 'Société', icon: '📰', color: '#455a64', light: '#cfd8dc' },
 }
 
 export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string; desc: string }> = {
