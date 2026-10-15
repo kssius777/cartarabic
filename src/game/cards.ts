@@ -46,6 +46,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   verbes: { label: 'Verbes', icon: '⚡', color: '#f4b400', light: '#fdecb3' },
   expressions: { label: 'Expressions', icon: '🌙', color: '#3949ab', light: '#d0d5f1' },
   phrases: { label: 'Phrases', icon: '💬', color: '#00897b', light: '#c2e6e2' },
+  outils: { label: 'Petits mots', icon: '🔗', color: '#78909c', light: '#d7dee2' },
 }
 
 export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string }> = {

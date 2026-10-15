@@ -3248,5 +3248,2895 @@
   "kind": "phrase",
   "rarity": 5,
   "rarityName": "légendaire"
+ },
+ {
+  "id": "c326",
+  "ar": "كَيْفَ الْحَال؟",
+  "translit": "kayfa l-ḥāl ?",
+  "fr": "Comment ça va ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c327",
+  "ar": "شُكْرًا جَزِيلًا",
+  "translit": "chukran jazīlan",
+  "fr": "Merci beaucoup",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c328",
+  "ar": "أَهْلًا بِك",
+  "translit": "ahlan bik",
+  "fr": "Sois le bienvenu",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c329",
+  "ar": "بِخَيْرٍ، وَالْحَمْدُ لِلّٰه",
+  "translit": "bikhayrin, wa-l-ḥamdu lillāh",
+  "fr": "Bien, Dieu merci",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c330",
+  "ar": "نَهَارُك سَعِيد",
+  "translit": "nahāruk saʿīd",
+  "fr": "Bonne journée",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c331",
+  "ar": "لَيْلَة سَعِيدَة",
+  "translit": "layla saʿīda",
+  "fr": "Bonne soirée",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c332",
+  "ar": "عِيد مُبَارَك",
+  "translit": "ʿīd mubārak",
+  "fr": "Bonne fête (Aïd)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c333",
+  "ar": "رَمَضَان كَرِيم",
+  "translit": "ramaḍān karīm",
+  "fr": "Bon ramadan",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c334",
+  "ar": "مَعْذِرَةً",
+  "translit": "maʿdhiratan",
+  "fr": "Excusez-moi",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c335",
+  "ar": "بِكُلِّ سُرُور",
+  "translit": "bi-kulli surūr",
+  "fr": "Avec grand plaisir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c336",
+  "ar": "سَعِيد بِلِقَائِك",
+  "translit": "saʿīd bi-liqā'ik",
+  "fr": "Ravi de te rencontrer",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c337",
+  "ar": "عَلَى الرَّحْبِ وَالسَّعَة",
+  "translit": "ʿalā r-raḥbi wa-s-saʿa",
+  "fr": "Avec plaisir (bienvenue)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c338",
+  "ar": "وَ",
+  "translit": "wa",
+  "fr": "Et",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c339",
+  "ar": "هُنَا",
+  "translit": "hunā",
+  "fr": "Ici",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c340",
+  "ar": "مَعَ",
+  "translit": "maʿa",
+  "fr": "Avec",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c341",
+  "ar": "فِي",
+  "translit": "fī",
+  "fr": "Dans",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c342",
+  "ar": "أَوْ",
+  "translit": "aw",
+  "fr": "Ou",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c343",
+  "ar": "هُنَاكَ",
+  "translit": "hunāka",
+  "fr": "Là-bas",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c344",
+  "ar": "كُلّ",
+  "translit": "kull",
+  "fr": "Tout / chaque",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c345",
+  "ar": "شَيْء",
+  "translit": "chay'",
+  "fr": "Chose",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c346",
+  "ar": "عَلَى",
+  "translit": "ʿalā",
+  "fr": "Sur",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c347",
+  "ar": "تَحْتَ",
+  "translit": "taḥta",
+  "fr": "Sous",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c348",
+  "ar": "جِدًّا",
+  "translit": "jiddan",
+  "fr": "Très",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c349",
+  "ar": "أَيْضًا",
+  "translit": "ayḍan",
+  "fr": "Aussi",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c350",
+  "ar": "لٰكِنْ",
+  "translit": "lākin",
+  "fr": "Mais",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c351",
+  "ar": "قَبْلَ",
+  "translit": "qabla",
+  "fr": "Avant",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c352",
+  "ar": "بَعْدَ",
+  "translit": "baʿda",
+  "fr": "Après",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c353",
+  "ar": "أَمَامَ",
+  "translit": "amāma",
+  "fr": "Devant",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c354",
+  "ar": "خَلْفَ",
+  "translit": "khalfa",
+  "fr": "Derrière",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c355",
+  "ar": "بَيْنَ",
+  "translit": "bayna",
+  "fr": "Entre",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c356",
+  "ar": "لِأَنَّ",
+  "translit": "li'anna",
+  "fr": "Parce que",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c357",
+  "ar": "لَا شَيْء",
+  "translit": "lā chay'",
+  "fr": "Rien",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c358",
+  "ar": "رُبَّمَا",
+  "translit": "rubbamā",
+  "fr": "Peut-être",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c359",
+  "ar": "أَطْفَال",
+  "translit": "aṭfāl",
+  "fr": "Enfants (pluriel)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c360",
+  "ar": "بَنَات",
+  "translit": "banāt",
+  "fr": "Filles (pluriel)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c361",
+  "ar": "شَابّ",
+  "translit": "chābb",
+  "fr": "Jeune homme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c362",
+  "ar": "حَفِيد",
+  "translit": "ḥafīd",
+  "fr": "Petit-fils",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c363",
+  "ar": "عَرُوس",
+  "translit": "ʿarūs",
+  "fr": "Mariée",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c364",
+  "ar": "شَيْخ",
+  "translit": "chaykh",
+  "fr": "Vieil homme / cheikh",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c365",
+  "ar": "إِخْوَة",
+  "translit": "ikhwa",
+  "fr": "Frères (pluriel)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c366",
+  "ar": "خَطِيب",
+  "translit": "khaṭīb",
+  "fr": "Fiancé",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c367",
+  "ar": "أَقَارِب",
+  "translit": "aqārib",
+  "fr": "Proches (famille)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c368",
+  "ar": "شُوكُولَاتَة",
+  "translit": "chūkūlāta",
+  "fr": "Chocolat",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c369",
+  "ar": "كُسْكُس",
+  "translit": "kuskus",
+  "fr": "Couscous",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c370",
+  "ar": "لَيْمُون",
+  "translit": "laymūn",
+  "fr": "Citron",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c371",
+  "ar": "بَطَاطِس",
+  "translit": "baṭāṭis",
+  "fr": "Pommes de terre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c372",
+  "ar": "زَيْتُون",
+  "translit": "zaytūn",
+  "fr": "Olives",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c373",
+  "ar": "كَعْكَة",
+  "translit": "kaʿka",
+  "fr": "Gâteau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c374",
+  "ar": "بِطِّيخ",
+  "translit": "biṭṭīkh",
+  "fr": "Pastèque",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c375",
+  "ar": "خَوْخ",
+  "translit": "khawkh",
+  "fr": "Pêche (fruit)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c376",
+  "ar": "فَرَاوْلَة",
+  "translit": "farāwla",
+  "fr": "Fraise",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c377",
+  "ar": "جَزَر",
+  "translit": "jazar",
+  "fr": "Carotte",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c378",
+  "ar": "ثُوم",
+  "translit": "thūm",
+  "fr": "Ail",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c379",
+  "ar": "فُلْفُل",
+  "translit": "fulful",
+  "fr": "Poivre / poivron",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c380",
+  "ar": "لَبَن",
+  "translit": "laban",
+  "fr": "Lait fermenté",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c381",
+  "ar": "حَسَاء",
+  "translit": "ḥasā'",
+  "fr": "Soupe",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c382",
+  "ar": "فَطِيرَة",
+  "translit": "faṭīra",
+  "fr": "Tarte / crêpe",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c383",
+  "ar": "تِين",
+  "translit": "tīn",
+  "fr": "Figue",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c384",
+  "ar": "مَشْرُوب",
+  "translit": "machrūb",
+  "fr": "Boisson",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c385",
+  "ar": "وَجْبَة",
+  "translit": "wajba",
+  "fr": "Repas",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c386",
+  "ar": "رُمَّان",
+  "translit": "rummān",
+  "fr": "Grenade",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c387",
+  "ar": "حَقِيبَة",
+  "translit": "ḥaqība",
+  "fr": "Sac / valise",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c388",
+  "ar": "صَابُون",
+  "translit": "ṣābūn",
+  "fr": "Savon",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c389",
+  "ar": "تِلْفَاز",
+  "translit": "tilfāz",
+  "fr": "Télévision",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c390",
+  "ar": "وَرَقَة",
+  "translit": "waraqa",
+  "fr": "Feuille de papier",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c391",
+  "ar": "دَفْتَر",
+  "translit": "daftar",
+  "fr": "Cahier",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c392",
+  "ar": "صُورَة",
+  "translit": "ṣūra",
+  "fr": "Image / photo",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c393",
+  "ar": "رِسَالَة",
+  "translit": "risāla",
+  "fr": "Lettre / message",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c394",
+  "ar": "جِدَار",
+  "translit": "jidār",
+  "fr": "Mur",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c395",
+  "ar": "دَرَج",
+  "translit": "daraj",
+  "fr": "Escalier",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c396",
+  "ar": "مِظَلَّة",
+  "translit": "miẓalla",
+  "fr": "Parapluie",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c397",
+  "ar": "وِسَادَة",
+  "translit": "wisāda",
+  "fr": "Oreiller",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c398",
+  "ar": "مِنْشَفَة",
+  "translit": "minchafa",
+  "fr": "Serviette",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c399",
+  "ar": "فُرْشَاة",
+  "translit": "furchāh",
+  "fr": "Brosse",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c400",
+  "ar": "حَاسُوب",
+  "translit": "ḥāsūb",
+  "fr": "Ordinateur",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c401",
+  "ar": "فُسْتَان",
+  "translit": "fustān",
+  "fr": "Robe",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c402",
+  "ar": "سِرْوَال",
+  "translit": "sirwāl",
+  "fr": "Pantalon",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c403",
+  "ar": "قُبَّعَة",
+  "translit": "qubbaʿa",
+  "fr": "Chapeau",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c404",
+  "ar": "نَظَّارَة",
+  "translit": "naẓẓāra",
+  "fr": "Lunettes",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c405",
+  "ar": "خَاتَم",
+  "translit": "khātam",
+  "fr": "Bague",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c406",
+  "ar": "مِعْطَف",
+  "translit": "miʿṭaf",
+  "fr": "Manteau",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c407",
+  "ar": "بَطَّانِيَّة",
+  "translit": "baṭṭāniyya",
+  "fr": "Couverture",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c408",
+  "ar": "جَوْرَب",
+  "translit": "jawrab",
+  "fr": "Chaussette",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c409",
+  "ar": "ذِرَاع",
+  "translit": "dhirāʿ",
+  "fr": "Bras",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c410",
+  "ar": "دَم",
+  "translit": "dam",
+  "fr": "Sang",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c411",
+  "ar": "كَتِف",
+  "translit": "katif",
+  "fr": "Épaule",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c412",
+  "ar": "رُكْبَة",
+  "translit": "rukba",
+  "fr": "Genou",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c413",
+  "ar": "صَدْر",
+  "translit": "ṣadr",
+  "fr": "Poitrine",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c414",
+  "ar": "رَقَبَة",
+  "translit": "raqaba",
+  "fr": "Cou",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c415",
+  "ar": "عَظْم",
+  "translit": "ʿaẓm",
+  "fr": "Os",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c416",
+  "ar": "شَفَة",
+  "translit": "chafa",
+  "fr": "Lèvre",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c417",
+  "ar": "جِلْد",
+  "translit": "jild",
+  "fr": "Peau",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c418",
+  "ar": "مَعِدَة",
+  "translit": "maʿida",
+  "fr": "Estomac",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c419",
+  "ar": "نَبَات",
+  "translit": "nabāt",
+  "fr": "Plante",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c420",
+  "ar": "شَاطِئ",
+  "translit": "chāṭi'",
+  "fr": "Plage",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c421",
+  "ar": "ضَوْء",
+  "translit": "ḍaw'",
+  "fr": "Lumière",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c422",
+  "ar": "عُشْب",
+  "translit": "ʿuchb",
+  "fr": "Herbe",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c423",
+  "ar": "بُحَيْرَة",
+  "translit": "buḥayra",
+  "fr": "Lac",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c424",
+  "ar": "جَزِيرَة",
+  "translit": "jazīra",
+  "fr": "Île",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c425",
+  "ar": "مَوْج",
+  "translit": "mawj",
+  "fr": "Vagues",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c426",
+  "ar": "ظِلّ",
+  "translit": "ẓill",
+  "fr": "Ombre",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c427",
+  "ar": "بَرْق",
+  "translit": "barq",
+  "fr": "Éclair",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c428",
+  "ar": "رَعْد",
+  "translit": "raʿd",
+  "fr": "Tonnerre",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c429",
+  "ar": "قَوْس قُزَح",
+  "translit": "qaws quzaḥ",
+  "fr": "Arc-en-ciel",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c430",
+  "ar": "وَادٍ",
+  "translit": "wādin",
+  "fr": "Vallée / oued",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c431",
+  "ar": "بِئْر",
+  "translit": "bi'r",
+  "fr": "Puits",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c432",
+  "ar": "تُرَاب",
+  "translit": "turāb",
+  "fr": "Poussière",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c433",
+  "ar": "دُبّ",
+  "translit": "dubb",
+  "fr": "Ours",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c434",
+  "ar": "بَطَّة",
+  "translit": "baṭṭa",
+  "fr": "Canard",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c435",
+  "ar": "دَجَاجَة",
+  "translit": "dajāja",
+  "fr": "Poule",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c436",
+  "ar": "زَرَافَة",
+  "translit": "zarāfa",
+  "fr": "Girafe",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c437",
+  "ar": "غَزَال",
+  "translit": "ghazāl",
+  "fr": "Gazelle",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c438",
+  "ar": "ثُعْبَان",
+  "translit": "thuʿbān",
+  "fr": "Serpent",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c439",
+  "ar": "حَمَامَة",
+  "translit": "ḥamāma",
+  "fr": "Pigeon / colombe",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c440",
+  "ar": "نَمْلَة",
+  "translit": "namla",
+  "fr": "Fourmi",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c441",
+  "ar": "حُوت",
+  "translit": "ḥūt",
+  "fr": "Baleine",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c442",
+  "ar": "ذُبَابَة",
+  "translit": "dhubāba",
+  "fr": "Mouche",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c443",
+  "ar": "مَاعِز",
+  "translit": "māʿiz",
+  "fr": "Chèvre",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c444",
+  "ar": "تِمْسَاح",
+  "translit": "timsāḥ",
+  "fr": "Crocodile",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c445",
+  "ar": "عَنْكَبُوت",
+  "translit": "ʿankabūt",
+  "fr": "Araignée",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c446",
+  "ar": "ضِفْدَع",
+  "translit": "ḍifdaʿ",
+  "fr": "Grenouille",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c447",
+  "ar": "سُلَحْفَاة",
+  "translit": "sulaḥfāh",
+  "fr": "Tortue",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c448",
+  "ar": "بُومَة",
+  "translit": "būma",
+  "fr": "Hibou",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c449",
+  "ar": "نَسْر",
+  "translit": "nasr",
+  "fr": "Aigle",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c450",
+  "ar": "أَوَّل",
+  "translit": "awwal",
+  "fr": "Premier",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c451",
+  "ar": "نِصْف",
+  "translit": "niṣf",
+  "fr": "Moitié / demi",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c452",
+  "ar": "ثَانٍ",
+  "translit": "thānin",
+  "fr": "Deuxième",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c453",
+  "ar": "أَخِير",
+  "translit": "akhīr",
+  "fr": "Dernier",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c454",
+  "ar": "ثَلَاثُون",
+  "translit": "thalāthūn",
+  "fr": "Trente",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c455",
+  "ar": "أَرْبَعُون",
+  "translit": "arbaʿūn",
+  "fr": "Quarante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c456",
+  "ar": "خَمْسُون",
+  "translit": "khamsūn",
+  "fr": "Cinquante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c457",
+  "ar": "أَحَدَ عَشَرَ",
+  "translit": "aḥada ʿachara",
+  "fr": "Onze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c458",
+  "ar": "اِثْنَا عَشَرَ",
+  "translit": "ithnā ʿachara",
+  "fr": "Douze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c459",
+  "ar": "لَوْن",
+  "translit": "lawn",
+  "fr": "Couleur",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c460",
+  "ar": "بَنَفْسَجِيّ",
+  "translit": "banafsajiyy",
+  "fr": "Violet",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c461",
+  "ar": "ذَهَبِيّ",
+  "translit": "dhahabiyy",
+  "fr": "Doré",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c462",
+  "ar": "فِضِّيّ",
+  "translit": "fiḍḍiyy",
+  "fr": "Argenté",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c463",
+  "ar": "وَقْت",
+  "translit": "waqt",
+  "fr": "Temps (durée)",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c464",
+  "ar": "عُطْلَة",
+  "translit": "ʿuṭla",
+  "fr": "Vacances",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c465",
+  "ar": "عِيد",
+  "translit": "ʿīd",
+  "fr": "Fête",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c466",
+  "ar": "رَبِيع",
+  "translit": "rabīʿ",
+  "fr": "Printemps",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c467",
+  "ar": "خَرِيف",
+  "translit": "kharīf",
+  "fr": "Automne",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c468",
+  "ar": "اَلْأَحَد",
+  "translit": "al-aḥad",
+  "fr": "Dimanche",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c469",
+  "ar": "اَلْاِثْنَيْن",
+  "translit": "al-ithnayn",
+  "fr": "Lundi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c470",
+  "ar": "اَلثُّلَاثَاء",
+  "translit": "ath-thulāthā'",
+  "fr": "Mardi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c471",
+  "ar": "اَلْأَرْبِعَاء",
+  "translit": "al-arbiʿā'",
+  "fr": "Mercredi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c472",
+  "ar": "اَلْخَمِيس",
+  "translit": "al-khamīs",
+  "fr": "Jeudi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c473",
+  "ar": "ظُهْر",
+  "translit": "ẓuhr",
+  "fr": "Midi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c474",
+  "ar": "دَائِمًا",
+  "translit": "dā'iman",
+  "fr": "Toujours",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c475",
+  "ar": "أَحْيَانًا",
+  "translit": "aḥyānan",
+  "fr": "Parfois",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c476",
+  "ar": "أَبَدًا",
+  "translit": "abadan",
+  "fr": "Jamais",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c477",
+  "ar": "بَاكِرًا",
+  "translit": "bākiran",
+  "fr": "Tôt",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c478",
+  "ar": "مُتَأَخِّر",
+  "translit": "muta'akhkhir",
+  "fr": "En retard",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c479",
+  "ar": "تَارِيخ",
+  "translit": "tārīkh",
+  "fr": "Date / histoire",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c480",
+  "ar": "فَرَنْسَا",
+  "translit": "faransā",
+  "fr": "France",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c481",
+  "ar": "فُنْدُق",
+  "translit": "funduq",
+  "fr": "Hôtel",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c482",
+  "ar": "شُرْطَة",
+  "translit": "churṭa",
+  "fr": "Police",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c483",
+  "ar": "حَافِلَة",
+  "translit": "ḥāfila",
+  "fr": "Bus",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c484",
+  "ar": "قَرْيَة",
+  "translit": "qarya",
+  "fr": "Village",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c485",
+  "ar": "بَلَد",
+  "translit": "balad",
+  "fr": "Pays",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c486",
+  "ar": "مَكْتَب",
+  "translit": "maktab",
+  "fr": "Bureau",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c487",
+  "ar": "لُغَة",
+  "translit": "lugha",
+  "fr": "Langue (parlée)",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c488",
+  "ar": "اَلْمَغْرِب",
+  "translit": "al-maghrib",
+  "fr": "Maroc",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c489",
+  "ar": "اَلْجَزَائِر",
+  "translit": "al-jazā'ir",
+  "fr": "Algérie",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c490",
+  "ar": "تُونِس",
+  "translit": "tūnis",
+  "fr": "Tunisie",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c491",
+  "ar": "مِصْر",
+  "translit": "miṣr",
+  "fr": "Égypte",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c492",
+  "ar": "جَامِعَة",
+  "translit": "jāmiʿa",
+  "fr": "Université",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c493",
+  "ar": "مَلْعَب",
+  "translit": "malʿab",
+  "fr": "Stade / terrain",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c494",
+  "ar": "سَفِينَة",
+  "translit": "safīna",
+  "fr": "Bateau",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c495",
+  "ar": "دَرَّاجَة",
+  "translit": "darrāja",
+  "fr": "Vélo",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c496",
+  "ar": "جِسْر",
+  "translit": "jisr",
+  "fr": "Pont",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c497",
+  "ar": "مُهَنْدِس",
+  "translit": "muhandis",
+  "fr": "Ingénieur",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c498",
+  "ar": "شُرْطِيّ",
+  "translit": "churṭiyy",
+  "fr": "Policier",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c499",
+  "ar": "طَبَّاخ",
+  "translit": "ṭabbākh",
+  "fr": "Cuisinier",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c500",
+  "ar": "بَائِع",
+  "translit": "bā'iʿ",
+  "fr": "Vendeur",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c501",
+  "ar": "تَاجِر",
+  "translit": "tājir",
+  "fr": "Commerçant",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c502",
+  "ar": "مَيْدَان",
+  "translit": "maydān",
+  "fr": "Place (de la ville)",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c503",
+  "ar": "عَاصِمَة",
+  "translit": "ʿāṣima",
+  "fr": "Capitale",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c504",
+  "ar": "سَفَارَة",
+  "translit": "safāra",
+  "fr": "Ambassade",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c505",
+  "ar": "مُمَرِّضَة",
+  "translit": "mumarriḍa",
+  "fr": "Infirmière",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c506",
+  "ar": "نَظِيف",
+  "translit": "naẓīf",
+  "fr": "Propre",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c507",
+  "ar": "قَوِيّ",
+  "translit": "qawiyy",
+  "fr": "Fort",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c508",
+  "ar": "ذَكِيّ",
+  "translit": "dhakiyy",
+  "fr": "Intelligent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c509",
+  "ar": "حَزِين",
+  "translit": "ḥazīn",
+  "fr": "Triste",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c510",
+  "ar": "جَائِع",
+  "translit": "jā'iʿ",
+  "fr": "Affamé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c511",
+  "ar": "عَطْشَان",
+  "translit": "ʿaṭchān",
+  "fr": "Assoiffé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c512",
+  "ar": "لَذِيذ",
+  "translit": "ladhīdh",
+  "fr": "Délicieux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c513",
+  "ar": "مُمْتَاز",
+  "translit": "mumtāz",
+  "fr": "Excellent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c514",
+  "ar": "مَفْتُوح",
+  "translit": "maftūḥ",
+  "fr": "Ouvert",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c515",
+  "ar": "مُغْلَق",
+  "translit": "mughlaq",
+  "fr": "Fermé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c516",
+  "ar": "قَصِير",
+  "translit": "qaṣīr",
+  "fr": "Court",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c517",
+  "ar": "ثَقِيل",
+  "translit": "thaqīl",
+  "fr": "Lourd",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c518",
+  "ar": "خَفِيف",
+  "translit": "khafīf",
+  "fr": "Léger",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c519",
+  "ar": "وَسِخ",
+  "translit": "wasikh",
+  "fr": "Sale",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c520",
+  "ar": "فَارِغ",
+  "translit": "fārigh",
+  "fr": "Vide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c521",
+  "ar": "مَلِيء",
+  "translit": "malī'",
+  "fr": "Plein",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c522",
+  "ar": "ضَعِيف",
+  "translit": "ḍaʿīf",
+  "fr": "Faible",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c523",
+  "ar": "غَنِيّ",
+  "translit": "ghaniyy",
+  "fr": "Riche",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c524",
+  "ar": "فَقِير",
+  "translit": "faqīr",
+  "fr": "Pauvre",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c525",
+  "ar": "غَاضِب",
+  "translit": "ghāḍib",
+  "fr": "En colère",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c526",
+  "ar": "مَشْغُول",
+  "translit": "machghūl",
+  "fr": "Occupé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c527",
+  "ar": "صَحِيح",
+  "translit": "ṣaḥīḥ",
+  "fr": "Correct / vrai",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c528",
+  "ar": "خَطَأ",
+  "translit": "khaṭa'",
+  "fr": "Faux / erreur",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c529",
+  "ar": "مُهِمّ",
+  "translit": "muhimm",
+  "fr": "Important",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c530",
+  "ar": "سَمِين",
+  "translit": "samīn",
+  "fr": "Gros",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c531",
+  "ar": "نَحِيف",
+  "translit": "naḥīf",
+  "fr": "Mince",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c532",
+  "ar": "هَادِئ",
+  "translit": "hādi'",
+  "fr": "Calme",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c533",
+  "ar": "بَطِيء",
+  "translit": "baṭī'",
+  "fr": "Lent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c534",
+  "ar": "أَنْسَى",
+  "translit": "ansā",
+  "fr": "J'oublie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c535",
+  "ar": "أَفْتَحُ",
+  "translit": "aftaḥu",
+  "fr": "J'ouvre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c536",
+  "ar": "أَجْلِسُ",
+  "translit": "ajlisu",
+  "fr": "Je m'assois",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c537",
+  "ar": "أَمْشِي",
+  "translit": "amchī",
+  "fr": "Je marche",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c538",
+  "ar": "أَرَى",
+  "translit": "arā",
+  "fr": "Je vois",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c539",
+  "ar": "أَسْمَعُ",
+  "translit": "asmaʿu",
+  "fr": "J'entends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c540",
+  "ar": "أَلْعَبُ",
+  "translit": "alʿabu",
+  "fr": "Je joue",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c541",
+  "ar": "أَدْخُلُ",
+  "translit": "adkhulu",
+  "fr": "J'entre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c542",
+  "ar": "أَخْرُجُ",
+  "translit": "akhruju",
+  "fr": "Je sors",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c543",
+  "ar": "أُصَلِّي",
+  "translit": "uṣallī",
+  "fr": "Je prie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c544",
+  "ar": "أُغْلِقُ",
+  "translit": "ughliqu",
+  "fr": "Je ferme",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c545",
+  "ar": "أَقُومُ",
+  "translit": "aqūmu",
+  "fr": "Je me lève",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c546",
+  "ar": "أَطْبُخُ",
+  "translit": "aṭbukhu",
+  "fr": "Je cuisine",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c547",
+  "ar": "أَشْتَرِي",
+  "translit": "achtarī",
+  "fr": "J'achète",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c548",
+  "ar": "أَبِيعُ",
+  "translit": "abīʿu",
+  "fr": "Je vends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c549",
+  "ar": "أَنْتَظِرُ",
+  "translit": "antaẓiru",
+  "fr": "J'attends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c550",
+  "ar": "أَبْحَثُ عَنْ",
+  "translit": "abḥathu ʿan",
+  "fr": "Je cherche",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c551",
+  "ar": "أَسْتَطِيعُ",
+  "translit": "astaṭīʿu",
+  "fr": "Je peux",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c552",
+  "ar": "أَحْتَاجُ",
+  "translit": "aḥtāju",
+  "fr": "J'ai besoin",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c553",
+  "ar": "أَتَذَكَّرُ",
+  "translit": "atadhakkaru",
+  "fr": "Je me souviens",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c554",
+  "ar": "أَرْجِعُ",
+  "translit": "arjiʿu",
+  "fr": "Je reviens",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c555",
+  "ar": "أَغْسِلُ",
+  "translit": "aghsilu",
+  "fr": "Je lave",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c556",
+  "ar": "أَرْسُمُ",
+  "translit": "arsumu",
+  "fr": "Je dessine",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c557",
+  "ar": "أَضْحَكُ",
+  "translit": "aḍḥaku",
+  "fr": "Je ris",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c558",
+  "ar": "أَبْكِي",
+  "translit": "abkī",
+  "fr": "Je pleure",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c559",
+  "ar": "بِكَمْ؟",
+  "translit": "bikam ?",
+  "fr": "À combien ? (prix)",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c560",
+  "ar": "إِلَى أَيْنَ؟",
+  "translit": "ilā ayna ?",
+  "fr": "Vers où ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c561",
+  "ar": "مِنْ أَيْنَ؟",
+  "translit": "min ayna ?",
+  "fr": "D'où ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c562",
+  "ar": "مَعَ مَنْ؟",
+  "translit": "maʿa man ?",
+  "fr": "Avec qui ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c563",
+  "ar": "بِالطَّبْع",
+  "translit": "bi-ṭ-ṭabʿ",
+  "fr": "Bien sûr",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c564",
+  "ar": "جَيِّد جِدًّا",
+  "translit": "jayyid jiddan",
+  "fr": "Très bien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c565",
+  "ar": "هَيَّا بِنَا",
+  "translit": "hayyā binā",
+  "fr": "Allons-y",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c566",
+  "ar": "عَلَى رَاحَتِك",
+  "translit": "ʿalā rāḥatik",
+  "fr": "Comme tu veux",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c567",
+  "ar": "بِالْهَنَاءِ وَالشِّفَاء",
+  "translit": "bil-hanā'i wa-ch-chifā'",
+  "fr": "Bon appétit",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c568",
+  "ar": "لَا شُكْرَ عَلَى وَاجِب",
+  "translit": "lā chukra ʿalā wājib",
+  "fr": "Il n'y a pas de quoi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c569",
+  "ar": "مَعَ أَطْيَبِ التَّمَنِّيَات",
+  "translit": "maʿa aṭyabi t-tamanniyāt",
+  "fr": "Avec mes meilleurs vœux",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c570",
+  "ar": "اَلْحَمْدُ لِلّٰهِ عَلَى السَّلَامَة",
+  "translit": "al-ḥamdu lillāhi ʿalā s-salāma",
+  "fr": "Content que tu sois bien arrivé",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c571",
+  "ar": "شَفَاكَ اللّٰه",
+  "translit": "chafāka llāh",
+  "fr": "Que Dieu te guérisse",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c572",
+  "ar": "رَحِمَهُ اللّٰه",
+  "translit": "raḥimahu llāh",
+  "fr": "Que Dieu ait son âme",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c573",
+  "ar": "أَيْنَ أَنْتَ؟",
+  "translit": "ayna anta ?",
+  "fr": "Où es-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c574",
+  "ar": "أَنَا قَادِم",
+  "translit": "anā qādim",
+  "fr": "J'arrive",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c575",
+  "ar": "أَنَا فِي الْبَيْت",
+  "translit": "anā fī l-bayt",
+  "fr": "Je suis à la maison",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c576",
+  "ar": "أَنَا مُوَافِق",
+  "translit": "anā muwāfiq",
+  "fr": "Je suis d'accord",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c577",
+  "ar": "اِنْتَظِرْ قَلِيلًا",
+  "translit": "intaẓir qalīlan",
+  "fr": "Attends un peu",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c578",
+  "ar": "تَعَالَ هُنَا",
+  "translit": "taʿāla hunā",
+  "fr": "Viens ici",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c579",
+  "ar": "اُنْظُرْ!",
+  "translit": "unẓur !",
+  "fr": "Regarde !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c580",
+  "ar": "اِسْمَعْ!",
+  "translit": "ismaʿ !",
+  "fr": "Écoute !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c581",
+  "ar": "أَيْنَ الْمَطْعَمُ؟",
+  "translit": "ayna l-maṭʿam ?",
+  "fr": "Où est le restaurant ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c582",
+  "ar": "أُرِيدُ قَهْوَةً مِنْ فَضْلِك",
+  "translit": "urīdu qahwatan min faḍlik",
+  "fr": "Un café, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c583",
+  "ar": "اَلْمَاءُ مِنْ فَضْلِك",
+  "translit": "al-mā'u min faḍlik",
+  "fr": "De l'eau, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c584",
+  "ar": "أَنَا أُحِبُّ هٰذَا",
+  "translit": "anā uḥibbu hādhā",
+  "fr": "J'aime ça",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c585",
+  "ar": "لَا أُحِبُّ هٰذَا",
+  "translit": "lā uḥibbu hādhā",
+  "fr": "Je n'aime pas ça",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c586",
+  "ar": "اَلْجَوُّ حَارّ",
+  "translit": "al-jawwu ḥārr",
+  "fr": "Il fait chaud",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c587",
+  "ar": "اَلْجَوُّ بَارِد",
+  "translit": "al-jawwu bārid",
+  "fr": "Il fait froid",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c588",
+  "ar": "صَبَاحٌ جَمِيل",
+  "translit": "ṣabāḥun jamīl",
+  "fr": "Belle matinée",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c589",
+  "ar": "اَلْقِطُّ صَغِير",
+  "translit": "al-qiṭṭu ṣaghīr",
+  "fr": "Le chat est petit",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c590",
+  "ar": "اَلْعَرَبِيَّةُ جَمِيلَة",
+  "translit": "al-ʿarabiyyatu jamīla",
+  "fr": "L'arabe est une belle langue",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c591",
+  "ar": "مَا رَأْيُك؟",
+  "translit": "mā ra'yuk ?",
+  "fr": "Qu'en penses-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c592",
+  "ar": "كَمْ عُمْرُك؟",
+  "translit": "kam ʿumruk ?",
+  "fr": "Quel âge as-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c593",
+  "ar": "عُمْرِي … سَنَة",
+  "translit": "ʿumrī … sana",
+  "fr": "J'ai … ans",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c594",
+  "ar": "إِنَّهَا تُمْطِرُ",
+  "translit": "innahā tumṭiru",
+  "fr": "Il pleut",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c595",
+  "ar": "أَنَا مُسْتَعْجِل",
+  "translit": "anā mustaʿjil",
+  "fr": "Je suis pressé",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c596",
+  "ar": "عَفْوًا، لَمْ أَفْهَمْ",
+  "translit": "ʿafwan, lam afham",
+  "fr": "Pardon, je n'ai pas compris",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c597",
+  "ar": "أَنَا جَدِيد هُنَا",
+  "translit": "anā jadīd hunā",
+  "fr": "Je suis nouveau ici",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c598",
+  "ar": "أَيْنَ أَجِدُ تَاكْسِي؟",
+  "translit": "ayna ajidu tāksī ?",
+  "fr": "Où trouver un taxi ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c599",
+  "ar": "اَلْحِسَابُ مِنْ فَضْلِك",
+  "translit": "al-ḥisābu min faḍlik",
+  "fr": "L'addition, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c600",
+  "ar": "هٰذَا غَالٍ جِدًّا",
+  "translit": "hādhā ghālin jiddan",
+  "fr": "C'est trop cher",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c601",
+  "ar": "عِنْدِي مَوْعِد",
+  "translit": "ʿindī mawʿid",
+  "fr": "J'ai un rendez-vous",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c602",
+  "ar": "نَلْتَقِي غَدًا",
+  "translit": "naltaqī ghadan",
+  "fr": "On se voit demain",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c603",
+  "ar": "أَنَا آسِف عَلَى التَّأْخِير",
+  "translit": "anā āsif ʿalā t-ta'khīr",
+  "fr": "Désolé pour le retard",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c604",
+  "ar": "هَلْ يُمْكِنُنِي الدُّخُول؟",
+  "translit": "hal yumkinunī d-dukhūl ?",
+  "fr": "Puis-je entrer ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c605",
+  "ar": "مَا مَعْنَى هٰذِهِ الْكَلِمَة؟",
+  "translit": "mā maʿnā hādhihi l-kalima ?",
+  "fr": "Que veut dire ce mot ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c606",
+  "ar": "كَيْفَ أَقُولُ … بِالْعَرَبِيَّة؟",
+  "translit": "kayfa aqūlu … bil-ʿarabiyya ?",
+  "fr": "Comment dit-on … en arabe ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c607",
+  "ar": "لَا أَتَكَلَّمُ الْعَرَبِيَّةَ جَيِّدًا",
+  "translit": "lā atakallamu l-ʿarabiyyata jayyidan",
+  "fr": "Je ne parle pas bien arabe",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c608",
+  "ar": "اَلسَّيَّارَةُ سَرِيعَة",
+  "translit": "as-sayyāratu sarīʿa",
+  "fr": "La voiture est rapide",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c609",
+  "ar": "أُمِّي فِي الْمَطْبَخ",
+  "translit": "ummī fī l-maṭbakh",
+  "fr": "Ma mère est dans la cuisine",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c610",
+  "ar": "أَبِي طَبِيب",
+  "translit": "abī ṭabīb",
+  "fr": "Mon père est médecin",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c611",
+  "ar": "أَخِي طَالِب",
+  "translit": "akhī ṭālib",
+  "fr": "Mon frère est étudiant",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c612",
+  "ar": "أَشْرَبُ الشَّايَ كُلَّ يَوْم",
+  "translit": "achrabu ch-chāya kulla yawm",
+  "fr": "Je bois du thé chaque jour",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c613",
+  "ar": "أَذْهَبُ إِلَى الْمَدْرَسَة",
+  "translit": "adhhabu ilā l-madrasa",
+  "fr": "Je vais à l'école",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c614",
+  "ar": "اَلدَّرْسُ سَهْل",
+  "translit": "ad-darsu sahl",
+  "fr": "La leçon est facile",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
  }
 ]
