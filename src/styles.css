@@ -914,6 +914,23 @@ p {
   color: #e2dcff;
 }
 
+@media (max-width: 699px) {
+  .question {
+    gap: 10px;
+  }
+  .choices {
+    gap: 8px;
+  }
+  .choice {
+    min-height: 52px;
+    padding: 6px 8px;
+  }
+  .choice-ar {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

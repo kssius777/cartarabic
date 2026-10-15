@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { Card } from '../game/cards'
 import type { Question } from '../game/rules'
 import { GameCard, type Face } from './GameCard'
@@ -22,11 +22,20 @@ const PROMPTS = {
   'fr-ar-nt': 'Comment dit-on en arabe ? (difficile)',
 }
 
+// La carte rétrécit sur les petits écrans pour que les réponses et le bouton « Suivante » tiennent sans défiler.
+const CARD_WIDTH = 'max(150px, min(64vw, 250px, calc((100dvh - 400px) * 0.716)))'
+
 export function QuestionView({ question, copies, onAnswer, feedback, glow, onNext, nextLabel = 'Continuer' }: Props) {
   const [chosen, setChosen] = useState<Card | null>(null)
   const { card, type, choices } = question
   const toArabic = type.startsWith('fr-ar')
   const answered = chosen !== null
+  const afterRef = useRef<HTMLDivElement>(null)
+
+  // Sur téléphone, on s'assure que le bouton « Suivante » reste visible après la réponse.
+  useEffect(() => {
+    if (answered) afterRef.current?.scrollIntoView?.({ block: 'nearest', behavior: 'smooth' })
+  }, [answered])
 
   // Avant la réponse on montre le côté de la question ; après, la carte se retourne.
   const promptFace: Face = toArabic ? 'back' : 'front'
@@ -41,7 +50,7 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
   return (
     <div className="question">
       <p className="prompt">{PROMPTS[type]}</p>
-      <GameCard card={card} face={face} translit={answered} copies={copies} glow={answered ? glow : null} width="min(64vw, 250px)" />
+      <GameCard card={card} face={face} translit={answered} copies={copies} glow={answered ? glow : null} width={CARD_WIDTH} />
       <div className={`choices ${toArabic ? 'choices-ar' : ''}`}>
         {choices.map((c) => {
           const state = !answered ? '' : c.id === card.id ? 'right' : c === chosen ? 'wrong' : 'dim'
@@ -62,7 +71,7 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
         })}
       </div>
       {answered && (
-        <div className="after">
+        <div className="after" ref={afterRef}>
           {feedback && <div className="feedback">{feedback}</div>}
           <button className="btn primary" onClick={onNext} autoFocus>
             {nextLabel}
