@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { CARDS } from './cards'
 import {
+  BOOSTER_SIZE,
   answerBooster,
   answerReview,
   applyPlacement,
@@ -71,11 +72,11 @@ describe('test de niveau', () => {
 })
 
 describe('boosters', () => {
-  it('donne 5 cartes différentes de rareté adaptée', () => {
+  it('donne 10 cartes différentes de rareté adaptée', () => {
     const save: Save = { ...newSave(), level: 2 }
     for (let s = 1; s < 50; s++) {
       const cards = openBooster(save, seeded(s))
-      expect(new Set(cards).size).toBe(5)
+      expect(new Set(cards).size).toBe(BOOSTER_SIZE)
       expect(cards.every((c) => c.rarity <= 3)).toBe(true)
     }
   })

@@ -138,7 +138,7 @@ function Rules({ onExit }: { onExit: () => void }) {
       </button>
       <h2>Règles</h2>
       <h3>🎁 Boosters</h3>
-      <p>Chaque booster contient 5 cartes face cachée. Trouve ce que veut dire une carte pour la gagner.</p>
+      <p>Chaque booster contient 10 cartes face cachée. Trouve ce que veut dire une carte pour la gagner.</p>
       <h3>📖 Révisions</h3>
       <p>
         Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Plus tu connais une carte, plus la question est dure :

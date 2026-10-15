@@ -30,7 +30,7 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
 
 ## 2. Ouvrir un booster
 
-- Un booster contient 5 cartes : 3 de ton niveau ou en dessous, 1 de ton niveau, et 1 chance sur 10 d'avoir une carte du niveau au-dessus.
+- Un booster contient 10 cartes : 7 de ton niveau ou en dessous, 2 de ton niveau, et 1 chance sur 10 d'avoir une carte du niveau au-dessus.
 - Chaque carte arrive **face cachée** : on voit l'arabe, il faut trouver la traduction (choix parmi 4).
   - Bonne réponse : la carte est **gagnée** et va dans le classeur.
   - Mauvaise réponse : la carte est montrée avec sa traduction, puis **perdue**. Elle reviendra dans un prochain booster.

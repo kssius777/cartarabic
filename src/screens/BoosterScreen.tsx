@@ -54,7 +54,7 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
     return (
       <div className="screen center">
         <h2>Booster</h2>
-        <p>5 cartes t'attendent. Pour garder une carte, trouve ce qu'elle veut dire.</p>
+        <p>10 cartes t'attendent. Pour garder une carte, trouve ce qu'elle veut dire.</p>
         <div className="pack-float">
           <button className={`pack ${opening ? 'opening' : ''}`} onClick={tear} aria-label="Ouvrir le booster">
             <div className="pack-top" />

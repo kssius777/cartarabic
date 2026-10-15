@@ -5,7 +5,7 @@ export const BRILLANT = 3
 /** Bonnes réponses espacées nécessaires pour gagner un exemplaire. */
 export const PROGRESS_FOR_COPY = 3
 export const REVIEW_SIZE = 15
-export const BOOSTER_SIZE = 5
+export const BOOSTER_SIZE = 10
 export const START_BOOSTERS = 3
 
 const MIN = 60_000
@@ -137,7 +137,8 @@ export function openBooster(save: Save, rng: Rng): Card[] {
     const pool = fresh.length ? fresh : fallback.length ? fallback : CARDS.filter((c) => !picked.includes(c))
     picked.push(pool[Math.floor(rng() * pool.length)])
   }
-  for (let i = 0; i < 3; i++) take((c) => c.rarity <= level)
+  for (let i = 0; i < BOOSTER_SIZE - 3; i++) take((c) => c.rarity <= level)
+  take((c) => c.rarity === level)
   take((c) => c.rarity === level)
   if (level < 5 && rng() < 0.1) take((c) => c.rarity === level + 1)
   else take((c) => c.rarity <= level)
