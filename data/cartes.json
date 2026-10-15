@@ -6138,5 +6138,875 @@
   "kind": "phrase",
   "rarity": 5,
   "rarityName": "légendaire"
+ },
+ {
+  "id": "c615",
+  "ar": "أَعِيشُ",
+  "translit": "aʿīšu",
+  "fr": "Je vis",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c616",
+  "ar": "أَسْأَلُ",
+  "translit": "asʾalu",
+  "fr": "Je demande",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c617",
+  "ar": "أُجِيبُ",
+  "translit": "uǧību",
+  "fr": "Je réponds",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c618",
+  "ar": "أَقُولُ",
+  "translit": "aqūlu",
+  "fr": "Je dis",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c619",
+  "ar": "أَفْعَلُ",
+  "translit": "afʿalu",
+  "fr": "Je fais",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c620",
+  "ar": "أَأْخُذُ",
+  "translit": "aʾḫuḏu",
+  "fr": "Je prends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c621",
+  "ar": "أُعْطِي",
+  "translit": "uʿṭī",
+  "fr": "Je donne",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c622",
+  "ar": "أَجِدُ",
+  "translit": "aǧidu",
+  "fr": "Je trouve",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c623",
+  "ar": "أَضَعُ",
+  "translit": "aḍaʿu",
+  "fr": "Je pose",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c624",
+  "ar": "أَحْمِلُ",
+  "translit": "aḥmilu",
+  "fr": "Je porte",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c625",
+  "ar": "أَرْكُضُ",
+  "translit": "arkuḍu",
+  "fr": "Je cours",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c626",
+  "ar": "أَسْبَحُ",
+  "translit": "asbaḥu",
+  "fr": "Je nage",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c627",
+  "ar": "أَرْكَبُ",
+  "translit": "arkabu",
+  "fr": "Je monte (à bord)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c628",
+  "ar": "أَبْدَأُ",
+  "translit": "abdaʾu",
+  "fr": "Je commence",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c629",
+  "ar": "أُنْهِي",
+  "translit": "unhī",
+  "fr": "Je termine",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c630",
+  "ar": "أَتَعَلَّمُ",
+  "translit": "ataʿallamu",
+  "fr": "J'apprends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c631",
+  "ar": "أُعَلِّمُ",
+  "translit": "uʿallimu",
+  "fr": "J'enseigne",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c632",
+  "ar": "أُسَاعِدُ",
+  "translit": "usāʿidu",
+  "fr": "J'aide",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c633",
+  "ar": "أَشْكُرُ",
+  "translit": "aškuru",
+  "fr": "Je remercie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c634",
+  "ar": "أَسْتَيْقِظُ",
+  "translit": "astayqiẓu",
+  "fr": "Je me réveille",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c635",
+  "ar": "أَلْبَسُ",
+  "translit": "albasu",
+  "fr": "Je m'habille",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c636",
+  "ar": "أَسْتَحِمُّ",
+  "translit": "astaḥimmu",
+  "fr": "Je me douche",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c637",
+  "ar": "أُنَظِّفُ",
+  "translit": "unaẓẓifu",
+  "fr": "Je nettoie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c638",
+  "ar": "أَدْفَعُ",
+  "translit": "adfaʿu",
+  "fr": "Je paie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c639",
+  "ar": "أَزُورُ",
+  "translit": "azūru",
+  "fr": "Je rends visite",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c640",
+  "ar": "أَتَّصِلُ",
+  "translit": "attaṣilu",
+  "fr": "J'appelle (au téléphone)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c641",
+  "ar": "أَسْتَرِيحُ",
+  "translit": "astarīḥu",
+  "fr": "Je me repose",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c642",
+  "ar": "أُفَكِّرُ",
+  "translit": "ufakkiru",
+  "fr": "Je pense",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c643",
+  "ar": "أَظُنُّ",
+  "translit": "aẓunnu",
+  "fr": "Je crois",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c644",
+  "ar": "أَشْعُرُ",
+  "translit": "ašʿuru",
+  "fr": "Je ressens",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c645",
+  "ar": "أَخَافُ",
+  "translit": "aḫāfu",
+  "fr": "J'ai peur",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c646",
+  "ar": "أَغْضَبُ",
+  "translit": "aġḍabu",
+  "fr": "Je me fâche",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c647",
+  "ar": "أَبْتَسِمُ",
+  "translit": "abtasimu",
+  "fr": "Je souris",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c648",
+  "ar": "أُحَاوِلُ",
+  "translit": "uḥāwilu",
+  "fr": "J'essaie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c649",
+  "ar": "أُصْلِحُ",
+  "translit": "uṣliḥu",
+  "fr": "Je répare",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c650",
+  "ar": "أَكْسِرُ",
+  "translit": "aksiru",
+  "fr": "Je casse",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c651",
+  "ar": "أَقْطَعُ",
+  "translit": "aqṭaʿu",
+  "fr": "Je coupe",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c652",
+  "ar": "أَزْرَعُ",
+  "translit": "azraʿu",
+  "fr": "Je plante",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c653",
+  "ar": "أَسُوقُ",
+  "translit": "asūqu",
+  "fr": "Je conduis",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c654",
+  "ar": "أَطِيرُ",
+  "translit": "aṭīru",
+  "fr": "Je vole (en l'air)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c655",
+  "ar": "أَسْقُطُ",
+  "translit": "asquṭu",
+  "fr": "Je tombe",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c656",
+  "ar": "أَقِفُ",
+  "translit": "aqifu",
+  "fr": "Je m'arrête / je me tiens debout",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c657",
+  "ar": "أَرْفَعُ",
+  "translit": "arfaʿu",
+  "fr": "Je lève",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c658",
+  "ar": "أُرْسِلُ",
+  "translit": "ursilu",
+  "fr": "J'envoie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c659",
+  "ar": "أَسْتَقْبِلُ",
+  "translit": "astaqbilu",
+  "fr": "J'accueille",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c660",
+  "ar": "أَخْتَارُ",
+  "translit": "aḫtāru",
+  "fr": "Je choisis",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c661",
+  "ar": "أُفَضِّلُ",
+  "translit": "ufaḍḍilu",
+  "fr": "Je préfère",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c662",
+  "ar": "أَكْرَهُ",
+  "translit": "akrahu",
+  "fr": "Je déteste",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c663",
+  "ar": "أَتَزَوَّجُ",
+  "translit": "atazawwaǧu",
+  "fr": "Je me marie",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c664",
+  "ar": "أَكَلْتُ",
+  "translit": "akaltu",
+  "fr": "J'ai mangé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c665",
+  "ar": "شَرِبْتُ",
+  "translit": "šaribtu",
+  "fr": "J'ai bu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c666",
+  "ar": "ذَهَبْتُ",
+  "translit": "ḏahabtu",
+  "fr": "Je suis allé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c667",
+  "ar": "رَجَعْتُ",
+  "translit": "raǧaʿtu",
+  "fr": "Je suis revenu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c668",
+  "ar": "نِمْتُ",
+  "translit": "nimtu",
+  "fr": "J'ai dormi",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c669",
+  "ar": "كَتَبْتُ",
+  "translit": "katabtu",
+  "fr": "J'ai écrit",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c670",
+  "ar": "قَرَأْتُ",
+  "translit": "qaraʾtu",
+  "fr": "J'ai lu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c671",
+  "ar": "فَهِمْتُ",
+  "translit": "fahimtu",
+  "fr": "J'ai compris",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c672",
+  "ar": "نَسِيتُ",
+  "translit": "nasītu",
+  "fr": "J'ai oublié",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c673",
+  "ar": "رَأَيْتُ",
+  "translit": "raʾaytu",
+  "fr": "J'ai vu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c674",
+  "ar": "سَمِعْتُ",
+  "translit": "samiʿtu",
+  "fr": "J'ai entendu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c675",
+  "ar": "قُلْتُ",
+  "translit": "qultu",
+  "fr": "J'ai dit",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c676",
+  "ar": "وَجَدْتُ",
+  "translit": "waǧadtu",
+  "fr": "J'ai trouvé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c677",
+  "ar": "اِشْتَرَيْتُ",
+  "translit": "ištaraytu",
+  "fr": "J'ai acheté",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c678",
+  "ar": "وَصَلْتُ",
+  "translit": "waṣaltu",
+  "fr": "Je suis arrivé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c679",
+  "ar": "خَرَجْتُ",
+  "translit": "ḫaraǧtu",
+  "fr": "Je suis sorti",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c680",
+  "ar": "دَخَلْتُ",
+  "translit": "daḫaltu",
+  "fr": "Je suis entré",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c681",
+  "ar": "عَمِلْتُ",
+  "translit": "ʿamiltu",
+  "fr": "J'ai travaillé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c682",
+  "ar": "دَرَسْتُ",
+  "translit": "darastu",
+  "fr": "J'ai étudié",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c683",
+  "ar": "سَافَرْتُ",
+  "translit": "sāfartu",
+  "fr": "J'ai voyagé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c684",
+  "ar": "يَذْهَبُ",
+  "translit": "yaḏhabu",
+  "fr": "Il va",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c685",
+  "ar": "تَذْهَبُ",
+  "translit": "taḏhabu",
+  "fr": "Tu vas",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c686",
+  "ar": "نَذْهَبُ",
+  "translit": "naḏhabu",
+  "fr": "Nous allons",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c687",
+  "ar": "يَأْكُلُ",
+  "translit": "yaʾkulu",
+  "fr": "Il mange",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c688",
+  "ar": "تَأْكُلِينَ",
+  "translit": "taʾkulīna",
+  "fr": "Tu manges (fém.)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c689",
+  "ar": "يُرِيدُ",
+  "translit": "yurīdu",
+  "fr": "Il veut",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c690",
+  "ar": "تُرِيدُ",
+  "translit": "turīdu",
+  "fr": "Tu veux",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c691",
+  "ar": "نُرِيدُ",
+  "translit": "nurīdu",
+  "fr": "Nous voulons",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c692",
+  "ar": "يَعْرِفُ",
+  "translit": "yaʿrifu",
+  "fr": "Il sait",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c693",
+  "ar": "تَعْرِفُ",
+  "translit": "taʿrifu",
+  "fr": "Tu sais",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c694",
+  "ar": "يَعْمَلُ",
+  "translit": "yaʿmalu",
+  "fr": "Il travaille",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c695",
+  "ar": "تَسْكُنُ",
+  "translit": "taskunu",
+  "fr": "Tu habites",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c696",
+  "ar": "يُحِبُّ",
+  "translit": "yuḥibbu",
+  "fr": "Il aime",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c697",
+  "ar": "تُحِبُّ",
+  "translit": "tuḥibbu",
+  "fr": "Tu aimes",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c698",
+  "ar": "ذَهَبَ",
+  "translit": "ḏahaba",
+  "fr": "Il est allé",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c699",
+  "ar": "قَالَ",
+  "translit": "qāla",
+  "fr": "Il a dit",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c700",
+  "ar": "كَانَ",
+  "translit": "kāna",
+  "fr": "Il était",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c701",
+  "ar": "جَاءَ",
+  "translit": "ǧāʾa",
+  "fr": "Il est venu",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
  }
 ]
