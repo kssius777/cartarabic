@@ -61,10 +61,54 @@ export function loadSave(): Save {
 }
 
 export function storeSave(save: Save) {
+  const data = JSON.stringify(save)
   try {
-    localStorage.setItem(KEY, JSON.stringify(save))
+    localStorage.setItem(KEY, data)
   } catch {
-    // Ignoré : la partie continue sans sauvegarde.
+    // Stockage plein : on sacrifie le cache des photos, jamais la partie.
+    try {
+      localStorage.removeItem('cartarabic-wiki-v1')
+      localStorage.setItem(KEY, data)
+    } catch {
+      // Ignoré : la partie continue sans sauvegarde.
+    }
+  }
+}
+
+/** Demande au navigateur de ne pas effacer la sauvegarde quand il manque de place (Safari vide sinon les sites peu visités). */
+export function requestPersistence() {
+  try {
+    navigator.storage?.persist?.().catch(() => {})
+  } catch {
+    // Ignoré : non pris en charge.
+  }
+}
+
+const EXPORT_PREFIX = 'CARTARABIC1:'
+
+/** Code texte de la partie, à copier pour la reprendre sur un autre appareil. */
+export function exportSave(save: Save): string {
+  const bytes = new TextEncoder().encode(JSON.stringify(save))
+  let bin = ''
+  for (const b of bytes) bin += String.fromCharCode(b)
+  return EXPORT_PREFIX + btoa(bin)
+}
+
+/** Relit un code (ou le contenu d'un fichier) de sauvegarde. Renvoie null s'il est illisible. */
+export function importSave(text: string): Save | null {
+  try {
+    const t = text.trim()
+    const json = t.startsWith('{')
+      ? t
+      : new TextDecoder().decode(
+          Uint8Array.from(atob(t.replace(EXPORT_PREFIX, '').replace(/\s+/g, '')), (ch) => ch.charCodeAt(0)),
+        )
+    const raw = JSON.parse(json)
+    if (!raw || typeof raw !== 'object' || !('owned' in raw)) return null
+    const save = sanitize(raw)
+    return save.level ? save : null
+  } catch {
+    return null
   }
 }
 

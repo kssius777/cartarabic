@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { CARDS } from './cards'
-import { sanitize } from './storage'
+import { newSave } from './rules'
+import { exportSave, importSave, sanitize } from './storage'
 
 describe('sauvegarde', () => {
   it('répare une sauvegarde abîmée', () => {
@@ -18,5 +19,18 @@ describe('sauvegarde', () => {
 
   it('ignore une sauvegarde illisible', () => {
     expect(sanitize('nimporte quoi').owned).toEqual({})
+  })
+})
+
+describe('export de la sauvegarde', () => {
+  it("un code exporté se réimporte à l'identique", () => {
+    const save = {
+      ...newSave(),
+      level: 3 as const,
+      coins: 420,
+      owned: { [CARDS[0].id]: { copies: 2, box: 3, due: 123, progress: 1 } },
+    }
+    expect(importSave(exportSave(save))).toEqual(save)
+    expect(importSave('nimporte quoi')).toBeNull()
   })
 })

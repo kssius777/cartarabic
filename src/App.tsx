@@ -3,7 +3,8 @@ import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Rarity } from './game/cards'
 import { FIGURE_BOOSTER_PRICE, FIGURES } from './game/figures'
 import { applyPlacement, dueCount, hasWon, levelGoal, levelUp, newSave, rescue, stats, type Save } from './game/rules'
-import { clearSave, loadSave, storeSave } from './game/storage'
+import { clearSave, loadSave, requestPersistence, storeSave } from './game/storage'
+import { BackupScreen } from './screens/BackupScreen'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
 import { Landing } from './screens/Landing'
@@ -11,7 +12,7 @@ import { Placement } from './screens/Placement'
 import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
 
-type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing'
+type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing' | 'backup'
 
 export default function App() {
   const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
@@ -32,6 +33,9 @@ export default function App() {
   useEffect(() => {
     storeSave(save)
   }, [save])
+  useEffect(() => {
+    requestPersistence()
+  }, [])
   // Accolades obligatoires : dans les navigateurs récents scrollTo renvoie une promesse, que React prendrait pour une fonction de nettoyage.
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -51,6 +55,17 @@ export default function App() {
   if (screen === 'binder') return <Binder save={save} onExit={home} />
   if (screen === 'rules') return <Rules onExit={home} />
   if (screen === 'landing') return <Landing returning onStart={home} />
+  if (screen === 'backup')
+    return (
+      <BackupScreen
+        save={save}
+        onRestore={(s) => {
+          setSaveState(s)
+          home()
+        }}
+        onExit={home}
+      />
+    )
   if (screen === 'figures') return <FiguresScreen save={save} setSave={setSave} onExit={home} />
 
   const s = stats(save)
@@ -179,6 +194,9 @@ export default function App() {
         </button>
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
           Règles
+        </button>
+        <button className="btn ghost small" onClick={() => setScreen('backup')}>
+          Sauvegarde
         </button>
         {confirmReset ? (
           <>
