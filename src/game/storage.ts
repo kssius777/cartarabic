@@ -18,7 +18,12 @@ export function sanitize(raw: unknown): Save {
       if (!CARD_BY_ID.has(id) || !o || typeof o !== 'object') continue
       const copies = Math.floor(num(o.copies, 0))
       if (copies < 1) continue
-      owned[id] = { copies, box: Math.max(0, Math.floor(num(o.box, 0))), due: num(o.due, 0), progress: Math.max(0, num(o.progress, 0)) }
+      owned[id] = {
+        copies,
+        box: Math.max(0, Math.floor(num(o.box, 0))),
+        due: num(o.due, 0),
+        progress: Math.max(0, num(o.progress, 0)),
+      }
     }
   }
   return {
@@ -29,6 +34,9 @@ export function sanitize(raw: unknown): Save {
     reviewsDone: Math.max(0, Math.floor(num(r.reviewsDone, 0))),
     coins: Math.max(0, Math.floor(num(r.coins, START_COINS))),
     figures: cleanFigures(r.figures),
+    missed: Array.isArray(r.missed)
+      ? r.missed.filter((id): id is string => typeof id === 'string' && CARD_BY_ID.has(id)).slice(-60)
+      : [],
   }
 }
 

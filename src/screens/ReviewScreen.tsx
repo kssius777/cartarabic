@@ -8,9 +8,10 @@ interface Props {
   save: Save
   setSave: (s: Save) => void
   onExit: () => void
+  onAgain: () => void
 }
 
-export function ReviewScreen({ save, setSave, onExit }: Props) {
+export function ReviewScreen({ save, setSave, onExit, onAgain }: Props) {
   const [questions] = useState(() =>
     reviewSession(save, Date.now(), Math.random).map((c) => makeQuestion(c, questionTypeFor(save.owned[c.id]), Math.random)),
   )
@@ -33,6 +34,8 @@ export function ReviewScreen({ save, setSave, onExit }: Props) {
     const good = outcomes.filter((o) => o.kind === 'progress')
     const gained = good.filter((o) => o.kind === 'progress' && o.gainedCopy).length
     const lost = outcomes.length - good.length
+    // Les cartes ratées, à relire tout de suite : c'est le meilleur moment pour les retenir.
+    const missed = outcomes.filter((o) => o.kind !== 'progress').map((o) => o.card)
     return (
       <div className="screen center">
         <h2>Révision terminée</h2>
@@ -43,9 +46,30 @@ export function ReviewScreen({ save, setSave, onExit }: Props) {
           {gained > 0 && <li>🃏 {gained} exemplaire(s) gagné(s)</li>}
           {lost > 0 && <li>💥 {lost} carte(s) oubliée(s) : un exemplaire perdu à chaque fois</li>}
         </ul>
-        <button className="btn primary big" onClick={onExit}>
-          Retour à l'accueil
-        </button>
+        {missed.length > 0 && (
+          <section className="to-learn">
+            <h3>À retenir</h3>
+            <ul>
+              {missed.map((c) => (
+                <li key={c.id}>
+                  <span className="to-learn-ar" lang="ar" dir="rtl">
+                    {c.ar}
+                  </span>
+                  <span className="to-learn-tr">{c.translit}</span>
+                  <span className="to-learn-fr">{c.fr}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+        <div className="end-actions">
+          <button className="btn primary big" onClick={onAgain}>
+            Nouvelle séance
+          </button>
+          <button className="btn ghost" onClick={onExit}>
+            Retour à l'accueil
+          </button>
+        </div>
       </div>
     )
   }

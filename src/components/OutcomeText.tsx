@@ -11,7 +11,8 @@ export function OutcomeText({ outcome }: { outcome: Outcome }) {
     case 'won':
       return (
         <p className="good">
-          🎉 Carte gagnée ! {outcome.copies > 1 && `(${outcome.copies} exemplaires)`} <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
+          🎉 Carte gagnée ! {outcome.copies > 1 && `(${outcome.copies} exemplaires)`}{' '}
+          <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
         </p>
       )
     case 'progress':
@@ -39,20 +40,18 @@ export function OutcomeText({ outcome }: { outcome: Outcome }) {
       )
     case 'lost-copy':
       return outcome.copiesLeft > 0 ? (
-        <p className="bad">
-          💥 Oubliée ! Tu perds un exemplaire (il en reste {outcome.copiesLeft}).
-        </p>
+        <p className="bad">💥 Oubliée ! Tu perds un exemplaire (il en reste {outcome.copiesLeft}).</p>
       ) : (
-        <p className="bad">💥 Oubliée ! La carte quitte ton classeur.</p>
+        <p className="bad">💥 Oubliée ! La carte quitte ton classeur. Elle reviendra dans un prochain booster.</p>
       )
     case 'lost-other':
       return outcome.lost ? (
         <p className="bad">
           💥 Raté ! En punition, tu perds un exemplaire de « {outcome.lost.fr} »
-          {outcome.copiesLeft === 0 ? ', qui quitte ton classeur.' : '.'}
+          {outcome.copiesLeft === 0 ? ', qui quitte ton classeur.' : '.'} Cette carte reviendra dans un prochain booster.
         </p>
       ) : (
-        <p className="bad">💥 Raté ! Cette carte t'échappe.</p>
+        <p className="bad">💥 Raté ! Cette carte reviendra dans un prochain booster.</p>
       )
   }
 }

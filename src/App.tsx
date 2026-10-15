@@ -19,6 +19,7 @@ export default function App() {
   const [levelMsg, setLevelMsg] = useState<string | null>(null)
   const [confirmReset, setConfirmReset] = useState(false)
   const [testStarted, setTestStarted] = useState(false)
+  const [reviewRound, setReviewRound] = useState(0)
 
   function setSave(next: Save) {
     const leveled = levelUp(rescue(next))
@@ -43,7 +44,10 @@ export default function App() {
     return <Placement onDone={(results) => setSave(applyPlacement(save, results, Date.now()))} />
   }
   if (screen === 'booster') return <BoosterScreen save={save} setSave={setSave} onExit={home} />
-  if (screen === 'review') return <ReviewScreen save={save} setSave={setSave} onExit={home} />
+  if (screen === 'review')
+    return (
+      <ReviewScreen key={reviewRound} save={save} setSave={setSave} onExit={home} onAgain={() => setReviewRound((n) => n + 1)} />
+    )
   if (screen === 'binder') return <Binder save={save} onExit={home} />
   if (screen === 'rules') return <Rules onExit={home} />
   if (screen === 'landing') return <Landing returning onStart={home} />
@@ -68,7 +72,11 @@ export default function App() {
       <div className="welcome">
         <p className="eyebrow">Ta collection</p>
         <h1>
-          {s.owned === 0 ? 'Ouvre ton premier booster.' : due > 0 ? `${due} carte${due > 1 ? 's' : ''} t’attendent.` : 'Tout est à jour.'}
+          {s.owned === 0
+            ? 'Ouvre ton premier booster.'
+            : due > 0
+              ? `${due} carte${due > 1 ? 's' : ''} t’attendent.`
+              : 'Tout est à jour.'}
         </h1>
       </div>
 
@@ -210,11 +218,14 @@ function Rules({ onExit }: { onExit: () => void }) {
       <p>Chaque booster contient 10 cartes face cachée. Trouve ce que veut dire une carte pour la gagner.</p>
       <h3>📖 Révisions</h3>
       <p>
-        Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Plus tu connais une carte, plus la question est dure :
-        d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération n'apparaît
-        qu'avec la réponse.
+        Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Réviser une carte en avance entraîne ta mémoire
+        mais ne la fait pas progresser : seules les réponses au bon moment comptent. Plus tu connais une carte, plus la question
+        est dure : d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération
+        n'apparaît qu'avec la réponse.
       </p>
-      <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Les boosters sont illimités pour l'instant.</p>
+      <p>
+        3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Les boosters sont illimités pour l'instant.
+      </p>
       <h3>🪙 Dinars et personnages</h3>
       <p>
         Chaque bonne réponse rapporte 10 dinars. Avec 150 dinars, tu ouvres un booster de 5 personnages : figures, lieux et
@@ -224,7 +235,8 @@ function Rules({ onExit }: { onExit: () => void }) {
       <h3>💥 Punition</h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. Si tu rates une carte que tu ne possèdes pas, tu perds un
-        exemplaire d'une autre carte au hasard.
+        exemplaire d'une autre carte au hasard. Une carte ratée ou perdue revient dans tes prochains boosters (jusqu'à 3 par
+        booster), pour que tu puisses la retenter.
       </p>
       <h3>✨ Brillance et victoire</h3>
       <p>À 3 exemplaires, une carte devient brillante. Le but : toute la collection en brillant !</p>

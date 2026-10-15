@@ -10,7 +10,6 @@ export interface Card {
   theme: string
   kind: 'mot' | 'phrase'
   rarity: Rarity
-  rarityName: string
 }
 
 export const CARDS = raw as Card[]

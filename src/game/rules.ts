@@ -36,12 +36,14 @@ export interface Save {
   coins: number
   /** Cartes personnages possédées : id → nombre d'exemplaires. */
   figures: Record<string, number>
+  /** Cartes ratées ou oubliées, qui reviennent en priorité dans les prochains boosters. */
+  missed: string[]
 }
 
 export type Rng = () => number
 
 export function newSave(): Save {
-  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, coins: START_COINS, figures: {} }
+  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, coins: START_COINS, figures: {}, missed: [] }
 }
 
 export function shuffle<T>(items: T[], rng: Rng): T[] {
@@ -80,7 +82,8 @@ export function questionTypeFor(o: Owned | undefined): QType {
 
 // Indices de surface qu'on veut identiques entre la bonne réponse et les leurres,
 // pour qu'on ne puisse pas deviner au nombre de mots, à la longueur ou à la forme.
-const FR_STARTS = /^(je |j'|tu |il |elle |nous |vous |ils |elles |on |le |la |les |l'|un |une |des |du |de |mon |ma |mes |ton |ta |c'est |est-ce |où |quand |comment |pourquoi |combien |que |qui |quel)/i
+const FR_STARTS =
+  /^(je |j'|tu |il |elle |nous |vous |ils |elles |on |le |la |les |l'|un |une |des |du |de |mon |ma |mes |ton |ta |c'est |est-ce |où |quand |comment |pourquoi |combien |que |qui |quel)/i
 
 function shape(text: string, arabic: boolean) {
   const t = text.trim()
@@ -91,7 +94,11 @@ function shape(text: string, arabic: boolean) {
     question: /[?؟]$/.test(t),
     excl: /!$/.test(t),
     paren: t.includes('('),
-    start: arabic ? (t.startsWith('ال') || t.startsWith('اَل') ? 'al' : t.slice(0, 1)) : (t.match(FR_STARTS)?.[1].toLowerCase() ?? ''),
+    start: arabic
+      ? t.startsWith('ال') || t.startsWith('اَل')
+        ? 'al'
+        : t.slice(0, 1)
+      : (t.match(FR_STARTS)?.[1].toLowerCase() ?? ''),
   }
 }
 
@@ -186,17 +193,32 @@ export function applyPlacement(save: Save, results: PlacementResult[], now: numb
 
 // ---------- Boosters ----------
 
+/** Combien de cartes ratées reviennent au plus dans chaque booster. */
+export const MISSED_PER_BOOSTER = 3
+const MISSED_MAX = 60
+
+function remember(missed: string[], id: string) {
+  return [...missed.filter((x) => x !== id), id].slice(-MISSED_MAX)
+}
+
 export function openBooster(save: Save, rng: Rng): Card[] {
   const level = save.level ?? 1
   const notOwned = CARDS.filter((c) => !save.owned[c.id])
-  const picked: Card[] = []
+  // Une carte ratée revient vite : on ne retient un mot qu'en le revoyant.
+  const picked: Card[] = shuffle(
+    save.missed.filter((id) => !save.owned[id] && CARD_BY_ID.has(id)),
+    rng,
+  )
+    .slice(0, MISSED_PER_BOOSTER)
+    .map((id) => CARD_BY_ID.get(id)!)
+  const extra = picked.length
   const take = (match: (c: Card) => boolean) => {
     const fresh = notOwned.filter((c) => match(c) && !picked.includes(c))
     const fallback = CARDS.filter((c) => match(c) && !picked.includes(c))
     const pool = fresh.length ? fresh : fallback.length ? fallback : CARDS.filter((c) => !picked.includes(c))
     picked.push(pool[Math.floor(rng() * pool.length)])
   }
-  for (let i = 0; i < BOOSTER_SIZE - 3; i++) take((c) => c.rarity <= level)
+  for (let i = extra; i < BOOSTER_SIZE - 3; i++) take((c) => c.rarity <= level)
   take((c) => c.rarity === level)
   take((c) => c.rarity === level)
   if (level < 5 && rng() < 0.1) take((c) => c.rarity === level + 1)
@@ -231,8 +253,10 @@ function punish(save: Save, card: Card, now: number, rng: Rng): { save: Save; ou
   const owned = { ...save.owned }
   if (owned[card.id]) {
     const copiesLeft = loseCopy(owned, card.id, now)
-    return { save: { ...save, owned }, outcome: { kind: 'lost-copy', card, copiesLeft } }
+    const missed = copiesLeft ? save.missed : remember(save.missed, card.id)
+    return { save: { ...save, owned, missed }, outcome: { kind: 'lost-copy', card, copiesLeft } }
   }
+  save = { ...save, missed: remember(save.missed, card.id) }
   const others = Object.keys(owned)
   if (!others.length) {
     return { save, outcome: { kind: 'lost-other', card, lost: null, copiesLeft: 0 } }
@@ -250,11 +274,10 @@ export function answerBooster(save: Save, card: Card, correct: boolean, now: num
   if (!correct) return punish(save, card, now, rng)
   const owned = { ...save.owned }
   const o = owned[card.id]
-  owned[card.id] = o
-    ? { ...o, copies: o.copies + 1 }
-    : { copies: 1, box: 1, due: now + INTERVALS[1], progress: 0 }
+  owned[card.id] = o ? { ...o, copies: o.copies + 1 } : { copies: 1, box: 1, due: now + INTERVALS[1], progress: 0 }
   const outcome: Outcome = { kind: 'won', card, copies: owned[card.id].copies }
-  return { save: { ...save, owned, coins: save.coins + COINS_PER_CORRECT }, outcome }
+  const missed = save.missed.filter((id) => id !== card.id)
+  return { save: { ...save, owned, missed, coins: save.coins + COINS_PER_CORRECT }, outcome }
 }
 
 /** Réponse en révision : la carte progresse, ou on perd un exemplaire. */
@@ -263,7 +286,8 @@ export function answerReview(save: Save, card: Card, correct: boolean, now: numb
   if (!o) return answerBooster(save, card, correct, now, rng)
   if (!correct) return punish(save, card, now, rng)
   const wasDue = o.due <= now
-  const box = Math.min(o.box + 1, MAX_BOX)
+  // Réviser en avance ne rallonge pas l'intervalle : seule une réponse au bon moment prouve qu'on a retenu.
+  const box = wasDue ? Math.min(o.box + 1, MAX_BOX) : o.box
   let { copies, progress } = o
   let gainedCopy = false
   if (wasDue) progress++
@@ -272,7 +296,7 @@ export function answerReview(save: Save, card: Card, correct: boolean, now: numb
     progress = 0
     gainedCopy = true
   }
-  const next: Owned = { copies, progress, box, due: now + intervalFor(box, copies >= BRILLANT) }
+  const next: Owned = { copies, progress, box, due: wasDue ? now + intervalFor(box, copies >= BRILLANT) : o.due }
   const outcome: Outcome = { kind: 'progress', card, copies, gainedCopy, progress }
   return { save: { ...save, owned: { ...save.owned, [card.id]: next }, coins: save.coins + COINS_PER_CORRECT }, outcome }
 }

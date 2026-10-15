@@ -71,16 +71,29 @@ describe('test de niveau', () => {
 
   it("s'arrête au premier palier raté", () => {
     const res = [
-      ...byRarity(1).slice(0, 3).map((card) => ({ card, correct: true })),
-      ...byRarity(2).slice(0, 3).map((card, i) => ({ card, correct: i === 0 })),
-      ...byRarity(3).slice(0, 2).map((card) => ({ card, correct: true })),
+      ...byRarity(1)
+        .slice(0, 3)
+        .map((card) => ({ card, correct: true })),
+      ...byRarity(2)
+        .slice(0, 3)
+        .map((card, i) => ({ card, correct: i === 0 })),
+      ...byRarity(3)
+        .slice(0, 2)
+        .map((card) => ({ card, correct: true })),
     ]
     expect(placementLevel(res)).toBe(1)
   })
 
   it('offre les cartes réussies et 3 boosters', () => {
     const [a, b] = CARDS
-    const save = applyPlacement(newSave(), [{ card: a, correct: true }, { card: b, correct: false }], NOW)
+    const save = applyPlacement(
+      newSave(),
+      [
+        { card: a, correct: true },
+        { card: b, correct: false },
+      ],
+      NOW,
+    )
     expect(Object.keys(save.owned)).toEqual([a.id])
     expect(save.boosters).toBe(3)
     expect(save.level).toBe(1)
@@ -126,7 +139,7 @@ describe('personnages', () => {
 describe('punitions', () => {
   const [a, b] = CARDS
 
-  it("oublier une carte possédée défausse un exemplaire", () => {
+  it('oublier une carte possédée défausse un exemplaire', () => {
     const save: Save = { ...newSave(), owned: { [a.id]: { copies: 2, box: 3, due: NOW, progress: 1 } } }
     const r = answerReview(save, a, false, NOW, seeded())
     expect(r.save.owned[a.id].copies).toBe(1)
@@ -135,7 +148,7 @@ describe('punitions', () => {
     expect(r2.save.owned[a.id]).toBeUndefined()
   })
 
-  it("rater une carte non possédée retire une autre carte", () => {
+  it('rater une carte non possédée retire une autre carte', () => {
     const save: Save = { ...newSave(), owned: { [a.id]: { copies: 1, box: 1, due: NOW, progress: 0 } } }
     const r = answerBooster(save, b, false, NOW, seeded())
     expect(r.outcome).toMatchObject({ kind: 'lost-other', lost: a })
@@ -160,6 +173,18 @@ describe('progression', () => {
     const save: Save = { ...newSave(), owned: { [a.id]: { copies: 1, box: 2, due: NOW + 1000, progress: 2 } } }
     const r = answerReview(save, a, true, NOW, seeded())
     expect(r.save.owned[a.id].copies).toBe(1)
+    expect(r.save.owned[a.id]).toMatchObject({ box: 2, due: NOW + 1000 })
+  })
+
+  it('une carte ratée revient dans le booster suivant', () => {
+    const save: Save = { ...newSave(), level: 1 }
+    const missedCard = CARDS.find((c) => c.rarity === 4)!
+    const r = answerBooster(save, missedCard, false, NOW, seeded())
+    expect(r.save.missed).toContain(missedCard.id)
+    const booster = openBooster(r.save, seeded())
+    expect(booster).toHaveLength(BOOSTER_SIZE)
+    expect(booster).toContain(missedCard)
+    expect(answerBooster(r.save, missedCard, true, NOW, seeded()).save.missed).not.toContain(missedCard.id)
   })
 
   it('les révisions commencent par les cartes à revoir', () => {
