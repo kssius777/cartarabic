@@ -273,13 +273,21 @@ export function todayKey(d = new Date()): string {
 
 // ---------- Progression ----------
 
-/** Le niveau monte quand on possède la moitié des cartes de sa rareté maximale. */
+/** Cartes de son niveau à posséder pour monter : la moitié du niveau, plafonnée pour rester atteignable. */
+export const LEVEL_UP_MAX = 60
+
+export function levelGoal(level: Rarity) {
+  const tier = CARDS.filter((c) => c.rarity === level)
+  return { tier, goal: Math.min(LEVEL_UP_MAX, Math.ceil(tier.length / 2)) }
+}
+
+/** Le niveau monte quand on possède assez de cartes de sa rareté maximale. */
 export function levelUp(save: Save): Save {
   const level = save.level
   if (!level || level >= 5) return save
-  const tier = CARDS.filter((c) => c.rarity === level)
+  const { tier, goal } = levelGoal(level)
   const have = tier.filter((c) => save.owned[c.id]).length
-  return have * 2 >= tier.length ? { ...save, level: (level + 1) as Rarity } : save
+  return have >= goal ? { ...save, level: (level + 1) as Rarity } : save
 }
 
 /** Évite d'être bloqué : sans carte ni booster, on reçoit un booster. */

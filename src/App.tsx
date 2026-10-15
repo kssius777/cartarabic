@@ -1,7 +1,7 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Rarity } from './game/cards'
-import { applyPlacement, dueCount, hasWon, levelUp, newSave, rescue, stats, type Save } from './game/rules'
+import { applyPlacement, dueCount, hasWon, levelGoal, levelUp, newSave, rescue, stats, type Save } from './game/rules'
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
@@ -46,9 +46,8 @@ export default function App() {
   const due = dueCount(save, Date.now())
   const level = RARITIES[save.level]
   const next = save.level < 5 ? RARITIES[(save.level + 1) as Rarity] : null
-  const tier = CARDS.filter((c) => c.rarity === save.level)
+  const { tier, goal: tierGoal } = levelGoal(save.level)
   const tierOwned = tier.filter((c) => save.owned[c.id]).length
-  const tierGoal = Math.ceil(tier.length / 2)
   const showcase = CARDS.filter((c) => save.owned[c.id]).slice(-5)
 
   return (

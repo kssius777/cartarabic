@@ -35,7 +35,7 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
   - Bonne réponse : la carte est **gagnée** et va dans le classeur.
   - Mauvaise réponse : la carte est montrée avec sa traduction, puis **perdue**. Elle reviendra dans un prochain booster.
 - Les boosters sont illimités pour l'instant. Si on n'a plus ni carte ni booster, on reçoit un booster pour ne pas rester bloqué.
-- **Montée de niveau** : quand tu possèdes au moins la moitié des cartes de ta rareté maximale, tu passes au niveau suivant.
+- **Montée de niveau** : quand tu possèdes la moitié des cartes de ton niveau (60 cartes au maximum), tu passes au niveau suivant.
 
 ## 3. Réviser (le cœur du jeu)
 
