@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES } from './game/cards'
-import { applyPlacement, claimDaily, dueCount, hasWon, levelUp, newSave, POINTS_FOR_BOOSTER, rescue, stats, todayKey, type Save } from './game/rules'
+import { applyPlacement, dueCount, hasWon, levelUp, newSave, rescue, stats, type Save } from './game/rules'
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
@@ -11,7 +11,7 @@ import { ReviewScreen } from './screens/ReviewScreen'
 type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules'
 
 export default function App() {
-  const [save, setSaveState] = useState<Save>(() => claimDaily(rescue(loadSave()), todayKey()))
+  const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
   const [screen, setScreen] = useState<Screen>('home')
   const [levelMsg, setLevelMsg] = useState<string | null>(null)
   const [confirmReset, setConfirmReset] = useState(false)
@@ -19,7 +19,7 @@ export default function App() {
   function setSave(next: Save) {
     const leveled = levelUp(rescue(next))
     if (leveled.level !== next.level && leveled.level) {
-      setLevelMsg(`Niveau supérieur ! Les cartes ${RARITIES[leveled.level].name.toLowerCase()}s arrivent dans tes boosters.`)
+      setLevelMsg(`Niveau supérieur ! Les cartes ${RARITIES[leveled.level].name} arrivent dans tes boosters.`)
     }
     setSaveState(leveled)
   }
@@ -71,7 +71,7 @@ export default function App() {
         </div>
         <div>
           <b style={{ color: level.color }}>{level.symbol}</b>
-          <span>niveau {level.name.toLowerCase()}</span>
+          <span>niveau {level.name}</span>
         </div>
       </div>
       <div className="bar big">
@@ -91,21 +91,12 @@ export default function App() {
         <button className="btn primary big" disabled={s.owned === 0} onClick={() => setScreen('review')}>
           📖 Réviser {due > 0 && <span className="badge">{due} à revoir</span>}
         </button>
-        <button className="btn gold big" disabled={save.boosters === 0} onClick={() => setScreen('booster')}>
-          🎁 Ouvrir un booster <span className="badge">×{save.boosters}</span>
+        <button className="btn gold big" onClick={() => setScreen('booster')}>
+          🎁 Ouvrir un booster <span className="badge">∞</span>
         </button>
         <button className="btn big" onClick={() => setScreen('binder')}>
           🗂️ Mon classeur
         </button>
-      </div>
-      <div className="earn">
-        <span>
-          Prochain booster : {save.points}/{POINTS_FOR_BOOSTER} bonnes réponses en révision
-        </span>
-        <div className="bar">
-          <div style={{ width: `${(save.points / POINTS_FOR_BOOSTER) * 100}%` }} />
-        </div>
-        <small className="muted">+1 booster offert chaque jour</small>
       </div>
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
@@ -153,7 +144,7 @@ function Rules({ onExit }: { onExit: () => void }) {
         d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération n'apparaît
         qu'avec la réponse.
       </p>
-      <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Chaque série de 20 bonnes réponses en révision rapporte un booster, et un booster est offert chaque jour.</p>
+      <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Les boosters sont illimités pour l'instant.</p>
       <h3>💥 Punition</h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. Si tu rates une carte que tu ne possèdes pas, tu perds un

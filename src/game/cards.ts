@@ -63,9 +63,10 @@ export const THEMES: Record<string, ThemeInfo> = {
 }
 
 export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string }> = {
-  1: { name: 'Commune', symbol: '●', color: '#9aa3ad' },
-  2: { name: 'Peu commune', symbol: '◆', color: '#43a047' },
-  3: { name: 'Rare', symbol: '★', color: '#1e88e5' },
-  4: { name: 'Épique', symbol: '★★', color: '#8e24aa' },
-  5: { name: 'Légendaire', symbol: '★★★', color: '#f9a825' },
+  // Raretés calées sur les niveaux du cadre européen (CECRL).
+  1: { name: 'A1', symbol: '●', color: '#9aa3ad' },
+  2: { name: 'A2', symbol: '◆', color: '#43a047' },
+  3: { name: 'B1', symbol: '★', color: '#1e88e5' },
+  4: { name: 'B2', symbol: '★★', color: '#8e24aa' },
+  5: { name: 'C1', symbol: '★★★', color: '#f9a825' },
 }

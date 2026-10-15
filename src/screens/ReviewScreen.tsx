@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { OutcomeText, outcomeGlow } from '../components/OutcomeText'
 import { QuestionView } from '../components/QuestionView'
-import { answerReview, finishReview, POINTS_FOR_BOOSTER, makeQuestion, questionTypeFor, reviewSession, type Outcome, type Save } from '../game/rules'
+import { answerReview, finishReview, makeQuestion, questionTypeFor, reviewSession, type Outcome, type Save } from '../game/rules'
 import { Progress } from './Placement'
 
 interface Props {
@@ -33,7 +33,6 @@ export function ReviewScreen({ save, setSave, onExit }: Props) {
     const good = outcomes.filter((o) => o.kind === 'progress')
     const gained = good.filter((o) => o.kind === 'progress' && o.gainedCopy).length
     const lost = outcomes.length - good.length
-    const boosters = good.filter((o) => o.kind === 'progress' && o.boosterEarned).length
     return (
       <div className="screen center">
         <h2>Révision terminée</h2>
@@ -43,13 +42,6 @@ export function ReviewScreen({ save, setSave, onExit }: Props) {
         <ul className="summary">
           {gained > 0 && <li>🃏 {gained} exemplaire(s) gagné(s)</li>}
           {lost > 0 && <li>💥 {lost} carte(s) oubliée(s) : un exemplaire perdu à chaque fois</li>}
-          {boosters > 0 ? (
-            <li>🎁 +{boosters} booster{boosters > 1 ? 's' : ''} gagné{boosters > 1 ? 's' : ''}</li>
-          ) : (
-            <li>
-              🎁 Prochain booster : {save.points}/{POINTS_FOR_BOOSTER} bonnes réponses
-            </li>
-          )}
         </ul>
         <button className="btn primary big" onClick={onExit}>
           Retour à l'accueil

@@ -10,13 +10,13 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
   salutations, pronoms, famille, nourriture, maison, corps, nature, animaux, nombres, couleurs, temps, ville, adjectifs, questions, verbes, expressions, phrases.
 - Chaque carte a une **rareté**, liée à sa difficulté :
 
-| Rareté | Symbole | Contenu typique |
+| Rareté (niveau CECRL) | Symbole | Contenu typique |
 |---|---|---|
-| Commune | ● | mots très courants et courts |
-| Peu commune | ◆ | mots du quotidien |
-| Rare | ★ | mots moins fréquents, premières phrases courtes |
-| Épique | ★★ | verbes conjugués, phrases utiles |
-| Légendaire | ★★★ | phrases complètes de la vie courante |
+| A1 (débutant) | ● | mots très courants et courts |
+| A2 (élémentaire) | ◆ | mots du quotidien |
+| B1 (intermédiaire) | ★ | mots moins fréquents, premières phrases courtes |
+| B2 (intermédiaire avancé) | ★★ | verbes conjugués, phrases utiles |
+| C1 (avancé) | ★★★ | phrases complètes de la vie courante |
 
 - On peut posséder **plusieurs exemplaires** de la même carte. Les exemplaires servent de « vies » pour cette carte.
 
@@ -34,7 +34,7 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
 - Chaque carte arrive **face cachée** : on voit l'arabe, il faut trouver la traduction (choix parmi 4).
   - Bonne réponse : la carte est **gagnée** et va dans le classeur.
   - Mauvaise réponse : la carte est montrée avec sa traduction, puis **perdue**. Elle reviendra dans un prochain booster.
-- Les boosters sont limités : on en gagne un toutes les 20 bonnes réponses en révision, plus un booster offert chaque jour. Si on n'a plus ni carte ni booster, on reçoit un booster pour ne pas rester bloqué.
+- Les boosters sont illimités pour l'instant. Si on n'a plus ni carte ni booster, on reçoit un booster pour ne pas rester bloqué.
 - **Montée de niveau** : quand tu possèdes au moins la moitié des cartes de ta rareté maximale, tu passes au niveau suivant.
 
 ## 3. Réviser (le cœur du jeu)
