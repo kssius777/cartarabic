@@ -929,6 +929,27 @@ p {
     font-size: 1.3rem;
     line-height: 1.5;
   }
+  /* Bouton « Suivante » collé en bas de l'écran, au-dessus de la barre de Safari. */
+  /* Pas de transform sur le parent, sinon le bouton fixe sauterait pendant l'animation. */
+  .after {
+    animation: none;
+  }
+  .feedback {
+    animation: rise 0.3s;
+  }
+  .question:has(.after) {
+    padding-bottom: 76px;
+  }
+  .after .btn {
+    position: fixed;
+    left: max(16px, env(safe-area-inset-left));
+    right: max(16px, env(safe-area-inset-right));
+    bottom: calc(12px + env(safe-area-inset-bottom));
+    z-index: 5;
+    min-height: 56px;
+    font-size: 1.15rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
