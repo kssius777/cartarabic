@@ -22,4 +22,4 @@ npm run build   # prépare la version en ligne dans dist/
 - `src/components/GameCard.tsx` : le dessin des cartes.
 - `src/screens/` : les écrans du jeu.
 
-Chaque envoi sur `main` met le jeu en ligne avec GitHub Pages (Settings → Pages → Source : « GitHub Actions »).
+Le jeu est mis en ligne par Vercel à chaque envoi sur `main`.
