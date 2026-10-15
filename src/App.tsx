@@ -24,8 +24,13 @@ export default function App() {
     setSaveState(leveled)
   }
 
-  useEffect(() => storeSave(save), [save])
-  useEffect(() => window.scrollTo(0, 0), [screen])
+  useEffect(() => {
+    storeSave(save)
+  }, [save])
+  // Accolades obligatoires : dans les navigateurs récents scrollTo renvoie une promesse, que React prendrait pour une fonction de nettoyage.
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [screen])
 
   const home = () => setScreen('home')
 
