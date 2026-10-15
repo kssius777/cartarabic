@@ -293,6 +293,26 @@ p {
   padding: 12px;
 }
 
+/* Jauge du prochain booster sur l'accueil. */
+.earn {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.earn .bar {
+  flex: none;
+  width: 100%;
+}
+
+.earn .bar > div {
+  background: var(--gold, #f5b81b);
+}
+
 /* ---------- Question ---------- */
 
 .question {

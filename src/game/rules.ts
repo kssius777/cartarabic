@@ -7,6 +7,8 @@ export const PROGRESS_FOR_COPY = 3
 export const REVIEW_SIZE = 15
 export const BOOSTER_SIZE = 10
 export const START_BOOSTERS = 3
+/** Bonnes réponses en révision pour gagner un booster. */
+export const POINTS_FOR_BOOSTER = 20
 
 const MIN = 60_000
 const DAY = 86_400_000
@@ -27,12 +29,16 @@ export interface Save {
   owned: Record<string, Owned>
   boosters: number
   reviewsDone: number
+  /** Bonnes réponses en révision depuis le dernier booster gagné. */
+  points: number
+  /** Jour (AAAA-MM-JJ) du dernier booster gratuit quotidien. */
+  lastDaily: string
 }
 
 export type Rng = () => number
 
 export function newSave(): Save {
-  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0 }
+  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, points: 0, lastDaily: '' }
 }
 
 export function shuffle<T>(items: T[], rng: Rng): T[] {
@@ -153,7 +159,7 @@ export function consumeBooster(save: Save): Save {
 
 export type Outcome =
   | { kind: 'won'; card: Card; copies: number }
-  | { kind: 'progress'; card: Card; copies: number; gainedCopy: boolean; progress: number }
+  | { kind: 'progress'; card: Card; copies: number; gainedCopy: boolean; progress: number; boosterEarned?: boolean }
   | { kind: 'lost-copy'; card: Card; copiesLeft: number }
   | { kind: 'lost-other'; card: Card; lost: Card | null; copiesLeft: number }
 
@@ -214,8 +220,19 @@ export function answerReview(save: Save, card: Card, correct: boolean, now: numb
     gainedCopy = true
   }
   const next: Owned = { copies, progress, box, due: now + intervalFor(box, copies >= BRILLANT) }
-  const outcome: Outcome = { kind: 'progress', card, copies, gainedCopy, progress }
-  return { save: { ...save, owned: { ...save.owned, [card.id]: next } }, outcome }
+  // Chaque bonne réponse en révision rapproche du prochain booster.
+  const points = save.points + 1
+  const boosterEarned = points >= POINTS_FOR_BOOSTER
+  const outcome: Outcome = { kind: 'progress', card, copies, gainedCopy, progress, boosterEarned }
+  return {
+    save: {
+      ...save,
+      owned: { ...save.owned, [card.id]: next },
+      points: boosterEarned ? 0 : points,
+      boosters: save.boosters + (boosterEarned ? 1 : 0),
+    },
+    outcome,
+  }
 }
 
 // ---------- Révisions ----------
@@ -241,7 +258,17 @@ export function reviewSession(save: Save, now: number, rng: Rng, size = REVIEW_S
 }
 
 export function finishReview(save: Save): Save {
-  return { ...save, boosters: save.boosters + 1, reviewsDone: save.reviewsDone + 1 }
+  return { ...save, reviewsDone: save.reviewsDone + 1 }
+}
+
+/** Un booster offert par jour, le reste se gagne en révisant. */
+export function claimDaily(save: Save, today: string): Save {
+  if (!save.level || save.lastDaily === today) return save
+  return { ...save, lastDaily: today, boosters: save.boosters + 1 }
+}
+
+export function todayKey(d = new Date()): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
 
 // ---------- Progression ----------

@@ -26,6 +26,8 @@ export function sanitize(raw: unknown): Save {
     owned,
     boosters: Math.max(0, Math.floor(num(r.boosters, 0))),
     reviewsDone: Math.max(0, Math.floor(num(r.reviewsDone, 0))),
+    points: Math.max(0, Math.floor(num(r.points, 0))),
+    lastDaily: typeof r.lastDaily === 'string' ? r.lastDaily : '',
   }
 }
 

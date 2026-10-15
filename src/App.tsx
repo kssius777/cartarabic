@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES } from './game/cards'
-import { applyPlacement, dueCount, hasWon, levelUp, newSave, rescue, stats, type Save } from './game/rules'
+import { applyPlacement, claimDaily, dueCount, hasWon, levelUp, newSave, POINTS_FOR_BOOSTER, rescue, stats, todayKey, type Save } from './game/rules'
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
@@ -11,7 +11,7 @@ import { ReviewScreen } from './screens/ReviewScreen'
 type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules'
 
 export default function App() {
-  const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
+  const [save, setSaveState] = useState<Save>(() => claimDaily(rescue(loadSave()), todayKey()))
   const [screen, setScreen] = useState<Screen>('home')
   const [levelMsg, setLevelMsg] = useState<string | null>(null)
   const [confirmReset, setConfirmReset] = useState(false)
@@ -98,7 +98,15 @@ export default function App() {
           🗂️ Mon classeur
         </button>
       </div>
-      {save.boosters === 0 && <p className="muted">Termine une révision pour gagner un booster.</p>}
+      <div className="earn">
+        <span>
+          Prochain booster : {save.points}/{POINTS_FOR_BOOSTER} bonnes réponses en révision
+        </span>
+        <div className="bar">
+          <div style={{ width: `${(save.points / POINTS_FOR_BOOSTER) * 100}%` }} />
+        </div>
+        <small className="muted">+1 booster offert chaque jour</small>
+      </div>
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
           Règles
@@ -145,7 +153,7 @@ function Rules({ onExit }: { onExit: () => void }) {
         d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération n'apparaît
         qu'avec la réponse.
       </p>
-      <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Chaque séance terminée rapporte un booster.</p>
+      <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Chaque série de 20 bonnes réponses en révision rapporte un booster, et un booster est offert chaque jour.</p>
       <h3>💥 Punition</h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. Si tu rates une carte que tu ne possèdes pas, tu perds un

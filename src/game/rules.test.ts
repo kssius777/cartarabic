@@ -2,6 +2,9 @@ import { describe, expect, it } from 'vitest'
 import { CARDS } from './cards'
 import {
   BOOSTER_SIZE,
+  POINTS_FOR_BOOSTER,
+  claimDaily,
+  finishReview,
   answerBooster,
   answerReview,
   applyPlacement,
@@ -79,6 +82,26 @@ describe('boosters', () => {
       expect(new Set(cards).size).toBe(BOOSTER_SIZE)
       expect(cards.every((c) => c.rarity <= 3)).toBe(true)
     }
+  })
+})
+
+describe('boosters gagnés en révisant', () => {
+  it('donne un booster toutes les 20 bonnes réponses, pas en fin de séance', () => {
+    const [c] = CARDS
+    let save: Save = { ...newSave(), level: 1, owned: { [c.id]: { copies: 1, box: 0, due: NOW, progress: 0 } } }
+    for (let i = 0; i < POINTS_FOR_BOOSTER - 1; i++) save = answerReview(save, c, true, NOW, seeded()).save
+    expect(save.boosters).toBe(0)
+    save = answerReview(save, c, true, NOW, seeded()).save
+    expect(save.boosters).toBe(1)
+    expect(save.points).toBe(0)
+    expect(finishReview(save).boosters).toBe(1)
+  })
+
+  it('offre un seul booster par jour', () => {
+    const save = claimDaily({ ...newSave(), level: 1 }, '2026-10-15')
+    expect(save.boosters).toBe(1)
+    expect(claimDaily(save, '2026-10-15').boosters).toBe(1)
+    expect(claimDaily(save, '2026-10-16').boosters).toBe(2)
   })
 })
 
