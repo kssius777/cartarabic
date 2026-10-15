@@ -62,11 +62,11 @@ export const THEMES: Record<string, ThemeInfo> = {
   religion: { label: 'Religion', icon: '🕌', color: '#00695c', light: '#c0e0dc' },
 }
 
-export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string }> = {
+export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string; desc: string }> = {
   // Raretés calées sur les niveaux du cadre européen (CECRL).
-  1: { name: 'A1', symbol: '●', color: '#9aa3ad' },
-  2: { name: 'A2', symbol: '◆', color: '#43a047' },
-  3: { name: 'B1', symbol: '★', color: '#1e88e5' },
-  4: { name: 'B2', symbol: '★★', color: '#8e24aa' },
-  5: { name: 'C1', symbol: '★★★', color: '#f9a825' },
+  1: { name: 'A1', symbol: '●', color: '#9aa3ad', desc: 'Débutant' },
+  2: { name: 'A2', symbol: '◆', color: '#43a047', desc: 'Élémentaire' },
+  3: { name: 'B1', symbol: '★', color: '#1e88e5', desc: 'Intermédiaire' },
+  4: { name: 'B2', symbol: '★★', color: '#8e24aa', desc: 'Intermédiaire avancé' },
+  5: { name: 'C1', symbol: '★★★', color: '#f9a825', desc: 'Avancé' },
 }

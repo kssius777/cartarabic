@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
-import { CARDS, RARITIES } from './game/cards'
+import { CARDS, RARITIES, type Rarity } from './game/cards'
 import { applyPlacement, dueCount, hasWon, levelUp, newSave, rescue, stats, type Save } from './game/rules'
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
@@ -45,59 +45,103 @@ export default function App() {
   const s = stats(save)
   const due = dueCount(save, Date.now())
   const level = RARITIES[save.level]
-  const showcase = CARDS.filter((c) => save.owned[c.id]).slice(-3)
+  const next = save.level < 5 ? RARITIES[(save.level + 1) as Rarity] : null
+  const tier = CARDS.filter((c) => c.rarity === save.level)
+  const tierOwned = tier.filter((c) => save.owned[c.id]).length
+  const tierGoal = Math.ceil(tier.length / 2)
+  const showcase = CARDS.filter((c) => save.owned[c.id]).slice(-5)
 
   return (
     <div className="screen center home">
-      <h1 className="logo">
-        Cartarabic <span lang="ar">بِطَاقَات</span>
-      </h1>
+      <header className="hero">
+        <h1 className="logo">Cartarabic</h1>
+        <span className="hero-ar" lang="ar">
+          بِطَاقَاتٌ عَرَبِيَّةٌ
+        </span>
+        <p className="tagline">Collectionne l'arabe, carte après carte</p>
+      </header>
+
       {hasWon(save) && <div className="banner">🏆 Collection complète et brillante ! Tu as gagné.</div>}
       {levelMsg && (
         <div className="banner" onClick={() => setLevelMsg(null)}>
           ⬆️ {levelMsg}
         </div>
       )}
-      <div className="stats">
-        <div>
-          <b>
-            {s.owned}/{s.total}
-          </b>
-          <span>cartes</span>
+
+      <section className="trainer" style={{ '--lvl': level.color } as CSSProperties}>
+        <div className="lvl-badge">
+          <b>{level.name}</b>
+          <small>{level.symbol}</small>
         </div>
-        <div>
-          <b>✨ {s.brillant}</b>
-          <span>brillantes</span>
+        <div className="trainer-info">
+          <div className="trainer-head">
+            <b>Niveau {level.name}</b>
+            <span>{level.desc}</span>
+          </div>
+          {next ? (
+            <>
+              <div className="bar">
+                <div style={{ width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%`, background: next.color }} />
+              </div>
+              <small className="muted">
+                Vers {next.name} : {tierOwned}/{tierGoal} cartes {level.name}
+              </small>
+            </>
+          ) : (
+            <small className="muted">Niveau maximum atteint</small>
+          )}
         </div>
-        <div>
-          <b style={{ color: level.color }}>{level.symbol}</b>
-          <span>niveau {level.name}</span>
-        </div>
-      </div>
-      <div className="bar big">
-        <div style={{ width: `${(s.brillant / s.total) * 100}%` }} className="bar-holo" />
-        <div style={{ width: `${((s.owned - s.brillant) / s.total) * 100}%` }} />
+      </section>
+
+      <div className="chips">
+        <span>
+          🃏 <b>{s.owned}</b>/{s.total} cartes
+        </span>
+        <span>
+          ✨ <b>{s.brillant}</b> brillante{s.brillant > 1 ? 's' : ''}
+        </span>
+        <span className={due > 0 ? 'hot' : ''}>
+          📖 <b>{due}</b> à revoir
+        </span>
       </div>
 
       {showcase.length > 0 && (
-        <div className="card-row fan">
-          {showcase.map((c) => (
-            <GameCard key={c.id} card={c} copies={save.owned[c.id].copies} width="104px" />
+        <div className="showcase" onClick={() => setScreen('binder')}>
+          {showcase.map((c, k) => (
+            <div key={c.id} className="showcase-card" style={{ '--k': k - (showcase.length - 1) / 2 } as CSSProperties}>
+              <GameCard card={c} copies={save.owned[c.id].copies} width="var(--sw)" />
+            </div>
           ))}
         </div>
       )}
 
-      <div className="menu">
-        <button className="btn primary big" disabled={s.owned === 0} onClick={() => setScreen('review')}>
-          📖 Réviser {due > 0 && <span className="badge">{due} à revoir</span>}
+      <div className="menu tiles">
+        <button className="tile tile-booster" onClick={() => setScreen('booster')}>
+          <span className="tile-icon">🎁</span>
+          <span className="tile-text">
+            <b>Ouvrir un booster</b>
+            <small>10 cartes · illimité</small>
+          </span>
+          <span className="tile-shine" />
         </button>
-        <button className="btn gold big" onClick={() => setScreen('booster')}>
-          🎁 Ouvrir un booster <span className="badge">∞</span>
+        <button className="tile tile-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
+          <span className="tile-icon">📖</span>
+          <span className="tile-text">
+            <b>Réviser</b>
+            <small>{due > 0 ? `${due} carte${due > 1 ? 's' : ''} à revoir` : 'Entraîne ta mémoire'}</small>
+          </span>
         </button>
-        <button className="btn big" onClick={() => setScreen('binder')}>
-          🗂️ Mon classeur
+        <button className="tile tile-binder" onClick={() => setScreen('binder')}>
+          <span className="tile-icon">🗂️</span>
+          <span className="tile-text">
+            <b>Mon classeur</b>
+            <small>
+              {s.owned} carte{s.owned > 1 ? 's' : ''}
+            </small>
+          </span>
         </button>
       </div>
+
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
           Règles
