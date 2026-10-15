@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CardBack, GameCard } from '../components/GameCard'
+import { GameCard } from '../components/GameCard'
 import { OutcomeText, outcomeGlow } from '../components/OutcomeText'
 import { QuestionView } from '../components/QuestionView'
 import type { Card } from '../game/cards'
@@ -12,7 +12,7 @@ interface Props {
   onExit: () => void
 }
 
-type Stage = 'pack' | 'hidden' | 'question' | 'summary'
+type Stage = 'pack' | 'question' | 'summary'
 
 export function BoosterScreen({ save, setSave, onExit }: Props) {
   const [stage, setStage] = useState<Stage>('pack')
@@ -28,11 +28,12 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
     const drawn = openBooster(save, Math.random)
     setSave(consumeBooster(save))
     setCards(drawn)
-    setTimeout(() => setStage('hidden'), 700)
+    setTimeout(() => show(drawn[0]), 700)
   }
 
-  function reveal() {
-    setQuestion(makeQuestion(cards[i], 'ar-fr', Math.random))
+  // Chaque carte arrive directement avec sa question, sans clic pour la retourner.
+  function show(card: Card) {
+    setQuestion(makeQuestion(card, 'ar-fr', Math.random))
     setStage('question')
   }
 
@@ -45,7 +46,7 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
   function next() {
     if (i + 1 < cards.length) {
       setI(i + 1)
-      setStage('hidden')
+      show(cards[i + 1])
     } else setStage('summary')
   }
 
@@ -105,32 +106,16 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
   return (
     <div className="screen">
       <Progress value={i + (outcome ? 1 : 0)} max={cards.length} label="Booster" />
-      {stage === 'hidden' ? (
-        <div className="question">
-          <p className="prompt">Carte {i + 1} sur {cards.length}</p>
-          <div className="gcard clickable" style={{ '--w': 'min(64vw, 250px)' } as React.CSSProperties} onClick={reveal}>
-            <div className="gcard-inner">
-              <div className="gcard-side">
-                <CardBack />
-              </div>
-            </div>
-          </div>
-          <button className="btn primary big" onClick={reveal}>
-            Retourner la carte
-          </button>
-        </div>
-      ) : (
-        question && (
-          <QuestionView
-            key={question.card.id}
-            question={question}
-            onAnswer={answer}
-            feedback={outcome && <OutcomeText outcome={outcome} />}
-            glow={outcomeGlow(outcome)}
-            onNext={next}
-            nextLabel={i + 1 < cards.length ? 'Carte suivante' : 'Voir le résultat'}
-          />
-        )
+      {question && (
+        <QuestionView
+          key={question.card.id}
+          question={question}
+          onAnswer={answer}
+          feedback={outcome && <OutcomeText outcome={outcome} />}
+          glow={outcomeGlow(outcome)}
+          onNext={next}
+          nextLabel={i + 1 < cards.length ? 'Carte suivante' : 'Voir le résultat'}
+        />
       )}
     </div>
   )
