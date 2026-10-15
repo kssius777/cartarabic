@@ -157,6 +157,8 @@ p {
 }
 
 .menu {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -280,6 +282,17 @@ p {
   margin: 18px auto 0;
 }
 
+.error-box {
+  width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  text-align: left;
+  font-size: 0.8rem;
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 12px;
+}
+
 /* ---------- Question ---------- */
 
 .question {
@@ -391,6 +404,11 @@ p {
 
 .gcard.clickable {
   cursor: pointer;
+}
+
+/* Les cartes en 3D ne doivent jamais capter les touchers destinés aux boutons voisins (Safari). */
+.gcard:not(.clickable) {
+  pointer-events: none;
 }
 
 .gcard-inner {
