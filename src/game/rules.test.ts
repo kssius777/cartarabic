@@ -46,6 +46,19 @@ describe('questions', () => {
       expect(q.choices).toContain(card)
       expect(new Set(q.choices.map((c) => c.fr)).size).toBe(4)
     }
+  }, 60_000)
+
+  it('propose des leurres de la même forme que la réponse', () => {
+    const rng = seeded()
+    const words = (s: string) => s.trim().split(/\s+/).length
+    let close = 0
+    const sample = CARDS.filter((_, i) => i % 50 === 0)
+    for (const card of sample) {
+      const q = makeQuestion(card, 'ar-fr', rng)
+      const others = q.choices.filter((c) => c !== card)
+      if (others.every((c) => Math.abs(words(c.fr) - words(card.fr)) <= 1)) close++
+    }
+    expect(close / sample.length).toBeGreaterThan(0.9)
   })
 })
 

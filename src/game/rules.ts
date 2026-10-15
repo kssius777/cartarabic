@@ -78,34 +78,71 @@ export function questionTypeFor(o: Owned | undefined): QType {
   return 'fr-ar-nt'
 }
 
+// Indices de surface qu'on veut identiques entre la bonne réponse et les leurres,
+// pour qu'on ne puisse pas deviner au nombre de mots, à la longueur ou à la forme.
+const FR_STARTS = /^(je |j'|tu |il |elle |nous |vous |ils |elles |on |le |la |les |l'|un |une |des |du |de |mon |ma |mes |ton |ta |c'est |est-ce |où |quand |comment |pourquoi |combien |que |qui |quel)/i
+
+function shape(text: string, arabic: boolean) {
+  const t = text.trim()
+  const words = t.split(/\s+/).length
+  return {
+    words,
+    len: t.length,
+    question: /[?؟]$/.test(t),
+    excl: /!$/.test(t),
+    paren: t.includes('('),
+    start: arabic ? (t.startsWith('ال') || t.startsWith('اَل') ? 'al' : t.slice(0, 1)) : (t.match(FR_STARTS)?.[1].toLowerCase() ?? ''),
+  }
+}
+
+function distance(a: ReturnType<typeof shape>, b: ReturnType<typeof shape>) {
+  return (
+    Math.abs(a.words - b.words) * 3 +
+    Math.abs(a.len - b.len) / 3 +
+    (a.question !== b.question ? 6 : 0) +
+    (a.excl !== b.excl ? 3 : 0) +
+    (a.paren !== b.paren ? 4 : 0) +
+    (a.start !== b.start ? 3 : 0)
+  )
+}
+
 const BY_THEME = new Map<string, Card[]>()
-for (const c of CARDS) BY_THEME.set(c.theme, [...(BY_THEME.get(c.theme) ?? []), c])
+for (const c of CARDS) {
+  if (!BY_THEME.has(c.theme)) BY_THEME.set(c.theme, [])
+  BY_THEME.get(c.theme)!.push(c)
+}
 
 export function makeQuestion(card: Card, type: QType, rng: Rng): Question {
+  const hard = type !== 'ar-fr'
+  // Les choix affichés sont en français (arabe → français) ou en arabe (français → arabe).
+  const arabicChoices = type.startsWith('fr-ar')
+  const text = (c: Card) => (arabicChoices ? c.ar : c.fr)
+  const target = shape(text(card), arabicChoices)
+
+  // Candidats : tout le thème, plus un large échantillon au hasard (rapide même avec des milliers de cartes).
+  const pool = new Set<Card>(BY_THEME.get(card.theme) ?? [])
+  for (let k = 0; k < 400; k++) pool.add(CARDS[Math.floor(rng() * CARDS.length)])
+
+  const scored: { c: Card; d: number }[] = []
+  for (const c of pool) {
+    if (c === card || c.kind !== card.kind || c.fr === card.fr || c.ar === card.ar) continue
+    const d =
+      distance(target, shape(text(c), arabicChoices)) +
+      (c.theme !== card.theme ? (hard ? 5 : 1.5) : 0) +
+      Math.abs(c.rarity - card.rarity) * (hard ? 1 : 0.5) +
+      rng() * 2
+    scored.push({ c, d })
+  }
+  scored.sort((a, b) => a.d - b.d)
+
+  // On tire 3 leurres parmi les plus ressemblants, pour garder de la variété.
+  const best = shuffle(scored.slice(0, 7), rng)
   const distractors: Card[] = []
-  const fits = (c: Card) =>
-    c.kind === card.kind &&
-    c.fr !== card.fr &&
-    c.ar !== card.ar &&
-    !distractors.some((d) => d === c || d.fr === c.fr || d.ar === c.ar)
-  const takeFrom = (list: Card[]) => {
-    for (const c of shuffle(list, rng)) {
-      if (distractors.length === 3) return
-      if (fits(c)) distractors.push(c)
-    }
+  for (const { c } of [...best, ...scored.slice(7)]) {
+    if (distractors.length === 3) break
+    if (distractors.some((d) => d.fr === c.fr || d.ar === c.ar)) continue
+    distractors.push(c)
   }
-  // Les questions difficiles proposent des cartes qui se ressemblent (même thème, puis même niveau).
-  if (type !== 'ar-fr') {
-    const theme = BY_THEME.get(card.theme) ?? []
-    takeFrom(theme.filter((c) => c.rarity === card.rarity))
-    takeFrom(theme)
-  }
-  // Sinon, des cartes au hasard : on pioche directement pour rester rapide avec des milliers de cartes.
-  for (let tries = 0; distractors.length < 3 && tries < 300; tries++) {
-    const c = CARDS[Math.floor(rng() * CARDS.length)]
-    if (fits(c)) distractors.push(c)
-  }
-  if (distractors.length < 3) takeFrom(CARDS)
   return { card, type, choices: shuffle([card, ...distractors], rng) }
 }
 
