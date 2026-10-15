@@ -61,10 +61,17 @@ export function GameCard({ card, face = 'front', translit = true, copies, width 
               </div>
               <div className="gcard-caption">Traduction</div>
               <div className="gcard-body">
-                <div className="gcard-translit small" lang="ar" dir="rtl">
-                  {card.ar}
-                </div>
-                <div className="gcard-translit tiny">{card.translit}</div>
+                {/* Question français → arabe : la réponse reste cachée tant qu'on n'a pas répondu. */}
+                {translit ? (
+                  <>
+                    <div className="gcard-translit small" lang="ar" dir="rtl">
+                      {card.ar}
+                    </div>
+                    <div className="gcard-translit tiny">{card.translit}</div>
+                  </>
+                ) : (
+                  <div className="gcard-translit muted">?</div>
+                )}
               </div>
             </Frame>
           )}

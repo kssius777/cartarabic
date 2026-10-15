@@ -6,17 +6,19 @@ import { applyPlacement, dueCount, hasWon, levelGoal, levelUp, newSave, rescue, 
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
+import { Landing } from './screens/Landing'
 import { Placement } from './screens/Placement'
 import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
 
-type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures'
+type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing'
 
 export default function App() {
   const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
   const [screen, setScreen] = useState<Screen>('home')
   const [levelMsg, setLevelMsg] = useState<string | null>(null)
   const [confirmReset, setConfirmReset] = useState(false)
+  const [testStarted, setTestStarted] = useState(false)
 
   function setSave(next: Save) {
     const leveled = levelUp(rescue(next))
@@ -36,6 +38,7 @@ export default function App() {
 
   const home = () => setScreen('home')
 
+  if (!save.level && !testStarted) return <Landing onStart={() => setTestStarted(true)} />
   if (!save.level) {
     return <Placement onDone={(results) => setSave(applyPlacement(save, results, Date.now()))} />
   }
@@ -43,6 +46,7 @@ export default function App() {
   if (screen === 'review') return <ReviewScreen save={save} setSave={setSave} onExit={home} />
   if (screen === 'binder') return <Binder save={save} onExit={home} />
   if (screen === 'rules') return <Rules onExit={home} />
+  if (screen === 'landing') return <Landing returning onStart={home} />
   if (screen === 'figures') return <FiguresScreen save={save} setSave={setSave} onExit={home} />
 
   const s = stats(save)
@@ -55,13 +59,18 @@ export default function App() {
 
   return (
     <div className="screen center home">
-      <header className="hero">
-        <h1 className="logo">Cartarabic</h1>
-        <span className="hero-ar" lang="ar">
-          بِطَاقَاتٌ عَرَبِيَّةٌ
+      <header className="appbar">
+        <span className="brand">
+          Cartarabic <span lang="ar">بِطَاقَات</span>
         </span>
-        <p className="tagline">Collectionne l'arabe, carte après carte</p>
+        <span className="appbar-coins">🪙 {save.coins}</span>
       </header>
+      <div className="welcome">
+        <p className="eyebrow">Ta collection</p>
+        <h1>
+          {s.owned === 0 ? 'Ouvre ton premier booster.' : due > 0 ? `${due} carte${due > 1 ? 's' : ''} t’attendent.` : 'Tout est à jour.'}
+        </h1>
+      </div>
 
       {hasWon(save) && <div className="banner">🏆 Collection complète et brillante ! Tu as gagné.</div>}
       {levelMsg && (
@@ -157,6 +166,9 @@ export default function App() {
       </div>
 
       <div className="foot-links">
+        <button className="btn ghost small" onClick={() => setScreen('landing')}>
+          Présentation
+        </button>
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
           Règles
         </button>

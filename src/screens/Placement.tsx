@@ -6,31 +6,9 @@ import { makeQuestion, placementCards, placementLevel, type PlacementResult } fr
 
 export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => void }) {
   const questions = useMemo(() => placementCards(Math.random).map((c) => makeQuestion(c, 'ar-fr', Math.random)), [])
-  const [started, setStarted] = useState(false)
   const [i, setI] = useState(0)
   const [results, setResults] = useState<PlacementResult[]>([])
   const finished = results.length === questions.length && i >= questions.length
-
-  if (!started) {
-    return (
-      <div className="screen center">
-        <h1 className="logo">
-          Cartarabic <span lang="ar">بِطَاقَات</span>
-        </h1>
-        <p>
-          Bienvenue ! Collectionne des cartes en arabe littéraire. Pour mériter une carte, il faut savoir ce qu'elle veut dire. Et
-          si tu l'oublies, tu la perds !
-        </p>
-        <p>
-          On commence par un <b>test de niveau</b> de {questions.length} cartes, de la plus facile à la plus difficile. Pas de
-          panique si tu ne sais pas : réponds au hasard, c'est fait pour ça.
-        </p>
-        <button className="btn primary big" onClick={() => setStarted(true)}>
-          Commencer le test
-        </button>
-      </div>
-    )
-  }
 
   if (finished) {
     const level = placementLevel(results)

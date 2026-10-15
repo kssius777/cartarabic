@@ -7,6 +7,8 @@ interface Props {
   width?: string
   copies?: number
   onClick?: () => void
+  /** Affiche la traduction française au lieu du texte arabe. */
+  french?: boolean
 }
 
 /** « Points de renommée », l'équivalent des PV d'une carte Pokémon. */
@@ -19,11 +21,14 @@ function facts(desc: string): [string, string] {
   return [parts[0] ?? desc, parts.slice(1).join(' ')]
 }
 
-export function FigureCard({ figure, width = '220px', copies, onClick }: Props) {
+export function FigureCard({ figure, width = '220px', copies, onClick, french = false }: Props) {
   const cat = FIG_CATEGORIES[figure.category] ?? FIG_CATEGORIES.lieux
   const rarity = FIG_RARITIES[figure.rarity]
   const img = useWikiImage(figure.wiki, figure.image)
-  const [fact1, fact2] = facts(figure.desc)
+  // Tout est en arabe par défaut ; « Traduire » bascule la carte en français.
+  const ar = !french && !!figure.descAr
+  const [fact1, fact2] = facts(ar ? figure.descAr! : figure.desc)
+  const era = ar ? (figure.eraAr ?? figure.era) : figure.era
   const number = figure.id.replace(/^p0*/, '')
   const style = {
     '--w': width,
@@ -31,14 +36,18 @@ export function FigureCard({ figure, width = '220px', copies, onClick }: Props) 
     '--rar': rarity.color,
   } as CSSProperties
   return (
-    <div className={`fcard r${figure.rarity} ${onClick ? 'clickable' : ''}`} style={style} onClick={onClick}>
+    <div className={`fcard r${figure.rarity} ${ar ? 'ar' : ''} ${onClick ? 'clickable' : ''}`} style={style} onClick={onClick}>
       <div className="fcard-frame">
-        <div className="fcard-inner">
-          <div className="fcard-stage">{cat.label}</div>
+        <div className="fcard-inner" dir={ar ? 'rtl' : 'ltr'}>
+          <div className="fcard-stage" lang={ar ? 'ar' : undefined}>
+            {ar ? cat.ar : cat.label}
+          </div>
           <div className="fcard-head">
-            <span className="fcard-name">{figure.name}</span>
-            <span className="fcard-hp">
-              <small>RN</small>
+            <span className="fcard-name" lang={ar ? 'ar' : undefined}>
+              {ar ? figure.ar : figure.name}
+            </span>
+            <span className="fcard-hp" dir="ltr">
+              <small>{ar ? 'شُهْرَة' : 'RN'}</small>
               {FAME[figure.rarity]}
             </span>
             <span className="fcard-icon" title={cat.label}>
@@ -57,40 +66,46 @@ export function FigureCard({ figure, width = '220px', copies, onClick }: Props) 
             )}
             <span className="fcard-foil" />
           </div>
-          <div className="fcard-strip">
-            {cat.label} · {figure.era}
+          <div className="fcard-strip" lang={ar ? 'ar' : undefined}>
+            {ar ? cat.ar : cat.label} · {era}
           </div>
-          <div className="fcard-move">
-            <span className="fcard-cost">{cat.icon}</span>
-            <span className="fcard-move-name" lang="ar" dir="rtl">
-              {figure.ar}
-            </span>
-            <span className="fcard-move-val">{figure.translit}</span>
-          </div>
+          {!ar && (
+            <div className="fcard-move">
+              <span className="fcard-cost">{cat.icon}</span>
+              <span className="fcard-move-name" lang="ar" dir="rtl">
+                {figure.ar}
+              </span>
+              <span className="fcard-move-val">{figure.translit}</span>
+            </div>
+          )}
           <div className="fcard-move fcard-move-text">
             <span className="fcard-cost">
               {cat.icon}
               {cat.icon}
             </span>
-            <span>{fact1}</span>
+            <span lang={ar ? 'ar' : undefined}>{fact1}</span>
           </div>
-          <div className="fcard-stats">
+          <div className="fcard-stats" lang={ar ? 'ar' : undefined}>
             <span>
-              <b>Époque</b>
-              {figure.era}
+              <b>{ar ? 'اَلْعَصْرُ' : 'Époque'}</b>
+              {era}
             </span>
             <span>
-              <b>Domaine</b>
+              <b>{ar ? 'اَلْمَجَالُ' : 'Domaine'}</b>
               {cat.icon}
             </span>
             <span>
-              <b>Rareté</b>
-              {rarity.name}
+              <b>{ar ? 'اَلنُّدْرَةُ' : 'Rareté'}</b>
+              {ar ? rarity.ar : rarity.name}
             </span>
           </div>
-          {fact2 && <div className="fcard-flavor">{fact2}</div>}
-          <div className="fcard-foot">
-            <span>Cartarabic · Personnages</span>
+          {fact2 && (
+            <div className="fcard-flavor" lang={ar ? 'ar' : undefined}>
+              {fact2}
+            </div>
+          )}
+          <div className="fcard-foot" dir="ltr">
+            <span>Cartarabic · {ar ? 'شَخْصِيَّات' : 'Personnages'}</span>
             <span className="fcard-rarity">
               {number}/{FIGURES.length} {SYMBOL[figure.rarity]}
             </span>

@@ -18,6 +18,22 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
   const [open, setOpen] = useState<Figure | null>(null)
   const [cat, setCat] = useState<string | null>(null)
   const [limit, setLimit] = useState(PAGE)
+  const [french, setFrench] = useState(() => {
+    try {
+      return localStorage.getItem('cartarabic-fig-fr') === '1'
+    } catch {
+      return false
+    }
+  })
+
+  function toggleFrench() {
+    setFrench(!french)
+    try {
+      localStorage.setItem('cartarabic-fig-fr', french ? '0' : '1')
+    } catch {
+      // Préférence non retenue si le stockage est bloqué.
+    }
+  }
 
   const ownedCount = Object.keys(save.figures).length
   const canBuy = save.coins >= FIGURE_BOOSTER_PRICE
@@ -41,6 +57,9 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
         <h2>Personnages</h2>
         <span className="coins">🪙 {save.coins}</span>
       </div>
+      <button className={`btn small translate ${french ? 'on' : ''}`} onClick={toggleFrench}>
+        {french ? 'عَرَبِيٌّ · Revenir à l\'arabe' : '🌐 Traduire en français'}
+      </button>
       <div className="chips">
         <button className={`chip ${tab === 'shop' ? 'on' : ''}`} onClick={() => setTab('shop')}>
           🛍️ Boutique
@@ -85,7 +104,7 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
             {drawn.map((f, i) =>
               revealed.includes(i) ? (
                 <div key={i} className="reveal-in">
-                  <FigureCard figure={f} width="100%" onClick={() => setOpen(f)} />
+                  <FigureCard figure={f} width="100%" french={french} onClick={() => setOpen(f)} />
                   {save.figures[f.id] === 1 && <span className="new-tag">Nouveau !</span>}
                 </div>
               ) : (
@@ -151,7 +170,14 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
           <div className="fgrid">
             {shown.slice(0, limit).map((f) =>
               save.figures[f.id] ? (
-                <FigureCard key={f.id} figure={f} width="100%" copies={save.figures[f.id]} onClick={() => setOpen(f)} />
+                <FigureCard
+                  key={f.id}
+                  figure={f}
+                  width="100%"
+                  french={french}
+                  copies={save.figures[f.id]}
+                  onClick={() => setOpen(f)}
+                />
               ) : (
                 <div key={f.id} className="fslot" style={{ '--rar': FIG_RARITIES[f.rarity].color } as CSSProperties}>
                   <span>{FIG_CATEGORIES[f.category]?.icon ?? '?'}</span>
@@ -171,8 +197,20 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
       {open && (
         <div className="modal" onClick={() => setOpen(null)}>
           <div className="modal-body fmodal" onClick={(e) => e.stopPropagation()}>
-            <FigureCard figure={open} width="min(70vw, 280px)" />
-            <p>{open.desc}</p>
+            <FigureCard figure={open} width="min(70vw, 280px)" french={french} />
+            <button className="btn small translate" onClick={toggleFrench}>
+              {french ? 'عَرَبِيٌّ' : '🌐 Traduire'}
+            </button>
+            {open.descAr && !french ? (
+              <p lang="ar" dir="rtl" className="fdesc-ar">
+                {open.descAr}
+              </p>
+            ) : (
+              <p>{open.desc}</p>
+            )}
+            <p className="muted">
+              {open.name} · {open.translit}
+            </p>
             <FigureCredit figure={open} />
             <button className="btn primary" onClick={() => setOpen(null)}>
               Fermer
