@@ -1,6 +1,6 @@
 # Règles du jeu : les cartes d'arabe
 
-Brouillon v1, à corriger librement. Les cartes sont dans [cartes.json](../data/cartes.json).
+Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/cartes.json).
 
 ## Les cartes
 
@@ -24,7 +24,8 @@ Brouillon v1, à corriger librement. Les cartes sont dans [cartes.json](../data/
 
 - 12 cartes, de la plus facile à la plus difficile (environ 2 à 3 par rareté).
 - Pour chaque carte, on voit l'arabe et la translittération, et on choisit la bonne traduction parmi 4.
-- Ton niveau est la rareté la plus haute où tu as au moins 2 bonnes réponses sur 3, avant ton premier échec à un palier.
+- Ton niveau est la rareté la plus haute où tu as au moins 2 bonnes réponses, en t'arrêtant au premier palier raté.
+- Pas de punition pendant le test.
 - Ton niveau débloque les boosters de cette rareté et en dessous. Les cartes réussies pendant le test sont offertes.
 
 ## 2. Ouvrir un booster
@@ -33,7 +34,8 @@ Brouillon v1, à corriger librement. Les cartes sont dans [cartes.json](../data/
 - Chaque carte arrive **face cachée** : on voit l'arabe, il faut trouver la traduction (choix parmi 4).
   - Bonne réponse : la carte est **gagnée** et va dans le classeur.
   - Mauvaise réponse : la carte est montrée avec sa traduction, puis **perdue**. Elle reviendra dans un prochain booster.
-- On gagne un nouveau booster en terminant une séance de révision (voir plus bas).
+- On gagne un nouveau booster en terminant une séance de révision (voir plus bas). Si on n'a plus ni carte ni booster, on reçoit un booster pour ne pas rester bloqué.
+- **Montée de niveau** : quand tu possèdes au moins la moitié des cartes de ta rareté maximale, tu passes au niveau suivant.
 
 ## 3. Réviser (le cœur du jeu)
 
@@ -43,7 +45,8 @@ Brouillon v1, à corriger librement. Les cartes sont dans [cartes.json](../data/
   2. français → choisir l'arabe (4 choix) ;
   3. arabe sans translittération → choisir la traduction ;
   4. français → retrouver l'arabe parmi des cartes qui se ressemblent.
-- **Bonne réponse** : la carte progresse. Après 3 bonnes réponses espacées dans le temps, tu gagnes **un exemplaire de plus**.
+- **Bonne réponse** : la carte progresse. Après 3 bonnes réponses espacées dans le temps (une réponse ne compte que si la carte était « à revoir »), tu gagnes **un exemplaire de plus**.
+- Délais avant de revoir une carte : immédiat, 10 min, 1 jour, 3 jours, 7 jours, 14 jours, 30 jours (doublés pour une carte brillante).
 - **Oubli (mauvaise réponse)** : la punition.
   - Si tu possèdes cette carte : **un exemplaire est défaussé**. Si c'était le dernier, la carte quitte le classeur et redevient à gagner.
   - Si tu ne la possèdes pas (carte de booster ou de test) : **une autre carte au hasard est retirée** de ton classeur.

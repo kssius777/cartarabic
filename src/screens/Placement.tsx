@@ -1,0 +1,94 @@
+import { useMemo, useState } from 'react'
+import { GameCard } from '../components/GameCard'
+import { QuestionView } from '../components/QuestionView'
+import { RARITIES } from '../game/cards'
+import { makeQuestion, placementCards, placementLevel, type PlacementResult } from '../game/rules'
+
+export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => void }) {
+  const questions = useMemo(() => placementCards(Math.random).map((c) => makeQuestion(c, 'ar-fr', Math.random)), [])
+  const [started, setStarted] = useState(false)
+  const [i, setI] = useState(0)
+  const [results, setResults] = useState<PlacementResult[]>([])
+  const finished = results.length === questions.length && i >= questions.length
+
+  if (!started) {
+    return (
+      <div className="screen center">
+        <h1 className="logo">
+          Cartarabic <span lang="ar">بِطَاقَات</span>
+        </h1>
+        <p>
+          Bienvenue ! Collectionne des cartes en arabe littéraire. Pour mériter une carte, il faut savoir ce qu'elle veut dire. Et
+          si tu l'oublies, tu la perds !
+        </p>
+        <p>
+          On commence par un <b>test de niveau</b> de {questions.length} cartes, de la plus facile à la plus difficile. Pas de
+          panique si tu ne sais pas : réponds au hasard, c'est fait pour ça.
+        </p>
+        <button className="btn primary big" onClick={() => setStarted(true)}>
+          Commencer le test
+        </button>
+      </div>
+    )
+  }
+
+  if (finished) {
+    const level = placementLevel(results)
+    const won = results.filter((r) => r.correct)
+    return (
+      <div className="screen center">
+        <h2>Test terminé !</h2>
+        <p>
+          {won.length} bonne{won.length > 1 ? 's' : ''} réponse{won.length > 1 ? 's' : ''} sur {results.length}. Ton niveau :{' '}
+          <b style={{ color: RARITIES[level].color }}>
+            {RARITIES[level].symbol} {RARITIES[level].name}
+          </b>
+        </p>
+        {won.length > 0 && (
+          <>
+            <p>Les cartes que tu as reconnues sont à toi :</p>
+            <div className="card-row">
+              {won.map((r) => (
+                <GameCard key={r.card.id} card={r.card} copies={1} width="120px" />
+              ))}
+            </div>
+          </>
+        )}
+        <p>Tu reçois aussi 3 boosters pour démarrer ta collection.</p>
+        <button className="btn primary big" onClick={() => onDone(results)}>
+          C'est parti !
+        </button>
+      </div>
+    )
+  }
+
+  const q = questions[i]
+  return (
+    <div className="screen">
+      <Progress value={i} max={questions.length} label="Test de niveau" />
+      <QuestionView
+        key={q.card.id}
+        question={q}
+        onAnswer={(correct) => setResults((r) => [...r, { card: q.card, correct }])}
+        feedback={results[i]?.correct ? <p className="good">✅ Bravo !</p> : <p className="bad">Ce n'est pas grave, on continue.</p>}
+        glow={results[i]?.correct ? 'win' : 'lose'}
+        onNext={() => setI(i + 1)}
+        nextLabel={i + 1 === questions.length ? 'Voir mon niveau' : 'Suivante'}
+      />
+    </div>
+  )
+}
+
+export function Progress({ value, max, label }: { value: number; max: number; label: string }) {
+  return (
+    <div className="progress">
+      <span>{label}</span>
+      <div className="bar">
+        <div style={{ width: `${(value / max) * 100}%` }} />
+      </div>
+      <span>
+        {value}/{max}
+      </span>
+    </div>
+  )
+}
