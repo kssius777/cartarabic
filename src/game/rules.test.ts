@@ -25,9 +25,10 @@ const NOW = 1_000_000_000_000
 const byRarity = (r: number) => CARDS.filter((c) => c.rarity === r)
 
 describe('cartes', () => {
-  it('a 200 cartes uniques et vocalisées', () => {
-    expect(CARDS).toHaveLength(200)
-    expect(new Set(CARDS.map((c) => c.ar)).size).toBe(200)
+  it('a au moins 300 cartes uniques et vocalisées', () => {
+    expect(CARDS.length).toBeGreaterThanOrEqual(300)
+    expect(new Set(CARDS.map((c) => c.ar)).size).toBe(CARDS.length)
+    expect(new Set(CARDS.map((c) => c.fr)).size).toBe(CARDS.length)
     for (const c of CARDS) expect(c.ar).toMatch(/[ً-ْ]/)
   })
 })

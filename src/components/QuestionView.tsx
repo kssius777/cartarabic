@@ -17,16 +17,15 @@ interface Props {
 
 const PROMPTS = {
   'ar-fr': 'Que veut dire cette carte ?',
-  'ar-fr-nt': 'Que veut dire cette carte ? (sans aide)',
+  'ar-fr-nt': 'Que veut dire cette carte ? (difficile)',
   'fr-ar': 'Comment dit-on en arabe ?',
-  'fr-ar-nt': 'Comment dit-on en arabe ? (sans aide)',
+  'fr-ar-nt': 'Comment dit-on en arabe ? (difficile)',
 }
 
 export function QuestionView({ question, copies, onAnswer, feedback, glow, onNext, nextLabel = 'Continuer' }: Props) {
   const [chosen, setChosen] = useState<Card | null>(null)
   const { card, type, choices } = question
   const toArabic = type.startsWith('fr-ar')
-  const withTranslit = !type.endsWith('-nt')
   const answered = chosen !== null
 
   // Avant la réponse on montre le côté de la question ; après, la carte se retourne.
@@ -42,7 +41,7 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
   return (
     <div className="question">
       <p className="prompt">{PROMPTS[type]}</p>
-      <GameCard card={card} face={face} translit={withTranslit || answered} copies={copies} glow={answered ? glow : null} width="min(64vw, 250px)" />
+      <GameCard card={card} face={face} translit={answered} copies={copies} glow={answered ? glow : null} width="min(64vw, 250px)" />
       <div className={`choices ${toArabic ? 'choices-ar' : ''}`}>
         {choices.map((c) => {
           const state = !answered ? '' : c.id === card.id ? 'right' : c === chosen ? 'wrong' : 'dim'
@@ -53,7 +52,7 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
                   <span className="choice-ar" lang="ar" dir="rtl">
                     {c.ar}
                   </span>
-                  {(withTranslit || answered) && <span className="choice-sub">{c.translit}</span>}
+                  {answered && <span className="choice-sub">{c.translit}</span>}
                 </>
               ) : (
                 c.fr

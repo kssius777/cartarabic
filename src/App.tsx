@@ -137,7 +137,8 @@ function Rules({ onExit }: { onExit: () => void }) {
       <h3>📖 Révisions</h3>
       <p>
         Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Plus tu connais une carte, plus la question est dure :
-        d'abord arabe → français, puis français → arabe, puis sans translittération.
+        d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération n'apparaît
+        qu'avec la réponse.
       </p>
       <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Chaque séance terminée rapporte un booster.</p>
       <h3>💥 Punition</h3>
