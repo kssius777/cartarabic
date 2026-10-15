@@ -769,9 +769,9 @@ p {
   touch-action: manipulation;
 }
 
-/* L'animation est sur l'enveloppe pour que le booster reste facile à toucher. */
+/* Pas d'animation permanente : sur iPhone, un bouton qui bouge sans arrêt peut ignorer le toucher. */
 .pack-float {
-  animation: wobble 2.4s ease-in-out infinite;
+  filter: drop-shadow(0 0 18px rgba(245, 197, 66, 0.35));
 }
 
 .pack-top {
