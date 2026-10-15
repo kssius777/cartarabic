@@ -7008,5 +7008,1165 @@
   "kind": "mot",
   "rarity": 4,
   "rarityName": "épique"
+ },
+ {
+  "id": "c702",
+  "ar": "اَلسُّوقُ",
+  "translit": "as-sūqu",
+  "fr": "Le marché",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c703",
+  "ar": "اَلْبَائِعُ",
+  "translit": "al-bāʾiʿu",
+  "fr": "Le vendeur",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c704",
+  "ar": "اَلزَّبُونُ",
+  "translit": "az-zabūnu",
+  "fr": "Le client",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c705",
+  "ar": "اَلثَّمَنُ",
+  "translit": "aṯ-ṯamanu",
+  "fr": "Le prix",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c706",
+  "ar": "اَلنُّقُودُ",
+  "translit": "an-nuqūdu",
+  "fr": "L'argent (monnaie)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c707",
+  "ar": "اَلْكِيسُ",
+  "translit": "al-kīsu",
+  "fr": "Le sac (plastique)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c708",
+  "ar": "اَلْمِيزَانُ",
+  "translit": "al-mīzānu",
+  "fr": "La balance",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c709",
+  "ar": "اَلْكِيلُو",
+  "translit": "al-kīlū",
+  "fr": "Le kilo",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c710",
+  "ar": "اَلتَّخْفِيضُ",
+  "translit": "at-taḫfīḍu",
+  "fr": "La réduction",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c711",
+  "ar": "اَلصُّنْدُوقُ",
+  "translit": "aṣ-ṣundūqu",
+  "fr": "La caisse",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c712",
+  "ar": "هَلْ عِنْدَكَ أَرْخَصُ؟",
+  "translit": "hal ʿindaka arḫaṣu?",
+  "fr": "Tu as moins cher ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c713",
+  "ar": "أُرِيدُ كِيلُو تُفَّاحٍ",
+  "translit": "urīdu kīlū tuffāḥin",
+  "fr": "Je veux un kilo de pommes",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c714",
+  "ar": "هَلْ أَسْتَطِيعُ أَنْ أَدْفَعَ بِالْبِطَاقَةِ؟",
+  "translit": "hal astaṭīʿu an adfaʿa bil-biṭāqati?",
+  "fr": "Je peux payer par carte ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c715",
+  "ar": "أَعْطِنِي هَذَا مِنْ فَضْلِكَ",
+  "translit": "aʿṭinī hāḏā min faḍlika",
+  "fr": "Donne-moi ça s'il te plaît",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c716",
+  "ar": "أَيْنَ الصُّنْدُوقُ؟",
+  "translit": "ayna ṣ-ṣundūqu?",
+  "fr": "Où est la caisse ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c717",
+  "ar": "أَنَا أَتَفَرَّجُ فَقَطْ",
+  "translit": "anā atafarraǧu faqaṭ",
+  "fr": "Je regarde seulement",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c718",
+  "ar": "هَلْ عِنْدَكَ مَقَاسٌ أَكْبَرُ؟",
+  "translit": "hal ʿindaka maqāsun akbaru?",
+  "fr": "Tu as une taille plus grande ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c719",
+  "ar": "اَلْمَحَلُّ مُغْلَقٌ",
+  "translit": "al-maḥallu muġlaqun",
+  "fr": "Le magasin est fermé",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c720",
+  "ar": "اَلْمَحَلُّ مَفْتُوحٌ",
+  "translit": "al-maḥallu maftūḥun",
+  "fr": "Le magasin est ouvert",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c721",
+  "ar": "اَلْمَطَارُ",
+  "translit": "al-maṭāru",
+  "fr": "L'aéroport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c722",
+  "ar": "اَلطَّائِرَةُ",
+  "translit": "aṭ-ṭāʾiratu",
+  "fr": "L'avion",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c723",
+  "ar": "جَوَازُ السَّفَرِ",
+  "translit": "ǧawāzu s-safari",
+  "fr": "Le passeport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c724",
+  "ar": "اَلتَّذْكِرَةُ",
+  "translit": "at-taḏkiratu",
+  "fr": "Le billet",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c725",
+  "ar": "اَلْحَقِيبَةُ",
+  "translit": "al-ḥaqībatu",
+  "fr": "La valise",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c726",
+  "ar": "اَلرِّحْلَةُ",
+  "translit": "ar-riḥlatu",
+  "fr": "Le vol / le voyage",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c727",
+  "ar": "اَلْبَوَّابَةُ",
+  "translit": "al-bawwābatu",
+  "fr": "La porte d'embarquement",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c728",
+  "ar": "اَلْجَمَارِكُ",
+  "translit": "al-ǧamāriku",
+  "fr": "La douane",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c729",
+  "ar": "اَلتَّأْشِيرَةُ",
+  "translit": "at-taʾšīratu",
+  "fr": "Le visa",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c730",
+  "ar": "اَلْفُنْدُقُ",
+  "translit": "al-funduqu",
+  "fr": "L'hôtel",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c731",
+  "ar": "اَلْوُصُولُ",
+  "translit": "al-wuṣūlu",
+  "fr": "L'arrivée",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c732",
+  "ar": "اَلْمُغَادَرَةُ",
+  "translit": "al-muġādaratu",
+  "fr": "Le départ",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c733",
+  "ar": "أُسَافِرُ إِلَى",
+  "translit": "usāfiru ilā",
+  "fr": "Je pars en voyage vers",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c734",
+  "ar": "أَيْنَ الْبَوَّابَةُ رَقْمُ خَمْسَةٍ؟",
+  "translit": "ayna l-bawwābatu raqmu ḫamsatin?",
+  "fr": "Où est la porte numéro cinq ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c735",
+  "ar": "مَتَى تُقْلِعُ الطَّائِرَةُ؟",
+  "translit": "matā tuqliʿu ṭ-ṭāʾiratu?",
+  "fr": "Quand l'avion décolle-t-il ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c736",
+  "ar": "هَذَا جَوَازُ سَفَرِي",
+  "translit": "hāḏā ǧawāzu safarī",
+  "fr": "Voici mon passeport",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c737",
+  "ar": "ضَاعَتْ حَقِيبَتِي",
+  "translit": "ḍāʿat ḥaqībatī",
+  "fr": "J'ai perdu ma valise",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c738",
+  "ar": "عِنْدِي حَجْزٌ",
+  "translit": "ʿindī ḥaǧzun",
+  "fr": "J'ai une réservation",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c739",
+  "ar": "أُرِيدُ غُرْفَةً لِشَخْصَيْنِ",
+  "translit": "urīdu ġurfatan li-šaḫṣayni",
+  "fr": "Je veux une chambre pour deux personnes",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c740",
+  "ar": "اَلرِّحْلَةُ مُتَأَخِّرَةٌ",
+  "translit": "ar-riḥlatu mutaʾaḫḫiratun",
+  "fr": "Le vol est en retard",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c741",
+  "ar": "أَنَا هُنَا لِلسِّيَاحَةِ",
+  "translit": "anā hunā lis-siyāḥati",
+  "fr": "Je suis ici pour le tourisme",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c742",
+  "ar": "رِحْلَةً سَعِيدَةً",
+  "translit": "riḥlatan saʿīdatan",
+  "fr": "Bon voyage",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c743",
+  "ar": "اَلْعَمَلُ",
+  "translit": "al-ʿamalu",
+  "fr": "Le travail",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c744",
+  "ar": "اَلْمَكْتَبُ",
+  "translit": "al-maktabu",
+  "fr": "Le bureau",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c745",
+  "ar": "اَلْمُدِيرُ",
+  "translit": "al-mudīru",
+  "fr": "Le directeur",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c746",
+  "ar": "اَلزَّمِيلُ",
+  "translit": "az-zamīlu",
+  "fr": "Le collègue",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c747",
+  "ar": "اَلشَّرِكَةُ",
+  "translit": "aš-šarikatu",
+  "fr": "L'entreprise",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c748",
+  "ar": "اَلرَّاتِبُ",
+  "translit": "ar-rātibu",
+  "fr": "Le salaire",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c749",
+  "ar": "اَلِاجْتِمَاعُ",
+  "translit": "al-iǧtimāʿu",
+  "fr": "La réunion",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c750",
+  "ar": "اَلْمَوْعِدُ",
+  "translit": "al-mawʿidu",
+  "fr": "Le rendez-vous",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c751",
+  "ar": "اَلْحَاسُوبُ",
+  "translit": "al-ḥāsūbu",
+  "fr": "L'ordinateur",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c752",
+  "ar": "اَلْعُطْلَةُ",
+  "translit": "al-ʿuṭlatu",
+  "fr": "Les vacances / le congé",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c753",
+  "ar": "اَلْوَظِيفَةُ",
+  "translit": "al-waẓīfatu",
+  "fr": "L'emploi",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c754",
+  "ar": "أَبْدَأُ الْعَمَلَ",
+  "translit": "abdaʾu l-ʿamala",
+  "fr": "Je commence le travail",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c755",
+  "ar": "أَعْمَلُ فِي شَرِكَةٍ",
+  "translit": "aʿmalu fī šarikatin",
+  "fr": "Je travaille dans une entreprise",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c756",
+  "ar": "عِنْدِي اجْتِمَاعٌ الْيَوْمَ",
+  "translit": "ʿindī ǧtimāʿun al-yawma",
+  "fr": "J'ai une réunion aujourd'hui",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c757",
+  "ar": "أَنَا مَشْغُولٌ الْآنَ",
+  "translit": "anā mašġūlun al-āna",
+  "fr": "Je suis occupé maintenant",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c758",
+  "ar": "سَأُرْسِلُ لَكَ رِسَالَةً",
+  "translit": "saʾursilu laka risālatan",
+  "fr": "Je t'enverrai un message",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c759",
+  "ar": "مَتَى يَنْتَهِي الْعَمَلُ؟",
+  "translit": "matā yantahī l-ʿamalu?",
+  "fr": "Quand finit le travail ?",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c760",
+  "ar": "أَنَا فِي عُطْلَةٍ",
+  "translit": "anā fī ʿuṭlatin",
+  "fr": "Je suis en vacances",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c761",
+  "ar": "أَحْتَاجُ إِلَى مُسَاعَدَةٍ",
+  "translit": "aḥtāǧu ilā musāʿadatin",
+  "fr": "J'ai besoin d'aide",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c762",
+  "ar": "اَلْمُدِيرُ غَيْرُ مَوْجُودٍ",
+  "translit": "al-mudīru ġayru mawǧūdin",
+  "fr": "Le directeur n'est pas là",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c763",
+  "ar": "اَلْوَالِدَانِ",
+  "translit": "al-wālidāni",
+  "fr": "Les parents",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c764",
+  "ar": "اَلْعَائِلَةُ",
+  "translit": "al-ʿāʾilatu",
+  "fr": "La famille",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c765",
+  "ar": "اَلزَّوْجُ",
+  "translit": "az-zawǧu",
+  "fr": "Le mari",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c766",
+  "ar": "اَلزَّوْجَةُ",
+  "translit": "az-zawǧatu",
+  "fr": "L'épouse",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c767",
+  "ar": "اَلطِّفْلُ",
+  "translit": "aṭ-ṭiflu",
+  "fr": "L'enfant",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c768",
+  "ar": "اَلْعَمُّ",
+  "translit": "al-ʿammu",
+  "fr": "L'oncle (paternel)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c769",
+  "ar": "اَلْخَالُ",
+  "translit": "al-ḫālu",
+  "fr": "L'oncle (maternel)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c770",
+  "ar": "اَلْحَفِيدُ",
+  "translit": "al-ḥafīdu",
+  "fr": "Le petit-fils",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c771",
+  "ar": "كَيْفَ حَالُ أُمِّكَ؟",
+  "translit": "kayfa ḥālu ummika?",
+  "fr": "Comment va ta mère ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c772",
+  "ar": "أَبِي فِي الْبَيْتِ",
+  "translit": "abī fī l-bayti",
+  "fr": "Mon père est à la maison",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c773",
+  "ar": "أَشْتَاقُ إِلَيْكِ يَا أُمِّي",
+  "translit": "aštāqu ilayki yā ummī",
+  "fr": "Tu me manques, maman",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c774",
+  "ar": "اَلْغَدَاءُ جَاهِزٌ",
+  "translit": "al-ġadāʾu ǧāhizun",
+  "fr": "Le déjeuner est prêt",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c775",
+  "ar": "تَعَالَ نَأْكُلْ",
+  "translit": "taʿāla naʾkul",
+  "fr": "Viens, on mange",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c776",
+  "ar": "سَأَزُورُ وَالِدَيَّ غَدًا",
+  "translit": "saʾazūru wālidayya ġadan",
+  "fr": "Je rendrai visite à mes parents demain",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c777",
+  "ar": "عِنْدِي أَخَوَانِ وَأُخْتٌ",
+  "translit": "ʿindī aḫawāni wa-uḫtun",
+  "fr": "J'ai deux frères et une sœur",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c778",
+  "ar": "رَبِّ ارْحَمْهُمَا",
+  "translit": "rabbi rḥamhumā",
+  "fr": "Seigneur, fais-leur miséricorde (aux parents)",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c779",
+  "ar": "نَعَمْ يَا أَبِي",
+  "translit": "naʿam yā abī",
+  "fr": "Oui papa",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c780",
+  "ar": "اِسْمَعْ كَلَامَ أُمِّكَ",
+  "translit": "ismaʿ kalāma ummika",
+  "fr": "Écoute ta mère",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c781",
+  "ar": "هَلْ نِمْتَ جَيِّدًا؟",
+  "translit": "hal nimta ǧayyidan?",
+  "fr": "As-tu bien dormi ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c782",
+  "ar": "اَلْمَدْرَسَةُ",
+  "translit": "al-madrasatu",
+  "fr": "L'école",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c783",
+  "ar": "اَلْمُعَلِّمُ",
+  "translit": "al-muʿallimu",
+  "fr": "L'enseignant",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c784",
+  "ar": "اَلتِّلْمِيذُ",
+  "translit": "at-tilmīḏu",
+  "fr": "L'élève",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c785",
+  "ar": "اَلْقِسْمُ",
+  "translit": "al-qismu",
+  "fr": "La classe",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c786",
+  "ar": "اَلدَّرْسُ",
+  "translit": "ad-darsu",
+  "fr": "La leçon",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c787",
+  "ar": "اَلدَّفْتَرُ",
+  "translit": "ad-daftaru",
+  "fr": "Le cahier",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c788",
+  "ar": "اَلْقَلَمُ",
+  "translit": "al-qalamu",
+  "fr": "Le stylo",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c789",
+  "ar": "اَلِامْتِحَانُ",
+  "translit": "al-imtiḥānu",
+  "fr": "L'examen",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c790",
+  "ar": "اَلْوَاجِبُ",
+  "translit": "al-wāǧibu",
+  "fr": "Le devoir",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c791",
+  "ar": "اَلسَّبُّورَةُ",
+  "translit": "as-sabbūratu",
+  "fr": "Le tableau",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c792",
+  "ar": "اَلْجَامِعَةُ",
+  "translit": "al-ǧāmiʿatu",
+  "fr": "L'université",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c793",
+  "ar": "اَلسُّؤَالُ",
+  "translit": "as-suʾālu",
+  "fr": "La question",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c794",
+  "ar": "لَمْ أَفْهَمْ",
+  "translit": "lam afham",
+  "fr": "Je n'ai pas compris",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c795",
+  "ar": "أَعِدْ مِنْ فَضْلِكَ",
+  "translit": "aʿid min faḍlika",
+  "fr": "Répète s'il te plaît",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c796",
+  "ar": "هَلْ عِنْدَكَ قَلَمٌ؟",
+  "translit": "hal ʿindaka qalamun?",
+  "fr": "Tu as un stylo ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c797",
+  "ar": "نَجَحْتُ فِي الِامْتِحَانِ",
+  "translit": "naǧaḥtu fī l-imtiḥāni",
+  "fr": "J'ai réussi l'examen",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c798",
+  "ar": "اِفْتَحُوا الْكُتُبَ",
+  "translit": "iftaḥū l-kutuba",
+  "fr": "Ouvrez les livres",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c799",
+  "ar": "كَيْفَ نَقُولُ هَذَا بِالْعَرَبِيَّةِ؟",
+  "translit": "kayfa naqūlu hāḏā bil-ʿarabiyyati?",
+  "fr": "Comment dit-on ça en arabe ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c800",
+  "ar": "أَيْنَ وَاجِبُكَ؟",
+  "translit": "ayna wāǧibuka?",
+  "fr": "Où est ton devoir ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c801",
+  "ar": "اَلطَّبِيبُ",
+  "translit": "aṭ-ṭabību",
+  "fr": "Le médecin",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c802",
+  "ar": "اَلْمُسْتَشْفَى",
+  "translit": "al-mustašfā",
+  "fr": "L'hôpital",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c803",
+  "ar": "اَلصَّيْدَلِيَّةُ",
+  "translit": "aṣ-ṣaydaliyyatu",
+  "fr": "La pharmacie",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c804",
+  "ar": "اَلدَّوَاءُ",
+  "translit": "ad-dawāʾu",
+  "fr": "Le médicament",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c805",
+  "ar": "اَلْأَلَمُ",
+  "translit": "al-alamu",
+  "fr": "La douleur",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c806",
+  "ar": "اَلْحُمَّى",
+  "translit": "al-ḥummā",
+  "fr": "La fièvre",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c807",
+  "ar": "رَأْسِي يُؤْلِمُنِي",
+  "translit": "raʾsī yuʾlimunī",
+  "fr": "J'ai mal à la tête",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c808",
+  "ar": "أَحْتَاجُ إِلَى طَبِيبٍ",
+  "translit": "aḥtāǧu ilā ṭabībin",
+  "fr": "J'ai besoin d'un médecin",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c809",
+  "ar": "أَيْنَ أَقْرَبُ صَيْدَلِيَّةٍ؟",
+  "translit": "ayna aqrabu ṣaydaliyyatin?",
+  "fr": "Où est la pharmacie la plus proche ?",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c810",
+  "ar": "اَلْمَطْعَمُ",
+  "translit": "al-maṭʿamu",
+  "fr": "Le restaurant",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c811",
+  "ar": "قَائِمَةُ الطَّعَامِ",
+  "translit": "qāʾimatu ṭ-ṭaʿāmi",
+  "fr": "Le menu",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c812",
+  "ar": "اَلنَّادِلُ",
+  "translit": "an-nādilu",
+  "fr": "Le serveur",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c813",
+  "ar": "اَلْفَاتُورَةُ",
+  "translit": "al-fātūratu",
+  "fr": "L'addition",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c814",
+  "ar": "طَاوِلَةٌ لِشَخْصَيْنِ مِنْ فَضْلِكَ",
+  "translit": "ṭāwilatun li-šaḫṣayni min faḍlika",
+  "fr": "Une table pour deux s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c815",
+  "ar": "اَلْفَاتُورَةُ مِنْ فَضْلِكَ",
+  "translit": "al-fātūratu min faḍlika",
+  "fr": "L'addition s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c816",
+  "ar": "اَلطَّعَامُ لَذِيذٌ",
+  "translit": "aṭ-ṭaʿāmu laḏīḏun",
+  "fr": "Le repas est délicieux",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c817",
+  "ar": "بِدُونِ سُكَّرٍ مِنْ فَضْلِكَ",
+  "translit": "bidūni sukkarin min faḍlika",
+  "fr": "Sans sucre s'il te plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
  }
 ]

@@ -47,6 +47,12 @@ export const THEMES: Record<string, ThemeInfo> = {
   expressions: { label: 'Expressions', icon: '🌙', color: '#3949ab', light: '#d0d5f1' },
   phrases: { label: 'Phrases', icon: '💬', color: '#00897b', light: '#c2e6e2' },
   outils: { label: 'Petits mots', icon: '🔗', color: '#78909c', light: '#d7dee2' },
+  courses: { label: 'Au magasin', icon: '🛒', color: '#ef6c00', light: '#fde0c2' },
+  voyage: { label: 'Voyage', icon: '✈️', color: '#0288d1', light: '#c3e4f6' },
+  travail: { label: 'Au travail', icon: '💼', color: '#5d4037', light: '#e0d3cc' },
+  ecole: { label: 'À l\'école', icon: '🎒', color: '#7b1fa2', light: '#e6cdee' },
+  sante: { label: 'Santé', icon: '🩺', color: '#d32f2f', light: '#f7cfcf' },
+  restaurant: { label: 'Au restaurant', icon: '🍽️', color: '#c0ca33', light: '#eff2c4' },
 }
 
 export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string }> = {
