@@ -1,0 +1,57 @@
+import raw from '../../data/cartes.json'
+
+export type Rarity = 1 | 2 | 3 | 4 | 5
+
+export interface Card {
+  id: string
+  ar: string
+  translit: string
+  fr: string
+  theme: string
+  kind: 'mot' | 'phrase'
+  rarity: Rarity
+  rarityName: string
+}
+
+export const CARDS = raw as Card[]
+export const CARD_BY_ID = new Map(CARDS.map((c) => [c.id, c]))
+export const TOTAL = CARDS.length
+
+export function cardNumber(card: Card): string {
+  return `${String(CARDS.indexOf(card) + 1).padStart(3, '0')}/${TOTAL}`
+}
+
+export interface ThemeInfo {
+  label: string
+  icon: string
+  color: string
+  light: string
+}
+
+export const THEMES: Record<string, ThemeInfo> = {
+  salutations: { label: 'Salutations', icon: '👋', color: '#e8a33d', light: '#fbe3b8' },
+  pronoms: { label: 'Pronoms', icon: '👤', color: '#8e7cc3', light: '#e2dbf5' },
+  famille: { label: 'Famille', icon: '👪', color: '#e06c8c', light: '#f9d4de' },
+  nourriture: { label: 'Nourriture', icon: '🍞', color: '#e4572e', light: '#fbd2c4' },
+  maison: { label: 'Maison', icon: '🏠', color: '#a9744f', light: '#ecd9c9' },
+  corps: { label: 'Corps', icon: '✋', color: '#f08a5d', light: '#fcdccd' },
+  nature: { label: 'Nature', icon: '🌿', color: '#4caf50', light: '#cdeccf' },
+  animaux: { label: 'Animaux', icon: '🐾', color: '#8d6e63', light: '#e3d6d1' },
+  nombres: { label: 'Nombres', icon: '🔢', color: '#607d8b', light: '#d5e0e5' },
+  couleurs: { label: 'Couleurs', icon: '🎨', color: '#d6409f', light: '#f6d0e8' },
+  temps: { label: 'Temps', icon: '⏳', color: '#3f88c5', light: '#cfe3f3' },
+  ville: { label: 'Ville', icon: '🏙️', color: '#546e7a', light: '#d3dde2' },
+  adjectifs: { label: 'Adjectifs', icon: '✨', color: '#c9a227', light: '#f3e8bf' },
+  questions: { label: 'Questions', icon: '❓', color: '#26a69a', light: '#c8ebe7' },
+  verbes: { label: 'Verbes', icon: '⚡', color: '#f4b400', light: '#fdecb3' },
+  expressions: { label: 'Expressions', icon: '🌙', color: '#3949ab', light: '#d0d5f1' },
+  phrases: { label: 'Phrases', icon: '💬', color: '#00897b', light: '#c2e6e2' },
+}
+
+export const RARITIES: Record<Rarity, { name: string; symbol: string; color: string }> = {
+  1: { name: 'Commune', symbol: '●', color: '#9aa3ad' },
+  2: { name: 'Peu commune', symbol: '◆', color: '#43a047' },
+  3: { name: 'Rare', symbol: '★', color: '#1e88e5' },
+  4: { name: 'Épique', symbol: '★★', color: '#8e24aa' },
+  5: { name: 'Légendaire', symbol: '★★★', color: '#f9a825' },
+}
