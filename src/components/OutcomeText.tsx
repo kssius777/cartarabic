@@ -1,5 +1,5 @@
 import type { Outcome } from '../game/rules'
-import { BRILLANT, PROGRESS_FOR_COPY } from '../game/rules'
+import { BRILLANT, COINS_PER_CORRECT, PROGRESS_FOR_COPY } from '../game/rules'
 
 export function outcomeGlow(o: Outcome | null): 'win' | 'lose' | null {
   if (!o) return null
@@ -11,15 +11,25 @@ export function OutcomeText({ outcome }: { outcome: Outcome }) {
     case 'won':
       return (
         <p className="good">
-          🎉 Carte gagnée ! {outcome.copies > 1 && `(${outcome.copies} exemplaires)`}
+          🎉 Carte gagnée ! {outcome.copies > 1 && `(${outcome.copies} exemplaires)`} <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
         </p>
       )
     case 'progress':
-      if (outcome.gainedCopy && outcome.copies >= BRILLANT) return <p className="good">✨ Carte brillante ! Tu la connais par cœur.</p>
-      if (outcome.gainedCopy) return <p className="good">🃏 +1 exemplaire ({outcome.copies}/{BRILLANT})</p>
+      if (outcome.gainedCopy && outcome.copies >= BRILLANT)
+        return (
+          <p className="good">
+            ✨ Carte brillante ! Tu la connais par cœur. <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
+          </p>
+        )
+      if (outcome.gainedCopy)
+        return (
+          <p className="good">
+            🃏 +1 exemplaire ({outcome.copies}/{BRILLANT}) <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
+          </p>
+        )
       return (
         <p className="good">
-          ✅ Bien joué !{' '}
+          ✅ Bien joué ! <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>{' '}
           {outcome.copies < BRILLANT && (
             <span className="muted">
               Progression {outcome.progress}/{PROGRESS_FOR_COPY}

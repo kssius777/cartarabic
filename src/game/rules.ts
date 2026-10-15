@@ -1,4 +1,5 @@
 import { CARDS, CARD_BY_ID, type Card, type Rarity } from './cards'
+import { drawFigures, FIGURE_BOOSTER_PRICE, type Figure } from './figures'
 
 /** Nombre d'exemplaires pour qu'une carte devienne brillante (retenue). */
 export const BRILLANT = 3
@@ -7,8 +8,10 @@ export const PROGRESS_FOR_COPY = 3
 export const REVIEW_SIZE = 15
 export const BOOSTER_SIZE = 10
 export const START_BOOSTERS = 3
-/** Bonnes réponses en révision pour gagner un booster. */
-export const POINTS_FOR_BOOSTER = 20
+/** Dinars gagnés à chaque bonne réponse (booster ou révision). */
+export const COINS_PER_CORRECT = 10
+/** Dinars offerts au départ, de quoi ouvrir un premier booster de personnages. */
+export const START_COINS = 150
 
 const MIN = 60_000
 const DAY = 86_400_000
@@ -29,16 +32,16 @@ export interface Save {
   owned: Record<string, Owned>
   boosters: number
   reviewsDone: number
-  /** Bonnes réponses en révision depuis le dernier booster gagné. */
-  points: number
-  /** Jour (AAAA-MM-JJ) du dernier booster gratuit quotidien. */
-  lastDaily: string
+  /** Monnaie du jeu, gagnée en répondant juste. */
+  coins: number
+  /** Cartes personnages possédées : id → nombre d'exemplaires. */
+  figures: Record<string, number>
 }
 
 export type Rng = () => number
 
 export function newSave(): Save {
-  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, points: 0, lastDaily: '' }
+  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, coins: START_COINS, figures: {} }
 }
 
 export function shuffle<T>(items: T[], rng: Rng): T[] {
@@ -172,7 +175,7 @@ export function consumeBooster(save: Save): Save {
 
 export type Outcome =
   | { kind: 'won'; card: Card; copies: number }
-  | { kind: 'progress'; card: Card; copies: number; gainedCopy: boolean; progress: number; boosterEarned?: boolean }
+  | { kind: 'progress'; card: Card; copies: number; gainedCopy: boolean; progress: number }
   | { kind: 'lost-copy'; card: Card; copiesLeft: number }
   | { kind: 'lost-other'; card: Card; lost: Card | null; copiesLeft: number }
 
@@ -214,7 +217,7 @@ export function answerBooster(save: Save, card: Card, correct: boolean, now: num
     ? { ...o, copies: o.copies + 1 }
     : { copies: 1, box: 1, due: now + INTERVALS[1], progress: 0 }
   const outcome: Outcome = { kind: 'won', card, copies: owned[card.id].copies }
-  return { save: { ...save, owned }, outcome }
+  return { save: { ...save, owned, coins: save.coins + COINS_PER_CORRECT }, outcome }
 }
 
 /** Réponse en révision : la carte progresse, ou on perd un exemplaire. */
@@ -233,19 +236,8 @@ export function answerReview(save: Save, card: Card, correct: boolean, now: numb
     gainedCopy = true
   }
   const next: Owned = { copies, progress, box, due: now + intervalFor(box, copies >= BRILLANT) }
-  // Chaque bonne réponse en révision rapproche du prochain booster.
-  const points = save.points + 1
-  const boosterEarned = points >= POINTS_FOR_BOOSTER
-  const outcome: Outcome = { kind: 'progress', card, copies, gainedCopy, progress, boosterEarned }
-  return {
-    save: {
-      ...save,
-      owned: { ...save.owned, [card.id]: next },
-      points: boosterEarned ? 0 : points,
-      boosters: save.boosters + (boosterEarned ? 1 : 0),
-    },
-    outcome,
-  }
+  const outcome: Outcome = { kind: 'progress', card, copies, gainedCopy, progress }
+  return { save: { ...save, owned: { ...save.owned, [card.id]: next }, coins: save.coins + COINS_PER_CORRECT }, outcome }
 }
 
 // ---------- Révisions ----------
@@ -274,14 +266,15 @@ export function finishReview(save: Save): Save {
   return { ...save, reviewsDone: save.reviewsDone + 1 }
 }
 
-/** Un booster offert par jour, le reste se gagne en révisant. */
-export function claimDaily(save: Save, today: string): Save {
-  if (!save.level || save.lastDaily === today) return save
-  return { ...save, lastDaily: today, boosters: save.boosters + 1 }
-}
+// ---------- Personnages ----------
 
-export function todayKey(d = new Date()): string {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+/** Achète un booster de personnages avec des dinars. Renvoie null si on n'a pas assez. */
+export function buyFigureBooster(save: Save, rng: Rng): { save: Save; figures: Figure[] } | null {
+  if (save.coins < FIGURE_BOOSTER_PRICE) return null
+  const figures = drawFigures(save.figures, rng)
+  const owned = { ...save.figures }
+  for (const f of figures) owned[f.id] = (owned[f.id] ?? 0) + 1
+  return { save: { ...save, coins: save.coins - FIGURE_BOOSTER_PRICE, figures: owned }, figures }
 }
 
 // ---------- Progression ----------

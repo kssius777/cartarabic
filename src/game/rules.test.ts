@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest'
 import { CARDS } from './cards'
+import { FIGURE_BOOSTER_PRICE, FIGURE_BOOSTER_SIZE, FIGURES } from './figures'
 import {
   BOOSTER_SIZE,
-  POINTS_FOR_BOOSTER,
-  claimDaily,
-  finishReview,
+  COINS_PER_CORRECT,
+  buyFigureBooster,
   answerBooster,
   answerReview,
   applyPlacement,
@@ -85,23 +85,28 @@ describe('boosters', () => {
   })
 })
 
-describe('boosters gagnés en révisant', () => {
-  it('donne un booster toutes les 20 bonnes réponses, pas en fin de séance', () => {
+describe('dinars', () => {
+  it('chaque bonne réponse rapporte des dinars', () => {
     const [c] = CARDS
-    let save: Save = { ...newSave(), level: 1, owned: { [c.id]: { copies: 1, box: 0, due: NOW, progress: 0 } } }
-    for (let i = 0; i < POINTS_FOR_BOOSTER - 1; i++) save = answerReview(save, c, true, NOW, seeded()).save
-    expect(save.boosters).toBe(0)
-    save = answerReview(save, c, true, NOW, seeded()).save
-    expect(save.boosters).toBe(1)
-    expect(save.points).toBe(0)
-    expect(finishReview(save).boosters).toBe(1)
+    const save: Save = { ...newSave(), level: 1, owned: { [c.id]: { copies: 1, box: 0, due: NOW, progress: 0 } } }
+    expect(answerReview(save, c, true, NOW, seeded()).save.coins).toBe(save.coins + COINS_PER_CORRECT)
+    expect(answerReview(save, c, false, NOW, seeded()).save.coins).toBe(save.coins)
+  })
+})
+
+describe('personnages', () => {
+  it('un booster coûte des dinars et donne des personnages différents', () => {
+    const save: Save = { ...newSave(), level: 1, coins: FIGURE_BOOSTER_PRICE + 5 }
+    const r = buyFigureBooster(save, seeded())!
+    expect(r.save.coins).toBe(5)
+    expect(new Set(r.figures).size).toBe(FIGURE_BOOSTER_SIZE)
+    expect(Object.values(r.save.figures).reduce((a, b) => a + b, 0)).toBe(FIGURE_BOOSTER_SIZE)
+    expect(buyFigureBooster(r.save, seeded())).toBeNull()
   })
 
-  it('offre un seul booster par jour', () => {
-    const save = claimDaily({ ...newSave(), level: 1 }, '2026-10-15')
-    expect(save.boosters).toBe(1)
-    expect(claimDaily(save, '2026-10-15').boosters).toBe(1)
-    expect(claimDaily(save, '2026-10-16').boosters).toBe(2)
+  it('ne montre jamais de photo pour les prophètes et les compagnons', () => {
+    expect(FIGURES.length).toBeGreaterThan(900)
+    expect(FIGURES.filter((f) => ['prophetes', 'compagnons'].includes(f.category) && f.image)).toEqual([])
   })
 })
 

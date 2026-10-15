@@ -1,14 +1,16 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Rarity } from './game/cards'
+import { FIGURE_BOOSTER_PRICE, FIGURES } from './game/figures'
 import { applyPlacement, dueCount, hasWon, levelGoal, levelUp, newSave, rescue, stats, type Save } from './game/rules'
 import { clearSave, loadSave, storeSave } from './game/storage'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
 import { Placement } from './screens/Placement'
+import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
 
-type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules'
+type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures'
 
 export default function App() {
   const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
@@ -41,6 +43,7 @@ export default function App() {
   if (screen === 'review') return <ReviewScreen save={save} setSave={setSave} onExit={home} />
   if (screen === 'binder') return <Binder save={save} onExit={home} />
   if (screen === 'rules') return <Rules onExit={home} />
+  if (screen === 'figures') return <FiguresScreen save={save} setSave={setSave} onExit={home} />
 
   const s = stats(save)
   const due = dueCount(save, Date.now())
@@ -99,6 +102,9 @@ export default function App() {
         <span>
           ✨ <b>{s.brillant}</b> brillante{s.brillant > 1 ? 's' : ''}
         </span>
+        <span className="gold-chip">
+          🪙 <b>{save.coins}</b> dinars
+        </span>
         <span className={due > 0 ? 'hot' : ''}>
           📖 <b>{due}</b> à revoir
         </span>
@@ -122,6 +128,15 @@ export default function App() {
             <small>10 cartes · illimité</small>
           </span>
           <span className="tile-shine" />
+        </button>
+        <button className="tile tile-figures" onClick={() => setScreen('figures')}>
+          <span className="tile-icon">🕌</span>
+          <span className="tile-text">
+            <b>Personnages</b>
+            <small>
+              {Object.keys(save.figures).length}/{FIGURES.length} · booster {FIGURE_BOOSTER_PRICE} 🪙
+            </small>
+          </span>
         </button>
         <button className="tile tile-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
           <span className="tile-icon">📖</span>
@@ -188,6 +203,12 @@ function Rules({ onExit }: { onExit: () => void }) {
         qu'avec la réponse.
       </p>
       <p>3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Les boosters sont illimités pour l'instant.</p>
+      <h3>🪙 Dinars et personnages</h3>
+      <p>
+        Chaque bonne réponse rapporte 10 dinars. Avec 150 dinars, tu ouvres un booster de 5 personnages : figures, lieux et
+        événements du monde musulman et abrahamique, en 5 raretés (bronze, argent, or, platine, légendaire). Par respect, les
+        prophètes et les compagnons ne sont jamais représentés : leur nom est calligraphié.
+      </p>
       <h3>💥 Punition</h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. Si tu rates une carte que tu ne possèdes pas, tu perds un

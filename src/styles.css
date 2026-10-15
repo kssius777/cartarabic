@@ -1222,6 +1222,10 @@ p {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .fcard.r5 .fcard-frame,
+  .fcard-holo {
+    animation: none !important;
+  }
   .tile-shine {
     animation: none;
   }
@@ -1235,4 +1239,415 @@ p {
 
 .btn.more {
   margin-top: 16px;
+}
+
+
+/* ---------- Personnages ---------- */
+
+.gold-chip {
+  border-color: rgba(245, 197, 66, 0.6) !important;
+  background: rgba(245, 197, 66, 0.12) !important;
+}
+
+.coin-gain {
+  color: var(--gold);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.tile-figures {
+  grid-column: 1 / -1;
+  border-color: rgba(245, 197, 66, 0.55);
+  background:
+    radial-gradient(circle at 90% 50%, rgba(245, 197, 66, 0.25), transparent 55%),
+    linear-gradient(135deg, #0f5e4a, #0b3d33);
+}
+
+.coins {
+  font-weight: 700;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 420px;
+  margin: 12px auto 0;
+  text-align: center;
+}
+
+.fpack {
+  width: min(52vw, 210px);
+  aspect-ratio: 5 / 8;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #fdf3d0;
+  background:
+    repeating-conic-gradient(from 22.5deg, rgba(245, 197, 66, 0.12) 0 45deg, transparent 45deg 90deg),
+    radial-gradient(circle at 50% 35%, #1d8a6b, #0b3d33 70%);
+  background-size:
+    36px 36px,
+    100% 100%;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    inset 0 0 0 3px #e0b43a,
+    inset 0 0 0 7px rgba(0, 0, 0, 0.25);
+}
+
+.fpack-star {
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--gold);
+  text-shadow: 0 0 18px rgba(245, 197, 66, 0.6);
+}
+
+.fpack b {
+  font-size: 1.3rem;
+  letter-spacing: 0.04em;
+}
+
+.fpack [lang='ar'] {
+  font-size: 1.5rem;
+  color: var(--gold);
+}
+
+.odds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.odds span {
+  font-size: 0.75rem;
+  padding: 3px 8px;
+  border-radius: 99px;
+  border: 1px solid var(--rar);
+  color: var(--rar);
+}
+
+.reveal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.reveal-grid,
+.fgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+  width: 100%;
+}
+
+.reveal-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 190px));
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
+  .reveal-grid,
+  .fgrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+.reveal-in {
+  position: relative;
+  animation: rise 0.35s;
+}
+
+.new-tag {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--good);
+  color: #062b1b;
+  font-weight: 800;
+  font-size: 0.75rem;
+  padding: 2px 10px;
+  border-radius: 99px;
+  z-index: 2;
+}
+
+.reveal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.fback {
+  aspect-ratio: 63 / 88;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: var(--gold);
+  font-size: 3rem;
+  background:
+    repeating-conic-gradient(from 22.5deg, rgba(245, 197, 66, 0.14) 0 45deg, transparent 45deg 90deg),
+    radial-gradient(circle at 50% 40%, #1d8a6b, #0b3d33 75%);
+  background-size:
+    28px 28px,
+    100% 100%;
+  box-shadow:
+    inset 0 0 0 3px #e0b43a,
+    0 10px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s;
+  touch-action: manipulation;
+}
+
+.fback:hover {
+  transform: translateY(-4px) rotate(-1deg);
+}
+
+.fslot {
+  aspect-ratio: 63 / 88;
+  border-radius: 12px;
+  border: 2px dashed color-mix(in srgb, var(--rar) 60%, transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 1.8rem;
+  opacity: 0.55;
+}
+
+.fslot small {
+  font-size: 0.7rem;
+  color: var(--rar);
+}
+
+.fmodal p {
+  max-width: 340px;
+}
+
+.fcredit {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.fcredit a {
+  color: var(--muted);
+}
+
+/* La carte personnage : cadre selon la rareté, couleur selon la catégorie. */
+/* Les unités cqw se réfèrent au conteneur parent : le cadre est donc dans un enfant de .fcard. */
+.fcard {
+  width: var(--w);
+  max-width: 100%;
+  aspect-ratio: 63 / 88;
+  container-type: inline-size;
+  position: relative;
+}
+
+.fcard-frame {
+  height: 100%;
+  border-radius: 5cqw;
+  padding: 3.2cqw;
+  background: var(--frame, linear-gradient(145deg, #c98a52, #7a4521 50%, #c98a52));
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.45);
+}
+
+.fcard.clickable {
+  cursor: pointer;
+}
+
+.fcard.r2 {
+  --frame: linear-gradient(145deg, #eef3f8, #8fa3b8 45%, #dfe7ef 70%, #8fa3b8);
+}
+
+.fcard.r3 {
+  --frame: linear-gradient(145deg, #fff1b8, #d4a017 40%, #fff1b8 65%, #b8860b);
+}
+
+.fcard.r4 {
+  --frame: linear-gradient(145deg, #e9fdff, #7fd6e0 35%, #c4b5fd 65%, #e9fdff);
+}
+
+.fcard.r5 .fcard-frame {
+  background: conic-gradient(from var(--spin, 0deg), #ff7ad9, #ffd36e, #7afcff, #a78bfa, #ff7ad9);
+  animation: spin-frame 6s linear infinite;
+  box-shadow:
+    0 0 18px rgba(255, 122, 217, 0.55),
+    0 8px 22px rgba(0, 0, 0, 0.45);
+}
+
+@property --spin {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes spin-frame {
+  to {
+    --spin: 360deg;
+  }
+}
+
+.fcard-inner {
+  position: relative;
+  height: 100%;
+  border-radius: 3.4cqw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--cat) 30%, #fdf8ec) 0%, #fdf8ec 55%);
+  color: #2a2117;
+}
+
+.fcard-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2cqw;
+  padding: 3cqw 4cqw 2cqw;
+}
+
+.fcard-name {
+  font-weight: 800;
+  font-size: 7.2cqw;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fcard-icon {
+  flex: none;
+  width: 11cqw;
+  height: 11cqw;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 6cqw;
+  background: var(--cat);
+  box-shadow: 0 0 0 0.8cqw #fff;
+}
+
+.fcard-art {
+  margin: 0 3.5cqw;
+  height: 58%;
+  border-radius: 2cqw;
+  overflow: hidden;
+  border: 1.2cqw solid var(--rar);
+  background: var(--cat);
+}
+
+.fcard-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  display: block;
+}
+
+.fcard-callig {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 4cqw;
+  text-align: center;
+  background:
+    repeating-conic-gradient(from 22.5deg, rgba(255, 255, 255, 0.1) 0 45deg, transparent 45deg 90deg),
+    radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--cat) 70%, #fff), var(--cat) 75%);
+  background-size:
+    14cqw 14cqw,
+    100% 100%;
+}
+
+.fcard-callig span {
+  font-family: var(--ar);
+  font-weight: 700;
+  font-size: 13cqw;
+  line-height: 1.7;
+  color: #ffe9a8;
+  text-shadow: 0 0.6cqw 0 rgba(0, 0, 0, 0.35);
+}
+
+.fcard-callig.loading span {
+  opacity: 0.5;
+}
+
+.fcard-ar {
+  font-family: var(--ar);
+  font-size: 7.5cqw;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 1cqw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 3cqw;
+}
+
+.fcard-translit {
+  text-align: center;
+  font-size: 4.6cqw;
+  font-style: italic;
+  color: #6b5a44;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 3cqw;
+}
+
+.fcard-foot {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 2cqw 4cqw 3cqw;
+  font-size: 4.2cqw;
+  color: #6b5a44;
+}
+
+.fcard-rarity {
+  font-weight: 800;
+  color: color-mix(in srgb, var(--rar) 70%, #000);
+}
+
+.fcard-copies {
+  position: absolute;
+  top: 16cqw;
+  right: 5cqw;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 4.5cqw;
+  padding: 0.5cqw 2cqw;
+  border-radius: 99px;
+}
+
+.fcard-holo {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.fcard.r4 .fcard-holo,
+.fcard.r5 .fcard-holo {
+  background: linear-gradient(115deg, transparent 30%, rgba(255, 255, 255, 0.45) 45%, transparent 60%);
+  background-size: 250% 100%;
+  animation: holo 4s ease-in-out infinite;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes holo {
+  from {
+    background-position: 120% 0;
+  }
+  to {
+    background-position: -120% 0;
+  }
 }

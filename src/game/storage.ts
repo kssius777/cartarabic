@@ -1,5 +1,6 @@
 import { CARD_BY_ID, type Rarity } from './cards'
-import { newSave, type Owned, type Save } from './rules'
+import { FIGURE_BY_ID } from './figures'
+import { newSave, START_COINS, type Owned, type Save } from './rules'
 
 const KEY = 'cartarabic-save-v1'
 
@@ -26,9 +27,19 @@ export function sanitize(raw: unknown): Save {
     owned,
     boosters: Math.max(0, Math.floor(num(r.boosters, 0))),
     reviewsDone: Math.max(0, Math.floor(num(r.reviewsDone, 0))),
-    points: Math.max(0, Math.floor(num(r.points, 0))),
-    lastDaily: typeof r.lastDaily === 'string' ? r.lastDaily : '',
+    coins: Math.max(0, Math.floor(num(r.coins, START_COINS))),
+    figures: cleanFigures(r.figures),
   }
+}
+
+function cleanFigures(raw: unknown): Record<string, number> {
+  const out: Record<string, number> = {}
+  if (!raw || typeof raw !== 'object') return out
+  for (const [id, n] of Object.entries(raw)) {
+    const copies = Math.floor(num(n, 0))
+    if (FIGURE_BY_ID.has(id) && copies > 0) out[id] = copies
+  }
+  return out
 }
 
 export function loadSave(): Save {
