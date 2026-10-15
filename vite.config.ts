@@ -7,15 +7,12 @@ export default defineConfig({
   // JSON.parse sur une chaîne est bien plus rapide à analyser qu'un énorme littéral objet, surtout sur téléphone.
   json: { stringify: true },
   build: {
-    // Les données (17 000 cartes, 1 000 personnages) vont dans leurs propres fichiers, téléchargés en parallèle du code.
+    // Les cartes de chaque langue sont chargées à la demande (import dynamique) ; les personnages ont leur propre fichier.
     chunkSizeWarningLimit: 4000,
     rolldownOptions: {
       output: {
         codeSplitting: {
-          groups: [
-            { name: 'cartes', test: /cartes\.json/ },
-            { name: 'personnages', test: /personnages\.json/ },
-          ],
+          groups: [{ name: 'personnages', test: /personnages\.json/ }],
         },
       },
     },

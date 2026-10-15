@@ -1,9 +1,10 @@
-import raw from '../../data/cartes.json'
+import { LANG, type LangId } from './lang'
 
 export type Rarity = 1 | 2 | 3 | 4 | 5
 
 export interface Card {
   id: string
+  /** Le mot ou la phrase dans la langue apprise (arabe, russe ou géorgien, malgré le nom historique du champ). */
   ar: string
   translit: string
   fr: string
@@ -12,7 +13,14 @@ export interface Card {
   rarity: Rarity
 }
 
-export const CARDS = raw as Card[]
+// Seules les cartes de la langue choisie sont téléchargées.
+const LOADERS: Record<LangId, () => Promise<{ default: unknown }>> = {
+  ar: () => import('../../data/cartes.json'),
+  ru: () => import('../../data/ru.json'),
+  ka: () => import('../../data/ka.json'),
+}
+
+export const CARDS = (await LOADERS[LANG.id]()).default as Card[]
 export const CARD_BY_ID = new Map(CARDS.map((c) => [c.id, c]))
 export const TOTAL = CARDS.length
 
@@ -51,7 +59,7 @@ export const THEMES: Record<string, ThemeInfo> = {
   courses: { label: 'Au magasin', icon: '🛒', color: '#ef6c00', light: '#fde0c2' },
   voyage: { label: 'Voyage', icon: '✈️', color: '#0288d1', light: '#c3e4f6' },
   travail: { label: 'Au travail', icon: '💼', color: '#5d4037', light: '#e0d3cc' },
-  ecole: { label: 'À l\'école', icon: '🎒', color: '#7b1fa2', light: '#e6cdee' },
+  ecole: { label: "À l'école", icon: '🎒', color: '#7b1fa2', light: '#e6cdee' },
   sante: { label: 'Santé', icon: '🩺', color: '#d32f2f', light: '#f7cfcf' },
   restaurant: { label: 'Au restaurant', icon: '🍽️', color: '#c0ca33', light: '#eff2c4' },
   vetements: { label: 'Vêtements', icon: '👕', color: '#ad1457', light: '#f3cadd' },

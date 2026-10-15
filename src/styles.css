@@ -1900,7 +1900,7 @@ h3 {
   color: var(--ink);
 }
 
-.brand [lang='ar'] {
+.brand [lang] {
   font-size: 1.05rem;
   color: var(--gold);
   margin-left: 6px;
@@ -2512,7 +2512,7 @@ h3 {
   text-align: center;
 }
 .to-learn-ar {
-  font-family: 'Amiri', serif;
+  font-family: var(--ar);
   font-size: 1.5rem;
   line-height: 1.7;
   color: var(--ink);
@@ -2728,7 +2728,7 @@ h3 {
   border-top: 1px solid var(--line);
 }
 .work-ar {
-  font-family: 'Amiri', serif;
+  font-family: var(--ar);
   font-size: 1.3rem;
   line-height: 1.6;
   text-align: right;
@@ -2773,5 +2773,136 @@ h3 {
   }
   .level-row {
     grid-template-columns: minmax(0, 6.5rem) minmax(0, 1fr) auto;
+  }
+}
+
+/* Langues : la police des cartes suit la langue apprise */
+html[data-lang='ru'] {
+  --ar: 'Inter Variable', 'Inter', system-ui, sans-serif;
+}
+html[data-lang='ka'] {
+  --ar: 'Noto Serif Georgian', 'Sylfaen', serif;
+}
+[lang='ru'] {
+  font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
+}
+[lang='ka'] {
+  font-family: 'Noto Serif Georgian', 'Sylfaen', serif;
+}
+html[data-lang='ru'] .gcard-ar,
+html[data-lang='ka'] .gcard-ar {
+  font-weight: 700;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.appbar-right,
+.lnav-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 99px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font: 600 0.85rem var(--sans);
+  cursor: pointer;
+}
+.lang-caret {
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+.lang-sheet {
+  width: min(92vw, 380px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.lang-sheet h3 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+}
+.lang-sheet p {
+  margin: 0;
+}
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+.lang-option.on {
+  border-color: var(--gold);
+}
+.lang-flag {
+  font-size: 1.6rem;
+}
+.lang-names {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.lang-names b {
+  font: 600 1rem var(--sans);
+}
+.lang-names span {
+  color: var(--muted);
+  font-size: 1rem;
+}
+.lang-check {
+  color: var(--gold);
+  font-weight: 700;
+}
+.lhero-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+.lfinal-fr {
+  margin: -8px 0 0;
+  font-style: italic;
+}
+
+/* Accent tonique russe, dessiné au-dessus de la voyelle */
+.stress {
+  position: relative;
+}
+.stress-mark {
+  font-size: 0;
+}
+.stress::after {
+  content: '\00B4';
+  position: absolute;
+  left: 50%;
+  top: 0.02em;
+  transform: translateX(-30%);
+  font-size: 0.95em;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.stress.up::after {
+  top: -0.24em;
+}
+@media (max-width: 480px) {
+  html:not([data-lang='ar']) .appbar .brand [lang] {
+    display: none;
   }
 }

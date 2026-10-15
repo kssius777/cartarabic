@@ -21,6 +21,8 @@ import { StatsScreen } from './screens/StatsScreen'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
 import { Landing } from './screens/Landing'
+import { LangPicker } from './components/LangPicker'
+import { LANG, TEXT_ATTRS } from './game/lang'
 import { Placement } from './screens/Placement'
 import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
@@ -126,9 +128,12 @@ export default function App() {
     <div className="screen center home">
       <header className="appbar">
         <span className="brand">
-          Cartarabic <span lang="ar">بِطَاقَات</span>
+          Cartarabic <span {...TEXT_ATTRS}>{LANG.brand}</span>
         </span>
-        <span className="appbar-coins">🪙 {save.coins}</span>
+        <span className="appbar-right">
+          <LangPicker />
+          <span className="appbar-coins">🪙 {save.coins}</span>
+        </span>
       </header>
       <div className="welcome">
         <p className="eyebrow">Ta collection</p>
@@ -207,15 +212,17 @@ export default function App() {
           </span>
           <span className="tile-shine" />
         </button>
-        <button className="tile tile-figures" onClick={() => setScreen('figures')}>
-          <span className="tile-icon">🕌</span>
-          <span className="tile-text">
-            <b>Personnages</b>
-            <small>
-              {Object.keys(save.figures).length}/{FIGURES.length} · booster {FIGURE_BOOSTER_PRICE} 🪙
-            </small>
-          </span>
-        </button>
+        {LANG.figures && (
+          <button className="tile tile-figures" onClick={() => setScreen('figures')}>
+            <span className="tile-icon">🕌</span>
+            <span className="tile-text">
+              <b>Personnages</b>
+              <small>
+                {Object.keys(save.figures).length}/{FIGURES.length} · booster {FIGURE_BOOSTER_PRICE} 🪙
+              </small>
+            </span>
+          </button>
+        )}
         <button className="tile tile-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
           <span className="tile-icon">📖</span>
           <span className="tile-text">
@@ -291,18 +298,22 @@ function Rules({ onExit }: { onExit: () => void }) {
       <p>
         Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Réviser une carte en avance entraîne ta mémoire
         mais ne la fait pas progresser : seules les réponses au bon moment comptent. Plus tu connais une carte, plus la question
-        est dure : d'abord arabe → français, puis français → arabe, puis avec des choix qui se ressemblent. La translittération
-        n'apparaît qu'avec la réponse.
+        est dure : d'abord {LANG.name.toLowerCase()} → français, puis français → {LANG.name.toLowerCase()}, puis avec des choix
+        qui se ressemblent. La translittération n'apparaît qu'avec la réponse.
       </p>
       <p>
         3 bonnes réponses espacées dans le temps te donnent un exemplaire de plus. Les boosters sont illimités pour l'instant.
       </p>
-      <h3>🪙 Dinars et personnages</h3>
-      <p>
-        Chaque bonne réponse rapporte 10 dinars. Avec 150 dinars, tu ouvres un booster de 5 personnages : figures, lieux et
-        événements du monde musulman et abrahamique, en 5 raretés (bronze, argent, or, platine, légendaire). Par respect, les
-        prophètes et les compagnons ne sont jamais représentés : leur nom est calligraphié.
-      </p>
+      {LANG.figures && (
+        <>
+          <h3>🪙 Dinars et personnages</h3>
+          <p>
+            Chaque bonne réponse rapporte 10 dinars. Avec 150 dinars, tu ouvres un booster de 5 personnages : figures, lieux et
+            événements du monde musulman et abrahamique, en 5 raretés (bronze, argent, or, platine, légendaire). Par respect, les
+            prophètes et les compagnons ne sont jamais représentés : leur nom est calligraphié.
+          </p>
+        </>
+      )}
       <h3>💥 Punition</h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. La première fois que tu rates une carte jamais vue, pas
@@ -313,11 +324,7 @@ function Rules({ onExit }: { onExit: () => void }) {
       <h3>✨ Brillance et victoire</h3>
       <p>À 3 exemplaires, une carte devient brillante. Le but : toute la collection en brillant !</p>
       <h3>🔤 Translittération</h3>
-      <p>
-        ā ī ū : voyelles longues · u se lit « ou » · ch = ش · kh = خ (j espagnol) · gh = غ (r grasseyé) · th = ث (think) · dh = ذ
-        (this) · ḥ = ح (h soufflé) · ʿ = ع (gorge serrée) · ' = ء (coup de glotte) · ṣ ḍ ṭ ẓ = s d t z « lourds » · q = ق (k du
-        fond de la gorge)
-      </p>
+      <p>{LANG.translitHelp}</p>
     </div>
   )
 }

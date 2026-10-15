@@ -4,6 +4,8 @@ import { QuestionView } from '../components/QuestionView'
 import { answerReview, finishReview, makeQuestion, questionTypeFor, reviewSession, type Outcome, type Save } from '../game/rules'
 import { Progress } from './Placement'
 import type { Card } from '../game/cards'
+import { TEXT_ATTRS } from '../game/lang'
+import { TargetText } from '../components/TargetText'
 
 interface Props {
   save: Save
@@ -57,8 +59,8 @@ export function ReviewScreen({ save, setSave, onExit, onAgain, cards }: Props) {
             <ul>
               {missed.map((c) => (
                 <li key={c.id}>
-                  <span className="to-learn-ar" lang="ar" dir="rtl">
-                    {c.ar}
+                  <span className="to-learn-ar" {...TEXT_ATTRS}>
+                    <TargetText text={c.ar} />
                   </span>
                   <span className="to-learn-tr">{c.translit}</span>
                   <span className="to-learn-fr">{c.fr}</span>

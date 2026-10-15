@@ -1,0 +1,9614 @@
+[
+ {
+  "id": "ka00001",
+  "ar": "გამარჯობა",
+  "translit": "gamarjoba",
+  "fr": "Bonjour",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00002",
+  "ar": "მადლობა",
+  "translit": "madloba",
+  "fr": "Merci",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00003",
+  "ar": "კი",
+  "translit": "k'i",
+  "fr": "Oui",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00004",
+  "ar": "არა",
+  "translit": "ara",
+  "fr": "Non",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00005",
+  "ar": "ნახვამდის",
+  "translit": "nakhvamdis",
+  "fr": "Au revoir",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00006",
+  "ar": "ბოდიში",
+  "translit": "bodishi",
+  "fr": "Pardon, désolé",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00007",
+  "ar": "გთხოვთ",
+  "translit": "gtkhovt",
+  "fr": "S'il vous plaît",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00008",
+  "ar": "როგორ ხარ?",
+  "translit": "rogor khar?",
+  "fr": "Comment vas-tu ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00009",
+  "ar": "კარგად ვარ",
+  "translit": "k'argad var",
+  "fr": "Je vais bien",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00010",
+  "ar": "კარგად",
+  "translit": "k'argad",
+  "fr": "Bien",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00011",
+  "ar": "დიდი მადლობა",
+  "translit": "didi madloba",
+  "fr": "Merci beaucoup",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00012",
+  "ar": "არაფრის",
+  "translit": "arapris",
+  "fr": "De rien",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00013",
+  "ar": "გაგიმარჯოს",
+  "translit": "gagimarjos",
+  "fr": "Bonjour (réponse)",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00014",
+  "ar": "გმადლობთ",
+  "translit": "gmadlobt",
+  "fr": "Merci (poli)",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00015",
+  "ar": "დიახ",
+  "translit": "diakh",
+  "fr": "Oui (poli)",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00016",
+  "ar": "მე",
+  "translit": "me",
+  "fr": "Je, moi",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00017",
+  "ar": "შენ",
+  "translit": "shen",
+  "fr": "Tu, toi",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00018",
+  "ar": "ის",
+  "translit": "is",
+  "fr": "Il, elle",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00019",
+  "ar": "ჩვენ",
+  "translit": "chven",
+  "fr": "Nous",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00020",
+  "ar": "თქვენ",
+  "translit": "tkven",
+  "fr": "Vous",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00021",
+  "ar": "ისინი",
+  "translit": "isini",
+  "fr": "Ils, elles",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00022",
+  "ar": "ეს",
+  "translit": "es",
+  "fr": "Ceci, ce",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00023",
+  "ar": "რა გქვია?",
+  "translit": "ra gkvia?",
+  "fr": "Comment t'appelles-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00024",
+  "ar": "მე მქვია ნინო",
+  "translit": "me mkvia nino",
+  "fr": "Je m'appelle Nino",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00025",
+  "ar": "რა გქვიათ?",
+  "translit": "ra gkviat?",
+  "fr": "Comment vous appelez-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00026",
+  "ar": "სასიამოვნოა",
+  "translit": "sasiamovnoa",
+  "fr": "Enchanté",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00027",
+  "ar": "ძალიან სასიამოვნოა",
+  "translit": "dzalian sasiamovnoa",
+  "fr": "Très heureux de vous connaître",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00028",
+  "ar": "თუ შეიძლება",
+  "translit": "tu sheidzleba",
+  "fr": "Si possible, s'il te plaît",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00029",
+  "ar": "უკაცრავად",
+  "translit": "uk'atsravad",
+  "fr": "Excusez-moi (pour interpeller)",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00030",
+  "ar": "დილა მშვიდობისა",
+  "translit": "dila mshvidobisa",
+  "fr": "Bonjour (le matin)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00031",
+  "ar": "საღამო მშვიდობისა",
+  "translit": "saghamo mshvidobisa",
+  "fr": "Bonsoir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00032",
+  "ar": "ღამე მშვიდობისა",
+  "translit": "ghame mshvidobisa",
+  "fr": "Bonne nuit",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00033",
+  "ar": "როგორ ბრძანდებით?",
+  "translit": "rogor brdzandebit?",
+  "fr": "Comment allez-vous ? (poli)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00034",
+  "ar": "ძალიან კარგად",
+  "translit": "dzalian k'argad",
+  "fr": "Très bien",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00035",
+  "ar": "შენ როგორ ხარ?",
+  "translit": "shen rogor khar?",
+  "fr": "Et toi, comment vas-tu ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00036",
+  "ar": "არა მიშავს",
+  "translit": "ara mishavs",
+  "fr": "Pas mal",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00037",
+  "ar": "ცუდად",
+  "translit": "tsudad",
+  "fr": "Mal",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00038",
+  "ar": "კარგად იყავი",
+  "translit": "k'argad iq'avi",
+  "fr": "Porte-toi bien (au revoir)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00039",
+  "ar": "შეხვედრამდე",
+  "translit": "shekhvedramde",
+  "fr": "À bientôt",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00040",
+  "ar": "კეთილი იყოს თქვენი მობრძანება",
+  "translit": "k'etili iq'os tkveni mobrdzaneba",
+  "fr": "Bienvenue",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00041",
+  "ar": "არ მესმის",
+  "translit": "ar mesmis",
+  "fr": "Je ne comprends pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00042",
+  "ar": "ვერ გავიგე",
+  "translit": "ver gavige",
+  "fr": "Je n'ai pas compris",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00043",
+  "ar": "არ ვიცი",
+  "translit": "ar vitsi",
+  "fr": "Je ne sais pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00044",
+  "ar": "ვიცი",
+  "translit": "vitsi",
+  "fr": "Je sais",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00045",
+  "ar": "ქართული არ ვიცი",
+  "translit": "kartuli ar vitsi",
+  "fr": "Je ne parle pas géorgien",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00046",
+  "ar": "ცოტა ქართული ვიცი",
+  "translit": "tsot'a kartuli vitsi",
+  "fr": "Je parle un peu géorgien",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00047",
+  "ar": "ინგლისური იცით?",
+  "translit": "inglisuri itsit?",
+  "fr": "Parlez-vous anglais ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00048",
+  "ar": "უფრო ნელა, თუ შეიძლება",
+  "translit": "upro nela, tu sheidzleba",
+  "fr": "Plus lentement, s'il vous plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00049",
+  "ar": "გაიმეორეთ, თუ შეიძლება",
+  "translit": "gaimeoret, tu sheidzleba",
+  "fr": "Répétez, s'il vous plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00050",
+  "ar": "კარგი",
+  "translit": "k'argi",
+  "fr": "D'accord, bon",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00051",
+  "ar": "რა თქმა უნდა",
+  "translit": "ra tkma unda",
+  "fr": "Bien sûr",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00052",
+  "ar": "არაუშავს",
+  "translit": "araushavs",
+  "fr": "Ce n'est pas grave",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00053",
+  "ar": "ბოდიში, რომ დავაგვიანე",
+  "translit": "bodishi, rom davagviane",
+  "fr": "Désolé d'être en retard",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00054",
+  "ar": "ბატონი",
+  "translit": "bat'oni",
+  "fr": "Monsieur",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00055",
+  "ar": "ქალბატონი",
+  "translit": "kalbat'oni",
+  "fr": "Madame",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00056",
+  "ar": "გემრიელად მიირთვით",
+  "translit": "gemrielad miirtvit",
+  "fr": "Bon appétit",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00057",
+  "ar": "გილოცავ დაბადების დღეს",
+  "translit": "gilotsav dabadebis dghes",
+  "fr": "Joyeux anniversaire",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00058",
+  "ar": "გილოცავ ახალ წელს",
+  "translit": "gilotsav akhal ts'els",
+  "fr": "Bonne année",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00059",
+  "ar": "გზა მშვიდობისა",
+  "translit": "gza mshvidobisa",
+  "fr": "Bon voyage",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00060",
+  "ar": "ჩემი",
+  "translit": "chemi",
+  "fr": "Mon, ma, mes",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00061",
+  "ar": "შენი",
+  "translit": "sheni",
+  "fr": "Ton, ta, tes",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00062",
+  "ar": "მისი",
+  "translit": "misi",
+  "fr": "Son, sa, ses",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00063",
+  "ar": "ჩვენი",
+  "translit": "chveni",
+  "fr": "Notre, nos",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00064",
+  "ar": "თქვენი",
+  "translit": "tkveni",
+  "fr": "Votre, vos",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00065",
+  "ar": "მათი",
+  "translit": "mati",
+  "fr": "Leur, leurs",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00066",
+  "ar": "ეს ჩემია",
+  "translit": "es chemia",
+  "fr": "C'est à moi",
+  "theme": "pronoms",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00067",
+  "ar": "ეს რა არის?",
+  "translit": "es ra aris?",
+  "fr": "Qu'est-ce que c'est ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00068",
+  "ar": "ეს ვინ არის?",
+  "translit": "es vin aris?",
+  "fr": "Qui est-ce ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00069",
+  "ar": "მე ვარ",
+  "translit": "me var",
+  "fr": "C'est moi",
+  "theme": "pronoms",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00070",
+  "ar": "რა?",
+  "translit": "ra?",
+  "fr": "Quoi ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00071",
+  "ar": "ვინ?",
+  "translit": "vin?",
+  "fr": "Qui ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00072",
+  "ar": "სად?",
+  "translit": "sad?",
+  "fr": "Où ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00073",
+  "ar": "როდის?",
+  "translit": "rodis?",
+  "fr": "Quand ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00074",
+  "ar": "რატომ?",
+  "translit": "rat'om?",
+  "fr": "Pourquoi ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00075",
+  "ar": "როგორ?",
+  "translit": "rogor?",
+  "fr": "Comment ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00076",
+  "ar": "რამდენი?",
+  "translit": "ramdeni?",
+  "fr": "Combien ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00077",
+  "ar": "რომელი?",
+  "translit": "romeli?",
+  "fr": "Lequel, laquelle ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00078",
+  "ar": "საიდან?",
+  "translit": "saidan?",
+  "fr": "D'où ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00079",
+  "ar": "საიდან ხარ?",
+  "translit": "saidan khar?",
+  "fr": "D'où viens-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00080",
+  "ar": "საიდან ხართ?",
+  "translit": "saidan khart?",
+  "fr": "D'où venez-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00081",
+  "ar": "სად ცხოვრობ?",
+  "translit": "sad tskhovrob?",
+  "fr": "Où habites-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00082",
+  "ar": "სად არის ტუალეტი?",
+  "translit": "sad aris t'ualet'i?",
+  "fr": "Où sont les toilettes ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00083",
+  "ar": "რა ღირს?",
+  "translit": "ra ghirs?",
+  "fr": "Combien ça coûte ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00084",
+  "ar": "ეს რამდენი ღირს?",
+  "translit": "es ramdeni ghirs?",
+  "fr": "Combien coûte ceci ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00085",
+  "ar": "სად არის?",
+  "translit": "sad aris?",
+  "fr": "Où est-ce ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00086",
+  "ar": "რას აკეთებ?",
+  "translit": "ras ak'eteb?",
+  "fr": "Que fais-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00087",
+  "ar": "რა გინდა?",
+  "translit": "ra ginda?",
+  "fr": "Que veux-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00088",
+  "ar": "სად მიდიხარ?",
+  "translit": "sad midikhar?",
+  "fr": "Où vas-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00089",
+  "ar": "რა ხდება?",
+  "translit": "ra khdeba?",
+  "fr": "Que se passe-t-il ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00090",
+  "ar": "რა მოხდა?",
+  "translit": "ra mokhda?",
+  "fr": "Qu'est-ce qui s'est passé ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00091",
+  "ar": "კარგად ხარ?",
+  "translit": "k'argad khar?",
+  "fr": "Tu vas bien ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00092",
+  "ar": "ვინ ხარ?",
+  "translit": "vin khar?",
+  "fr": "Qui es-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00093",
+  "ar": "შეიძლება?",
+  "translit": "sheidzleba?",
+  "fr": "Puis-je ? C'est possible ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00094",
+  "ar": "რას ნიშნავს?",
+  "translit": "ras nishnavs?",
+  "fr": "Qu'est-ce que ça veut dire ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00095",
+  "ar": "როგორ არის ქართულად?",
+  "translit": "rogor aris kartulad?",
+  "fr": "Comment dit-on en géorgien ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00096",
+  "ar": "გესმის?",
+  "translit": "gesmis?",
+  "fr": "Tu comprends ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00097",
+  "ar": "რატომ არა?",
+  "translit": "rat'om ara?",
+  "fr": "Pourquoi pas ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00098",
+  "ar": "გაქვთ წყალი?",
+  "translit": "gakvt ts'q'ali?",
+  "fr": "Avez-vous de l'eau ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00099",
+  "ar": "შეგიძლიათ დამეხმაროთ?",
+  "translit": "shegidzliat damekhmarot?",
+  "fr": "Pouvez-vous m'aider ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00100",
+  "ar": "დამეხმარეთ!",
+  "translit": "damekhmaret!",
+  "fr": "Aidez-moi !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00101",
+  "ar": "სად არის სადგური?",
+  "translit": "sad aris sadguri?",
+  "fr": "Où est la gare ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00102",
+  "ar": "ქართველი ხარ?",
+  "translit": "kartveli khar?",
+  "fr": "Es-tu géorgien ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00103",
+  "ar": "რას საქმიანობ?",
+  "translit": "ras sakmianob?",
+  "fr": "Que fais-tu dans la vie ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00104",
+  "ar": "რამდენი წლის ხარ?",
+  "translit": "ramdeni ts'lis khar?",
+  "fr": "Quel âge as-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00105",
+  "ar": "ნული",
+  "translit": "nuli",
+  "fr": "Zéro",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00106",
+  "ar": "ერთი",
+  "translit": "erti",
+  "fr": "Un",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00107",
+  "ar": "ორი",
+  "translit": "ori",
+  "fr": "Deux",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00108",
+  "ar": "სამი",
+  "translit": "sami",
+  "fr": "Trois",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00109",
+  "ar": "ოთხი",
+  "translit": "otkhi",
+  "fr": "Quatre",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00110",
+  "ar": "ხუთი",
+  "translit": "khuti",
+  "fr": "Cinq",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00111",
+  "ar": "ექვსი",
+  "translit": "ekvsi",
+  "fr": "Six",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00112",
+  "ar": "შვიდი",
+  "translit": "shvidi",
+  "fr": "Sept",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00113",
+  "ar": "რვა",
+  "translit": "rva",
+  "fr": "Huit",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00114",
+  "ar": "ცხრა",
+  "translit": "tskhra",
+  "fr": "Neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00115",
+  "ar": "ათი",
+  "translit": "ati",
+  "fr": "Dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00116",
+  "ar": "თერთმეტი",
+  "translit": "tertmet'i",
+  "fr": "Onze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00117",
+  "ar": "თორმეტი",
+  "translit": "tormet'i",
+  "fr": "Douze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00118",
+  "ar": "ცამეტი",
+  "translit": "tsamet'i",
+  "fr": "Treize",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00119",
+  "ar": "თოთხმეტი",
+  "translit": "totkhmet'i",
+  "fr": "Quatorze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00120",
+  "ar": "თხუთმეტი",
+  "translit": "tkhutmet'i",
+  "fr": "Quinze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00121",
+  "ar": "თექვსმეტი",
+  "translit": "tekvsmet'i",
+  "fr": "Seize",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00122",
+  "ar": "ჩვიდმეტი",
+  "translit": "chvidmet'i",
+  "fr": "Dix-sept",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00123",
+  "ar": "თვრამეტი",
+  "translit": "tvramet'i",
+  "fr": "Dix-huit",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00124",
+  "ar": "ცხრამეტი",
+  "translit": "tskhramet'i",
+  "fr": "Dix-neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00125",
+  "ar": "ოცი",
+  "translit": "otsi",
+  "fr": "Vingt",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00126",
+  "ar": "ოცდაერთი",
+  "translit": "otsdaerti",
+  "fr": "Vingt et un",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00127",
+  "ar": "ოცდახუთი",
+  "translit": "otsdakhuti",
+  "fr": "Vingt-cinq",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00128",
+  "ar": "ოცდაათი",
+  "translit": "otsdaati",
+  "fr": "Trente",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00129",
+  "ar": "ორმოცი",
+  "translit": "ormotsi",
+  "fr": "Quarante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00130",
+  "ar": "ორმოცდაათი",
+  "translit": "ormotsdaati",
+  "fr": "Cinquante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00131",
+  "ar": "სამოცი",
+  "translit": "samotsi",
+  "fr": "Soixante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00132",
+  "ar": "სამოცდაათი",
+  "translit": "samotsdaati",
+  "fr": "Soixante-dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00133",
+  "ar": "ოთხმოცი",
+  "translit": "otkhmotsi",
+  "fr": "Quatre-vingts",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00134",
+  "ar": "ოთხმოცდაათი",
+  "translit": "otkhmotsdaati",
+  "fr": "Quatre-vingt-dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00135",
+  "ar": "ოთხმოცდაცხრამეტი",
+  "translit": "otkhmotsdatskhramet'i",
+  "fr": "Quatre-vingt-dix-neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00136",
+  "ar": "ასი",
+  "translit": "asi",
+  "fr": "Cent",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00137",
+  "ar": "ათასი",
+  "translit": "atasi",
+  "fr": "Mille",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00138",
+  "ar": "პირველი",
+  "translit": "p'irveli",
+  "fr": "Premier",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00139",
+  "ar": "მეორე",
+  "translit": "meore",
+  "fr": "Deuxième",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00140",
+  "ar": "ნახევარი",
+  "translit": "nakhevari",
+  "fr": "Moitié, demi",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00141",
+  "ar": "ნომერი",
+  "translit": "nomeri",
+  "fr": "Numéro",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00142",
+  "ar": "ოცდახუთი წლის ვარ",
+  "translit": "otsdakhuti ts'lis var",
+  "fr": "J'ai vingt-cinq ans",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00143",
+  "ar": "ოცდაათი წლის ვარ",
+  "translit": "otsdaati ts'lis var",
+  "fr": "J'ai trente ans",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00144",
+  "ar": "ათი ლარი",
+  "translit": "ati lari",
+  "fr": "Dix laris",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00145",
+  "ar": "ერთი ყავა, თუ შეიძლება",
+  "translit": "erti q'ava, tu sheidzleba",
+  "fr": "Un café, s'il vous plaît",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00146",
+  "ar": "ჩემი ტელეფონის ნომერი",
+  "translit": "chemi t'eleponis nomeri",
+  "fr": "Mon numéro de téléphone",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00147",
+  "ar": "ფერი",
+  "translit": "peri",
+  "fr": "Couleur",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00148",
+  "ar": "წითელი",
+  "translit": "ts'iteli",
+  "fr": "Rouge",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00149",
+  "ar": "ლურჯი",
+  "translit": "lurji",
+  "fr": "Bleu",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00150",
+  "ar": "მწვანე",
+  "translit": "mts'vane",
+  "fr": "Vert",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00151",
+  "ar": "ყვითელი",
+  "translit": "q'viteli",
+  "fr": "Jaune",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00152",
+  "ar": "თეთრი",
+  "translit": "tetri",
+  "fr": "Blanc",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00153",
+  "ar": "შავი",
+  "translit": "shavi",
+  "fr": "Noir",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00154",
+  "ar": "ნაცრისფერი",
+  "translit": "natsrisperi",
+  "fr": "Gris",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00155",
+  "ar": "ყავისფერი",
+  "translit": "q'avisperi",
+  "fr": "Marron",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00156",
+  "ar": "ვარდისფერი",
+  "translit": "vardisperi",
+  "fr": "Rose",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00157",
+  "ar": "ნარინჯისფერი",
+  "translit": "narinjisperi",
+  "fr": "Orange (couleur)",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00158",
+  "ar": "რა ფერისაა?",
+  "translit": "ra perisaa?",
+  "fr": "De quelle couleur est-ce ?",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00159",
+  "ar": "ჩემი საყვარელი ფერი ლურჯია",
+  "translit": "chemi saq'vareli peri lurjia",
+  "fr": "Ma couleur préférée est le bleu",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00160",
+  "ar": "ცა ლურჯია",
+  "translit": "tsa lurjia",
+  "fr": "Le ciel est bleu",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00161",
+  "ar": "დღე",
+  "translit": "dghe",
+  "fr": "Jour",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00162",
+  "ar": "დღეს",
+  "translit": "dghes",
+  "fr": "Aujourd'hui",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00163",
+  "ar": "ხვალ",
+  "translit": "khval",
+  "fr": "Demain",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00164",
+  "ar": "გუშინ",
+  "translit": "gushin",
+  "fr": "Hier",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00165",
+  "ar": "ორშაბათი",
+  "translit": "orshabati",
+  "fr": "Lundi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00166",
+  "ar": "სამშაბათი",
+  "translit": "samshabati",
+  "fr": "Mardi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00167",
+  "ar": "ოთხშაბათი",
+  "translit": "otkhshabati",
+  "fr": "Mercredi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00168",
+  "ar": "ხუთშაბათი",
+  "translit": "khutshabati",
+  "fr": "Jeudi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00169",
+  "ar": "პარასკევი",
+  "translit": "p'arask'evi",
+  "fr": "Vendredi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00170",
+  "ar": "შაბათი",
+  "translit": "shabati",
+  "fr": "Samedi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00171",
+  "ar": "კვირა",
+  "translit": "k'vira",
+  "fr": "Dimanche ; semaine",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00172",
+  "ar": "შაბათ-კვირა",
+  "translit": "shabat-k'vira",
+  "fr": "Week-end",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00173",
+  "ar": "დღეს რა დღეა?",
+  "translit": "dghes ra dghea?",
+  "fr": "Quel jour sommes-nous ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00174",
+  "ar": "დღეს ორშაბათია",
+  "translit": "dghes orshabatia",
+  "fr": "Aujourd'hui, c'est lundi",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00175",
+  "ar": "ხვალ შაბათია",
+  "translit": "khval shabatia",
+  "fr": "Demain, c'est samedi",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00176",
+  "ar": "თვე",
+  "translit": "tve",
+  "fr": "Mois",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00177",
+  "ar": "წელი",
+  "translit": "ts'eli",
+  "fr": "An, année",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00178",
+  "ar": "იანვარი",
+  "translit": "ianvari",
+  "fr": "Janvier",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00179",
+  "ar": "თებერვალი",
+  "translit": "tebervali",
+  "fr": "Février",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00180",
+  "ar": "მარტი",
+  "translit": "mart'i",
+  "fr": "Mars",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00181",
+  "ar": "აპრილი",
+  "translit": "ap'rili",
+  "fr": "Avril",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00182",
+  "ar": "მაისი",
+  "translit": "maisi",
+  "fr": "Mai",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00183",
+  "ar": "ივნისი",
+  "translit": "ivnisi",
+  "fr": "Juin",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00184",
+  "ar": "ივლისი",
+  "translit": "ivlisi",
+  "fr": "Juillet",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00185",
+  "ar": "აგვისტო",
+  "translit": "agvist'o",
+  "fr": "Août",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00186",
+  "ar": "სექტემბერი",
+  "translit": "sekt'emberi",
+  "fr": "Septembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00187",
+  "ar": "ოქტომბერი",
+  "translit": "okt'omberi",
+  "fr": "Octobre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00188",
+  "ar": "ნოემბერი",
+  "translit": "noemberi",
+  "fr": "Novembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00189",
+  "ar": "დეკემბერი",
+  "translit": "dek'emberi",
+  "fr": "Décembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00190",
+  "ar": "ზამთარი",
+  "translit": "zamtari",
+  "fr": "Hiver",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00191",
+  "ar": "გაზაფხული",
+  "translit": "gazapkhuli",
+  "fr": "Printemps",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00192",
+  "ar": "ზაფხული",
+  "translit": "zapkhuli",
+  "fr": "Été",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00193",
+  "ar": "შემოდგომა",
+  "translit": "shemodgoma",
+  "fr": "Automne",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00194",
+  "ar": "რა რიცხვია დღეს?",
+  "translit": "ra ritskhvia dghes?",
+  "fr": "Quelle est la date aujourd'hui ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00195",
+  "ar": "დაბადების დღე",
+  "translit": "dabadebis dghe",
+  "fr": "Anniversaire",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00196",
+  "ar": "ჩემი დაბადების დღე მაისშია",
+  "translit": "chemi dabadebis dghe maisshia",
+  "fr": "Mon anniversaire est en mai",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00197",
+  "ar": "საათი",
+  "translit": "saati",
+  "fr": "Heure ; montre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00198",
+  "ar": "წუთი",
+  "translit": "ts'uti",
+  "fr": "Minute",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00199",
+  "ar": "რომელი საათია?",
+  "translit": "romeli saatia?",
+  "fr": "Quelle heure est-il ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00200",
+  "ar": "ორი საათია",
+  "translit": "ori saatia",
+  "fr": "Il est deux heures",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00201",
+  "ar": "ხუთის ნახევარია",
+  "translit": "khutis nakhevaria",
+  "fr": "Il est quatre heures et demie",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00202",
+  "ar": "რომელ საათზე?",
+  "translit": "romel saatze?",
+  "fr": "À quelle heure ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00203",
+  "ar": "რვა საათზე",
+  "translit": "rva saatze",
+  "fr": "À huit heures",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00204",
+  "ar": "დილა",
+  "translit": "dila",
+  "fr": "Matin",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00205",
+  "ar": "შუადღე",
+  "translit": "shuadghe",
+  "fr": "Midi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00206",
+  "ar": "საღამო",
+  "translit": "saghamo",
+  "fr": "Soir",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00207",
+  "ar": "ღამე",
+  "translit": "ghame",
+  "fr": "Nuit",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00208",
+  "ar": "ახლა",
+  "translit": "akhla",
+  "fr": "Maintenant",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00209",
+  "ar": "მერე",
+  "translit": "mere",
+  "fr": "Ensuite, après",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00210",
+  "ar": "გვიან",
+  "translit": "gvian",
+  "fr": "Tard",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00211",
+  "ar": "დრო",
+  "translit": "dro",
+  "fr": "Temps (durée)",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00212",
+  "ar": "დრო არ მაქვს",
+  "translit": "dro ar makvs",
+  "fr": "Je n'ai pas le temps",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00213",
+  "ar": "ერთი წუთით",
+  "translit": "erti ts'utit",
+  "fr": "Une minute ! (attendez)",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00214",
+  "ar": "ჯერ არა",
+  "translit": "jer ara",
+  "fr": "Pas encore",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00215",
+  "ar": "მაგვიანდება",
+  "translit": "magviandeba",
+  "fr": "Je vais être en retard",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00216",
+  "ar": "ხვალ გნახავ",
+  "translit": "khval gnakhav",
+  "fr": "On se voit demain",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00217",
+  "ar": "ოჯახი",
+  "translit": "ojakhi",
+  "fr": "Famille",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00218",
+  "ar": "დედა",
+  "translit": "deda",
+  "fr": "Mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00219",
+  "ar": "მამა",
+  "translit": "mama",
+  "fr": "Père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00220",
+  "ar": "ძმა",
+  "translit": "dzma",
+  "fr": "Frère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00221",
+  "ar": "და",
+  "translit": "da",
+  "fr": "Sœur",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00222",
+  "ar": "შვილი",
+  "translit": "shvili",
+  "fr": "Enfant (fils ou fille de qqn)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00223",
+  "ar": "ქალიშვილი",
+  "translit": "kalishvili",
+  "fr": "Fille (de qqn)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00224",
+  "ar": "მშობლები",
+  "translit": "mshoblebi",
+  "fr": "Parents (père et mère)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00225",
+  "ar": "ბებია",
+  "translit": "bebia",
+  "fr": "Grand-mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00226",
+  "ar": "ბაბუა",
+  "translit": "babua",
+  "fr": "Grand-père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00227",
+  "ar": "ქმარი",
+  "translit": "kmari",
+  "fr": "Mari",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00228",
+  "ar": "ცოლი",
+  "translit": "tsoli",
+  "fr": "Épouse",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00229",
+  "ar": "ბავშვი",
+  "translit": "bavshvi",
+  "fr": "Enfant (petit)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00230",
+  "ar": "ბიჭი",
+  "translit": "bich'i",
+  "fr": "Garçon",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00231",
+  "ar": "გოგო",
+  "translit": "gogo",
+  "fr": "Fille (jeune fille)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00232",
+  "ar": "კაცი",
+  "translit": "k'atsi",
+  "fr": "Homme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00233",
+  "ar": "ქალი",
+  "translit": "kali",
+  "fr": "Femme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00234",
+  "ar": "მეგობარი",
+  "translit": "megobari",
+  "fr": "Ami",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00235",
+  "ar": "დედაჩემი",
+  "translit": "dedachemi",
+  "fr": "Ma mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00236",
+  "ar": "მამაჩემი",
+  "translit": "mamachemi",
+  "fr": "Mon père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00237",
+  "ar": "ეს დედაჩემია",
+  "translit": "es dedachemia",
+  "fr": "C'est ma mère",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00238",
+  "ar": "ეს მამაჩემია",
+  "translit": "es mamachemia",
+  "fr": "C'est mon père",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00239",
+  "ar": "ეს ჩემი ცოლია",
+  "translit": "es chemi tsolia",
+  "fr": "Voici ma femme",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00240",
+  "ar": "ეს ჩემი ქმარია",
+  "translit": "es chemi kmaria",
+  "fr": "Voici mon mari",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00241",
+  "ar": "ეს ჩემი მეგობარია",
+  "translit": "es chemi megobaria",
+  "fr": "C'est mon ami",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00242",
+  "ar": "ძმა მყავს",
+  "translit": "dzma mq'avs",
+  "fr": "J'ai un frère",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00243",
+  "ar": "ორი და მყავს",
+  "translit": "ori da mq'avs",
+  "fr": "J'ai deux sœurs",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00244",
+  "ar": "შვილები გყავს?",
+  "translit": "shvilebi gq'avs?",
+  "fr": "As-tu des enfants ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00245",
+  "ar": "ორი შვილი მყავს",
+  "translit": "ori shvili mq'avs",
+  "fr": "J'ai deux enfants",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00246",
+  "ar": "რამდენი ძმა გყავს?",
+  "translit": "ramdeni dzma gq'avs?",
+  "fr": "Combien de frères as-tu ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00247",
+  "ar": "დაოჯახებული ხარ?",
+  "translit": "daojakhebuli khar?",
+  "fr": "Es-tu marié(e) ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00248",
+  "ar": "დაოჯახებული ვარ",
+  "translit": "daojakhebuli var",
+  "fr": "Je suis marié(e)",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00249",
+  "ar": "თავი",
+  "translit": "tavi",
+  "fr": "Tête",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00250",
+  "ar": "თმა",
+  "translit": "tma",
+  "fr": "Cheveux",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00251",
+  "ar": "სახე",
+  "translit": "sakhe",
+  "fr": "Visage",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00252",
+  "ar": "თვალი",
+  "translit": "tvali",
+  "fr": "Œil",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00253",
+  "ar": "ყური",
+  "translit": "q'uri",
+  "fr": "Oreille",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00254",
+  "ar": "ცხვირი",
+  "translit": "tskhviri",
+  "fr": "Nez",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00255",
+  "ar": "პირი",
+  "translit": "p'iri",
+  "fr": "Bouche",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00256",
+  "ar": "კბილი",
+  "translit": "k'bili",
+  "fr": "Dent",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00257",
+  "ar": "ენა",
+  "translit": "ena",
+  "fr": "Langue (organe ; langage)",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00258",
+  "ar": "ხელი",
+  "translit": "kheli",
+  "fr": "Main ; bras",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00259",
+  "ar": "თითი",
+  "translit": "titi",
+  "fr": "Doigt",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00260",
+  "ar": "ფეხი",
+  "translit": "pekhi",
+  "fr": "Pied ; jambe",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00261",
+  "ar": "მუცელი",
+  "translit": "mutseli",
+  "fr": "Ventre",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00262",
+  "ar": "ზურგი",
+  "translit": "zurgi",
+  "fr": "Dos",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00263",
+  "ar": "გული",
+  "translit": "guli",
+  "fr": "Cœur",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00264",
+  "ar": "თავი მტკივა",
+  "translit": "tavi mt'k'iva",
+  "fr": "J'ai mal à la tête",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00265",
+  "ar": "მუცელი მტკივა",
+  "translit": "mutseli mt'k'iva",
+  "fr": "J'ai mal au ventre",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00266",
+  "ar": "კბილი მტკივა",
+  "translit": "k'bili mt'k'iva",
+  "fr": "J'ai mal aux dents",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00267",
+  "ar": "ზურგი მტკივა",
+  "translit": "zurgi mt'k'iva",
+  "fr": "J'ai mal au dos",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00268",
+  "ar": "ყელი მტკივა",
+  "translit": "q'eli mt'k'iva",
+  "fr": "J'ai mal à la gorge",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00269",
+  "ar": "რა გტკივა?",
+  "translit": "ra gt'k'iva?",
+  "fr": "Où as-tu mal ?",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00270",
+  "ar": "ცუდად ვარ",
+  "translit": "tsudad var",
+  "fr": "Je ne me sens pas bien",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00271",
+  "ar": "ექიმი მჭირდება",
+  "translit": "ekimi mch'irdeba",
+  "fr": "J'ai besoin d'un médecin",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00272",
+  "ar": "მას ლურჯი თვალები აქვს",
+  "translit": "mas lurji tvalebi akvs",
+  "fr": "Il a les yeux bleus",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00273",
+  "ar": "სახელი",
+  "translit": "sakheli",
+  "fr": "Prénom",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00274",
+  "ar": "გვარი",
+  "translit": "gvari",
+  "fr": "Nom de famille",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00275",
+  "ar": "ჩემი სახელია გიორგი",
+  "translit": "chemi sakhelia giorgi",
+  "fr": "Mon prénom est Guiorgui",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00276",
+  "ar": "მე საფრანგეთიდან ვარ",
+  "translit": "me saprangetidan var",
+  "fr": "Je viens de France",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00277",
+  "ar": "მე ფრანგი ვარ",
+  "translit": "me prangi var",
+  "fr": "Je suis français",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00278",
+  "ar": "საფრანგეთი",
+  "translit": "saprangeti",
+  "fr": "France",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00279",
+  "ar": "საქართველო",
+  "translit": "sakartvelo",
+  "fr": "Géorgie",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00280",
+  "ar": "ქართველი",
+  "translit": "kartveli",
+  "fr": "Géorgien (personne)",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00281",
+  "ar": "ქართული",
+  "translit": "kartuli",
+  "fr": "Géorgien (langue)",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00282",
+  "ar": "მე პარიზში ვცხოვრობ",
+  "translit": "me p'arizshi vtskhovrob",
+  "fr": "J'habite à Paris",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00283",
+  "ar": "თბილისში ვცხოვრობ",
+  "translit": "tbilisshi vtskhovrob",
+  "fr": "J'habite à Tbilissi",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00284",
+  "ar": "მე სტუდენტი ვარ",
+  "translit": "me st'udent'i var",
+  "fr": "Je suis étudiant",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00285",
+  "ar": "მასწავლებელი ვარ",
+  "translit": "masts'avlebeli var",
+  "fr": "Je suis professeur",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00286",
+  "ar": "ტურისტი ვარ",
+  "translit": "t'urist'i var",
+  "fr": "Je suis touriste",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00287",
+  "ar": "ქართულს ვსწავლობ",
+  "translit": "kartuls vsts'avlob",
+  "fr": "J'apprends le géorgien",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00288",
+  "ar": "აქ შვებულებაში ვარ",
+  "translit": "ak shvebulebashi var",
+  "fr": "Je suis ici en vacances",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00289",
+  "ar": "მიყვარს საქართველო",
+  "translit": "miq'vars sakartvelo",
+  "fr": "J'aime la Géorgie",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00290",
+  "ar": "მიყვარხარ",
+  "translit": "miq'varkhar",
+  "fr": "Je t'aime",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00291",
+  "ar": "მინდა",
+  "translit": "minda",
+  "fr": "Je veux",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00292",
+  "ar": "მომწონს",
+  "translit": "momts'ons",
+  "fr": "Ça me plaît",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00293",
+  "ar": "არ მომწონს",
+  "translit": "ar momts'ons",
+  "fr": "Ça ne me plaît pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00294",
+  "ar": "აქ",
+  "translit": "ak",
+  "fr": "Ici",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00295",
+  "ar": "იქ",
+  "translit": "ik",
+  "fr": "Là-bas",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00296",
+  "ar": "ძალიან",
+  "translit": "dzalian",
+  "fr": "Très",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00297",
+  "ar": "ცოტა",
+  "translit": "tsot'a",
+  "fr": "Un peu",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00298",
+  "ar": "ბევრი",
+  "translit": "bevri",
+  "fr": "Beaucoup",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00299",
+  "ar": "წყალი",
+  "translit": "ts'q'ali",
+  "fr": "Eau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00300",
+  "ar": "ყავა",
+  "translit": "q'ava",
+  "fr": "Café",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00301",
+  "ar": "ყოფნა",
+  "translit": "q'opna",
+  "fr": "Être",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00302",
+  "ar": "შენ ხარ",
+  "translit": "shen khar",
+  "fr": "Tu es",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00303",
+  "ar": "ის არის",
+  "translit": "is aris",
+  "fr": "Il est",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00304",
+  "ar": "მე ვიყავი",
+  "translit": "me viq'avi",
+  "fr": "J'étais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00305",
+  "ar": "ის იყო",
+  "translit": "is iq'o",
+  "fr": "Il était",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00306",
+  "ar": "იყავი ფრთხილად",
+  "translit": "iq'avi prtkhilad",
+  "fr": "Sois prudent",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00307",
+  "ar": "ქონა",
+  "translit": "kona",
+  "fr": "Avoir (posséder)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00308",
+  "ar": "მე მაქვს",
+  "translit": "me makvs",
+  "fr": "J'ai (une chose)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00309",
+  "ar": "შენ გაქვს",
+  "translit": "shen gakvs",
+  "fr": "Tu as",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00310",
+  "ar": "მას აქვს",
+  "translit": "mas akvs",
+  "fr": "Il a",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00311",
+  "ar": "კეთება",
+  "translit": "k'eteba",
+  "fr": "Faire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00312",
+  "ar": "მე ვაკეთებ",
+  "translit": "me vak'eteb",
+  "fr": "Je fais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00313",
+  "ar": "მე გავაკეთე",
+  "translit": "me gavak'ete",
+  "fr": "J'ai fait",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00314",
+  "ar": "გააკეთე ეს",
+  "translit": "gaak'ete es",
+  "fr": "Fais ça",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00315",
+  "ar": "წასვლა",
+  "translit": "ts'asvla",
+  "fr": "Aller (partir)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00316",
+  "ar": "მე მივდივარ",
+  "translit": "me mivdivar",
+  "fr": "Je vais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00317",
+  "ar": "ის მიდის სახლში",
+  "translit": "is midis sakhlshi",
+  "fr": "Il va à la maison",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00318",
+  "ar": "მე წავედი",
+  "translit": "me ts'avedi",
+  "fr": "Je suis parti",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00319",
+  "ar": "წავიდეთ!",
+  "translit": "ts'avidet!",
+  "fr": "Allons-y !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00320",
+  "ar": "მოსვლა",
+  "translit": "mosvla",
+  "fr": "Venir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00321",
+  "ar": "მე მოვდივარ",
+  "translit": "me movdivar",
+  "fr": "Je viens",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00322",
+  "ar": "შენ მოდიხარ?",
+  "translit": "shen modikhar?",
+  "fr": "Tu viens ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00323",
+  "ar": "მე მოვედი",
+  "translit": "me movedi",
+  "fr": "Je suis venu",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00324",
+  "ar": "მოდი აქ!",
+  "translit": "modi ak!",
+  "fr": "Viens ici !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00325",
+  "ar": "ნდომა",
+  "translit": "ndoma",
+  "fr": "Vouloir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00326",
+  "ar": "მას ყავა უნდა",
+  "translit": "mas q'ava unda",
+  "fr": "Il veut du café",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00327",
+  "ar": "მინდოდა",
+  "translit": "mindoda",
+  "fr": "Je voulais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00328",
+  "ar": "შეძლება",
+  "translit": "shedzleba",
+  "fr": "Pouvoir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00329",
+  "ar": "მე შემიძლია",
+  "translit": "me shemidzlia",
+  "fr": "Je peux",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00330",
+  "ar": "შეგიძლია დამეხმარო?",
+  "translit": "shegidzlia damekhmaro?",
+  "fr": "Peux-tu m'aider ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00331",
+  "ar": "ცოდნა",
+  "translit": "tsodna",
+  "fr": "Savoir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00332",
+  "ar": "შენ იცი?",
+  "translit": "shen itsi?",
+  "fr": "Tu sais ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00333",
+  "ar": "მან იცის",
+  "translit": "man itsis",
+  "fr": "Il sait",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00334",
+  "ar": "მე ვიცოდი",
+  "translit": "me vitsodi",
+  "fr": "Je savais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00335",
+  "ar": "გაგება",
+  "translit": "gageba",
+  "fr": "Comprendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00336",
+  "ar": "მე მესმის",
+  "translit": "me mesmis",
+  "fr": "Je comprends",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00337",
+  "ar": "გავიგე",
+  "translit": "gavige",
+  "fr": "J'ai compris",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00338",
+  "ar": "ან",
+  "translit": "an",
+  "fr": "Ou",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00339",
+  "ar": "მაგრამ",
+  "translit": "magram",
+  "fr": "Mais",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00340",
+  "ar": "ცუდი",
+  "translit": "tsudi",
+  "fr": "Mauvais",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00341",
+  "ar": "დიდი",
+  "translit": "didi",
+  "fr": "Grand",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00342",
+  "ar": "პატარა",
+  "translit": "p'at'ara",
+  "fr": "Petit",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00343",
+  "ar": "სიყვარული",
+  "translit": "siq'varuli",
+  "fr": "Aimer (l'amour)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00344",
+  "ar": "მე მიყვარს",
+  "translit": "me miq'vars",
+  "fr": "J'aime",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00345",
+  "ar": "შენ გიყვარს?",
+  "translit": "shen giq'vars?",
+  "fr": "Tu aimes ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00346",
+  "ar": "მას უყვარს ყავა",
+  "translit": "mas uq'vars q'ava",
+  "fr": "Il aime le café",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00347",
+  "ar": "ჭამა",
+  "translit": "ch'ama",
+  "fr": "Manger",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00348",
+  "ar": "მე ვჭამ",
+  "translit": "me vch'am",
+  "fr": "Je mange",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00349",
+  "ar": "ის ჭამს პურს",
+  "translit": "is ch'ams p'urs",
+  "fr": "Il mange du pain",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00350",
+  "ar": "მე უკვე ვჭამე",
+  "translit": "me uk've vch'ame",
+  "fr": "J'ai déjà mangé",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00351",
+  "ar": "ჭამე!",
+  "translit": "ch'ame!",
+  "fr": "Mange !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00352",
+  "ar": "დალევა",
+  "translit": "daleva",
+  "fr": "Boire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00353",
+  "ar": "მე ვსვამ წყალს",
+  "translit": "me vsvam ts'q'als",
+  "fr": "Je bois de l'eau",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00354",
+  "ar": "შენ სვამ ყავას?",
+  "translit": "shen svam q'avas?",
+  "fr": "Tu bois du café ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00355",
+  "ar": "ის სვამს ჩაის",
+  "translit": "is svams chais",
+  "fr": "Il boit du thé",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00356",
+  "ar": "მე დავლიე",
+  "translit": "me davlie",
+  "fr": "J'ai bu",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00357",
+  "ar": "დალიე წყალი",
+  "translit": "dalie ts'q'ali",
+  "fr": "Bois de l'eau",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00358",
+  "ar": "ლაპარაკი",
+  "translit": "lap'arak'i",
+  "fr": "Parler",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00359",
+  "ar": "მე ვლაპარაკობ ქართულად",
+  "translit": "me vlap'arak'ob kartulad",
+  "fr": "Je parle géorgien",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00360",
+  "ar": "შენ ლაპარაკობ ფრანგულად?",
+  "translit": "shen lap'arak'ob prangulad?",
+  "fr": "Tu parles français ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00361",
+  "ar": "ის ლაპარაკობს ინგლისურად",
+  "translit": "is lap'arak'obs inglisurad",
+  "fr": "Il parle anglais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00362",
+  "ar": "ნელა ილაპარაკეთ, თუ შეიძლება",
+  "translit": "nela ilap'arak'et, tu sheidzleba",
+  "fr": "Parlez lentement, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00363",
+  "ar": "თქმა",
+  "translit": "tkma",
+  "fr": "Dire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00364",
+  "ar": "რას ამბობ?",
+  "translit": "ras ambob?",
+  "fr": "Qu'est-ce que tu dis ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00365",
+  "ar": "მე ვთქვი",
+  "translit": "me vtkvi",
+  "fr": "J'ai dit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00366",
+  "ar": "მითხარი!",
+  "translit": "mitkhari!",
+  "fr": "Dis-moi !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00367",
+  "ar": "ნახვა",
+  "translit": "nakhva",
+  "fr": "Voir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00368",
+  "ar": "მე ვხედავ",
+  "translit": "me vkhedav",
+  "fr": "Je vois",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00369",
+  "ar": "ის ხედავს ზღვას",
+  "translit": "is khedavs zghvas",
+  "fr": "Il voit la mer",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00370",
+  "ar": "მე ვნახე ფილმი",
+  "translit": "me vnakhe pilmi",
+  "fr": "J'ai vu un film",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00371",
+  "ar": "ყურება",
+  "translit": "q'ureba",
+  "fr": "Regarder",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00372",
+  "ar": "მე ტელევიზორს ვუყურებ",
+  "translit": "me t'elevizors vuq'ureb",
+  "fr": "Je regarde la télé",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00373",
+  "ar": "შეხედე!",
+  "translit": "shekhede!",
+  "fr": "Regarde !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00374",
+  "ar": "მოსმენა",
+  "translit": "mosmena",
+  "fr": "Écouter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00375",
+  "ar": "მე მუსიკას ვუსმენ",
+  "translit": "me musik'as vusmen",
+  "fr": "J'écoute de la musique",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00376",
+  "ar": "მომისმინე!",
+  "translit": "momismine!",
+  "fr": "Écoute-moi !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00377",
+  "ar": "რომ",
+  "translit": "rom",
+  "fr": "Que (conjonction)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00378",
+  "ar": "თუ",
+  "translit": "tu",
+  "fr": "Si (condition)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00379",
+  "ar": "იმიტომ, რომ",
+  "translit": "imit'om, rom",
+  "fr": "Parce que",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00380",
+  "ar": "როცა",
+  "translit": "rotsa",
+  "fr": "Quand (conjonction)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00381",
+  "ar": "უკვე",
+  "translit": "uk've",
+  "fr": "Déjà",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00382",
+  "ar": "ახალი",
+  "translit": "akhali",
+  "fr": "Nouveau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00383",
+  "ar": "ძველი",
+  "translit": "dzveli",
+  "fr": "Vieux (objet)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00384",
+  "ar": "ლამაზი",
+  "translit": "lamazi",
+  "fr": "Beau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00385",
+  "ar": "მახინჯი",
+  "translit": "makhinji",
+  "fr": "Laid",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00386",
+  "ar": "ცხელი",
+  "translit": "tskheli",
+  "fr": "Chaud (brûlant)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00387",
+  "ar": "ცივი",
+  "translit": "tsivi",
+  "fr": "Froid",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00388",
+  "ar": "წერა",
+  "translit": "ts'era",
+  "fr": "Écrire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00389",
+  "ar": "მე ვწერ წერილს",
+  "translit": "me vts'er ts'erils",
+  "fr": "J'écris une lettre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00390",
+  "ar": "მე დავწერე",
+  "translit": "me davts'ere",
+  "fr": "J'ai écrit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00391",
+  "ar": "დაწერე აქ",
+  "translit": "dats'ere ak",
+  "fr": "Écris ici",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00392",
+  "ar": "კითხვა",
+  "translit": "k'itkhva",
+  "fr": "Lire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00393",
+  "ar": "მე წიგნს ვკითხულობ",
+  "translit": "me ts'igns vk'itkhulob",
+  "fr": "Je lis un livre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00394",
+  "ar": "ის გაზეთს კითხულობს",
+  "translit": "is gazets k'itkhulobs",
+  "fr": "Il lit le journal",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00395",
+  "ar": "მე წავიკითხე",
+  "translit": "me ts'avik'itkhe",
+  "fr": "J'ai lu",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00396",
+  "ar": "სწავლა",
+  "translit": "sts'avla",
+  "fr": "Étudier (apprendre)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00397",
+  "ar": "სად სწავლობ?",
+  "translit": "sad sts'avlob?",
+  "fr": "Où étudies-tu ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00398",
+  "ar": "ის უნივერსიტეტში სწავლობს",
+  "translit": "is universit'et'shi sts'avlobs",
+  "fr": "Il étudie à l'université",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00399",
+  "ar": "მუშაობა",
+  "translit": "mushaoba",
+  "fr": "Travailler",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00400",
+  "ar": "მე ვმუშაობ",
+  "translit": "me vmushaob",
+  "fr": "Je travaille",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00401",
+  "ar": "სად მუშაობ?",
+  "translit": "sad mushaob?",
+  "fr": "Où travailles-tu ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00402",
+  "ar": "ის საავადმყოფოში მუშაობს",
+  "translit": "is saavadmq'oposhi mushaobs",
+  "fr": "Il travaille à l'hôpital",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00403",
+  "ar": "გუშინ ბევრი ვიმუშავე",
+  "translit": "gushin bevri vimushave",
+  "fr": "Hier j'ai beaucoup travaillé",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00404",
+  "ar": "ცხოვრება",
+  "translit": "tskhovreba",
+  "fr": "Vivre (la vie)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00405",
+  "ar": "ის საფრანგეთში ცხოვრობს",
+  "translit": "is saprangetshi tskhovrobs",
+  "fr": "Il vit en France",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00406",
+  "ar": "მე პარიზში ვცხოვრობდი",
+  "translit": "me p'arizshi vtskhovrobdi",
+  "fr": "J'habitais à Paris",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00407",
+  "ar": "ძილი",
+  "translit": "dzili",
+  "fr": "Dormir (le sommeil)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00408",
+  "ar": "მძინავს",
+  "translit": "mdzinavs",
+  "fr": "Je dors",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00409",
+  "ar": "მეძინება",
+  "translit": "medzineba",
+  "fr": "J'ai sommeil",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00410",
+  "ar": "გაღვიძება",
+  "translit": "gaghvidzeba",
+  "fr": "Se réveiller",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00411",
+  "ar": "დილით ადრე ვიღვიძებ",
+  "translit": "dilit adre vighvidzeb",
+  "fr": "Je me réveille tôt le matin",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00412",
+  "ar": "ყიდვა",
+  "translit": "q'idva",
+  "fr": "Acheter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00413",
+  "ar": "მე პურს ვყიდულობ",
+  "translit": "me p'urs vq'idulob",
+  "fr": "J'achète du pain",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00414",
+  "ar": "მე ვიყიდე ბილეთი",
+  "translit": "me viq'ide bileti",
+  "fr": "J'ai acheté un billet",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00415",
+  "ar": "იყიდე რძე",
+  "translit": "iq'ide rdze",
+  "fr": "Achète du lait",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00416",
+  "ar": "გაყიდვა",
+  "translit": "gaq'idva",
+  "fr": "Vendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00417",
+  "ar": "ის ხილს ყიდის",
+  "translit": "is khils q'idis",
+  "fr": "Il vend des fruits",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00418",
+  "ar": "მიცემა",
+  "translit": "mitsema",
+  "fr": "Donner",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00419",
+  "ar": "მომეცი წყალი",
+  "translit": "mometsi ts'q'ali",
+  "fr": "Donne-moi de l'eau",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00420",
+  "ar": "მე მას წიგნი მივეცი",
+  "translit": "me mas ts'igni mivetsi",
+  "fr": "Je lui ai donné un livre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00421",
+  "ar": "აღება",
+  "translit": "agheba",
+  "fr": "Prendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00422",
+  "ar": "მე ვიღებ",
+  "translit": "me vigheb",
+  "fr": "Je prends",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00423",
+  "ar": "აიღე!",
+  "translit": "aighe!",
+  "fr": "Prends !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00424",
+  "ar": "შემდეგ",
+  "translit": "shemdeg",
+  "fr": "Après",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00425",
+  "ar": "ყოველთვის",
+  "translit": "q'oveltvis",
+  "fr": "Toujours",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00426",
+  "ar": "არასდროს",
+  "translit": "arasdros",
+  "fr": "Jamais",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00427",
+  "ar": "ხშირად",
+  "translit": "khshirad",
+  "fr": "Souvent",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00428",
+  "ar": "ზოგჯერ",
+  "translit": "zogjer",
+  "fr": "Parfois",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00429",
+  "ar": "კიდევ",
+  "translit": "k'idev",
+  "fr": "Encore (en plus)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00430",
+  "ar": "მხოლოდ",
+  "translit": "mkholod",
+  "fr": "Seulement",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00431",
+  "ar": "ასევე",
+  "translit": "aseve",
+  "fr": "Aussi (de même)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00432",
+  "ar": "ამიტომ",
+  "translit": "amit'om",
+  "fr": "C'est pourquoi",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00433",
+  "ar": "ახალგაზრდა",
+  "translit": "akhalgazrda",
+  "fr": "Jeune",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00434",
+  "ar": "მოხუცი",
+  "translit": "mokhutsi",
+  "fr": "Âgé (personne)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00435",
+  "ar": "თბილი",
+  "translit": "tbili",
+  "fr": "Tiède (agréablement chaud)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00436",
+  "ar": "ძვირი",
+  "translit": "dzviri",
+  "fr": "Cher (prix)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00437",
+  "ar": "იაფი",
+  "translit": "iapi",
+  "fr": "Bon marché",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00438",
+  "ar": "გრძელი",
+  "translit": "grdzeli",
+  "fr": "Long",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00439",
+  "ar": "მოკლე",
+  "translit": "mok'le",
+  "fr": "Court",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00440",
+  "ar": "მაღალი",
+  "translit": "maghali",
+  "fr": "Haut (grand de taille)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00441",
+  "ar": "დაბალი",
+  "translit": "dabali",
+  "fr": "Bas (de petite taille)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00442",
+  "ar": "სწრაფი",
+  "translit": "sts'rapi",
+  "fr": "Rapide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00443",
+  "ar": "ნელი",
+  "translit": "neli",
+  "fr": "Lent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00444",
+  "ar": "ეს ძალიან ძვირია",
+  "translit": "es dzalian dzviria",
+  "fr": "C'est très cher",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00445",
+  "ar": "ძალიან გემრიელია",
+  "translit": "dzalian gemrielia",
+  "fr": "C'est délicieux",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00446",
+  "ar": "ამინდი ცივია",
+  "translit": "amindi tsivia",
+  "fr": "Il fait froid",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00447",
+  "ar": "გახსნა",
+  "translit": "gakhsna",
+  "fr": "Ouvrir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00448",
+  "ar": "გახსენი ფანჯარა",
+  "translit": "gakhseni panjara",
+  "fr": "Ouvre la fenêtre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00449",
+  "ar": "დახურვა",
+  "translit": "dakhurva",
+  "fr": "Fermer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00450",
+  "ar": "დახურე კარი",
+  "translit": "dakhure k'ari",
+  "fr": "Ferme la porte",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00451",
+  "ar": "დაწყება",
+  "translit": "dats'q'eba",
+  "fr": "Commencer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00452",
+  "ar": "გაკვეთილი იწყება",
+  "translit": "gak'vetili its'q'eba",
+  "fr": "Le cours commence",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00453",
+  "ar": "დამთავრება",
+  "translit": "damtavreba",
+  "fr": "Finir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00454",
+  "ar": "ფილმი დამთავრდა",
+  "translit": "pilmi damtavrda",
+  "fr": "Le film est fini",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00455",
+  "ar": "ლოდინი",
+  "translit": "lodini",
+  "fr": "Attendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00456",
+  "ar": "მე შენ გელოდები",
+  "translit": "me shen gelodebi",
+  "fr": "Je t'attends",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00457",
+  "ar": "მოიცადე!",
+  "translit": "moitsade!",
+  "fr": "Attends !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00458",
+  "ar": "ძებნა",
+  "translit": "dzebna",
+  "fr": "Chercher",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00459",
+  "ar": "მე სასტუმროს ვეძებ",
+  "translit": "me sast'umros vedzeb",
+  "fr": "Je cherche l'hôtel",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00460",
+  "ar": "პოვნა",
+  "translit": "p'ovna",
+  "fr": "Trouver",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00461",
+  "ar": "ვიპოვე!",
+  "translit": "vip'ove!",
+  "fr": "J'ai trouvé !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00462",
+  "ar": "ვერ ვპოულობ გასაღებს",
+  "translit": "ver vp'oulob gasaghebs",
+  "fr": "Je ne trouve pas la clé",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00463",
+  "ar": "თამაში",
+  "translit": "tamashi",
+  "fr": "Jouer (le jeu)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00464",
+  "ar": "ბავშვები ეზოში თამაშობენ",
+  "translit": "bavshvebi ezoshi tamashoben",
+  "fr": "Les enfants jouent dans la cour",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00465",
+  "ar": "დაბრუნება",
+  "translit": "dabruneba",
+  "fr": "Revenir (retourner)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00466",
+  "ar": "მალე დავბრუნდები",
+  "translit": "male davbrundebi",
+  "fr": "Je reviens bientôt",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00467",
+  "ar": "ფიქრი",
+  "translit": "pikri",
+  "fr": "Penser (la pensée)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00468",
+  "ar": "რას ფიქრობ?",
+  "translit": "ras pikrob?",
+  "fr": "Qu'en penses-tu ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00469",
+  "ar": "დახმარება",
+  "translit": "dakhmareba",
+  "fr": "Aider",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00470",
+  "ar": "მომზადება",
+  "translit": "momzadeba",
+  "fr": "Préparer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00471",
+  "ar": "დედა ვახშამს ამზადებს",
+  "translit": "deda vakhshams amzadebs",
+  "fr": "Maman prépare le dîner",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00472",
+  "ar": "გადახდა",
+  "translit": "gadakhda",
+  "fr": "Payer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00473",
+  "ar": "ბარათით გადავიხდი",
+  "translit": "baratit gadavikhdi",
+  "fr": "Je paierai par carte",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00474",
+  "ar": "დარეკვა",
+  "translit": "darek'va",
+  "fr": "Appeler (téléphoner)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00475",
+  "ar": "დამირეკე",
+  "translit": "damirek'e",
+  "fr": "Appelle-moi",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00476",
+  "ar": "ხვალ დაგირეკავ",
+  "translit": "khval dagirek'av",
+  "fr": "Je t'appellerai demain",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00477",
+  "ar": "დავიწყება",
+  "translit": "davits'q'eba",
+  "fr": "Oublier",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00478",
+  "ar": "დამავიწყდა",
+  "translit": "damavits'q'da",
+  "fr": "J'ai oublié",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00479",
+  "ar": "არ დაგავიწყდეს!",
+  "translit": "ar dagavits'q'des!",
+  "fr": "N'oublie pas !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00480",
+  "ar": "მახსოვს",
+  "translit": "makhsovs",
+  "fr": "Je me souviens",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00481",
+  "ar": "უნდა წავიდე",
+  "translit": "unda ts'avide",
+  "fr": "Je dois partir",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00482",
+  "ar": "მჭირდება დახმარება",
+  "translit": "mch'irdeba dakhmareba",
+  "fr": "J'ai besoin d'aide",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00483",
+  "ar": "მშია",
+  "translit": "mshia",
+  "fr": "J'ai faim",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00484",
+  "ar": "მწყურია",
+  "translit": "mts'q'uria",
+  "fr": "J'ai soif",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00485",
+  "ar": "მცივა",
+  "translit": "mtsiva",
+  "fr": "J'ai froid",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00486",
+  "ar": "მცხელა",
+  "translit": "mtskhela",
+  "fr": "J'ai chaud",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00487",
+  "ar": "დავიღალე",
+  "translit": "davighale",
+  "fr": "Je suis fatigué",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00488",
+  "ar": "მეშინია",
+  "translit": "meshinia",
+  "fr": "J'ai peur",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00489",
+  "ar": "შიგნით",
+  "translit": "shignit",
+  "fr": "Dedans",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00490",
+  "ar": "გარეთ",
+  "translit": "garet",
+  "fr": "Dehors",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00491",
+  "ar": "წინ",
+  "translit": "ts'in",
+  "fr": "Devant",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00492",
+  "ar": "უკან",
+  "translit": "uk'an",
+  "fr": "Derrière",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00493",
+  "ar": "მარჯვნივ",
+  "translit": "marjvniv",
+  "fr": "À droite",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00494",
+  "ar": "მარცხნივ",
+  "translit": "martskhniv",
+  "fr": "À gauche",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00495",
+  "ar": "პირდაპირ",
+  "translit": "p'irdap'ir",
+  "fr": "Tout droit",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00496",
+  "ar": "ერთად",
+  "translit": "ertad",
+  "fr": "Ensemble",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00497",
+  "ar": "მარტო",
+  "translit": "mart'o",
+  "fr": "Seul",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00498",
+  "ar": "ალბათ",
+  "translit": "albat",
+  "fr": "Probablement",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00499",
+  "ar": "მძიმე",
+  "translit": "mdzime",
+  "fr": "Lourd",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00500",
+  "ar": "მსუბუქი",
+  "translit": "msubuki",
+  "fr": "Léger",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00501",
+  "ar": "ადვილი",
+  "translit": "advili",
+  "fr": "Facile",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00502",
+  "ar": "რთული",
+  "translit": "rtuli",
+  "fr": "Difficile",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00503",
+  "ar": "ბედნიერი",
+  "translit": "bednieri",
+  "fr": "Heureux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00504",
+  "ar": "სევდიანი",
+  "translit": "sevdiani",
+  "fr": "Triste",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00505",
+  "ar": "გემრიელი",
+  "translit": "gemrieli",
+  "fr": "Délicieux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00506",
+  "ar": "დაკავებული",
+  "translit": "dak'avebuli",
+  "fr": "Occupé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00507",
+  "ar": "თავისუფალი",
+  "translit": "tavisupali",
+  "fr": "Libre",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00508",
+  "ar": "ღია",
+  "translit": "ghia",
+  "fr": "Ouvert",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00509",
+  "ar": "დაკეტილი",
+  "translit": "dak'et'ili",
+  "fr": "Fermé (à clé)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00510",
+  "ar": "ცდა",
+  "translit": "tsda",
+  "fr": "Essayer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00511",
+  "ar": "ვცდილობ",
+  "translit": "vtsdilob",
+  "fr": "J'essaie",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00512",
+  "ar": "ჯდომა",
+  "translit": "jdoma",
+  "fr": "Être assis",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00513",
+  "ar": "დაბრძანდით",
+  "translit": "dabrdzandit",
+  "fr": "Asseyez-vous (poli)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00514",
+  "ar": "დგომა",
+  "translit": "dgoma",
+  "fr": "Être debout",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00515",
+  "ar": "ადექი!",
+  "translit": "adeki!",
+  "fr": "Lève-toi !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00516",
+  "ar": "შესვლა",
+  "translit": "shesvla",
+  "fr": "Entrer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00517",
+  "ar": "შემოდით!",
+  "translit": "shemodit!",
+  "fr": "Entrez !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00518",
+  "ar": "გასვლა",
+  "translit": "gasvla",
+  "fr": "Sortir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00519",
+  "ar": "მოტანა",
+  "translit": "mot'ana",
+  "fr": "Apporter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00520",
+  "ar": "მომიტანეთ მენიუ, თუ შეიძლება",
+  "translit": "momit'anet meniu, tu sheidzleba",
+  "fr": "Apportez-moi le menu, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00521",
+  "ar": "ჩვენება",
+  "translit": "chveneba",
+  "fr": "Montrer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00522",
+  "ar": "მაჩვენე",
+  "translit": "machvene",
+  "fr": "Montre-moi",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00523",
+  "ar": "თხოვნა",
+  "translit": "tkhovna",
+  "fr": "Demander (une faveur)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00524",
+  "ar": "მოწონება",
+  "translit": "mots'oneba",
+  "fr": "Plaire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00525",
+  "ar": "მოგწონს?",
+  "translit": "mogts'ons?",
+  "fr": "Ça te plaît ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00526",
+  "ar": "გაჩერება",
+  "translit": "gachereba",
+  "fr": "S'arrêter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00527",
+  "ar": "აქ გააჩერეთ, თუ შეიძლება",
+  "translit": "ak gaacheret, tu sheidzleba",
+  "fr": "Arrêtez ici, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00528",
+  "ar": "გაგზავნა",
+  "translit": "gagzavna",
+  "fr": "Envoyer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00529",
+  "ar": "წერილი გავგზავნე",
+  "translit": "ts'erili gavgzavne",
+  "fr": "J'ai envoyé la lettre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00530",
+  "ar": "მიღება",
+  "translit": "migheba",
+  "fr": "Recevoir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00531",
+  "ar": "შენი წერილი მივიღე",
+  "translit": "sheni ts'erili mivighe",
+  "fr": "J'ai reçu ta lettre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00532",
+  "ar": "გახსენება",
+  "translit": "gakhseneba",
+  "fr": "Se souvenir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00533",
+  "ar": "დასვენება",
+  "translit": "dasveneba",
+  "fr": "Se reposer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00534",
+  "ar": "მოგზაურობა",
+  "translit": "mogzauroba",
+  "fr": "Voyager",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00535",
+  "ar": "მე მიყვარს მოგზაურობა",
+  "translit": "me miq'vars mogzauroba",
+  "fr": "J'aime voyager",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00536",
+  "ar": "ცურვა",
+  "translit": "tsurva",
+  "fr": "Nager",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00537",
+  "ar": "ცურვა იცი?",
+  "translit": "tsurva itsi?",
+  "fr": "Tu sais nager ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00538",
+  "ar": "სიარული",
+  "translit": "siaruli",
+  "fr": "Marcher",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00539",
+  "ar": "ფეხით დავდივარ",
+  "translit": "pekhit davdivar",
+  "fr": "Je vais à pied",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00540",
+  "ar": "გაცნობა",
+  "translit": "gatsnoba",
+  "fr": "Faire connaissance",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00541",
+  "ar": "სასიამოვნოა თქვენი გაცნობა",
+  "translit": "sasiamovnoa tkveni gatsnoba",
+  "fr": "Enchanté de vous connaître",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00542",
+  "ar": "დაჯერება",
+  "translit": "dajereba",
+  "fr": "Croire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00543",
+  "ar": "არ მჯერა",
+  "translit": "ar mjera",
+  "fr": "Je ne le crois pas",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00544",
+  "ar": "დაკარგვა",
+  "translit": "dak'argva",
+  "fr": "Perdre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00545",
+  "ar": "ტელეფონი დავკარგე",
+  "translit": "t'eleponi davk'arge",
+  "fr": "J'ai perdu mon téléphone",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00546",
+  "ar": "შეხვედრა",
+  "translit": "shekhvedra",
+  "fr": "Rencontrer (rendez-vous)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00547",
+  "ar": "ხვალ შევხვდეთ",
+  "translit": "khval shevkhvdet",
+  "fr": "Retrouvons-nous demain",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00548",
+  "ar": "ნელა",
+  "translit": "nela",
+  "fr": "Lentement",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00549",
+  "ar": "სწრაფად",
+  "translit": "sts'rapad",
+  "fr": "Vite",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00550",
+  "ar": "ახლოს",
+  "translit": "akhlos",
+  "fr": "Près",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00551",
+  "ar": "შორს",
+  "translit": "shors",
+  "fr": "Loin",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00552",
+  "ar": "ადრე",
+  "translit": "adre",
+  "fr": "Tôt",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00553",
+  "ar": "ყველაფერი",
+  "translit": "q'velaperi",
+  "fr": "Tout",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00554",
+  "ar": "არაფერი",
+  "translit": "araperi",
+  "fr": "Rien",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00555",
+  "ar": "შაქრის გარეშე",
+  "translit": "shakris gareshe",
+  "fr": "Sans sucre",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00556",
+  "ar": "ჩემთვის",
+  "translit": "chemtvis",
+  "fr": "Pour moi",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00557",
+  "ar": "შენთან ერთად",
+  "translit": "shentan ertad",
+  "fr": "Avec toi",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00558",
+  "ar": "მანქანით",
+  "translit": "mankanit",
+  "fr": "En voiture",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00559",
+  "ar": "ჭკვიანი",
+  "translit": "ch'k'viani",
+  "fr": "Intelligent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00560",
+  "ar": "სულელი",
+  "translit": "suleli",
+  "fr": "Bête",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00561",
+  "ar": "ტკბილი",
+  "translit": "t'k'bili",
+  "fr": "Sucré",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00562",
+  "ar": "ავადმყოფი",
+  "translit": "avadmq'opi",
+  "fr": "Malade",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00563",
+  "ar": "ჯანმრთელი",
+  "translit": "janmrteli",
+  "fr": "En bonne santé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00564",
+  "ar": "საინტერესო",
+  "translit": "saint'ereso",
+  "fr": "Intéressant",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00565",
+  "ar": "მოსაწყენი",
+  "translit": "mosats'q'eni",
+  "fr": "Ennuyeux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00566",
+  "ar": "სახლი",
+  "translit": "sakhli",
+  "fr": "Maison",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00567",
+  "ar": "პური",
+  "translit": "p'uri",
+  "fr": "Pain",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00568",
+  "ar": "ანგარიში, თუ შეიძლება",
+  "translit": "angarishi, tu sheidzleba.",
+  "fr": "L'addition, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00569",
+  "ar": "ოთახი",
+  "translit": "otakhi",
+  "fr": "Pièce (d'une maison)",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00570",
+  "ar": "სამზარეულო",
+  "translit": "samzareulo",
+  "fr": "Cuisine (pièce)",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00571",
+  "ar": "აბაზანა",
+  "translit": "abazana",
+  "fr": "Salle de bain",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00572",
+  "ar": "ტუალეტი",
+  "translit": "t'ualet'i",
+  "fr": "Toilettes",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00573",
+  "ar": "კარი",
+  "translit": "k'ari",
+  "fr": "Porte",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00574",
+  "ar": "ფანჯარა",
+  "translit": "panjara",
+  "fr": "Fenêtre",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00575",
+  "ar": "მაგიდა",
+  "translit": "magida",
+  "fr": "Table",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00576",
+  "ar": "სკამი",
+  "translit": "sk'ami",
+  "fr": "Chaise",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00577",
+  "ar": "საწოლი",
+  "translit": "sats'oli",
+  "fr": "Lit",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00578",
+  "ar": "გასაღები",
+  "translit": "gasaghebi",
+  "fr": "Clé",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00579",
+  "ar": "ბინა",
+  "translit": "bina",
+  "fr": "Appartement",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00580",
+  "ar": "ღვინო",
+  "translit": "ghvino",
+  "fr": "Vin",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00581",
+  "ar": "ჩაი",
+  "translit": "chai",
+  "fr": "Thé",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00582",
+  "ar": "რძე",
+  "translit": "rdze",
+  "fr": "Lait",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00583",
+  "ar": "ყველი",
+  "translit": "q'veli",
+  "fr": "Fromage",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00584",
+  "ar": "ხორცი",
+  "translit": "khortsi",
+  "fr": "Viande",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00585",
+  "ar": "თევზი",
+  "translit": "tevzi",
+  "fr": "Poisson",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00586",
+  "ar": "ქათამი",
+  "translit": "katami",
+  "fr": "Poulet",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00587",
+  "ar": "კვერცხი",
+  "translit": "k'vertskhi",
+  "fr": "Œuf",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00588",
+  "ar": "ხილი",
+  "translit": "khili",
+  "fr": "Fruits",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00589",
+  "ar": "ვაშლი",
+  "translit": "vashli",
+  "fr": "Pomme",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00590",
+  "ar": "პომიდორი",
+  "translit": "p'omidori",
+  "fr": "Tomate",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00591",
+  "ar": "კარტოფილი",
+  "translit": "k'art'opili",
+  "fr": "Pomme de terre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00592",
+  "ar": "ლუდი",
+  "translit": "ludi",
+  "fr": "Bière",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00593",
+  "ar": "ხაჭაპური",
+  "translit": "khach'ap'uri",
+  "fr": "Khatchapouri (pain au fromage)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00594",
+  "ar": "ხინკალი",
+  "translit": "khink'ali",
+  "fr": "Khinkali (raviolis géorgiens)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00595",
+  "ar": "საუზმე",
+  "translit": "sauzme",
+  "fr": "Petit-déjeuner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00596",
+  "ar": "საჭმელი",
+  "translit": "sach'meli",
+  "fr": "Nourriture, plat",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00597",
+  "ar": "სალათი",
+  "translit": "salati",
+  "fr": "Salade",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00598",
+  "ar": "სუპი",
+  "translit": "sup'i",
+  "fr": "Soupe",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00599",
+  "ar": "ბანანი",
+  "translit": "banani",
+  "fr": "Banane",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00600",
+  "ar": "წითელი ღვინო",
+  "translit": "ts'iteli ghvino",
+  "fr": "Vin rouge",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00601",
+  "ar": "თეთრი ღვინო",
+  "translit": "tetri ghvino",
+  "fr": "Vin blanc",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00602",
+  "ar": "მინერალური წყალი",
+  "translit": "mineraluri ts'q'ali",
+  "fr": "Eau minérale",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00603",
+  "ar": "ყავა რძით",
+  "translit": "q'ava rdzit",
+  "fr": "Café au lait",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00604",
+  "ar": "მაღაზია",
+  "translit": "maghazia",
+  "fr": "Magasin",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00605",
+  "ar": "ბაზარი",
+  "translit": "bazari",
+  "fr": "Marché",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00606",
+  "ar": "ფული",
+  "translit": "puli",
+  "fr": "Argent (monnaie)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00607",
+  "ar": "ფასი",
+  "translit": "pasi",
+  "fr": "Prix",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00608",
+  "ar": "ლარი",
+  "translit": "lari",
+  "fr": "Lari (monnaie géorgienne)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00609",
+  "ar": "ბარათი",
+  "translit": "barati",
+  "fr": "Carte (bancaire)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00610",
+  "ar": "რესტორანი",
+  "translit": "rest'orani",
+  "fr": "Restaurant",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00611",
+  "ar": "მენიუ",
+  "translit": "meniu",
+  "fr": "Menu",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00612",
+  "ar": "ქალაქი",
+  "translit": "kalaki",
+  "fr": "Ville",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00613",
+  "ar": "ქუჩა",
+  "translit": "kucha",
+  "fr": "Rue",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00614",
+  "ar": "აფთიაქი",
+  "translit": "aptiaki",
+  "fr": "Pharmacie",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00615",
+  "ar": "ბანკი",
+  "translit": "bank'i",
+  "fr": "Banque",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00616",
+  "ar": "პარკი",
+  "translit": "p'ark'i",
+  "fr": "Parc",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00617",
+  "ar": "მისამართი",
+  "translit": "misamarti",
+  "fr": "Adresse",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00618",
+  "ar": "ქალაქის ცენტრი",
+  "translit": "kalakis tsent'ri",
+  "fr": "Centre-ville",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00619",
+  "ar": "სუპერმარკეტი",
+  "translit": "sup'ermark'et'i",
+  "fr": "Supermarché",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00620",
+  "ar": "კაფე",
+  "translit": "k'ape",
+  "fr": "Café (lieu)",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00621",
+  "ar": "მანქანა",
+  "translit": "mankana",
+  "fr": "Voiture",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00622",
+  "ar": "ავტობუსი",
+  "translit": "avt'obusi",
+  "fr": "Bus",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00623",
+  "ar": "მეტრო",
+  "translit": "met'ro",
+  "fr": "Métro",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00624",
+  "ar": "ტაქსი",
+  "translit": "t'aksi",
+  "fr": "Taxi",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00625",
+  "ar": "მატარებელი",
+  "translit": "mat'arebeli",
+  "fr": "Train",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00626",
+  "ar": "ბილეთი",
+  "translit": "bileti",
+  "fr": "Billet",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00627",
+  "ar": "გზა",
+  "translit": "gza",
+  "fr": "Route, chemin",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00628",
+  "ar": "აეროპორტი",
+  "translit": "aerop'ort'i",
+  "fr": "Aéroport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00629",
+  "ar": "პასპორტი",
+  "translit": "p'asp'ort'i",
+  "fr": "Passeport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00630",
+  "ar": "სასტუმრო",
+  "translit": "sast'umro",
+  "fr": "Hôtel",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00631",
+  "ar": "ზღვა",
+  "translit": "zghva",
+  "fr": "Mer",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00632",
+  "ar": "მთა",
+  "translit": "mta",
+  "fr": "Montagne",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00633",
+  "ar": "სამსახური",
+  "translit": "samsakhuri",
+  "fr": "Travail, emploi",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00634",
+  "ar": "ექიმი",
+  "translit": "ekimi",
+  "fr": "Médecin",
+  "theme": "metiers",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00635",
+  "ar": "მასწავლებელი",
+  "translit": "masts'avlebeli",
+  "fr": "Enseignant",
+  "theme": "metiers",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00636",
+  "ar": "სკოლა",
+  "translit": "sk'ola",
+  "fr": "École",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00637",
+  "ar": "უნივერსიტეტი",
+  "translit": "universit'et'i",
+  "fr": "Université",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00638",
+  "ar": "სტუდენტი",
+  "translit": "st'udent'i",
+  "fr": "Étudiant",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00639",
+  "ar": "წიგნი",
+  "translit": "ts'igni",
+  "fr": "Livre",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00640",
+  "ar": "კლასი",
+  "translit": "k'lasi",
+  "fr": "Classe",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00641",
+  "ar": "ტელეფონი",
+  "translit": "t'eleponi",
+  "fr": "Téléphone",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00642",
+  "ar": "ინტერნეტი",
+  "translit": "int'ernet'i",
+  "fr": "Internet",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00643",
+  "ar": "კომპიუტერი",
+  "translit": "k'omp'iut'eri",
+  "fr": "Ordinateur",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00644",
+  "ar": "ტელეფონის ნომერი",
+  "translit": "t'eleponis nomeri",
+  "fr": "Numéro de téléphone",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00645",
+  "ar": "ფილმი",
+  "translit": "pilmi",
+  "fr": "Film",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00646",
+  "ar": "კინო",
+  "translit": "k'ino",
+  "fr": "Cinéma",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00647",
+  "ar": "მუსიკა",
+  "translit": "musik'a",
+  "fr": "Musique",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00648",
+  "ar": "ფეხბურთი",
+  "translit": "pekhburti",
+  "fr": "Football",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00649",
+  "ar": "სპორტი",
+  "translit": "sp'ort'i",
+  "fr": "Sport",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00650",
+  "ar": "ამინდი",
+  "translit": "amindi",
+  "fr": "Temps (météo)",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00651",
+  "ar": "მზე",
+  "translit": "mze",
+  "fr": "Soleil",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00652",
+  "ar": "წვიმა",
+  "translit": "ts'vima",
+  "fr": "Pluie",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00653",
+  "ar": "თოვლი",
+  "translit": "tovli",
+  "fr": "Neige",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00654",
+  "ar": "ცა",
+  "translit": "tsa",
+  "fr": "Ciel",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00655",
+  "ar": "ხე",
+  "translit": "khe",
+  "fr": "Arbre",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00656",
+  "ar": "ყვავილი",
+  "translit": "q'vavili",
+  "fr": "Fleur",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00657",
+  "ar": "მთვარე",
+  "translit": "mtvare",
+  "fr": "Lune",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00658",
+  "ar": "ცხოველი",
+  "translit": "tskhoveli",
+  "fr": "Animal",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00659",
+  "ar": "ძაღლი",
+  "translit": "dzaghli",
+  "fr": "Chien",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00660",
+  "ar": "კატა",
+  "translit": "k'at'a",
+  "fr": "Chat",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00661",
+  "ar": "ცხენი",
+  "translit": "tskheni",
+  "fr": "Cheval",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00662",
+  "ar": "ჩიტი",
+  "translit": "chit'i",
+  "fr": "Oiseau",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00663",
+  "ar": "მენიუ შეიძლება?",
+  "translit": "meniu sheidzleba?",
+  "fr": "Puis-je avoir le menu ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00664",
+  "ar": "წყალი მინდა",
+  "translit": "ts'q'ali minda.",
+  "fr": "Je veux de l'eau",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00665",
+  "ar": "ძალიან გემრიელი იყო",
+  "translit": "dzalian gemrieli iq'o.",
+  "fr": "C'était délicieux",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00666",
+  "ar": "ორი ლუდი, თუ შეიძლება",
+  "translit": "ori ludi, tu sheidzleba.",
+  "fr": "Deux bières, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00667",
+  "ar": "კიდევ ერთი, თუ შეიძლება",
+  "translit": "k'idev erti, tu sheidzleba.",
+  "fr": "Encore un, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00668",
+  "ar": "ჩაი თუ ყავა?",
+  "translit": "chai tu q'ava?",
+  "fr": "Thé ou café ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00669",
+  "ar": "გაუმარჯოს!",
+  "translit": "gaumarjos!",
+  "fr": "Santé ! (en trinquant)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00670",
+  "ar": "სად არის ავტობუსის გაჩერება?",
+  "translit": "sad aris avt'obusis gachereba?",
+  "fr": "Où est l'arrêt de bus ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00671",
+  "ar": "სად არის მეტროს სადგური?",
+  "translit": "sad aris met'ros sadguri?",
+  "fr": "Où est la station de métro ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00672",
+  "ar": "სად არის აფთიაქი?",
+  "translit": "sad aris aptiaki?",
+  "fr": "Où est la pharmacie ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00673",
+  "ar": "სად არის სასტუმრო?",
+  "translit": "sad aris sast'umro?",
+  "fr": "Où est l'hôtel ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00674",
+  "ar": "სად არის ბანკომატი?",
+  "translit": "sad aris bank'omat'i?",
+  "fr": "Où y a-t-il un distributeur ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00675",
+  "ar": "სად არის გასასვლელი?",
+  "translit": "sad aris gasasvleli?",
+  "fr": "Où est la sortie ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00676",
+  "ar": "შორსაა?",
+  "translit": "shorsaa?",
+  "fr": "C'est loin ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00677",
+  "ar": "ახლოსაა",
+  "translit": "akhlosaa.",
+  "fr": "C'est près",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00678",
+  "ar": "ეს ადგილი თავისუფალია?",
+  "translit": "es adgili tavisupalia?",
+  "fr": "Cette place est-elle libre ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00679",
+  "ar": "საქართველო ძალიან მომწონს",
+  "translit": "sakartvelo dzalian momts'ons.",
+  "fr": "J'aime beaucoup la Géorgie",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00680",
+  "ar": "ძალიან ლამაზია",
+  "translit": "dzalian lamazia.",
+  "fr": "C'est très beau",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00681",
+  "ar": "ქართული ცოტა ვიცი",
+  "translit": "kartuli tsot'a vitsi.",
+  "fr": "Je connais un peu le géorgien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00682",
+  "ar": "ეს ქართულად როგორ არის?",
+  "translit": "es kartulad rogor aris?",
+  "fr": "Comment dit-on ça en géorgien ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00683",
+  "ar": "მიშველეთ!",
+  "translit": "mishvelet!",
+  "fr": "Au secours !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00684",
+  "ar": "ერთი წუთით!",
+  "translit": "erti ts'utit!",
+  "fr": "Une minute !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00685",
+  "ar": "სამსახურში ვარ",
+  "translit": "samsakhurshi var.",
+  "fr": "Je suis au travail",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00686",
+  "ar": "დაკავებული ვარ",
+  "translit": "dak'avebuli var.",
+  "fr": "Je suis occupé",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00687",
+  "ar": "შეკითხვა მაქვს",
+  "translit": "shek'itkhva makvs.",
+  "fr": "J'ai une question",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00688",
+  "ar": "რა ამინდია?",
+  "translit": "ra amindia?",
+  "fr": "Quel temps fait-il ?",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00689",
+  "ar": "დღეს ცხელა",
+  "translit": "dghes tskhela.",
+  "fr": "Il fait chaud aujourd'hui",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00690",
+  "ar": "წვიმს",
+  "translit": "ts'vims.",
+  "fr": "Il pleut",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00691",
+  "ar": "თოვს",
+  "translit": "tovs.",
+  "fr": "Il neige",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00692",
+  "ar": "ლამაზი ამინდია",
+  "translit": "lamazi amindia.",
+  "fr": "Il fait beau",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00693",
+  "ar": "მიყვარს მუსიკა",
+  "translit": "miq'vars musik'a.",
+  "fr": "J'aime la musique",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00694",
+  "ar": "დღეს საღამოს რას აკეთებ?",
+  "translit": "dghes saghamos ras ak'eteb?",
+  "fr": "Que fais-tu ce soir ?",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00695",
+  "ar": "მომწერე",
+  "translit": "momts'ere.",
+  "fr": "Écris-moi",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00696",
+  "ar": "ალო?",
+  "translit": "alo?",
+  "fr": "Allô ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00697",
+  "ar": "ინტერნეტი გაქვთ?",
+  "translit": "int'ernet'i gakvt?",
+  "fr": "Avez-vous internet ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00698",
+  "ar": "რა არის პაროლი?",
+  "translit": "ra aris p'aroli?",
+  "fr": "Quel est le mot de passe ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00699",
+  "ar": "რა არის შენი ნომერი?",
+  "translit": "ra aris sheni nomeri?",
+  "fr": "Quel est ton numéro ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00700",
+  "ar": "ძალიან ძვირია",
+  "translit": "dzalian dzviria.",
+  "fr": "C'est trop cher",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00701",
+  "ar": "ამას ავიღებ",
+  "translit": "amas avigheb.",
+  "fr": "Je prends ceci",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00702",
+  "ar": "პატარაა",
+  "translit": "p'at'araa.",
+  "fr": "C'est petit",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00703",
+  "ar": "ღიაა?",
+  "translit": "ghiaa?",
+  "fr": "C'est ouvert ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00704",
+  "ar": "დაკეტილია",
+  "translit": "dak'et'ilia.",
+  "fr": "C'est fermé",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00705",
+  "ar": "დაჯექით",
+  "translit": "dajekit.",
+  "fr": "Asseyez-vous",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00706",
+  "ar": "სახლში ვარ",
+  "translit": "sakhlshi var.",
+  "fr": "Je suis à la maison",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00707",
+  "ar": "სახლში მივდივარ",
+  "translit": "sakhlshi mivdivar.",
+  "fr": "Je rentre à la maison",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00708",
+  "ar": "სახლი დიდია",
+  "translit": "sakhli didia.",
+  "fr": "La maison est grande",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00709",
+  "ar": "საძინებელი",
+  "translit": "sadzinebeli",
+  "fr": "Chambre à coucher",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00710",
+  "ar": "სართული",
+  "translit": "sartuli",
+  "fr": "Étage",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00711",
+  "ar": "მაცივარი",
+  "translit": "matsivari",
+  "fr": "Réfrigérateur",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00712",
+  "ar": "ბოსტნეული",
+  "translit": "bost'neuli",
+  "fr": "Légumes",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00713",
+  "ar": "ბრინჯი",
+  "translit": "brinji",
+  "fr": "Riz",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00714",
+  "ar": "მარილი",
+  "translit": "marili",
+  "fr": "Sel",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00715",
+  "ar": "შაქარი",
+  "translit": "shakari",
+  "fr": "Sucre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00716",
+  "ar": "წვენი",
+  "translit": "ts'veni",
+  "fr": "Jus",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00717",
+  "ar": "ვახშამი",
+  "translit": "vakhshami",
+  "fr": "Dîner (repas du soir)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00718",
+  "ar": "ნამცხვარი",
+  "translit": "namtskhvari",
+  "fr": "Gâteau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00719",
+  "ar": "ნაღდი ფული",
+  "translit": "naghdi puli",
+  "fr": "Espèces (argent liquide)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00720",
+  "ar": "ოფიციანტი",
+  "translit": "opitsiant'i",
+  "fr": "Serveur",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00721",
+  "ar": "ანგარიში",
+  "translit": "angarishi",
+  "fr": "Addition",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00722",
+  "ar": "ჭიქა",
+  "translit": "ch'ika",
+  "fr": "Verre",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00723",
+  "ar": "ჩანგალი",
+  "translit": "changali",
+  "fr": "Fourchette",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00724",
+  "ar": "დანა",
+  "translit": "dana",
+  "fr": "Couteau",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00725",
+  "ar": "კოვზი",
+  "translit": "k'ovzi",
+  "fr": "Cuillère",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00726",
+  "ar": "საავადმყოფო",
+  "translit": "saavadmq'opo",
+  "fr": "Hôpital",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00727",
+  "ar": "ბანკომატი",
+  "translit": "bank'omat'i",
+  "fr": "Distributeur de billets",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00728",
+  "ar": "პოლიცია",
+  "translit": "p'olitsia",
+  "fr": "Police",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00729",
+  "ar": "მარშრუტკა",
+  "translit": "marshrut'k'a",
+  "fr": "Minibus (marchroutka)",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00730",
+  "ar": "სადგური",
+  "translit": "sadguri",
+  "fr": "Gare",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00731",
+  "ar": "თვითმფრინავი",
+  "translit": "tvitmprinavi",
+  "fr": "Avion",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00732",
+  "ar": "ბარგი",
+  "translit": "bargi",
+  "fr": "Bagages",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00733",
+  "ar": "ჩემოდანი",
+  "translit": "chemodani",
+  "fr": "Valise",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00734",
+  "ar": "რუკა",
+  "translit": "ruk'a",
+  "fr": "Carte (géographique)",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00735",
+  "ar": "ხელფასი",
+  "translit": "khelpasi",
+  "fr": "Salaire",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00736",
+  "ar": "გაკვეთილი",
+  "translit": "gak'vetili",
+  "fr": "Leçon, cours",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00737",
+  "ar": "გამოცდა",
+  "translit": "gamotsda",
+  "fr": "Examen",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00738",
+  "ar": "წამალი",
+  "translit": "ts'amali",
+  "fr": "Médicament",
+  "theme": "sante",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00739",
+  "ar": "ტანსაცმელი",
+  "translit": "t'ansatsmeli",
+  "fr": "Vêtements",
+  "theme": "vetements",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00740",
+  "ar": "შარვალი",
+  "translit": "sharvali",
+  "fr": "Pantalon",
+  "theme": "vetements",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00741",
+  "ar": "ფეხსაცმელი",
+  "translit": "pekhsatsmeli",
+  "fr": "Chaussures",
+  "theme": "vetements",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00742",
+  "ar": "ზომა",
+  "translit": "zoma",
+  "fr": "Taille (vêtement)",
+  "theme": "vetements",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00743",
+  "ar": "პაროლი",
+  "translit": "p'aroli",
+  "fr": "Mot de passe",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00744",
+  "ar": "დამტენი",
+  "translit": "damt'eni",
+  "fr": "Chargeur",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00745",
+  "ar": "შეტყობინება",
+  "translit": "shet'q'obineba",
+  "fr": "Message",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00746",
+  "ar": "ქარი",
+  "translit": "kari",
+  "fr": "Vent",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00747",
+  "ar": "ტყე",
+  "translit": "t'q'e",
+  "fr": "Forêt",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00748",
+  "ar": "გემრიელად მიირთვით!",
+  "translit": "gemrielad miirtvit!",
+  "fr": "Bon appétit !",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00749",
+  "ar": "მაგიდა ორი კაცისთვის",
+  "translit": "magida ori k'atsistvis.",
+  "fr": "Une table pour deux",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00750",
+  "ar": "მაგიდის დაჯავშნა მინდა",
+  "translit": "magidis dajavshna minda.",
+  "fr": "Je voudrais réserver une table",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00751",
+  "ar": "ბარათით შეიძლება გადახდა?",
+  "translit": "baratit sheidzleba gadakhda?",
+  "fr": "Puis-je payer par carte ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00752",
+  "ar": "რა გნებავთ?",
+  "translit": "ra gnebavt?",
+  "fr": "Que désirez-vous ? (poli)",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00753",
+  "ar": "ცხარე არ მინდა",
+  "translit": "tskhare ar minda.",
+  "fr": "Pas épicé, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00754",
+  "ar": "რას მირჩევთ?",
+  "translit": "ras mirchevt?",
+  "fr": "Que me conseillez-vous ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00755",
+  "ar": "ვეგეტარიანელი ვარ",
+  "translit": "veget'arianeli var.",
+  "fr": "Je suis végétarien",
+  "theme": "nourriture",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00756",
+  "ar": "ხორცს არ ვჭამ",
+  "translit": "khortss ar vch'am.",
+  "fr": "Je ne mange pas de viande",
+  "theme": "nourriture",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00757",
+  "ar": "როგორ მივიდე ცენტრამდე?",
+  "translit": "rogor mivide tsent'ramde?",
+  "fr": "Comment aller au centre-ville ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00758",
+  "ar": "აქ გამიჩერეთ, თუ შეიძლება",
+  "translit": "ak gamicheret, tu sheidzleba.",
+  "fr": "Arrêtez-vous ici, s'il vous plaît",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00759",
+  "ar": "აეროპორტამდე რა ღირს?",
+  "translit": "aerop'ort'amde ra ghirs?",
+  "fr": "Combien jusqu'à l'aéroport ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00760",
+  "ar": "ერთი ბილეთი თბილისამდე",
+  "translit": "erti bileti tbilisamde.",
+  "fr": "Un billet pour Tbilissi",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00761",
+  "ar": "როდის გადის მატარებელი?",
+  "translit": "rodis gadis mat'arebeli?",
+  "fr": "Quand part le train ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00762",
+  "ar": "ეს ავტობუსი ბათუმში მიდის?",
+  "translit": "es avt'obusi batumshi midis?",
+  "fr": "Ce bus va-t-il à Batoumi ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00763",
+  "ar": "ბილეთი სად იყიდება?",
+  "translit": "bileti sad iq'ideba?",
+  "fr": "Où achète-t-on les billets ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00764",
+  "ar": "ტაქსი გამოიძახეთ, თუ შეიძლება",
+  "translit": "t'aksi gamoidzakhet, tu sheidzleba.",
+  "fr": "Appelez un taxi, s'il vous plaît",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00765",
+  "ar": "დავიკარგე",
+  "translit": "davik'arge.",
+  "fr": "Je suis perdu",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00766",
+  "ar": "ოთახი მაქვს დაჯავშნილი",
+  "translit": "otakhi makvs dajavshnili.",
+  "fr": "J'ai réservé une chambre",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00767",
+  "ar": "თავისუფალი ოთახი გაქვთ?",
+  "translit": "tavisupali otakhi gakvt?",
+  "fr": "Avez-vous une chambre libre ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00768",
+  "ar": "რამდენი ღამით?",
+  "translit": "ramdeni ghamit?",
+  "fr": "Pour combien de nuits ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00769",
+  "ar": "გასაღები, თუ შეიძლება",
+  "translit": "gasaghebi, tu sheidzleba.",
+  "fr": "La clé, s'il vous plaît",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00770",
+  "ar": "რომელ საათზეა საუზმე?",
+  "translit": "romel saatzea sauzme?",
+  "fr": "À quelle heure est le petit-déjeuner ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00771",
+  "ar": "რეგისტრაცია სად არის?",
+  "translit": "regist'ratsia sad aris?",
+  "fr": "Où est l'enregistrement ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00772",
+  "ar": "შვებულებაში ვარ",
+  "translit": "shvebulebashi var.",
+  "fr": "Je suis en vacances",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00773",
+  "ar": "ფოტოს გადაღება შეიძლება?",
+  "translit": "pot'os gadagheba sheidzleba?",
+  "fr": "Peut-on prendre une photo ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00774",
+  "ar": "სად შემიძლია ფულის გადაცვლა?",
+  "translit": "sad shemidzlia pulis gadatsvla?",
+  "fr": "Où puis-je changer de l'argent ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00775",
+  "ar": "ხურდა არ მაქვს",
+  "translit": "khurda ar makvs.",
+  "fr": "Je n'ai pas de monnaie",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00776",
+  "ar": "ხურდა დაიტოვეთ",
+  "translit": "khurda dait'ovet.",
+  "fr": "Gardez la monnaie",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00777",
+  "ar": "რამდენი გადავიხადო?",
+  "translit": "ramdeni gadavikhado?",
+  "fr": "Combien dois-je payer ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00778",
+  "ar": "მხოლოდ ვათვალიერებ",
+  "translit": "mkholod vatvaliereb.",
+  "fr": "Je regarde seulement",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00779",
+  "ar": "როდის იხსნება?",
+  "translit": "rodis ikhsneba?",
+  "fr": "Quand est-ce que ça ouvre ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00780",
+  "ar": "როდის იკეტება?",
+  "translit": "rodis ik'et'eba?",
+  "fr": "Quand est-ce que ça ferme ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00781",
+  "ar": "ეს რა ზომაა?",
+  "translit": "es ra zomaa?",
+  "fr": "C'est quelle taille ?",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00782",
+  "ar": "შეიძლება მოვიზომო?",
+  "translit": "sheidzleba movizomo?",
+  "fr": "Puis-je l'essayer ?",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00783",
+  "ar": "სხვა ფერი გაქვთ?",
+  "translit": "skhva peri gakvt?",
+  "fr": "Avez-vous une autre couleur ?",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00784",
+  "ar": "მობრძანდით!",
+  "translit": "mobrdzandit!",
+  "fr": "Entrez, je vous en prie",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00785",
+  "ar": "შეიძლება შემოვიდე?",
+  "translit": "sheidzleba shemovide?",
+  "fr": "Puis-je entrer ?",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00786",
+  "ar": "შუქი ჩართე",
+  "translit": "shuki charte.",
+  "fr": "Allume la lumière",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00787",
+  "ar": "ცხელი წყალი არ არის",
+  "translit": "tskheli ts'q'ali ar aris.",
+  "fr": "Il n'y a pas d'eau chaude",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00788",
+  "ar": "სიცხე მაქვს",
+  "translit": "sitskhe makvs.",
+  "fr": "J'ai de la fièvre",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00789",
+  "ar": "ხველა მაქვს",
+  "translit": "khvela makvs.",
+  "fr": "J'ai de la toux",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00790",
+  "ar": "გაციებული ვარ",
+  "translit": "gatsiebuli var.",
+  "fr": "Je suis enrhumé",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00791",
+  "ar": "ალერგია მაქვს",
+  "translit": "alergia makvs.",
+  "fr": "J'ai une allergie",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00792",
+  "ar": "გამოიძახეთ სასწრაფო!",
+  "translit": "gamoidzakhet sasts'rapo!",
+  "fr": "Appelez une ambulance !",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00793",
+  "ar": "გამოჯანმრთელდი!",
+  "translit": "gamojanmrteldi!",
+  "fr": "Guéris vite !",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00794",
+  "ar": "დღეს არ ვმუშაობ",
+  "translit": "dghes ar vmushaob.",
+  "fr": "Je ne travaille pas aujourd'hui",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00795",
+  "ar": "შეხვედრა მაქვს",
+  "translit": "shekhvedra makvs.",
+  "fr": "J'ai une réunion",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00796",
+  "ar": "გაკვეთილი რომელ საათზე იწყება?",
+  "translit": "gak'vetili romel saatze its'q'eba?",
+  "fr": "À quelle heure commence le cours ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00797",
+  "ar": "რომელ კლასში ხარ?",
+  "translit": "romel k'lasshi khar?",
+  "fr": "Tu es en quelle classe ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00798",
+  "ar": "ქარია",
+  "translit": "karia.",
+  "fr": "Il y a du vent",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00799",
+  "ar": "ხვალ იწვიმებს",
+  "translit": "khval its'vimebs.",
+  "fr": "Il pleuvra demain",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00800",
+  "ar": "ქოლგა წაიღე",
+  "translit": "kolga ts'aighe.",
+  "fr": "Prends un parapluie",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00801",
+  "ar": "გავისეირნოთ",
+  "translit": "gaviseirnot.",
+  "fr": "Allons nous promener",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00802",
+  "ar": "რა გიყვარს?",
+  "translit": "ra giq'vars?",
+  "fr": "Qu'est-ce que tu aimes ?",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00803",
+  "ar": "კინოში წავიდეთ?",
+  "translit": "k'inoshi ts'avidet?",
+  "fr": "On va au cinéma ?",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00804",
+  "ar": "ძაღლი გყავს?",
+  "translit": "dzaghli gq'avs?",
+  "fr": "As-tu un chien ?",
+  "theme": "animaux",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00805",
+  "ar": "კატა მყავს",
+  "translit": "k'at'a mq'avs.",
+  "fr": "J'ai un chat",
+  "theme": "animaux",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00806",
+  "ar": "მოგვიანებით დაგირეკავ",
+  "translit": "mogvianebit dagirek'av.",
+  "fr": "Je te rappellerai plus tard",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00807",
+  "ar": "ტელეფონი დამიჯდა",
+  "translit": "t'eleponi damijda.",
+  "fr": "Mon téléphone est déchargé",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00808",
+  "ar": "სად შემიძლია ტელეფონის დატენვა?",
+  "translit": "sad shemidzlia t'eleponis dat'enva?",
+  "fr": "Où puis-je recharger mon téléphone ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00809",
+  "ar": "ინტერნეტი არ მუშაობს",
+  "translit": "int'ernet'i ar mushaobs.",
+  "fr": "Internet ne marche pas",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00810",
+  "ar": "შეტყობინება გამომიგზავნე",
+  "translit": "shet'q'obineba gamomigzavne.",
+  "fr": "Envoie-moi un message",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00811",
+  "ar": "მაპატიე",
+  "translit": "map'at'ie",
+  "fr": "Pardonne-moi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00812",
+  "ar": "ბედნიერი ვარ",
+  "translit": "bednieri var",
+  "fr": "Je suis heureux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00813",
+  "ar": "დაღლილი",
+  "translit": "daghlili",
+  "fr": "Fatigué",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00814",
+  "ar": "გილოცავ!",
+  "translit": "gilotsav",
+  "fr": "Félicitations ! (à toi)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00815",
+  "ar": "გილოცავ დაბადების დღეს!",
+  "translit": "gilotsav dabadebis dghes",
+  "fr": "Joyeux anniversaire !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00816",
+  "ar": "ახალ წელს გილოცავ!",
+  "translit": "akhal ts'els gilotsav",
+  "fr": "Bonne année !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00817",
+  "ar": "წარმატებები!",
+  "translit": "ts'armat'ebebi",
+  "fr": "Bonne chance !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00818",
+  "ar": "ყოჩაღ!",
+  "translit": "q'ochagh",
+  "fr": "Bravo !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00819",
+  "ar": "მართალი ხარ",
+  "translit": "martali khar",
+  "fr": "Tu as raison",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00820",
+  "ar": "მართლა?",
+  "translit": "martla",
+  "fr": "Vraiment ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00821",
+  "ar": "მეც",
+  "translit": "mets",
+  "fr": "Moi aussi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00822",
+  "ar": "რა კარგია!",
+  "translit": "ra k'argia",
+  "fr": "Comme c'est bien !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00823",
+  "ar": "რა ლამაზია!",
+  "translit": "ra lamazia",
+  "fr": "Comme c'est beau !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00824",
+  "ar": "დედა, მიყვარხარ",
+  "translit": "deda, miq'varkhar",
+  "fr": "Maman, je t'aime",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00825",
+  "ar": "მოიცადე",
+  "translit": "moitsade",
+  "fr": "Attends",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00826",
+  "ar": "ლამაზი ხარ",
+  "translit": "lamazi khar",
+  "fr": "Tu es belle",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00827",
+  "ar": "ქართული ენა",
+  "translit": "kartuli ena",
+  "fr": "La langue géorgienne",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00828",
+  "ar": "ქართულად ლაპარაკობთ?",
+  "translit": "kartulad lap'arak'obt",
+  "fr": "Parlez-vous géorgien ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00829",
+  "ar": "ფრანგულად ლაპარაკობთ?",
+  "translit": "prangulad lap'arak'obt",
+  "fr": "Parlez-vous français ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00830",
+  "ar": "რას ნიშნავს ეს სიტყვა?",
+  "translit": "ras nishnavs es sit'q'va",
+  "fr": "Que signifie ce mot ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00831",
+  "ar": "ეს სიტყვა არ ვიცი",
+  "translit": "es sit'q'va ar vitsi",
+  "fr": "Je ne connais pas ce mot",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00832",
+  "ar": "ერთხელ კიდევ",
+  "translit": "ertkhel k'idev",
+  "fr": "Encore une fois",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ka00833",
+  "ar": "ანბანი",
+  "translit": "anbani",
+  "fr": "Alphabet",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00834",
+  "ar": "სიტყვა",
+  "translit": "sit'q'va",
+  "fr": "Mot",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ka00835",
+  "ar": "სიხარული",
+  "translit": "sikharuli",
+  "fr": "Joie",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00836",
+  "ar": "ბედნიერება",
+  "translit": "bedniereba",
+  "fr": "Bonheur",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00837",
+  "ar": "შიში",
+  "translit": "shishi",
+  "fr": "Peur",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00838",
+  "ar": "ბრაზი",
+  "translit": "brazi",
+  "fr": "Colère",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00839",
+  "ar": "გაბრაზებული",
+  "translit": "gabrazebuli",
+  "fr": "Fâché, en colère",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00840",
+  "ar": "მოწყენილი",
+  "translit": "mots'q'enili",
+  "fr": "Triste, abattu",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00841",
+  "ar": "მშვიდი",
+  "translit": "mshvidi",
+  "fr": "Calme, serein",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00842",
+  "ar": "ნერვიული",
+  "translit": "nerviuli",
+  "fr": "Nerveux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00843",
+  "ar": "იმედი",
+  "translit": "imedi",
+  "fr": "Espoir",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00844",
+  "ar": "მეგობრობა",
+  "translit": "megobroba",
+  "fr": "Amitié",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00845",
+  "ar": "ღიმილი",
+  "translit": "ghimili",
+  "fr": "Sourire (nom)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00846",
+  "ar": "სიცილი",
+  "translit": "sitsili",
+  "fr": "Rire (nom)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00847",
+  "ar": "კოცნა",
+  "translit": "k'otsna",
+  "fr": "Bisou, baiser",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00848",
+  "ar": "გრძნობა",
+  "translit": "grdznoba",
+  "fr": "Sentiment",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00849",
+  "ar": "კმაყოფილი",
+  "translit": "k'maq'opili",
+  "fr": "Satisfait",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00850",
+  "ar": "კეთილი",
+  "translit": "k'etili",
+  "fr": "Gentil, bon",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00851",
+  "ar": "საყვარელი",
+  "translit": "saq'vareli",
+  "fr": "Mignon, adorable",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00852",
+  "ar": "სასაცილო",
+  "translit": "sasatsilo",
+  "fr": "Drôle",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00853",
+  "ar": "მხიარული",
+  "translit": "mkhiaruli",
+  "fr": "Joyeux, gai",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00854",
+  "ar": "ზარმაცი",
+  "translit": "zarmatsi",
+  "fr": "Paresseux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00855",
+  "ar": "შეყვარებული",
+  "translit": "sheq'varebuli",
+  "fr": "Amoureux (aussi petit ami)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00856",
+  "ar": "შეყვარებული ვარ",
+  "translit": "sheq'varebuli var",
+  "fr": "Je suis amoureux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00857",
+  "ar": "ოცნება",
+  "translit": "otsneba",
+  "fr": "Rêve (souhait)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00858",
+  "ar": "სიყვარულით",
+  "translit": "siq'varulit",
+  "fr": "Avec amour",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00859",
+  "ar": "სიხარულით",
+  "translit": "sikharulit",
+  "fr": "Avec plaisir",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00860",
+  "ar": "სიამოვნებით",
+  "translit": "siamovnebit",
+  "fr": "Volontiers",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00861",
+  "ar": "საყვარელო",
+  "translit": "saq'varelo",
+  "fr": "Mon amour, chéri(e) (vocatif)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00862",
+  "ar": "გენაცვალე",
+  "translit": "genatsvale",
+  "fr": "Mon chéri, ma chérie (tendre)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00863",
+  "ar": "დედიკო",
+  "translit": "dedik'o",
+  "fr": "Maman (affectueux)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00864",
+  "ar": "მამიკო",
+  "translit": "mamik'o",
+  "fr": "Papa (affectueux)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00865",
+  "ar": "შვილო",
+  "translit": "shvilo",
+  "fr": "Mon enfant (vocatif)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00866",
+  "ar": "ჩემო ბიჭო",
+  "translit": "chemo bich'o",
+  "fr": "Mon garçon (vocatif)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00867",
+  "ar": "ჩემო პატარავ",
+  "translit": "chemo p'at'arav",
+  "fr": "Mon petit (affectueux)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00868",
+  "ar": "ძმაო",
+  "translit": "dzmao",
+  "fr": "Frère (entre amis)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00869",
+  "ar": "მეგობარო",
+  "translit": "megobaro",
+  "fr": "Mon ami (vocatif)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00870",
+  "ar": "მენატრები",
+  "translit": "menat'rebi",
+  "fr": "Tu me manques",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00871",
+  "ar": "მომენატრე",
+  "translit": "momenat're",
+  "fr": "Tu m'as manqué",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00872",
+  "ar": "მიხარია",
+  "translit": "mikharia",
+  "fr": "Je suis content (j'en suis heureux)",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00873",
+  "ar": "ძალიან მიხარია, რომ გხედავ",
+  "translit": "dzalian mikharia, rom gkhedav",
+  "fr": "Très content de te voir",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00874",
+  "ar": "გამიხარდა",
+  "translit": "gamikharda",
+  "fr": "Ça m'a fait plaisir",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00875",
+  "ar": "გკოცნი",
+  "translit": "gk'otsni",
+  "fr": "Je t'embrasse (bisous)",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00876",
+  "ar": "ძალიან ვწუხვარ",
+  "translit": "dzalian vts'ukhvar",
+  "fr": "Je suis vraiment désolé",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00877",
+  "ar": "მესმის შენი",
+  "translit": "mesmis sheni",
+  "fr": "Je te comprends",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00878",
+  "ar": "თავს როგორ გრძნობ?",
+  "translit": "tavs rogor grdznob",
+  "fr": "Comment te sens-tu ?",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00879",
+  "ar": "რა გჭირს?",
+  "translit": "ra gch'irs",
+  "fr": "Qu'est-ce que tu as ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00880",
+  "ar": "რას შვრები?",
+  "translit": "ras shvrebi",
+  "fr": "Tu fais quoi ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00881",
+  "ar": "ხუმრობ?",
+  "translit": "khumrob",
+  "fr": "Tu plaisantes ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00882",
+  "ar": "ვხუმრობ",
+  "translit": "vkhumrob",
+  "fr": "Je plaisante",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00883",
+  "ar": "ხუმრობა",
+  "translit": "khumroba",
+  "fr": "Blague, plaisanterie",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00884",
+  "ar": "ნუ გეშინია",
+  "translit": "nu geshinia",
+  "fr": "N'aie pas peur",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00885",
+  "ar": "ნუ ღელავ",
+  "translit": "nu ghelav",
+  "fr": "Ne t'inquiète pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00886",
+  "ar": "არ ინერვიულო",
+  "translit": "ar inerviulo",
+  "fr": "Ne t'en fais pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00887",
+  "ar": "დამშვიდდი",
+  "translit": "damshviddi",
+  "fr": "Calme-toi",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00888",
+  "ar": "ნუ ტირი",
+  "translit": "nu t'iri",
+  "fr": "Ne pleure pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00889",
+  "ar": "გაიღიმე",
+  "translit": "gaighime",
+  "fr": "Souris !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00890",
+  "ar": "ყველაფერი კარგად იქნება",
+  "translit": "q'velaperi k'argad ikneba",
+  "fr": "Tout ira bien",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00891",
+  "ar": "ეს შენი ბრალი არ არის",
+  "translit": "es sheni brali ar aris",
+  "fr": "Ce n'est pas ta faute",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00892",
+  "ar": "ჩემი ბრალია",
+  "translit": "chemi bralia",
+  "fr": "C'est ma faute",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00893",
+  "ar": "ძლიერი ხარ",
+  "translit": "dzlieri khar",
+  "fr": "Tu es fort",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00894",
+  "ar": "შენ შეძლებ",
+  "translit": "shen shedzleb",
+  "fr": "Tu vas y arriver",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00895",
+  "ar": "მე ყოველთვის დაგეხმარები",
+  "translit": "me q'oveltvis dagekhmarebi",
+  "fr": "Je t'aiderai toujours",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00896",
+  "ar": "მამა, მადლობა ყველაფრისთვის",
+  "translit": "mama, madloba q'velapristvis",
+  "fr": "Papa, merci pour tout",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00897",
+  "ar": "ბოდიში დაგვიანებისთვის",
+  "translit": "bodishi dagvianebistvis",
+  "fr": "Désolé pour le retard",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00898",
+  "ar": "ჭკვიანად იყავი",
+  "translit": "ch'k'vianad iq'avi",
+  "fr": "Sois sage",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00899",
+  "ar": "დროა დაიძინო",
+  "translit": "droa daidzino",
+  "fr": "Il est l'heure de dormir",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00900",
+  "ar": "ტკბილად გეძინოს",
+  "translit": "t'k'bilad gedzinos",
+  "fr": "Dors bien (fais de beaux rêves)",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00901",
+  "ar": "ხელები დაიბანე",
+  "translit": "khelebi daibane",
+  "fr": "Lave-toi les mains",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00902",
+  "ar": "ოთახი დაალაგე",
+  "translit": "otakhi daalage",
+  "fr": "Range ta chambre",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00903",
+  "ar": "საშინაო დავალება გააკეთე",
+  "translit": "sashinao davaleba gaak'ete",
+  "fr": "Fais tes devoirs",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00904",
+  "ar": "შენ ძალიან ჭკვიანი ხარ",
+  "translit": "shen dzalian ch'k'viani khar",
+  "fr": "Tu es très intelligent",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00905",
+  "ar": "რა საყვარელია!",
+  "translit": "ra saq'varelia",
+  "fr": "Comme c'est mignon !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00906",
+  "ar": "როგორ გაიზარდე!",
+  "translit": "rogor gaizarde",
+  "fr": "Comme tu as grandi !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00907",
+  "ar": "გეთანხმები",
+  "translit": "getankhmebi",
+  "fr": "Je suis d'accord avec toi",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00908",
+  "ar": "არ ხარ მართალი",
+  "translit": "ar khar martali",
+  "fr": "Tu as tort",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00909",
+  "ar": "დამეხმარე, თუ შეიძლება",
+  "translit": "damekhmare, tu sheidzleba",
+  "fr": "Aide-moi, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00910",
+  "ar": "მაგარია!",
+  "translit": "magaria",
+  "fr": "C'est génial !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00911",
+  "ar": "აუცილებლად",
+  "translit": "autsileblad",
+  "fr": "Absolument, sans faute",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00912",
+  "ar": "მეც ასე ვფიქრობ",
+  "translit": "mets ase vpikrob",
+  "fr": "Je pense pareil",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00913",
+  "ar": "ვერ ვიჯერებ",
+  "translit": "ver vijereb",
+  "fr": "Je n'y crois pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00914",
+  "ar": "მჯერა შენი",
+  "translit": "mjera sheni",
+  "fr": "Je te crois",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00915",
+  "ar": "ვაიმე!",
+  "translit": "vaime",
+  "fr": "Oh là là !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00916",
+  "ar": "უი!",
+  "translit": "ui",
+  "fr": "Oups !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00917",
+  "ar": "აბა!",
+  "translit": "aba",
+  "fr": "Allez ! (eh bien)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00918",
+  "ar": "ღმერთო ჩემო!",
+  "translit": "ghmerto chemo",
+  "fr": "Mon Dieu !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00919",
+  "ar": "მადლობა ღმერთს!",
+  "translit": "madloba ghmerts",
+  "fr": "Dieu merci !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00920",
+  "ar": "იმედია",
+  "translit": "imedia",
+  "fr": "Espérons-le",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00921",
+  "ar": "რა სამწუხაროა!",
+  "translit": "ra samts'ukharoa",
+  "fr": "Quel dommage !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00922",
+  "ar": "სამწუხაროდ",
+  "translit": "samts'ukharod",
+  "fr": "Malheureusement",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00923",
+  "ar": "საოცარია!",
+  "translit": "saotsaria",
+  "fr": "C'est formidable !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00924",
+  "ar": "სულ ერთია",
+  "translit": "sul ertia",
+  "fr": "C'est égal, peu importe",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00925",
+  "ar": "გააჩნია",
+  "translit": "gaachnia",
+  "fr": "Ça dépend",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00926",
+  "ar": "არ მაინტერესებს",
+  "translit": "ar maint'eresebs",
+  "fr": "Ça ne m'intéresse pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00927",
+  "ar": "გილოცავთ!",
+  "translit": "gilotsavt",
+  "fr": "Félicitations ! (poli ou pluriel)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00928",
+  "ar": "გისურვებ წარმატებას",
+  "translit": "gisurveb ts'armat'ebas",
+  "fr": "Je te souhaite du succès",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00929",
+  "ar": "ჯანმრთელობას გისურვებ",
+  "translit": "janmrtelobas gisurveb",
+  "fr": "Je te souhaite la santé",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00930",
+  "ar": "წარმატება",
+  "translit": "ts'armat'eba",
+  "fr": "Succès, réussite",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00931",
+  "ar": "გაგიმარჯოს!",
+  "translit": "gagimarjos",
+  "fr": "À ta santé ! (toast)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00932",
+  "ar": "კარგად გააკეთე",
+  "translit": "k'argad gaak'ete",
+  "fr": "Tu as bien fait (bon travail)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00933",
+  "ar": "არ მინდოდა",
+  "translit": "ar mindoda",
+  "fr": "Je ne voulais pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00934",
+  "ar": "ჩემი შეცდომაა",
+  "translit": "chemi shetsdomaa",
+  "fr": "C'est mon erreur",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00935",
+  "ar": "გამოცდა ჩავაბარე!",
+  "translit": "gamotsda chavabare",
+  "fr": "J'ai réussi l'examen !",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00936",
+  "ar": "ჩემი ქართული ჯერ კიდევ ცუდია",
+  "translit": "chemi kartuli jer k'idev tsudia",
+  "fr": "Mon géorgien est encore mauvais",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00937",
+  "ar": "ქართული რთული ენაა",
+  "translit": "kartuli rtuli enaa",
+  "fr": "Le géorgien est une langue difficile",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00938",
+  "ar": "ქართული ძალიან ლამაზი ენაა",
+  "translit": "kartuli dzalian lamazi enaa",
+  "fr": "Le géorgien est une très belle langue",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00939",
+  "ar": "შენ ძალიან კარგად ლაპარაკობ ქართულად!",
+  "translit": "shen dzalian k'argad lap'arak'ob kartulad",
+  "fr": "Tu parles très bien géorgien !",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00940",
+  "ar": "მადლობა, ვცდილობ",
+  "translit": "madloba, vtsdilob",
+  "fr": "Merci, j'essaie",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00941",
+  "ar": "ყოველდღე ვსწავლობ ახალ სიტყვებს",
+  "translit": "q'oveldghe vsts'avlob akhal sit'q'vebs",
+  "fr": "J'apprends de nouveaux mots chaque jour",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00942",
+  "ar": "შეცდომები გამისწორეთ, თუ შეიძლება",
+  "translit": "shetsdomebi gamists'oret, tu sheidzleba",
+  "fr": "Corrigez mes erreurs, s'il vous plaît",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00943",
+  "ar": "ორი წელია ქართულს ვსწავლობ",
+  "translit": "ori ts'elia kartuls vsts'avlob",
+  "fr": "J'apprends le géorgien depuis deux ans",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00944",
+  "ar": "რატომ სწავლობ ქართულს?",
+  "translit": "rat'om sts'avlob kartuls",
+  "fr": "Pourquoi apprends-tu le géorgien ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ka00945",
+  "ar": "ქართული ანბანი",
+  "translit": "kartuli anbani",
+  "fr": "L'alphabet géorgien",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00946",
+  "ar": "ქართული ენის მასწავლებელი",
+  "translit": "kartuli enis masts'avlebeli",
+  "fr": "Professeur de géorgien",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00947",
+  "ar": "ლექსიკონი",
+  "translit": "leksik'oni",
+  "fr": "Dictionnaire",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00948",
+  "ar": "გრამატიკა",
+  "translit": "gramat'ik'a",
+  "fr": "Grammaire",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ka00949",
+  "ar": "სევდა",
+  "translit": "sevda",
+  "fr": "Tristesse, mélancolie",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00950",
+  "ar": "გაღიზიანებული",
+  "translit": "gaghizianebuli",
+  "fr": "Irrité, agacé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00951",
+  "ar": "შეშფოთებული",
+  "translit": "sheshpotebuli",
+  "fr": "Inquiet",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00952",
+  "ar": "სირცხვილი",
+  "translit": "sirtskhvili",
+  "fr": "Honte",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00953",
+  "ar": "გაკვირვებული",
+  "translit": "gak'virvebuli",
+  "fr": "Surpris",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00954",
+  "ar": "იმედგაცრუებული",
+  "translit": "imedgatsruebuli",
+  "fr": "Déçu",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00955",
+  "ar": "სიამაყე",
+  "translit": "siamaq'e",
+  "fr": "Fierté",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00956",
+  "ar": "ამაყი",
+  "translit": "amaq'i",
+  "fr": "Fier",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00957",
+  "ar": "მარტოობა",
+  "translit": "mart'ooba",
+  "fr": "Solitude",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00958",
+  "ar": "მადლიერი",
+  "translit": "madlieri",
+  "fr": "Reconnaissant",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00959",
+  "ar": "ცრემლი",
+  "translit": "tsremli",
+  "fr": "Larme",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00960",
+  "ar": "ჩახუტება",
+  "translit": "chakhut'eba",
+  "fr": "Câlin, étreinte",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00961",
+  "ar": "ხასიათი",
+  "translit": "khasiati",
+  "fr": "Humeur, caractère",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00962",
+  "ar": "იღბალი",
+  "translit": "ighbali",
+  "fr": "Chance",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00963",
+  "ar": "აღელვებული",
+  "translit": "aghelvebuli",
+  "fr": "Ému, excité",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00964",
+  "ar": "ნაწყენი",
+  "translit": "nats'q'eni",
+  "fr": "Vexé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00965",
+  "ar": "გულკეთილი",
+  "translit": "gulk'etili",
+  "fr": "Bienveillant (bon cœur)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00966",
+  "ar": "ჯიუტი",
+  "translit": "jiut'i",
+  "fr": "Têtu",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00967",
+  "ar": "ცელქი",
+  "translit": "tselki",
+  "fr": "Espiègle, turbulent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00968",
+  "ar": "ეშმაკი",
+  "translit": "eshmak'i",
+  "fr": "Malin, coquin (litt. diable)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00969",
+  "ar": "ვამაყობ შენით",
+  "translit": "vamaq'ob shenit",
+  "fr": "Je suis fier de toi",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00970",
+  "ar": "მრცხვენია",
+  "translit": "mrtskhvenia",
+  "fr": "J'ai honte",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00971",
+  "ar": "ვნანობ",
+  "translit": "vnanob",
+  "fr": "Je regrette",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00972",
+  "ar": "მეწყინა",
+  "translit": "mets'q'ina",
+  "fr": "J'ai été vexé",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00973",
+  "ar": "მომბეზრდა",
+  "translit": "mombezrda",
+  "fr": "J'en ai marre",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00974",
+  "ar": "მეზარება",
+  "translit": "mezareba",
+  "fr": "J'ai la flemme",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00975",
+  "ar": "მეტირება",
+  "translit": "met'ireba",
+  "fr": "J'ai envie de pleurer",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00976",
+  "ar": "ცუდ ხასიათზე ვარ",
+  "translit": "tsud khasiatze var",
+  "fr": "Je suis de mauvaise humeur",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00977",
+  "ar": "კარგ ხასიათზე ვარ",
+  "translit": "k'arg khasiatze var",
+  "fr": "Je suis de bonne humeur",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00978",
+  "ar": "ჩამეხუტე",
+  "translit": "chamekhut'e",
+  "fr": "Fais-moi un câlin",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00979",
+  "ar": "მოდი, ჩაგეხუტები",
+  "translit": "modi, chagekhut'ebi",
+  "fr": "Viens, je te fais un câlin",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00980",
+  "ar": "მენდე",
+  "translit": "mende",
+  "fr": "Fais-moi confiance",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00981",
+  "ar": "ნუ ნერვიულობ",
+  "translit": "nu nerviulob",
+  "fr": "Ne stresse pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00982",
+  "ar": "გაგივლის",
+  "translit": "gagivlis",
+  "fr": "Ça va passer",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00983",
+  "ar": "ყველაფერი გამოსწორდება",
+  "translit": "q'velaperi gamosts'ordeba",
+  "fr": "Tout va s'arranger",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00984",
+  "ar": "ნუ დანებდები",
+  "translit": "nu danebdebi",
+  "fr": "N'abandonne pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00985",
+  "ar": "გამაგრდი",
+  "translit": "gamagrdi",
+  "fr": "Tiens bon",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00986",
+  "ar": "ყველაფერს გავაკეთებ შენთვის",
+  "translit": "q'velapers gavak'eteb shentvis",
+  "fr": "Je ferai tout pour toi",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00987",
+  "ar": "ყოველთვის შენს გვერდით ვარ",
+  "translit": "q'oveltvis shens gverdit var",
+  "fr": "Je suis toujours à tes côtés",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00988",
+  "ar": "შენი იმედი მაქვს",
+  "translit": "sheni imedi makvs",
+  "fr": "Je compte sur toi",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00989",
+  "ar": "დიდი ხანია, არ მინახავხარ",
+  "translit": "didi khania, ar minakhavkhar",
+  "fr": "Ça fait longtemps qu'on ne s'est vus",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00990",
+  "ar": "ნუ მატყუებ",
+  "translit": "nu mat'q'ueb",
+  "fr": "Ne me mens pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00991",
+  "ar": "რა კარგად გამოიყურები!",
+  "translit": "ra k'argad gamoiq'urebi",
+  "fr": "Tu as bonne mine !",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00992",
+  "ar": "ძალიან გიხდება",
+  "translit": "dzalian gikhdeba",
+  "fr": "Ça te va très bien",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00993",
+  "ar": "გაიხარე",
+  "translit": "gaikhare",
+  "fr": "Merci (litt. sois heureux)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00994",
+  "ar": "დიდხანს იცოცხლე!",
+  "translit": "didkhans itsotskhle",
+  "fr": "Longue vie à toi !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00995",
+  "ar": "დაიმსახურე",
+  "translit": "daimsakhure",
+  "fr": "Tu l'as mérité",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00996",
+  "ar": "სადღეგრძელო",
+  "translit": "sadghegrdzelo",
+  "fr": "Toast (discours à table)",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00997",
+  "ar": "თამადა",
+  "translit": "tamada",
+  "fr": "Maître de table (toasts)",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka00998",
+  "ar": "ბოდიშს გიხდით",
+  "translit": "bodishs gikhdit",
+  "fr": "Je vous présente mes excuses",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka00999",
+  "ar": "აღარ განმეორდება",
+  "translit": "aghar ganmeordeba",
+  "fr": "Ça ne se reproduira plus",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01000",
+  "ar": "არ გეწყინოს",
+  "translit": "ar gets'q'inos",
+  "fr": "Ne le prends pas mal",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01001",
+  "ar": "ღმერთმა დაგლოცოს",
+  "translit": "ghmertma daglotsos",
+  "fr": "Que Dieu te bénisse",
+  "theme": "religion",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01002",
+  "ar": "ღმერთმა ქნას",
+  "translit": "ghmertma knas",
+  "fr": "Pourvu que (si Dieu le veut)",
+  "theme": "religion",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01003",
+  "ar": "ნეტავ",
+  "translit": "net'av",
+  "fr": "Si seulement",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01004",
+  "ar": "ნუთუ?",
+  "translit": "nutu",
+  "fr": "Est-ce possible ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01005",
+  "ar": "აბა რა!",
+  "translit": "aba ra",
+  "fr": "Évidemment !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01006",
+  "ar": "კარგი რა!",
+  "translit": "k'argi ra",
+  "fr": "Allez quoi ! (arrête)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01007",
+  "ar": "დიდი ამბავი!",
+  "translit": "didi ambavi",
+  "fr": "La belle affaire !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01008",
+  "ar": "რა ვიცი",
+  "translit": "ra vitsi",
+  "fr": "Qu'est-ce que j'en sais",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01009",
+  "ar": "შენი საქმეა",
+  "translit": "sheni sakmea",
+  "fr": "C'est ton affaire (à toi de voir)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01010",
+  "ar": "სხვათა შორის",
+  "translit": "skhvata shoris",
+  "fr": "Au fait, soit dit en passant",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01011",
+  "ar": "თვალის დახამხამებაში",
+  "translit": "tvalis dakhamkhamebashi",
+  "fr": "En un clin d'œil",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01012",
+  "ar": "კატასა და ძაღლივით",
+  "translit": "k'at'asa da dzaghlivit",
+  "fr": "Comme chat et chien",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01013",
+  "ar": "შენი ჭირიმე",
+  "translit": "sheni ch'irime",
+  "fr": "Mon cœur (litt. ton malheur sur moi)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01014",
+  "ar": "ოქროს გული აქვს",
+  "translit": "okros guli akvs",
+  "fr": "Il a un cœur d'or",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01015",
+  "ar": "ყური დამიგდე",
+  "translit": "q'uri damigde",
+  "fr": "Écoute-moi bien (prête l'oreille)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01016",
+  "ar": "გული გამიტეხა",
+  "translit": "guli gamit'ekha",
+  "fr": "Il m'a brisé le cœur",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01017",
+  "ar": "ნერვებს მიშლის",
+  "translit": "nervebs mishlis",
+  "fr": "Il me tape sur les nerfs",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01018",
+  "ar": "დრო ყველაფერს კურნავს",
+  "translit": "dro q'velapers k'urnavs",
+  "fr": "Le temps guérit tout",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01019",
+  "ar": "ჯობია გვიან, ვიდრე არასდროს",
+  "translit": "jobia gvian, vidre arasdros",
+  "fr": "Mieux vaut tard que jamais",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01020",
+  "ar": "ყველაფერს თავისი დრო აქვს",
+  "translit": "q'velapers tavisi dro akvs",
+  "fr": "Chaque chose en son temps",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01021",
+  "ar": "ვინც ეძებს, პოულობს",
+  "translit": "vints edzebs, p'oulobs",
+  "fr": "Qui cherche trouve",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01022",
+  "ar": "ძველი მეგობარი ახალს სჯობია",
+  "translit": "dzveli megobari akhals sjobia",
+  "fr": "Un vieil ami vaut mieux qu'un nouveau",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01023",
+  "ar": "სტუმარი ღვთის მოვლენილია",
+  "translit": "st'umari ghvtis movlenilia",
+  "fr": "L'invité est envoyé par Dieu",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01024",
+  "ar": "როგორ გამოითქმება?",
+  "translit": "rogor gamoitkmeba",
+  "fr": "Comment ça se prononce ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01025",
+  "ar": "სიტყვების დამახსოვრება მიჭირს",
+  "translit": "sit'q'vebis damakhsovreba mich'irs",
+  "fr": "J'ai du mal à retenir les mots",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01026",
+  "ar": "გრამატიკა მიჭირს",
+  "translit": "gramat'ik'a mich'irs",
+  "fr": "La grammaire m'est difficile",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01027",
+  "ar": "შეცდომა დავუშვი",
+  "translit": "shetsdoma davushvi",
+  "fr": "J'ai fait une erreur",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ka01028",
+  "ar": "ზეპირად",
+  "translit": "zep'irad",
+  "fr": "Par cœur",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01029",
+  "ar": "მშობლიური ენა",
+  "translit": "mshobliuri ena",
+  "fr": "Langue maternelle",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01030",
+  "ar": "ნდობა",
+  "translit": "ndoba",
+  "fr": "Confiance",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01031",
+  "ar": "სიმშვიდე",
+  "translit": "simshvide",
+  "fr": "Calme, tranquillité",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01032",
+  "ar": "მონატრება",
+  "translit": "monat'reba",
+  "fr": "Le manque (de quelqu'un)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01033",
+  "ar": "ეჭვიანი",
+  "translit": "ech'viani",
+  "fr": "Jaloux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01034",
+  "ar": "ერთგული",
+  "translit": "ertguli",
+  "fr": "Fidèle",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01035",
+  "ar": "გულუხვი",
+  "translit": "gulukhvi",
+  "fr": "Généreux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01036",
+  "ar": "მორცხვი",
+  "translit": "mortskhvi",
+  "fr": "Timide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01037",
+  "ar": "მთარგმნელი",
+  "translit": "mtargmneli",
+  "fr": "Traducteur",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ka01038",
+  "ar": "ღელვა",
+  "translit": "ghelva",
+  "fr": "Émotion, agitation",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01039",
+  "ar": "სინანული",
+  "translit": "sinanuli",
+  "fr": "Regret",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01040",
+  "ar": "იმედგაცრუება",
+  "translit": "imedgatsrueba",
+  "fr": "Déception",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01041",
+  "ar": "გულმავიწყი",
+  "translit": "gulmavits'q'i",
+  "fr": "Distrait, tête en l'air",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01042",
+  "ar": "ჭორიკანა",
+  "translit": "ch'orik'ana",
+  "fr": "Commère",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01043",
+  "ar": "ლაქლაქა",
+  "translit": "laklaka",
+  "fr": "Pipelette",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01044",
+  "ar": "ძილისგუდა",
+  "translit": "dzilisguda",
+  "fr": "Marmotte (gros dormeur)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01045",
+  "ar": "ცხრა მთას იქით",
+  "translit": "tskhra mtas ikit",
+  "fr": "Au bout du monde (neuf montagnes)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01046",
+  "ar": "სამძიმარი",
+  "translit": "samdzimari",
+  "fr": "Condoléances",
+  "theme": "religion",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ka01047",
+  "ar": "გული მწყდება",
+  "translit": "guli mts'q'deba",
+  "fr": "Ça me désole",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01048",
+  "ar": "გულზე მომეშვა",
+  "translit": "gulze momeshva",
+  "fr": "Ça m'a soulagé",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01049",
+  "ar": "გული მიგრძნობს",
+  "translit": "guli migrdznobs",
+  "fr": "J'ai un pressentiment",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01050",
+  "ar": "ყელში ამომივიდა",
+  "translit": "q'elshi amomivida",
+  "fr": "J'en ai ras-le-bol",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01051",
+  "ar": "თავს ნუ იდანაშაულებ",
+  "translit": "tavs nu idanashauleb",
+  "fr": "Ne te culpabilise pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01052",
+  "ar": "შევრიგდეთ",
+  "translit": "shevrigdet",
+  "fr": "Réconcilions-nous",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01053",
+  "ar": "გადავამლაშე",
+  "translit": "gadavamlashe",
+  "fr": "J'ai exagéré (litt. trop salé)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01054",
+  "ar": "ღმერთმა ნათელში ამყოფოს",
+  "translit": "ghmertma natelshi amq'opos",
+  "fr": "Que Dieu l'accueille dans la lumière",
+  "theme": "religion",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01055",
+  "ar": "თავს იკატუნებს",
+  "translit": "tavs ik'at'unebs",
+  "fr": "Il fait l'innocent (fait le chat)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01056",
+  "ar": "ხელი ჩაიქნია",
+  "translit": "kheli chaiknia",
+  "fr": "Il a baissé les bras",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01057",
+  "ar": "ცხვირს ყველგან ყოფს",
+  "translit": "tskhvirs q'velgan q'ops",
+  "fr": "Il fourre son nez partout",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01058",
+  "ar": "პირში წყალი ჩაიგუბა",
+  "translit": "p'irshi ts'q'ali chaiguba",
+  "fr": "Il est resté muet (eau en bouche)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01059",
+  "ar": "წყალში ჩაიყარა",
+  "translit": "ts'q'alshi chaiq'ara",
+  "fr": "C'est tombé à l'eau (en vain)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01060",
+  "ar": "ძაღლის თავი აქ არის დამარხული",
+  "translit": "dzaghlis tavi ak aris damarkhuli",
+  "fr": "C'est là que le bât blesse",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01061",
+  "ar": "ძმა ძმისთვისაო, შავი დღისთვისაო",
+  "translit": "dzma dzmistvisao, shavi dghistvisao",
+  "fr": "Un frère est là pour les jours sombres",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01062",
+  "ar": "რასაც დათესავ, იმას მოიმკი",
+  "translit": "rasats datesav, imas moimk'i",
+  "fr": "On récolte ce qu'on sème",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01063",
+  "ar": "მეგობარი გაჭირვებაში გამოიცნობა",
+  "translit": "megobari gach'irvebashi gamoitsnoba",
+  "fr": "C'est dans le besoin qu'on voit ses amis",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01064",
+  "ar": "ერთი ხელი ტაშს ვერ დაუკრავს",
+  "translit": "erti kheli t'ashs ver dauk'ravs",
+  "fr": "Une seule main ne peut applaudir",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01065",
+  "ar": "ძაღლი ყეფს, ქარავანი მიდის",
+  "translit": "dzaghli q'eps, karavani midis",
+  "fr": "Les chiens aboient, la caravane passe",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01066",
+  "ar": "სიტყვა ვერცხლია, დუმილი ოქრო",
+  "translit": "sit'q'va vertskhlia, dumili okro",
+  "fr": "La parole est d'argent, le silence d'or",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01067",
+  "ar": "ხელი ხელს ბანს, ორივე პირს",
+  "translit": "kheli khels bans, orive p'irs",
+  "fr": "Une main lave l'autre",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ka01068",
+  "ar": "რაც შენთვის არ გინდა, სხვას ნუ უსურვებ",
+  "translit": "rats shentvis ar ginda, skhvas nu usurveb",
+  "fr": "Ne fais pas à autrui ce que tu crains",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ }
+]

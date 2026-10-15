@@ -1,8 +1,9 @@
 import { CARD_BY_ID, type Rarity } from './cards'
+import { LANG } from './lang'
 import { FIGURE_BY_ID } from './figures'
 import { newSave, START_COINS, type History, type Owned, type Save, type Tally } from './rules'
 
-const KEY = 'cartarabic-save-v1'
+const KEY = LANG.saveKey
 
 const num = (v: unknown, fallback: number) => (typeof v === 'number' && Number.isFinite(v) ? v : fallback)
 
@@ -134,6 +135,9 @@ export function importSave(text: string): Save | null {
     const raw = JSON.parse(json)
     if (!raw || typeof raw !== 'object' || !('owned' in raw)) return null
     const save = sanitize(raw)
+    // Une sauvegarde d'une autre langue perdrait toutes ses cartes : on la refuse.
+    const hadCards = raw.owned && typeof raw.owned === 'object' && Object.keys(raw.owned).length > 0
+    if (hadCards && !Object.keys(save.owned).length) return null
     return save.level ? save : null
   } catch {
     return null

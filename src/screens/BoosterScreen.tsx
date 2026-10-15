@@ -5,6 +5,7 @@ import { QuestionView } from '../components/QuestionView'
 import type { Card } from '../game/cards'
 import { answerBooster, consumeBooster, makeQuestion, openBooster, type Outcome, type Question, type Save } from '../game/rules'
 import { Progress } from './Placement'
+import { LANG, TEXT_ATTRS } from '../game/lang'
 
 interface Props {
   save: Save
@@ -59,7 +60,7 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
           <button className={`pack ${opening ? 'opening' : ''}`} onClick={tear} aria-label="Ouvrir le booster">
             <div className="pack-top" />
             <div className="pack-body">
-              <span lang="ar">ع</span>
+              <span {...TEXT_ATTRS}>{LANG.glyph}</span>
               <b>Cartarabic</b>
               <small>Touche pour ouvrir</small>
             </div>

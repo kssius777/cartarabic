@@ -2,6 +2,8 @@ import { GameCard } from '../components/GameCard'
 import { FigureCard } from '../components/FigureCard'
 import { CARD_BY_ID, CARDS, RARITIES, THEMES, type Rarity } from '../game/cards'
 import { FIGURE_BY_ID, FIGURES } from '../game/figures'
+import { LANG, LANGS, switchLang, TEXT_ATTRS, type LangId } from '../game/lang'
+import { LangPicker } from '../components/LangPicker'
 
 interface Props {
   onStart: () => void
@@ -11,7 +13,12 @@ interface Props {
 
 const fmt = (n: number) => n.toLocaleString('fr-FR')
 
-const SAMPLE_CARDS = ['c001', 'c156', 'c004'].map((id) => CARD_BY_ID.get(id)).filter((c) => !!c)
+// Trois cartes d'exemple : des classiques en arabe, sinon les premières cartes A1 de la langue.
+const SAMPLE_CARDS = (
+  LANG.id === 'ar'
+    ? ['c001', 'c156', 'c004'].map((id) => CARD_BY_ID.get(id)).filter((c) => !!c)
+    : CARDS.filter((c) => c.rarity === 1 && c.ar.length < 14).filter((_, i) => i % 7 === 0)
+).slice(0, 3)
 const SAMPLE_FIGURES = ['p0011', 'p0300', 'p0500'].map((id) => FIGURE_BY_ID.get(id)).filter((f) => !!f)
 
 const STEPS = [
@@ -38,24 +45,27 @@ export function Landing({ onStart, returning }: Props) {
     <div className="landing">
       <nav className="lnav">
         <span className="brand">
-          Cartarabic <span lang="ar">بِطَاقَات</span>
+          Cartarabic <span {...TEXT_ATTRS}>{LANG.brand}</span>
         </span>
-        <button className="btn primary small" onClick={onStart}>
-          {returning ? 'Ma collection' : 'Commencer'}
-        </button>
+        <span className="lnav-right">
+          <LangPicker />
+          <button className="btn primary small" onClick={onStart}>
+            {returning ? 'Ma collection' : 'Commencer'}
+          </button>
+        </span>
       </nav>
 
       <header className="lhero">
         <div className="lhero-text">
-          <p className="eyebrow">Arabe littéraire · de A1 à C1</p>
+          <p className="eyebrow">{LANG.eyebrow}</p>
           <h1>
-            Apprends l’arabe,
+            Apprends {LANG.the},
             <br />
             <em>une carte à la fois.</em>
           </h1>
           <p className="lead">
-            {fmt(CARDS.length)} mots et phrases entièrement vocalisés à collectionner. Chaque carte se mérite : il faut la
-            comprendre pour la garder, et la retenir pour ne pas la perdre.
+            {fmt(CARDS.length)} mots et phrases {LANG.script} à collectionner. Chaque carte se mérite : il faut la comprendre pour
+            la garder, et la retenir pour ne pas la perdre.
           </p>
           <div className="lhero-cta">
             <button className="btn primary big" onClick={onStart}>
@@ -64,6 +74,13 @@ export function Landing({ onStart, returning }: Props) {
             <a className="btn ghost big" href="#comment">
               Comment ça marche
             </a>
+          </div>
+          <div className="lhero-langs">
+            {(Object.keys(LANGS) as LangId[]).map((id) => (
+              <button key={id} className={`chip ${id === LANG.id ? 'on' : ''}`} onClick={() => id !== LANG.id && switchLang(id)}>
+                {LANGS[id].flag} {LANGS[id].name}
+              </button>
+            ))}
           </div>
         </div>
         <div className="lhero-cards" aria-hidden="true">
@@ -80,10 +97,12 @@ export function Landing({ onStart, returning }: Props) {
           <b>{fmt(CARDS.length)}</b>
           <span>cartes de vocabulaire</span>
         </div>
-        <div>
-          <b>{fmt(FIGURES.length)}</b>
-          <span>personnages et lieux</span>
-        </div>
+        {LANG.figures && (
+          <div>
+            <b>{fmt(FIGURES.length)}</b>
+            <span>personnages et lieux</span>
+          </div>
+        )}
         <div>
           <b>5</b>
           <span>niveaux du CECRL</span>
@@ -108,24 +127,26 @@ export function Landing({ onStart, returning }: Props) {
         </div>
       </section>
 
-      <section className="lsection lsplit">
-        <div>
-          <p className="eyebrow">Collection Personnages</p>
-          <h2>Mille figures de l’histoire, à gagner en dinars.</h2>
-          <p className="lead">
-            Chaque bonne réponse rapporte des dinars. Ils ouvrent des paquets de savants, poètes, califes, lieux saints et grands
-            événements, avec leur nom calligraphié et leur histoire en arabe. Par respect, les prophètes et les compagnons ne sont
-            jamais représentés.
-          </p>
-        </div>
-        <div className="lfig-cards" aria-hidden="true">
-          {SAMPLE_FIGURES.map((f, i) => (
-            <div key={f.id} className={`lfig k${i}`}>
-              <FigureCard figure={f} width="100%" />
-            </div>
-          ))}
-        </div>
-      </section>
+      {LANG.figures && (
+        <section className="lsection lsplit">
+          <div>
+            <p className="eyebrow">Collection Personnages</p>
+            <h2>Mille figures de l’histoire, à gagner en dinars.</h2>
+            <p className="lead">
+              Chaque bonne réponse rapporte des dinars. Ils ouvrent des paquets de savants, poètes, califes, lieux saints et
+              grands événements, avec leur nom calligraphié et leur histoire en arabe. Par respect, les prophètes et les
+              compagnons ne sont jamais représentés.
+            </p>
+          </div>
+          <div className="lfig-cards" aria-hidden="true">
+            {SAMPLE_FIGURES.map((f, i) => (
+              <div key={f.id} className={`lfig k${i}`}>
+                <FigureCard figure={f} width="100%" />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="lsection">
         <p className="eyebrow">Les niveaux</p>
@@ -142,9 +163,10 @@ export function Landing({ onStart, returning }: Props) {
       </section>
 
       <section className="lfinal">
-        <p lang="ar" className="lfinal-ar">
-          اُطْلُبُوا الْعِلْمَ
+        <p {...TEXT_ATTRS} className="lfinal-ar" title={LANG.mottoFr}>
+          {LANG.motto}
         </p>
+        <p className="muted lfinal-fr">« {LANG.mottoFr} »</p>
         <h2>Prêt pour ta première carte ?</h2>
         <button className="btn primary big" onClick={onStart}>
           {cta}
@@ -153,7 +175,11 @@ export function Landing({ onStart, returning }: Props) {
 
       <footer className="lfoot">
         <span>Cartarabic</span>
-        <span>Arabe littéraire (fuṣḥā) · photos des personnages : Wikipédia et Wikimedia Commons</span>
+        <span>
+          {LANG.figures
+            ? 'Arabe littéraire (fuṣḥā) · photos des personnages : Wikipédia et Wikimedia Commons'
+            : `${LANG.name} · ${LANG.native}`}
+        </span>
       </footer>
     </div>
   )

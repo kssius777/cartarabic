@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, type ReactNode } from 'react'
 import type { Card } from '../game/cards'
 import type { Question } from '../game/rules'
 import { GameCard, type Face } from './GameCard'
+import { LANG, TEXT_ATTRS } from '../game/lang'
+import { TargetText } from './TargetText'
 
 interface Props {
   question: Question
@@ -18,8 +20,8 @@ interface Props {
 const PROMPTS = {
   'ar-fr': 'Que veut dire cette carte ?',
   'ar-fr-nt': 'Que veut dire cette carte ? (difficile)',
-  'fr-ar': 'Comment dit-on en arabe ?',
-  'fr-ar-nt': 'Comment dit-on en arabe ? (difficile)',
+  'fr-ar': `Comment dit-on ${LANG.inLang} ?`,
+  'fr-ar-nt': `Comment dit-on ${LANG.inLang} ? (difficile)`,
 }
 
 // La carte rétrécit sur les petits écrans pour que les réponses et le bouton « Suivante » tiennent sans défiler.
@@ -58,8 +60,8 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
             <button key={c.id} className={`choice ${state}`} onClick={() => choose(c)} disabled={answered && state === 'dim'}>
               {toArabic ? (
                 <>
-                  <span className="choice-ar" lang="ar" dir="rtl">
-                    {c.ar}
+                  <span className="choice-ar" {...TEXT_ATTRS}>
+                    <TargetText text={c.ar} />
                   </span>
                   {answered && <span className="choice-sub">{c.translit}</span>}
                 </>

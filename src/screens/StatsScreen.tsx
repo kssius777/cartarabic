@@ -1,6 +1,8 @@
 import { useState, type CSSProperties } from 'react'
 import { CARDS, RARITIES, THEMES, type Card, type Rarity } from '../game/cards'
 import { cardsToWork, dayKey, isBrillant, REVIEW_SIZE, type Save, type Tally } from '../game/rules'
+import { TEXT_ATTRS } from '../game/lang'
+import { TargetText } from '../components/TargetText'
 
 interface Props {
   save: Save
@@ -146,8 +148,8 @@ export function StatsScreen({ save, onExit, onWork }: Props) {
           <ul className="work-list">
             {work.slice(0, limit).map(({ card, fails }) => (
               <li key={card.id}>
-                <span className="work-ar" lang="ar" dir="rtl">
-                  {card.ar}
+                <span className="work-ar" {...TEXT_ATTRS}>
+                  <TargetText text={card.ar} />
                 </span>
                 <span className="work-fr">
                   {card.fr}

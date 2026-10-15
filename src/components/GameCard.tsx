@@ -1,6 +1,8 @@
 import type { CSSProperties, ReactNode } from 'react'
 import { cardNumber, RARITIES, THEMES, type Card } from '../game/cards'
 import { BRILLANT } from '../game/rules'
+import { LANG, TEXT_ATTRS } from '../game/lang'
+import { TargetText } from './TargetText'
 
 export type Face = 'front' | 'back' | 'hidden'
 
@@ -15,7 +17,7 @@ interface Props {
   onClick?: () => void
 }
 
-/** Une carte façon Pokémon : recto en arabe, verso en français. */
+/** Une carte façon Pokémon : recto dans la langue apprise, verso en français. */
 export function GameCard({ card, face = 'front', translit = true, copies, width = '260px', glow, onClick }: Props) {
   const theme = THEMES[card.theme]
   const rarity = RARITIES[card.rarity]
@@ -39,8 +41,8 @@ export function GameCard({ card, face = 'front', translit = true, copies, width 
         <div className="gcard-side gcard-front">
           <Frame card={card} brillant={brillant} copies={copies}>
             <div className="gcard-art">
-              <div className={`gcard-ar ${arSize(card.ar)}`} lang="ar" dir="rtl">
-                {card.ar}
+              <div className={`gcard-ar ${arSize(card.ar)}`} {...TEXT_ATTRS}>
+                <TargetText text={card.ar} />
               </div>
             </div>
             <div className="gcard-caption">
@@ -64,8 +66,8 @@ export function GameCard({ card, face = 'front', translit = true, copies, width 
                 {/* Question français → arabe : la réponse reste cachée tant qu'on n'a pas répondu. */}
                 {translit ? (
                   <>
-                    <div className="gcard-translit small" lang="ar" dir="rtl">
-                      {card.ar}
+                    <div className="gcard-translit small" {...TEXT_ATTRS}>
+                      <TargetText text={card.ar} />
                     </div>
                     <div className="gcard-translit tiny">{card.translit}</div>
                   </>
@@ -112,7 +114,8 @@ function Frame({ card, brillant, copies, children }: { card: Card; brillant: boo
 
 /** Les mots courts s'affichent en très grand, les phrases plus petit. */
 function arSize(ar: string) {
-  const letters = ar.replace(/[\u064B-\u0652\u0670\s]/g, '').length
+  // Les lettres latines ou cyrilliques sont plus larges que les lettres arabes liées.
+  const letters = ar.replace(/[\u064B-\u0652\u0670\u0301\s]/g, '').length * (LANG.id === 'ar' ? 1 : 1.35)
   return letters <= 4 ? 'ar-xl' : letters <= 8 ? 'ar-l' : letters <= 14 ? 'ar-m' : 'ar-s'
 }
 
@@ -120,7 +123,7 @@ export function CardBack() {
   return (
     <div className="gcard-backside">
       <div className="backside-ring">
-        <span lang="ar">ع</span>
+        <span {...TEXT_ATTRS}>{LANG.glyph}</span>
       </div>
       <div className="backside-title">Cartarabic</div>
     </div>

@@ -1,0 +1,9722 @@
+[
+ {
+  "id": "ru00001",
+  "ar": "Здра́вствуйте",
+  "translit": "zdrávstvuyte",
+  "fr": "Bonjour (poli)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00002",
+  "ar": "Приве́т",
+  "translit": "privét",
+  "fr": "Salut",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00003",
+  "ar": "До свида́ния",
+  "translit": "do svidániya",
+  "fr": "Au revoir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00004",
+  "ar": "Пока́",
+  "translit": "poká",
+  "fr": "Salut (au revoir)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00005",
+  "ar": "Спаси́бо",
+  "translit": "spasíbo",
+  "fr": "Merci",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00006",
+  "ar": "Пожа́луйста",
+  "translit": "pozháluysta",
+  "fr": "S'il vous plaît (de rien)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00007",
+  "ar": "Да",
+  "translit": "da",
+  "fr": "Oui",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00008",
+  "ar": "Нет",
+  "translit": "net",
+  "fr": "Non",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00009",
+  "ar": "До́брое у́тро",
+  "translit": "dóbroye útro",
+  "fr": "Bonjour (le matin)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00010",
+  "ar": "До́брый день",
+  "translit": "dóbryy den'",
+  "fr": "Bonjour (la journée)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00011",
+  "ar": "До́брый ве́чер",
+  "translit": "dóbryy vécher",
+  "fr": "Bonsoir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00012",
+  "ar": "Споко́йной но́чи",
+  "translit": "spokóynoy nóchi",
+  "fr": "Bonne nuit",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00013",
+  "ar": "Как дела́?",
+  "translit": "kak delá?",
+  "fr": "Comment ça va ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00014",
+  "ar": "Как у вас дела́?",
+  "translit": "kak u vas delá?",
+  "fr": "Comment allez-vous ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00015",
+  "ar": "Хорошо́",
+  "translit": "khoroshó",
+  "fr": "Bien",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00016",
+  "ar": "Спаси́бо, хорошо́",
+  "translit": "spasíbo, khoroshó",
+  "fr": "Bien, merci",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00017",
+  "ar": "Отли́чно",
+  "translit": "otlíchno",
+  "fr": "Très bien (excellent)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00018",
+  "ar": "Норма́льно",
+  "translit": "normál'no",
+  "fr": "Ça va (normal)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00019",
+  "ar": "Пло́хо",
+  "translit": "plókho",
+  "fr": "Mal",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00020",
+  "ar": "А у тебя́?",
+  "translit": "a u tebyá?",
+  "fr": "Et toi ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00021",
+  "ar": "А у вас?",
+  "translit": "a u vas?",
+  "fr": "Et vous ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00022",
+  "ar": "Извини́те",
+  "translit": "izviníte",
+  "fr": "Excusez-moi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00023",
+  "ar": "Извини́",
+  "translit": "izviní",
+  "fr": "Excuse-moi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00024",
+  "ar": "Прости́те",
+  "translit": "prostíte",
+  "fr": "Pardon (poli)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00025",
+  "ar": "Прости́",
+  "translit": "prostí",
+  "fr": "Pardon (familier)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00026",
+  "ar": "Большо́е спаси́бо",
+  "translit": "bol'shóye spasíbo",
+  "fr": "Merci beaucoup",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00027",
+  "ar": "Не за что",
+  "translit": "né za chto",
+  "fr": "De rien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00028",
+  "ar": "Меня́ зову́т А́нна",
+  "translit": "menyá zovút Ánna",
+  "fr": "Je m'appelle Anna",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00029",
+  "ar": "Как вас зову́т?",
+  "translit": "kak vas zovút?",
+  "fr": "Comment vous appelez-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00030",
+  "ar": "Как тебя́ зову́т?",
+  "translit": "kak tebyá zovút?",
+  "fr": "Comment tu t'appelles ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00031",
+  "ar": "О́чень прия́тно",
+  "translit": "óchen' priyátno",
+  "fr": "Enchanté (très agréable)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00032",
+  "ar": "Рад познако́миться",
+  "translit": "rad poznakómit'sya",
+  "fr": "Ravi de vous connaître (homme)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00033",
+  "ar": "Ра́да познако́миться",
+  "translit": "ráda poznakómit'sya",
+  "fr": "Ravie de vous connaître (femme)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00034",
+  "ar": "Здра́вствуй",
+  "translit": "zdrávstvuy",
+  "fr": "Bonjour (à un proche)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00035",
+  "ar": "Добро́ пожа́ловать!",
+  "translit": "dobró pozhálovat'!",
+  "fr": "Bienvenue !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00036",
+  "ar": "До за́втра",
+  "translit": "do závtra",
+  "fr": "À demain",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00037",
+  "ar": "До ско́рой встре́чи",
+  "translit": "do skóroy vstréchi",
+  "fr": "À bientôt",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00038",
+  "ar": "Уви́димся!",
+  "translit": "uvídimsya!",
+  "fr": "On se voit plus tard !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00039",
+  "ar": "Всего́ хоро́шего!",
+  "translit": "vsevó khoróshevo!",
+  "fr": "Bonne continuation !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00040",
+  "ar": "Уда́чи!",
+  "translit": "udáchi!",
+  "fr": "Bonne chance !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00041",
+  "ar": "Алло́",
+  "translit": "alló",
+  "fr": "Allô",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00042",
+  "ar": "Что но́вого?",
+  "translit": "chto nóvovo?",
+  "fr": "Quoi de neuf ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00043",
+  "ar": "Коне́чно",
+  "translit": "konéshno",
+  "fr": "Bien sûr",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00044",
+  "ar": "Ла́дно",
+  "translit": "ládno",
+  "fr": "D'accord",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00045",
+  "ar": "Ничего́",
+  "translit": "nichevó",
+  "fr": "Ce n'est rien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00046",
+  "ar": "Ничего́ стра́шного",
+  "translit": "nichevó stráshnovo",
+  "fr": "Ce n'est pas grave",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00047",
+  "ar": "Всё хорошо́",
+  "translit": "vsyo khoroshó",
+  "fr": "Tout va bien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00048",
+  "ar": "Я не понима́ю",
+  "translit": "ya ne ponimáyu",
+  "fr": "Je ne comprends pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00049",
+  "ar": "Я понима́ю",
+  "translit": "ya ponimáyu",
+  "fr": "Je comprends",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00050",
+  "ar": "Я не зна́ю",
+  "translit": "ya ne znáyu",
+  "fr": "Je ne sais pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00051",
+  "ar": "Повтори́те, пожа́луйста",
+  "translit": "povtoríte, pozháluysta",
+  "fr": "Répétez, s'il vous plaît",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00052",
+  "ar": "Говори́те ме́дленнее, пожа́луйста",
+  "translit": "govoríte médlenneye, pozháluysta",
+  "fr": "Parlez plus lentement, s'il vous plaît",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00053",
+  "ar": "Вы говори́те по-францу́зски?",
+  "translit": "vy govoríte po-frantsúzski?",
+  "fr": "Parlez-vous français ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00054",
+  "ar": "Вы говори́те по-англи́йски?",
+  "translit": "vy govoríte po-anglíyski?",
+  "fr": "Parlez-vous anglais ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00055",
+  "ar": "Я немно́го говорю́ по-ру́сски",
+  "translit": "ya nemnógo govoryú po-rússki",
+  "fr": "Je parle un peu russe",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00056",
+  "ar": "Я не говорю́ по-ру́сски",
+  "translit": "ya ne govoryú po-rússki",
+  "fr": "Je ne parle pas russe",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00057",
+  "ar": "Я говорю́ по-англи́йски",
+  "translit": "ya govoryú po-anglíyski",
+  "fr": "Je parle anglais",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00058",
+  "ar": "Как э́то по-ру́сски?",
+  "translit": "kak éto po-rússki?",
+  "fr": "Comment dit-on ça en russe ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00059",
+  "ar": "Прия́тного аппети́та!",
+  "translit": "priyátnovo appetíta!",
+  "fr": "Bon appétit !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00060",
+  "ar": "Бу́дьте здоро́вы!",
+  "translit": "búd'te zdoróvy!",
+  "fr": "À vos souhaits !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00061",
+  "ar": "Извини́те, я не по́нял",
+  "translit": "izviníte, ya ne pónyal",
+  "fr": "Désolé, je n'ai pas compris",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00062",
+  "ar": "Извини́те за опозда́ние",
+  "translit": "izviníte za opozdániye",
+  "fr": "Désolé pour le retard",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00063",
+  "ar": "Спаси́бо за по́мощь",
+  "translit": "spasíbo za pómoshch'",
+  "fr": "Merci pour votre aide",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00064",
+  "ar": "Помоги́те!",
+  "translit": "pomogíte!",
+  "fr": "Au secours !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00065",
+  "ar": "Поздравля́ю!",
+  "translit": "pozdravlyáyu!",
+  "fr": "Félicitations !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00066",
+  "ar": "С днём рожде́ния!",
+  "translit": "s dnyom rozhdéniya!",
+  "fr": "Joyeux anniversaire !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00067",
+  "ar": "С Но́вым го́дом!",
+  "translit": "s Nóvym gódom!",
+  "fr": "Bonne année !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00068",
+  "ar": "Я хочу́ есть",
+  "translit": "ya khochú yest'",
+  "fr": "J'ai faim",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00069",
+  "ar": "Я хочу́ пить",
+  "translit": "ya khochú pit'",
+  "fr": "J'ai soif",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00070",
+  "ar": "я",
+  "translit": "ya",
+  "fr": "Je (moi)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00071",
+  "ar": "ты",
+  "translit": "ty",
+  "fr": "Tu (toi)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00072",
+  "ar": "он",
+  "translit": "on",
+  "fr": "Il (lui)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00073",
+  "ar": "она́",
+  "translit": "oná",
+  "fr": "Elle",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00074",
+  "ar": "оно́",
+  "translit": "onó",
+  "fr": "Il, elle (neutre)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00075",
+  "ar": "мы",
+  "translit": "my",
+  "fr": "Nous",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00076",
+  "ar": "вы",
+  "translit": "vy",
+  "fr": "Vous",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00077",
+  "ar": "они́",
+  "translit": "oní",
+  "fr": "Ils, elles",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00078",
+  "ar": "мой",
+  "translit": "moy",
+  "fr": "Mon (masculin)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00079",
+  "ar": "моя́",
+  "translit": "moyá",
+  "fr": "Ma",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00080",
+  "ar": "твой",
+  "translit": "tvoy",
+  "fr": "Ton (masculin)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00081",
+  "ar": "твоя́",
+  "translit": "tvoyá",
+  "fr": "Ta",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00082",
+  "ar": "его́",
+  "translit": "yevó",
+  "fr": "Son, sa (à lui)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00083",
+  "ar": "её",
+  "translit": "yeyó",
+  "fr": "Son, sa (à elle)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00084",
+  "ar": "э́то",
+  "translit": "éto",
+  "fr": "C'est, ceci",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00085",
+  "ar": "всё",
+  "translit": "vsyo",
+  "fr": "Tout",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00086",
+  "ar": "ноль",
+  "translit": "nol'",
+  "fr": "Zéro",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00087",
+  "ar": "оди́н",
+  "translit": "odín",
+  "fr": "Un",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00088",
+  "ar": "два",
+  "translit": "dva",
+  "fr": "Deux",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00089",
+  "ar": "три",
+  "translit": "tri",
+  "fr": "Trois",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00090",
+  "ar": "четы́ре",
+  "translit": "chetýre",
+  "fr": "Quatre",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00091",
+  "ar": "пять",
+  "translit": "pyat'",
+  "fr": "Cinq",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00092",
+  "ar": "шесть",
+  "translit": "shest'",
+  "fr": "Six",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00093",
+  "ar": "семь",
+  "translit": "sem'",
+  "fr": "Sept",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00094",
+  "ar": "во́семь",
+  "translit": "vósem'",
+  "fr": "Huit",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00095",
+  "ar": "де́вять",
+  "translit": "dévyat'",
+  "fr": "Neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00096",
+  "ar": "де́сять",
+  "translit": "désyat'",
+  "fr": "Dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00097",
+  "ar": "оди́ннадцать",
+  "translit": "odínnadtsat'",
+  "fr": "Onze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00098",
+  "ar": "двена́дцать",
+  "translit": "dvenádtsat'",
+  "fr": "Douze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00099",
+  "ar": "трина́дцать",
+  "translit": "trinádtsat'",
+  "fr": "Treize",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00100",
+  "ar": "четы́рнадцать",
+  "translit": "chetýrnadtsat'",
+  "fr": "Quatorze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00101",
+  "ar": "пятна́дцать",
+  "translit": "pyatnádtsat'",
+  "fr": "Quinze",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00102",
+  "ar": "шестна́дцать",
+  "translit": "shestnádtsat'",
+  "fr": "Seize",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00103",
+  "ar": "семна́дцать",
+  "translit": "semnádtsat'",
+  "fr": "Dix-sept",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00104",
+  "ar": "восемна́дцать",
+  "translit": "vosemnádtsat'",
+  "fr": "Dix-huit",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00105",
+  "ar": "девятна́дцать",
+  "translit": "devyatnádtsat'",
+  "fr": "Dix-neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00106",
+  "ar": "два́дцать",
+  "translit": "dvádtsat'",
+  "fr": "Vingt",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00107",
+  "ar": "три́дцать",
+  "translit": "trídtsat'",
+  "fr": "Trente",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00108",
+  "ar": "со́рок",
+  "translit": "sórok",
+  "fr": "Quarante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00109",
+  "ar": "пятьдеся́т",
+  "translit": "pyat'desyát",
+  "fr": "Cinquante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00110",
+  "ar": "шестьдеся́т",
+  "translit": "shest'desyát",
+  "fr": "Soixante",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00111",
+  "ar": "се́мьдесят",
+  "translit": "sém'desyat",
+  "fr": "Soixante-dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00112",
+  "ar": "во́семьдесят",
+  "translit": "vósem'desyat",
+  "fr": "Quatre-vingts",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00113",
+  "ar": "девяно́сто",
+  "translit": "devyanósto",
+  "fr": "Quatre-vingt-dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00114",
+  "ar": "сто",
+  "translit": "sto",
+  "fr": "Cent",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00115",
+  "ar": "ты́сяча",
+  "translit": "týsyacha",
+  "fr": "Mille",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00116",
+  "ar": "Ско́лько э́то сто́ит?",
+  "translit": "skól'ko éto stóit?",
+  "fr": "Combien ça coûte ?",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00117",
+  "ar": "Ско́лько вам лет?",
+  "translit": "skól'ko vam let?",
+  "fr": "Quel âge avez-vous ?",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00118",
+  "ar": "Ско́лько тебе́ лет?",
+  "translit": "skól'ko tebé let?",
+  "fr": "Quel âge as-tu ?",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00119",
+  "ar": "Мне два́дцать лет",
+  "translit": "mne dvádtsat' let",
+  "fr": "J'ai vingt ans",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00120",
+  "ar": "Мне три́дцать пять лет",
+  "translit": "mne trídtsat' pyat' let",
+  "fr": "J'ai trente-cinq ans",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00121",
+  "ar": "Како́й у вас но́мер телефо́на?",
+  "translit": "kakóy u vas nómer telefóna?",
+  "fr": "Quel est votre numéro de téléphone ?",
+  "theme": "nombres",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00122",
+  "ar": "цвет",
+  "translit": "tsvet",
+  "fr": "Couleur",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00123",
+  "ar": "кра́сный",
+  "translit": "krásnyy",
+  "fr": "Rouge",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00124",
+  "ar": "си́ний",
+  "translit": "síniy",
+  "fr": "Bleu (foncé)",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00125",
+  "ar": "голубо́й",
+  "translit": "golubóy",
+  "fr": "Bleu clair",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00126",
+  "ar": "зелёный",
+  "translit": "zelyónyy",
+  "fr": "Vert",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00127",
+  "ar": "жёлтый",
+  "translit": "zhyóltyy",
+  "fr": "Jaune",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00128",
+  "ar": "бе́лый",
+  "translit": "bélyy",
+  "fr": "Blanc",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00129",
+  "ar": "чёрный",
+  "translit": "chyórnyy",
+  "fr": "Noir",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00130",
+  "ar": "се́рый",
+  "translit": "séryy",
+  "fr": "Gris",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00131",
+  "ar": "кори́чневый",
+  "translit": "koríchnevyy",
+  "fr": "Marron",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00132",
+  "ar": "ро́зовый",
+  "translit": "rózovyy",
+  "fr": "Rose (couleur)",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00133",
+  "ar": "Како́го цве́та?",
+  "translit": "kakóvo tsvéta?",
+  "fr": "De quelle couleur ?",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00134",
+  "ar": "Мой люби́мый цвет — си́ний",
+  "translit": "moy lyubímyy tsvet — síniy",
+  "fr": "Ma couleur préférée est le bleu",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00135",
+  "ar": "Како́й твой люби́мый цвет?",
+  "translit": "kakóy tvoy lyubímyy tsvet?",
+  "fr": "Quelle est ta couleur préférée ?",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00136",
+  "ar": "Не́бо голубо́е",
+  "translit": "nébo golubóye",
+  "fr": "Le ciel est bleu",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00137",
+  "ar": "Трава́ зелёная",
+  "translit": "travá zelyónaya",
+  "fr": "L'herbe est verte",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00138",
+  "ar": "Моя́ маши́на кра́сная",
+  "translit": "moyá mashína krásnaya",
+  "fr": "Ma voiture est rouge",
+  "theme": "couleurs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00139",
+  "ar": "день",
+  "translit": "den'",
+  "fr": "Jour",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00140",
+  "ar": "неде́ля",
+  "translit": "nedélya",
+  "fr": "Semaine",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00141",
+  "ar": "понеде́льник",
+  "translit": "ponedél'nik",
+  "fr": "Lundi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00142",
+  "ar": "вто́рник",
+  "translit": "vtórnik",
+  "fr": "Mardi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00143",
+  "ar": "среда́",
+  "translit": "sredá",
+  "fr": "Mercredi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00144",
+  "ar": "четве́рг",
+  "translit": "chetvérg",
+  "fr": "Jeudi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00145",
+  "ar": "пя́тница",
+  "translit": "pyátnitsa",
+  "fr": "Vendredi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00146",
+  "ar": "суббо́та",
+  "translit": "subbóta",
+  "fr": "Samedi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00147",
+  "ar": "воскресе́нье",
+  "translit": "voskresén'ye",
+  "fr": "Dimanche",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00148",
+  "ar": "сего́дня",
+  "translit": "sevódnya",
+  "fr": "Aujourd'hui",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00149",
+  "ar": "за́втра",
+  "translit": "závtra",
+  "fr": "Demain",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00150",
+  "ar": "вчера́",
+  "translit": "vcherá",
+  "fr": "Hier",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00151",
+  "ar": "Како́й сего́дня день?",
+  "translit": "kakóy sevódnya den'?",
+  "fr": "Quel jour sommes-nous ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00152",
+  "ar": "Сего́дня понеде́льник",
+  "translit": "sevódnya ponedél'nik",
+  "fr": "Aujourd'hui c'est lundi",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00153",
+  "ar": "За́втра суббо́та",
+  "translit": "závtra subbóta",
+  "fr": "Demain c'est samedi",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00154",
+  "ar": "До понеде́льника",
+  "translit": "do ponedél'nika",
+  "fr": "À lundi",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00155",
+  "ar": "Ка́ждый день",
+  "translit": "kázhdyy den'",
+  "fr": "Chaque jour",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00156",
+  "ar": "На э́той неде́ле",
+  "translit": "na étoy nedéle",
+  "fr": "Cette semaine",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00157",
+  "ar": "ме́сяц",
+  "translit": "mésyats",
+  "fr": "Mois",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00158",
+  "ar": "год",
+  "translit": "god",
+  "fr": "Année, an",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00159",
+  "ar": "янва́рь",
+  "translit": "yanvár'",
+  "fr": "Janvier",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00160",
+  "ar": "февра́ль",
+  "translit": "fevrál'",
+  "fr": "Février",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00161",
+  "ar": "март",
+  "translit": "mart",
+  "fr": "Mars (mois)",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00162",
+  "ar": "апре́ль",
+  "translit": "aprél'",
+  "fr": "Avril",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00163",
+  "ar": "май",
+  "translit": "may",
+  "fr": "Mai",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00164",
+  "ar": "ию́нь",
+  "translit": "iyún'",
+  "fr": "Juin",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00165",
+  "ar": "ию́ль",
+  "translit": "iyúl'",
+  "fr": "Juillet",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00166",
+  "ar": "а́вгуст",
+  "translit": "ávgust",
+  "fr": "Août",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00167",
+  "ar": "сентя́брь",
+  "translit": "sentyábr'",
+  "fr": "Septembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00168",
+  "ar": "октя́брь",
+  "translit": "oktyábr'",
+  "fr": "Octobre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00169",
+  "ar": "ноя́брь",
+  "translit": "noyábr'",
+  "fr": "Novembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00170",
+  "ar": "дека́брь",
+  "translit": "dekábr'",
+  "fr": "Décembre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00171",
+  "ar": "зима́",
+  "translit": "zimá",
+  "fr": "Hiver",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00172",
+  "ar": "весна́",
+  "translit": "vesná",
+  "fr": "Printemps",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00173",
+  "ar": "ле́то",
+  "translit": "léto",
+  "fr": "Été",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00174",
+  "ar": "о́сень",
+  "translit": "ósen'",
+  "fr": "Automne",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00175",
+  "ar": "Како́е сего́дня число́?",
+  "translit": "kakóye sevódnya chisló?",
+  "fr": "Quelle date sommes-nous ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00176",
+  "ar": "Сего́дня пе́рвое ма́я",
+  "translit": "sevódnya pérvoye máya",
+  "fr": "Aujourd'hui c'est le premier mai",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00177",
+  "ar": "У меня́ день рожде́ния в ма́е",
+  "translit": "u menyá den' rozhdéniya v máye",
+  "fr": "Mon anniversaire est en mai",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00178",
+  "ar": "вре́мя",
+  "translit": "vrémya",
+  "fr": "Temps (durée)",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00179",
+  "ar": "час",
+  "translit": "chas",
+  "fr": "Heure",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00180",
+  "ar": "мину́та",
+  "translit": "minúta",
+  "fr": "Minute",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00181",
+  "ar": "у́тро",
+  "translit": "útro",
+  "fr": "Matin",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00182",
+  "ar": "ве́чер",
+  "translit": "vécher",
+  "fr": "Soir",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00183",
+  "ar": "ночь",
+  "translit": "noch'",
+  "fr": "Nuit",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00184",
+  "ar": "сейча́с",
+  "translit": "seychás",
+  "fr": "Maintenant",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00185",
+  "ar": "по́лдень",
+  "translit": "pólden'",
+  "fr": "Midi",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00186",
+  "ar": "Кото́рый час?",
+  "translit": "kotóryy chas?",
+  "fr": "Quelle heure est-il ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00187",
+  "ar": "Ско́лько вре́мени?",
+  "translit": "skól'ko vrémeni?",
+  "fr": "Il est quelle heure ? (familier)",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00188",
+  "ar": "Сейча́с час",
+  "translit": "seychás chas",
+  "fr": "Il est une heure",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00189",
+  "ar": "Сейча́с три часа́",
+  "translit": "seychás tri chasá",
+  "fr": "Il est trois heures",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00190",
+  "ar": "Сейча́с пять часо́в",
+  "translit": "seychás pyat' chasóv",
+  "fr": "Il est cinq heures",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00191",
+  "ar": "Сейча́с полови́на второ́го",
+  "translit": "seychás polovína vtoróvo",
+  "fr": "Il est une heure et demie",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00192",
+  "ar": "В кото́ром часу́?",
+  "translit": "v kotórom chasú?",
+  "fr": "À quelle heure ?",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00193",
+  "ar": "Я опа́здываю",
+  "translit": "ya opázdyvayu",
+  "fr": "Je suis en retard",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00194",
+  "ar": "У меня́ нет вре́мени",
+  "translit": "u menyá net vrémeni",
+  "fr": "Je n'ai pas le temps",
+  "theme": "temps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00195",
+  "ar": "что",
+  "translit": "chto",
+  "fr": "Quoi, que",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00196",
+  "ar": "кто",
+  "translit": "kto",
+  "fr": "Qui",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00197",
+  "ar": "где",
+  "translit": "gde",
+  "fr": "Où (sans mouvement)",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00198",
+  "ar": "куда́",
+  "translit": "kudá",
+  "fr": "Où (direction)",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00199",
+  "ar": "отку́да",
+  "translit": "otkúda",
+  "fr": "D'où",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00200",
+  "ar": "когда́",
+  "translit": "kogdá",
+  "fr": "Quand",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00201",
+  "ar": "почему́",
+  "translit": "pochemú",
+  "fr": "Pourquoi",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00202",
+  "ar": "как",
+  "translit": "kak",
+  "fr": "Comment",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00203",
+  "ar": "ско́лько",
+  "translit": "skól'ko",
+  "fr": "Combien",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00204",
+  "ar": "како́й",
+  "translit": "kakóy",
+  "fr": "Quel",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00205",
+  "ar": "Что э́то?",
+  "translit": "chto éto?",
+  "fr": "Qu'est-ce que c'est ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00206",
+  "ar": "Кто э́то?",
+  "translit": "kto éto?",
+  "fr": "Qui est-ce ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00207",
+  "ar": "Кто там?",
+  "translit": "kto tam?",
+  "fr": "Qui est là ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00208",
+  "ar": "Где туале́т?",
+  "translit": "gde tualét?",
+  "fr": "Où sont les toilettes ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00209",
+  "ar": "Где метро́?",
+  "translit": "gde metró?",
+  "fr": "Où est le métro ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00210",
+  "ar": "Где ты?",
+  "translit": "gde ty?",
+  "fr": "Où es-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00211",
+  "ar": "Куда́ ты идёшь?",
+  "translit": "kudá ty idyósh'?",
+  "fr": "Où vas-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00212",
+  "ar": "Где вы живёте?",
+  "translit": "gde vy zhivyóte?",
+  "fr": "Où habitez-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00213",
+  "ar": "Отку́да вы?",
+  "translit": "otkúda vy?",
+  "fr": "D'où venez-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00214",
+  "ar": "Что ты хо́чешь?",
+  "translit": "chto ty khóchesh'?",
+  "fr": "Que veux-tu ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00215",
+  "ar": "Вы понима́ете?",
+  "translit": "vy ponimáyete?",
+  "fr": "Vous comprenez ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00216",
+  "ar": "Ты меня́ понима́ешь?",
+  "translit": "ty menyá ponimáyesh'?",
+  "fr": "Tu me comprends ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00217",
+  "ar": "Что э́то зна́чит?",
+  "translit": "chto éto znáchit?",
+  "fr": "Qu'est-ce que ça veut dire ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00218",
+  "ar": "Как э́то пи́шется?",
+  "translit": "kak éto píshetsya?",
+  "fr": "Comment ça s'écrit ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00219",
+  "ar": "Мо́жно?",
+  "translit": "mózhno?",
+  "fr": "Je peux ? (c'est permis ?)",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00220",
+  "ar": "Мо́жно войти́?",
+  "translit": "mózhno voytí?",
+  "fr": "Puis-je entrer ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00221",
+  "ar": "Вы мо́жете мне помо́чь?",
+  "translit": "vy mózhete mne pomóch'?",
+  "fr": "Pouvez-vous m'aider ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00222",
+  "ar": "Что вы де́лаете?",
+  "translit": "chto vy délayete?",
+  "fr": "Que faites-vous ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00223",
+  "ar": "Кем вы рабо́таете?",
+  "translit": "kem vy rabótayete?",
+  "fr": "Quel est votre métier ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00224",
+  "ar": "Почему́ нет?",
+  "translit": "pochemú net?",
+  "fr": "Pourquoi pas ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00225",
+  "ar": "Что случи́лось?",
+  "translit": "chto sluchílos'?",
+  "fr": "Qu'est-ce qui s'est passé ?",
+  "theme": "questions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00226",
+  "ar": "семья́",
+  "translit": "sem'yá",
+  "fr": "Famille",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00227",
+  "ar": "ма́ма",
+  "translit": "máma",
+  "fr": "Maman",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00228",
+  "ar": "па́па",
+  "translit": "pápa",
+  "fr": "Papa",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00229",
+  "ar": "мать",
+  "translit": "mat'",
+  "fr": "Mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00230",
+  "ar": "оте́ц",
+  "translit": "otéts",
+  "fr": "Père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00231",
+  "ar": "брат",
+  "translit": "brat",
+  "fr": "Frère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00232",
+  "ar": "сестра́",
+  "translit": "sestrá",
+  "fr": "Sœur",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00233",
+  "ar": "сын",
+  "translit": "syn",
+  "fr": "Fils",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00234",
+  "ar": "дочь",
+  "translit": "doch'",
+  "fr": "Fille (enfant de)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00235",
+  "ar": "муж",
+  "translit": "muzh",
+  "fr": "Mari",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00236",
+  "ar": "жена́",
+  "translit": "zhená",
+  "fr": "Épouse",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00237",
+  "ar": "роди́тели",
+  "translit": "rodíteli",
+  "fr": "Parents",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00238",
+  "ar": "ба́бушка",
+  "translit": "bábushka",
+  "fr": "Grand-mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00239",
+  "ar": "де́душка",
+  "translit": "dédushka",
+  "fr": "Grand-père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00240",
+  "ar": "ребёнок",
+  "translit": "rebyónok",
+  "fr": "Enfant",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00241",
+  "ar": "де́ти",
+  "translit": "déti",
+  "fr": "Enfants",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00242",
+  "ar": "друг",
+  "translit": "drug",
+  "fr": "Ami",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00243",
+  "ar": "подру́га",
+  "translit": "podrúga",
+  "fr": "Amie",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00244",
+  "ar": "мужчи́на",
+  "translit": "muzhchína",
+  "fr": "Homme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00245",
+  "ar": "же́нщина",
+  "translit": "zhénshchina",
+  "fr": "Femme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00246",
+  "ar": "ма́льчик",
+  "translit": "mál'chik",
+  "fr": "Garçon",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00247",
+  "ar": "де́вочка",
+  "translit": "dévochka",
+  "fr": "Fillette",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00248",
+  "ar": "У меня́ есть брат",
+  "translit": "u menyá yest' brat",
+  "fr": "J'ai un frère",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00249",
+  "ar": "У меня́ есть сестра́",
+  "translit": "u menyá yest' sestrá",
+  "fr": "J'ai une sœur",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00250",
+  "ar": "У вас есть де́ти?",
+  "translit": "u vas yest' déti?",
+  "fr": "Avez-vous des enfants ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00251",
+  "ar": "У меня́ дво́е дете́й",
+  "translit": "u menyá dvóye detéy",
+  "fr": "J'ai deux enfants",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00252",
+  "ar": "У меня́ нет дете́й",
+  "translit": "u menyá net detéy",
+  "fr": "Je n'ai pas d'enfants",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00253",
+  "ar": "Э́то моя́ ма́ма",
+  "translit": "éto moyá máma",
+  "fr": "C'est ma maman",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00254",
+  "ar": "Э́то мой па́па",
+  "translit": "éto moy pápa",
+  "fr": "C'est mon papa",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00255",
+  "ar": "Э́то мой муж",
+  "translit": "éto moy muzh",
+  "fr": "C'est mon mari",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00256",
+  "ar": "Э́то моя́ жена́",
+  "translit": "éto moyá zhená",
+  "fr": "C'est ma femme (épouse)",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00257",
+  "ar": "Э́то мой друг",
+  "translit": "éto moy drug",
+  "fr": "C'est mon ami",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00258",
+  "ar": "Я жена́т",
+  "translit": "ya zhenát",
+  "fr": "Je suis marié",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00259",
+  "ar": "Я за́мужем",
+  "translit": "ya zámuzhem",
+  "fr": "Je suis mariée",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00260",
+  "ar": "Моя́ семья́ больша́я",
+  "translit": "moyá sem'yá bol'sháya",
+  "fr": "Ma famille est grande",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00261",
+  "ar": "Мой брат — студе́нт",
+  "translit": "moy brat — studént",
+  "fr": "Mon frère est étudiant",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00262",
+  "ar": "те́ло",
+  "translit": "télo",
+  "fr": "Corps",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00263",
+  "ar": "голова́",
+  "translit": "golová",
+  "fr": "Tête",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00264",
+  "ar": "лицо́",
+  "translit": "litsó",
+  "fr": "Visage",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00265",
+  "ar": "глаз",
+  "translit": "glaz",
+  "fr": "Œil",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00266",
+  "ar": "глаза́",
+  "translit": "glazá",
+  "fr": "Yeux",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00267",
+  "ar": "нос",
+  "translit": "nos",
+  "fr": "Nez",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00268",
+  "ar": "рот",
+  "translit": "rot",
+  "fr": "Bouche",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00269",
+  "ar": "у́хо",
+  "translit": "úkho",
+  "fr": "Oreille",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00270",
+  "ar": "зуб",
+  "translit": "zub",
+  "fr": "Dent",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00271",
+  "ar": "во́лосы",
+  "translit": "vólosy",
+  "fr": "Cheveux",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00272",
+  "ar": "рука́",
+  "translit": "ruká",
+  "fr": "Main, bras",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00273",
+  "ar": "нога́",
+  "translit": "nogá",
+  "fr": "Jambe, pied",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00274",
+  "ar": "па́лец",
+  "translit": "pálets",
+  "fr": "Doigt",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00275",
+  "ar": "живо́т",
+  "translit": "zhivót",
+  "fr": "Ventre",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00276",
+  "ar": "спина́",
+  "translit": "spiná",
+  "fr": "Dos",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00277",
+  "ar": "се́рдце",
+  "translit": "sérdtse",
+  "fr": "Cœur",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00278",
+  "ar": "язы́к",
+  "translit": "yazýk",
+  "fr": "Langue (organe et langage)",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00279",
+  "ar": "У меня́ боли́т голова́",
+  "translit": "u menyá bolít golová",
+  "fr": "J'ai mal à la tête",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00280",
+  "ar": "У меня́ боли́т живо́т",
+  "translit": "u menyá bolít zhivót",
+  "fr": "J'ai mal au ventre",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00281",
+  "ar": "У меня́ боли́т го́рло",
+  "translit": "u menyá bolít górlo",
+  "fr": "J'ai mal à la gorge",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00282",
+  "ar": "У неё голубы́е глаза́",
+  "translit": "u neyó golubýye glazá",
+  "fr": "Elle a les yeux bleus",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00283",
+  "ar": "У него́ чёрные во́лосы",
+  "translit": "u nevó chyórnye vólosy",
+  "fr": "Il a les cheveux noirs",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00284",
+  "ar": "Мне пло́хо",
+  "translit": "mne plókho",
+  "fr": "Je me sens mal",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00285",
+  "ar": "Я бо́лен",
+  "translit": "ya bólen",
+  "fr": "Je suis malade (homme)",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00286",
+  "ar": "Я больна́",
+  "translit": "ya bol'ná",
+  "fr": "Je suis malade (femme)",
+  "theme": "corps",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00287",
+  "ar": "и́мя",
+  "translit": "ímya",
+  "fr": "Prénom",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00288",
+  "ar": "а́дрес",
+  "translit": "ádres",
+  "fr": "Adresse",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00289",
+  "ar": "страна́",
+  "translit": "straná",
+  "fr": "Pays",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00290",
+  "ar": "го́род",
+  "translit": "górod",
+  "fr": "Ville",
+  "theme": "phrases",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00291",
+  "ar": "Я из Фра́нции",
+  "translit": "ya iz Frántsii",
+  "fr": "Je viens de France",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00292",
+  "ar": "Я францу́з",
+  "translit": "ya frantsúz",
+  "fr": "Je suis français",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00293",
+  "ar": "Я францу́женка",
+  "translit": "ya frantsúzhenka",
+  "fr": "Je suis française",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00294",
+  "ar": "Я живу́ в Пари́же",
+  "translit": "ya zhivú v Parízhe",
+  "fr": "J'habite à Paris",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00295",
+  "ar": "Я студе́нт",
+  "translit": "ya studént",
+  "fr": "Je suis étudiant",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00296",
+  "ar": "Я студе́нтка",
+  "translit": "ya studéntka",
+  "fr": "Je suis étudiante",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00297",
+  "ar": "Я врач",
+  "translit": "ya vrach",
+  "fr": "Je suis médecin",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00298",
+  "ar": "Я рабо́таю в о́фисе",
+  "translit": "ya rabótayu v ófise",
+  "fr": "Je travaille dans un bureau",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00299",
+  "ar": "Я учу́ ру́сский язы́к",
+  "translit": "ya uchú rússkiy yazýk",
+  "fr": "J'apprends le russe",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00300",
+  "ar": "Моё и́мя — Пьер",
+  "translit": "moyó ímya — P'yer",
+  "fr": "Mon prénom est Pierre",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00301",
+  "ar": "быть",
+  "translit": "byt'",
+  "fr": "Être",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00302",
+  "ar": "Он был до́ма",
+  "translit": "On byl dóma",
+  "fr": "Il était à la maison",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00303",
+  "ar": "Она́ была́ здесь",
+  "translit": "Oná bylá zdes'",
+  "fr": "Elle était ici",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00304",
+  "ar": "знать",
+  "translit": "znat'",
+  "fr": "Savoir, connaître",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00305",
+  "ar": "Я зна́ю",
+  "translit": "Ya znáyu",
+  "fr": "Je sais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00306",
+  "ar": "Ты зна́ешь?",
+  "translit": "Ty znáyesh'?",
+  "fr": "Tu sais ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00307",
+  "ar": "Он зна́ет",
+  "translit": "On znáyet",
+  "fr": "Il sait",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00308",
+  "ar": "Я знал",
+  "translit": "Ya znal",
+  "fr": "Je savais (homme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00309",
+  "ar": "Я зна́ла",
+  "translit": "Ya znála",
+  "fr": "Je savais (femme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00310",
+  "ar": "говори́ть",
+  "translit": "govorít'",
+  "fr": "Parler",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00311",
+  "ar": "Я говорю́",
+  "translit": "Ya govoryú",
+  "fr": "Je parle",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00312",
+  "ar": "Ты говори́шь",
+  "translit": "Ty govorísh'",
+  "fr": "Tu parles",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00313",
+  "ar": "Он говори́т",
+  "translit": "On govorít",
+  "fr": "Il parle",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00314",
+  "ar": "Вы говори́те по-ру́сски?",
+  "translit": "Vy govoríte po-rússki?",
+  "fr": "Vous parlez russe ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00315",
+  "ar": "Говори́те ме́дленнее",
+  "translit": "Govoríte médlenneye",
+  "fr": "Parlez plus lentement",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00316",
+  "ar": "сказа́ть",
+  "translit": "skazát'",
+  "fr": "Dire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00317",
+  "ar": "Он сказа́л",
+  "translit": "On skazál",
+  "fr": "Il a dit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00318",
+  "ar": "Она́ сказа́ла",
+  "translit": "Oná skazála",
+  "fr": "Elle a dit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00319",
+  "ar": "Скажи́те, пожа́луйста",
+  "translit": "Skazhíte, pozháluysta",
+  "fr": "Dites, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00320",
+  "ar": "мочь",
+  "translit": "moch'",
+  "fr": "Pouvoir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00321",
+  "ar": "Я могу́",
+  "translit": "Ya mogú",
+  "fr": "Je peux",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00322",
+  "ar": "Ты мо́жешь?",
+  "translit": "Ty mózhesh'?",
+  "fr": "Tu peux ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00323",
+  "ar": "Он мо́жет",
+  "translit": "On mózhet",
+  "fr": "Il peut",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00324",
+  "ar": "хоте́ть",
+  "translit": "khotét'",
+  "fr": "Vouloir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00325",
+  "ar": "Я хочу́",
+  "translit": "Ya khochú",
+  "fr": "Je veux",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00326",
+  "ar": "Ты хо́чешь?",
+  "translit": "Ty khóchesh'?",
+  "fr": "Tu veux ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00327",
+  "ar": "Он хо́чет",
+  "translit": "On khóchet",
+  "fr": "Il veut",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00328",
+  "ar": "де́лать",
+  "translit": "délat'",
+  "fr": "Faire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00329",
+  "ar": "сде́лать",
+  "translit": "sdélat'",
+  "fr": "Faire (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00330",
+  "ar": "Я де́лаю",
+  "translit": "Ya délayu",
+  "fr": "Je fais",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00331",
+  "ar": "Что ты де́лаешь?",
+  "translit": "Shto ty délayesh'?",
+  "fr": "Qu'est-ce que tu fais ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00332",
+  "ar": "Он де́лает",
+  "translit": "On délayet",
+  "fr": "Il fait",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00333",
+  "ar": "Я сде́лал",
+  "translit": "Ya sdélal",
+  "fr": "J'ai fait (homme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00334",
+  "ar": "Я сде́лала",
+  "translit": "Ya sdélala",
+  "fr": "J'ai fait (femme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00335",
+  "ar": "идти́",
+  "translit": "idtí",
+  "fr": "Aller (à pied, en ce moment)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00336",
+  "ar": "ходи́ть",
+  "translit": "khodít'",
+  "fr": "Aller (à pied, habituellement)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00337",
+  "ar": "Я иду́",
+  "translit": "Ya idú",
+  "fr": "Je vais (à pied)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00338",
+  "ar": "Ты идёшь?",
+  "translit": "Ty idyósh'?",
+  "fr": "Tu viens ? (à pied)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00339",
+  "ar": "Он идёт",
+  "translit": "On idyót",
+  "fr": "Il va (à pied)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00340",
+  "ar": "Он пошёл домо́й",
+  "translit": "On poshyól domóy",
+  "fr": "Il est rentré à la maison",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00341",
+  "ar": "Иди́ сюда́!",
+  "translit": "Idí syudá!",
+  "fr": "Viens ici !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00342",
+  "ar": "е́хать",
+  "translit": "yékhat'",
+  "fr": "Aller (en véhicule)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00343",
+  "ar": "Я е́ду",
+  "translit": "Ya yédu",
+  "fr": "Je vais (en véhicule)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00344",
+  "ar": "Ты е́дешь",
+  "translit": "Ty yédesh'",
+  "fr": "Tu vas (en véhicule)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00345",
+  "ar": "Он е́дет",
+  "translit": "On yédet",
+  "fr": "Il va (en véhicule)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00346",
+  "ar": "жить",
+  "translit": "zhit'",
+  "fr": "Vivre, habiter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00347",
+  "ar": "Я живу́ в Москве́",
+  "translit": "Ya zhivú v Moskvé",
+  "fr": "J'habite à Moscou",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00348",
+  "ar": "Где ты живёшь?",
+  "translit": "Gde ty zhivyósh'?",
+  "fr": "Où habites-tu ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00349",
+  "ar": "Он живёт здесь",
+  "translit": "On zhivyót zdes'",
+  "fr": "Il habite ici",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00350",
+  "ar": "рабо́тать",
+  "translit": "rabótat'",
+  "fr": "Travailler",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00351",
+  "ar": "Я рабо́таю",
+  "translit": "Ya rabótayu",
+  "fr": "Je travaille",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00352",
+  "ar": "Он рабо́тает",
+  "translit": "On rabótayet",
+  "fr": "Il travaille",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00353",
+  "ar": "ви́деть",
+  "translit": "vídet'",
+  "fr": "Voir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00354",
+  "ar": "Я ви́жу",
+  "translit": "Ya vízhu",
+  "fr": "Je vois",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00355",
+  "ar": "Ты ви́дишь?",
+  "translit": "Ty vídish'?",
+  "fr": "Tu vois ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00356",
+  "ar": "Он ви́дит",
+  "translit": "On vídit",
+  "fr": "Il voit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00357",
+  "ar": "смотре́ть",
+  "translit": "smotrét'",
+  "fr": "Regarder",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00358",
+  "ar": "Я смотрю́",
+  "translit": "Ya smotryú",
+  "fr": "Je regarde",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00359",
+  "ar": "Смотри́!",
+  "translit": "Smotrí!",
+  "fr": "Regarde !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00360",
+  "ar": "Смотри́те!",
+  "translit": "Smotríte!",
+  "fr": "Regardez !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00361",
+  "ar": "понима́ть",
+  "translit": "ponimát'",
+  "fr": "Comprendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00362",
+  "ar": "поня́ть",
+  "translit": "ponyát'",
+  "fr": "Comprendre (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00363",
+  "ar": "Ты понима́ешь?",
+  "translit": "Ty ponimáyesh'?",
+  "fr": "Tu comprends ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00364",
+  "ar": "Я по́нял",
+  "translit": "Ya pónyal",
+  "fr": "J'ai compris (homme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00365",
+  "ar": "Я поняла́",
+  "translit": "Ya ponyalá",
+  "fr": "J'ai compris (femme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00366",
+  "ar": "люби́ть",
+  "translit": "lyubít'",
+  "fr": "Aimer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00367",
+  "ar": "Я люблю́",
+  "translit": "Ya lyublyú",
+  "fr": "J'aime",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00368",
+  "ar": "Ты лю́бишь?",
+  "translit": "Ty lyúbish'?",
+  "fr": "Tu aimes ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00369",
+  "ar": "Он лю́бит",
+  "translit": "On lyúbit",
+  "fr": "Il aime",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00370",
+  "ar": "есть",
+  "translit": "yest'",
+  "fr": "Manger",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00371",
+  "ar": "Я ем",
+  "translit": "Ya yem",
+  "fr": "Je mange",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00372",
+  "ar": "Ты ешь",
+  "translit": "Ty yesh'",
+  "fr": "Tu manges",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00373",
+  "ar": "Он ест",
+  "translit": "On yest",
+  "fr": "Il mange",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00374",
+  "ar": "пить",
+  "translit": "pit'",
+  "fr": "Boire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00375",
+  "ar": "Я пью",
+  "translit": "Ya p'yu",
+  "fr": "Je bois",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00376",
+  "ar": "Ты пьёшь",
+  "translit": "Ty p'yosh'",
+  "fr": "Tu bois",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00377",
+  "ar": "Он пьёт",
+  "translit": "On p'yot",
+  "fr": "Il boit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00378",
+  "ar": "спать",
+  "translit": "spat'",
+  "fr": "Dormir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00379",
+  "ar": "Я сплю",
+  "translit": "Ya splyu",
+  "fr": "Je dors",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00380",
+  "ar": "Ты спишь?",
+  "translit": "Ty spish'?",
+  "fr": "Tu dors ?",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00381",
+  "ar": "Он спит",
+  "translit": "On spit",
+  "fr": "Il dort",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00382",
+  "ar": "чита́ть",
+  "translit": "chitát'",
+  "fr": "Lire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00383",
+  "ar": "Я чита́ю",
+  "translit": "Ya chitáyu",
+  "fr": "Je lis",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00384",
+  "ar": "писа́ть",
+  "translit": "pisát'",
+  "fr": "Écrire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00385",
+  "ar": "Я пишу́",
+  "translit": "Ya pishú",
+  "fr": "J'écris",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00386",
+  "ar": "Ты пи́шешь",
+  "translit": "Ty píshesh'",
+  "fr": "Tu écris",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00387",
+  "ar": "Он пи́шет",
+  "translit": "On píshet",
+  "fr": "Il écrit",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00388",
+  "ar": "ду́мать",
+  "translit": "dúmat'",
+  "fr": "Penser",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00389",
+  "ar": "Я ду́маю, что да",
+  "translit": "Ya dúmayu, shto da",
+  "fr": "Je pense que oui",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00390",
+  "ar": "Я ду́маю, что нет",
+  "translit": "Ya dúmayu, shto net",
+  "fr": "Je pense que non",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00391",
+  "ar": "брать",
+  "translit": "brat'",
+  "fr": "Prendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00392",
+  "ar": "взять",
+  "translit": "vzyat'",
+  "fr": "Prendre (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00393",
+  "ar": "Возьми́!",
+  "translit": "Voz'mí!",
+  "fr": "Prends !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00394",
+  "ar": "дава́ть",
+  "translit": "davát'",
+  "fr": "Donner",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00395",
+  "ar": "Да́йте, пожа́луйста, во́ду",
+  "translit": "Dáyte, pozháluysta, vódu",
+  "fr": "De l'eau, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00396",
+  "ar": "Дава́й!",
+  "translit": "Daváy!",
+  "fr": "Vas-y !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00397",
+  "ar": "звать",
+  "translit": "zvat'",
+  "fr": "Appeler (nommer)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00398",
+  "ar": "сто́ить",
+  "translit": "stóit'",
+  "fr": "Coûter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00399",
+  "ar": "нра́виться",
+  "translit": "nrávit'sya",
+  "fr": "Plaire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00400",
+  "ar": "Мне нра́вится",
+  "translit": "Mne nrávitsya",
+  "fr": "Ça me plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00401",
+  "ar": "слу́шать",
+  "translit": "slúshat'",
+  "fr": "Écouter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00402",
+  "ar": "Слу́шай!",
+  "translit": "Slúshay!",
+  "fr": "Écoute !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00403",
+  "ar": "Слу́шайте!",
+  "translit": "Slúshayte!",
+  "fr": "Écoutez !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00404",
+  "ar": "слы́шать",
+  "translit": "slýshat'",
+  "fr": "Entendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00405",
+  "ar": "Я слы́шу",
+  "translit": "Ya slýshu",
+  "fr": "J'entends",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00406",
+  "ar": "ждать",
+  "translit": "zhdat'",
+  "fr": "Attendre",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00407",
+  "ar": "Я жду",
+  "translit": "Ya zhdu",
+  "fr": "J'attends",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00408",
+  "ar": "Подожди́!",
+  "translit": "Podozhdí!",
+  "fr": "Attends !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00409",
+  "ar": "Подожди́те, пожа́луйста",
+  "translit": "Podozhdíte, pozháluysta",
+  "fr": "Attendez, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00410",
+  "ar": "иска́ть",
+  "translit": "iskát'",
+  "fr": "Chercher",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00411",
+  "ar": "Я ищу́",
+  "translit": "Ya ishchú",
+  "fr": "Je cherche",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00412",
+  "ar": "найти́",
+  "translit": "naytí",
+  "fr": "Trouver",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00413",
+  "ar": "учи́ть",
+  "translit": "uchít'",
+  "fr": "Apprendre (une leçon)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00414",
+  "ar": "учи́ться",
+  "translit": "uchít'sya",
+  "fr": "Étudier",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00415",
+  "ar": "Я учу́сь",
+  "translit": "Ya uchús'",
+  "fr": "Je fais des études",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00416",
+  "ar": "помога́ть",
+  "translit": "pomogát'",
+  "fr": "Aider",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00417",
+  "ar": "помо́чь",
+  "translit": "pomóch'",
+  "fr": "Aider (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00418",
+  "ar": "Помоги́ мне",
+  "translit": "Pomogí mne",
+  "fr": "Aide-moi",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00419",
+  "ar": "покупа́ть",
+  "translit": "pokupát'",
+  "fr": "Acheter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00420",
+  "ar": "купи́ть",
+  "translit": "kupít'",
+  "fr": "Acheter (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00421",
+  "ar": "Я купи́л хлеб",
+  "translit": "Ya kupíl khleb",
+  "fr": "J'ai acheté du pain",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00422",
+  "ar": "звони́ть",
+  "translit": "zvonít'",
+  "fr": "Téléphoner",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00423",
+  "ar": "Позвони́ мне",
+  "translit": "Pozvoní mne",
+  "fr": "Appelle-moi",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00424",
+  "ar": "игра́ть",
+  "translit": "igrát'",
+  "fr": "Jouer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00425",
+  "ar": "гуля́ть",
+  "translit": "gulyát'",
+  "fr": "Se promener",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00426",
+  "ar": "спроси́ть",
+  "translit": "sprosít'",
+  "fr": "Demander (question, perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00427",
+  "ar": "по́мнить",
+  "translit": "pómnit'",
+  "fr": "Se souvenir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00428",
+  "ar": "Я по́мню",
+  "translit": "Ya pómnyu",
+  "fr": "Je me souviens",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00429",
+  "ar": "забы́ть",
+  "translit": "zabýt'",
+  "fr": "Oublier",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00430",
+  "ar": "Я забы́л",
+  "translit": "Ya zabýl",
+  "fr": "J'ai oublié (homme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00431",
+  "ar": "Я забы́ла",
+  "translit": "Ya zabýla",
+  "fr": "J'ai oublié (femme)",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00432",
+  "ar": "Не забу́дь!",
+  "translit": "Ne zabúd'!",
+  "fr": "N'oublie pas !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00433",
+  "ar": "приходи́ть",
+  "translit": "prikhodít'",
+  "fr": "Venir (à pied)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00434",
+  "ar": "Я пришёл",
+  "translit": "Ya prishyól",
+  "fr": "Je suis venu",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00435",
+  "ar": "Она́ пришла́",
+  "translit": "Oná prishlá",
+  "fr": "Elle est venue",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00436",
+  "ar": "Я сейча́с приду́",
+  "translit": "Ya seychás pridú",
+  "fr": "J'arrive tout de suite",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00437",
+  "ar": "откры́ть",
+  "translit": "otkrýt'",
+  "fr": "Ouvrir (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00438",
+  "ar": "Откро́йте дверь",
+  "translit": "Otkróyte dver'",
+  "fr": "Ouvrez la porte",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00439",
+  "ar": "закры́ть",
+  "translit": "zakrýt'",
+  "fr": "Fermer (perfectif)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00440",
+  "ar": "Закро́й окно́",
+  "translit": "Zakróy oknó",
+  "fr": "Ferme la fenêtre",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00441",
+  "ar": "начина́ть",
+  "translit": "nachinát'",
+  "fr": "Commencer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00442",
+  "ar": "отдыха́ть",
+  "translit": "otdykhát'",
+  "fr": "Se reposer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00443",
+  "ar": "встава́ть",
+  "translit": "vstavát'",
+  "fr": "Se lever",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00444",
+  "ar": "Встава́й!",
+  "translit": "Vstaváy!",
+  "fr": "Lève-toi !",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00445",
+  "ar": "сади́ться",
+  "translit": "sadít'sya",
+  "fr": "S'asseoir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00446",
+  "ar": "Сади́тесь",
+  "translit": "Sadítes'",
+  "fr": "Asseyez-vous",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00447",
+  "ar": "Заходи́те",
+  "translit": "Zakhodíte",
+  "fr": "Entrez",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00448",
+  "ar": "Покажи́те, пожа́луйста",
+  "translit": "Pokazhíte, pozháluysta",
+  "fr": "Montrez-moi, s'il vous plaît",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00449",
+  "ar": "Не волну́йся",
+  "translit": "Ne volnúysya",
+  "fr": "Ne t'inquiète pas",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00450",
+  "ar": "Не спеши́",
+  "translit": "Ne speshí",
+  "fr": "Ne te presse pas",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00451",
+  "ar": "Дава́й пойдём",
+  "translit": "Daváy poydyóm",
+  "fr": "Allons-y",
+  "theme": "verbes",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00452",
+  "ar": "хоро́ший",
+  "translit": "khoróshiy",
+  "fr": "Bon",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00453",
+  "ar": "плохо́й",
+  "translit": "plokhóy",
+  "fr": "Mauvais",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00454",
+  "ar": "большо́й",
+  "translit": "bol'shóy",
+  "fr": "Grand",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00455",
+  "ar": "ма́ленький",
+  "translit": "málen'kiy",
+  "fr": "Petit",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00456",
+  "ar": "но́вый",
+  "translit": "nóvyy",
+  "fr": "Nouveau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00457",
+  "ar": "ста́рый",
+  "translit": "stáryy",
+  "fr": "Vieux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00458",
+  "ar": "молодо́й",
+  "translit": "molodóy",
+  "fr": "Jeune",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00459",
+  "ar": "краси́вый",
+  "translit": "krasívyy",
+  "fr": "Beau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00460",
+  "ar": "горя́чий",
+  "translit": "goryáchiy",
+  "fr": "Chaud (brûlant)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00461",
+  "ar": "холо́дный",
+  "translit": "kholódnyy",
+  "fr": "Froid",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00462",
+  "ar": "тёплый",
+  "translit": "tyóplyy",
+  "fr": "Chaud (doux, tiède)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00463",
+  "ar": "дли́нный",
+  "translit": "dlínnyy",
+  "fr": "Long",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00464",
+  "ar": "коро́ткий",
+  "translit": "korótkiy",
+  "fr": "Court",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00465",
+  "ar": "высо́кий",
+  "translit": "vysókiy",
+  "fr": "Haut",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00466",
+  "ar": "ни́зкий",
+  "translit": "nízkiy",
+  "fr": "Bas",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00467",
+  "ar": "бы́стрый",
+  "translit": "býstryy",
+  "fr": "Rapide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00468",
+  "ar": "ме́дленный",
+  "translit": "médlennyy",
+  "fr": "Lent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00469",
+  "ar": "лёгкий",
+  "translit": "lyókhkiy",
+  "fr": "Léger, facile",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00470",
+  "ar": "тру́дный",
+  "translit": "trúdnyy",
+  "fr": "Difficile",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00471",
+  "ar": "дорого́й",
+  "translit": "dorogóy",
+  "fr": "Cher",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00472",
+  "ar": "дешёвый",
+  "translit": "deshóvyy",
+  "fr": "Bon marché",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00473",
+  "ar": "до́брый",
+  "translit": "dóbryy",
+  "fr": "Gentil",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00474",
+  "ar": "злой",
+  "translit": "zloy",
+  "fr": "Méchant",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00475",
+  "ar": "интере́сный",
+  "translit": "interésnyy",
+  "fr": "Intéressant",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00476",
+  "ar": "ску́чный",
+  "translit": "skúshnyy",
+  "fr": "Ennuyeux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00477",
+  "ar": "счастли́вый",
+  "translit": "shchaslívyy",
+  "fr": "Heureux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00478",
+  "ar": "гру́стный",
+  "translit": "grúsnyy",
+  "fr": "Triste",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00479",
+  "ar": "вку́сный",
+  "translit": "vkúsnyy",
+  "fr": "Délicieux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00480",
+  "ar": "тяжёлый",
+  "translit": "tyazhólyy",
+  "fr": "Lourd",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00481",
+  "ar": "у́мный",
+  "translit": "úmnyy",
+  "fr": "Intelligent",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00482",
+  "ar": "глу́пый",
+  "translit": "glúpyy",
+  "fr": "Bête",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00483",
+  "ar": "по́лный",
+  "translit": "pólnyy",
+  "fr": "Plein",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00484",
+  "ar": "пусто́й",
+  "translit": "pustóy",
+  "fr": "Vide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00485",
+  "ar": "чи́стый",
+  "translit": "chístyy",
+  "fr": "Propre",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00486",
+  "ar": "гря́зный",
+  "translit": "gryáznyy",
+  "fr": "Sale",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00487",
+  "ar": "откры́тый",
+  "translit": "otkrýtyy",
+  "fr": "Ouvert",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00488",
+  "ar": "закры́тый",
+  "translit": "zakrýtyy",
+  "fr": "Fermé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00489",
+  "ar": "пра́вый",
+  "translit": "právyy",
+  "fr": "Droit (côté)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00490",
+  "ar": "ле́вый",
+  "translit": "lévyy",
+  "fr": "Gauche",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00491",
+  "ar": "пе́рвый",
+  "translit": "pérvyy",
+  "fr": "Premier",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00492",
+  "ar": "после́дний",
+  "translit": "poslédniy",
+  "fr": "Dernier",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00493",
+  "ar": "бли́зкий",
+  "translit": "blízkiy",
+  "fr": "Proche",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00494",
+  "ar": "далёкий",
+  "translit": "dalyókiy",
+  "fr": "Lointain",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00495",
+  "ar": "си́льный",
+  "translit": "síl'nyy",
+  "fr": "Fort",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00496",
+  "ar": "сла́бый",
+  "translit": "slábyy",
+  "fr": "Faible",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00497",
+  "ar": "просто́й",
+  "translit": "prostóy",
+  "fr": "Simple",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00498",
+  "ar": "сло́жный",
+  "translit": "slózhnyy",
+  "fr": "Compliqué",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00499",
+  "ar": "ва́жный",
+  "translit": "vázhnyy",
+  "fr": "Important",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00500",
+  "ar": "свобо́дный",
+  "translit": "svobódnyy",
+  "fr": "Libre",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00501",
+  "ar": "за́нятый",
+  "translit": "zányatyy",
+  "fr": "Occupé",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00502",
+  "ar": "Э́то о́чень хорошо́",
+  "translit": "Éto óchen' khoroshó",
+  "fr": "C'est très bien",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00503",
+  "ar": "Э́то пло́хо",
+  "translit": "Éto plókho",
+  "fr": "C'est mal",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00504",
+  "ar": "Дом большо́й",
+  "translit": "Dom bol'shóy",
+  "fr": "La maison est grande",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00505",
+  "ar": "Ко́мната ма́ленькая",
+  "translit": "Kómnata málen'kaya",
+  "fr": "La chambre est petite",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00506",
+  "ar": "Вода́ холо́дная",
+  "translit": "Vodá kholódnaya",
+  "fr": "L'eau est froide",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00507",
+  "ar": "Э́то сли́шком до́рого",
+  "translit": "Éto slíshkom dórogo",
+  "fr": "C'est trop cher",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00508",
+  "ar": "Э́то дёшево",
+  "translit": "Éto dyóshevo",
+  "fr": "Ce n'est pas cher",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00509",
+  "ar": "Ру́сский язы́к тру́дный",
+  "translit": "Rússkiy yazýk trúdnyy",
+  "fr": "Le russe est difficile",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00510",
+  "ar": "Э́то легко́",
+  "translit": "Éto lekhkó",
+  "fr": "C'est facile",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00511",
+  "ar": "Я уста́л",
+  "translit": "Ya ustál",
+  "fr": "Je suis fatigué",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00512",
+  "ar": "Я уста́ла",
+  "translit": "Ya ustála",
+  "fr": "Je suis fatiguée",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00513",
+  "ar": "Я за́нят",
+  "translit": "Ya zányat",
+  "fr": "Je suis occupé",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00514",
+  "ar": "Я свобо́ден",
+  "translit": "Ya svobóden",
+  "fr": "Je suis libre",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00515",
+  "ar": "Она́ краси́вая",
+  "translit": "Oná krasívaya",
+  "fr": "Elle est belle",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00516",
+  "ar": "Он о́чень у́мный",
+  "translit": "On óchen' úmnyy",
+  "fr": "Il est très intelligent",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00517",
+  "ar": "Како́й краси́вый го́род!",
+  "translit": "Kakóy krasívyy górod!",
+  "fr": "Quelle belle ville !",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00518",
+  "ar": "Мага́зин закры́т",
+  "translit": "Magazín zakrýt",
+  "fr": "Le magasin est fermé",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00519",
+  "ar": "Музе́й откры́т",
+  "translit": "Muzéy otkrýt",
+  "fr": "Le musée est ouvert",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00520",
+  "ar": "О́чень вку́сно",
+  "translit": "Óchen' vkúsno",
+  "fr": "C'est très bon (à manger)",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00521",
+  "ar": "Э́то лу́чше",
+  "translit": "Éto lúchshe",
+  "fr": "C'est mieux",
+  "theme": "adjectifs",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00522",
+  "ar": "и",
+  "translit": "i",
+  "fr": "Et",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00523",
+  "ar": "а",
+  "translit": "a",
+  "fr": "Et, alors que (opposition)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00524",
+  "ar": "но",
+  "translit": "no",
+  "fr": "Mais",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00525",
+  "ar": "и́ли",
+  "translit": "íli",
+  "fr": "Ou",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00526",
+  "ar": "потому́ что",
+  "translit": "potomú shto",
+  "fr": "Parce que",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00527",
+  "ar": "е́сли",
+  "translit": "yésli",
+  "fr": "Si",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00528",
+  "ar": "в",
+  "translit": "v",
+  "fr": "Dans, à",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00529",
+  "ar": "на",
+  "translit": "na",
+  "fr": "Sur",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00530",
+  "ar": "с",
+  "translit": "s",
+  "fr": "Avec",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00531",
+  "ar": "без",
+  "translit": "bez",
+  "fr": "Sans",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00532",
+  "ar": "для",
+  "translit": "dlya",
+  "fr": "Pour",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00533",
+  "ar": "из",
+  "translit": "iz",
+  "fr": "De (provenance)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00534",
+  "ar": "у",
+  "translit": "u",
+  "fr": "Chez, près de",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00535",
+  "ar": "о",
+  "translit": "o",
+  "fr": "Au sujet de",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00536",
+  "ar": "до",
+  "translit": "do",
+  "fr": "Jusqu'à",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00537",
+  "ar": "по́сле",
+  "translit": "pósle",
+  "fr": "Après",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00538",
+  "ar": "под",
+  "translit": "pod",
+  "fr": "Sous",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00539",
+  "ar": "ме́жду",
+  "translit": "mézhdu",
+  "fr": "Entre",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00540",
+  "ar": "о́коло",
+  "translit": "ókolo",
+  "fr": "À côté de, environ",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00541",
+  "ar": "за",
+  "translit": "za",
+  "fr": "Derrière",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00542",
+  "ar": "че́рез",
+  "translit": "chérez",
+  "fr": "À travers",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00543",
+  "ar": "о́чень",
+  "translit": "óchen'",
+  "fr": "Très",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00544",
+  "ar": "то́же",
+  "translit": "tózhe",
+  "fr": "Aussi",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00545",
+  "ar": "уже́",
+  "translit": "uzhé",
+  "fr": "Déjà",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00546",
+  "ar": "ещё",
+  "translit": "yeshchyó",
+  "fr": "Encore",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00547",
+  "ar": "то́лько",
+  "translit": "tól'ko",
+  "fr": "Seulement",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00548",
+  "ar": "всегда́",
+  "translit": "vsegdá",
+  "fr": "Toujours",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00549",
+  "ar": "никогда́",
+  "translit": "nikogdá",
+  "fr": "Jamais",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00550",
+  "ar": "иногда́",
+  "translit": "inogdá",
+  "fr": "Parfois",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00551",
+  "ar": "ча́сто",
+  "translit": "chásto",
+  "fr": "Souvent",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00552",
+  "ar": "здесь",
+  "translit": "zdes'",
+  "fr": "Ici",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00553",
+  "ar": "там",
+  "translit": "tam",
+  "fr": "Là-bas",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00554",
+  "ar": "мно́го",
+  "translit": "mnógo",
+  "fr": "Beaucoup",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00555",
+  "ar": "ма́ло",
+  "translit": "málo",
+  "fr": "Peu",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00556",
+  "ar": "немно́го",
+  "translit": "nemnógo",
+  "fr": "Un peu",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00557",
+  "ar": "пото́м",
+  "translit": "potóm",
+  "fr": "Ensuite",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00558",
+  "ar": "мо́жет быть",
+  "translit": "mózhet byt'",
+  "fr": "Peut-être",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00559",
+  "ar": "хорошо́",
+  "translit": "khoroshó",
+  "fr": "Bien (adverbe)",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00560",
+  "ar": "бы́стро",
+  "translit": "býstro",
+  "fr": "Vite",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00561",
+  "ar": "сли́шком",
+  "translit": "slíshkom",
+  "fr": "Trop",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00562",
+  "ar": "сра́зу",
+  "translit": "srázu",
+  "fr": "Tout de suite",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00563",
+  "ar": "ско́ро",
+  "translit": "skóro",
+  "fr": "Bientôt",
+  "theme": "outils",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00564",
+  "ar": "Я и ты",
+  "translit": "Ya i ty",
+  "fr": "Toi et moi",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00565",
+  "ar": "Чай и́ли ко́фе?",
+  "translit": "Chay íli kófe?",
+  "fr": "Thé ou café ?",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00566",
+  "ar": "Ко́фе с молоко́м",
+  "translit": "Kófe s molokóm",
+  "fr": "Café au lait",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00567",
+  "ar": "Чай без са́хара",
+  "translit": "Chay bez sákhara",
+  "fr": "Thé sans sucre",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00568",
+  "ar": "Кни́га на столе́",
+  "translit": "Kníga na stolé",
+  "fr": "Le livre est sur la table",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00569",
+  "ar": "Пода́рок для тебя́",
+  "translit": "Podárok dlya tebyá",
+  "fr": "Un cadeau pour toi",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00570",
+  "ar": "Я то́же",
+  "translit": "Ya tózhe",
+  "fr": "Moi aussi",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00571",
+  "ar": "Ещё раз",
+  "translit": "Yeshchyó raz",
+  "fr": "Encore une fois",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00572",
+  "ar": "Е́сли хо́чешь",
+  "translit": "Yésli khóchesh'",
+  "fr": "Si tu veux",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00573",
+  "ar": "Я уже́ зна́ю",
+  "translit": "Ya uzhé znáyu",
+  "fr": "Je le sais déjà",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00574",
+  "ar": "По́сле рабо́ты",
+  "translit": "Pósle rabóty",
+  "fr": "Après le travail",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00575",
+  "ar": "Че́рез час",
+  "translit": "Chérez chas",
+  "fr": "Dans une heure",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00576",
+  "ar": "Ме́жду на́ми",
+  "translit": "Mézhdu námi",
+  "fr": "Entre nous",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00577",
+  "ar": "Всё равно́",
+  "translit": "Vsyo ravnó",
+  "fr": "Peu importe",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00578",
+  "ar": "Нельзя́",
+  "translit": "Nel'zyá",
+  "fr": "C'est interdit",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00579",
+  "ar": "Он всегда́ опа́здывает",
+  "translit": "On vsegdá opázdyvayet",
+  "fr": "Il est toujours en retard",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00580",
+  "ar": "Я ча́сто чита́ю",
+  "translit": "Ya chásto chitáyu",
+  "fr": "Je lis souvent",
+  "theme": "outils",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00581",
+  "ar": "дом",
+  "translit": "dom",
+  "fr": "Maison",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00582",
+  "ar": "кварти́ра",
+  "translit": "kvartíra",
+  "fr": "Appartement",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00583",
+  "ar": "Счёт, пожа́луйста",
+  "translit": "Schyot, pozháluysta.",
+  "fr": "L'addition, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00584",
+  "ar": "вода́",
+  "translit": "vodá",
+  "fr": "Eau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00585",
+  "ar": "хлеб",
+  "translit": "khleb",
+  "fr": "Pain",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00586",
+  "ar": "магази́н",
+  "translit": "magazín",
+  "fr": "Magasin",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00587",
+  "ar": "биле́т",
+  "translit": "bilét",
+  "fr": "Billet, ticket",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00588",
+  "ar": "рабо́та",
+  "translit": "rabóta",
+  "fr": "Travail",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00589",
+  "ar": "у́лица",
+  "translit": "úlitsa",
+  "fr": "Rue",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00590",
+  "ar": "ко́фе",
+  "translit": "kófe",
+  "fr": "Café (boisson)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00591",
+  "ar": "чай",
+  "translit": "chay",
+  "fr": "Thé",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00592",
+  "ar": "молоко́",
+  "translit": "molokó",
+  "fr": "Lait",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00593",
+  "ar": "Меню́, пожа́луйста",
+  "translit": "Menyú, pozháluysta.",
+  "fr": "Le menu, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00594",
+  "ar": "рестора́н",
+  "translit": "restorán",
+  "fr": "Restaurant",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00595",
+  "ar": "кафе́",
+  "translit": "kafé",
+  "fr": "Café (lieu)",
+  "theme": "restaurant",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00596",
+  "ar": "телефо́н",
+  "translit": "telefón",
+  "fr": "Téléphone",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00597",
+  "ar": "врач",
+  "translit": "vrach",
+  "fr": "Médecin",
+  "theme": "metiers",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00598",
+  "ar": "апте́ка",
+  "translit": "aptéka",
+  "fr": "Pharmacie",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00599",
+  "ar": "больни́ца",
+  "translit": "bol'nítsa",
+  "fr": "Hôpital",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00600",
+  "ar": "Вы́зовите врача́!",
+  "translit": "Výzovite vrachá!",
+  "fr": "Appelez un médecin !",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00601",
+  "ar": "Э́то далеко́?",
+  "translit": "Éto dalekó?",
+  "fr": "C'est loin ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00602",
+  "ar": "Э́то бли́зко",
+  "translit": "Éto blízko.",
+  "fr": "C'est près",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00603",
+  "ar": "авто́бус",
+  "translit": "avtóbus",
+  "fr": "Bus",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00604",
+  "ar": "метро́",
+  "translit": "metró",
+  "fr": "Métro",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00605",
+  "ar": "такси́",
+  "translit": "taksí",
+  "fr": "Taxi",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00606",
+  "ar": "по́езд",
+  "translit": "póyezd",
+  "fr": "Train",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00607",
+  "ar": "маши́на",
+  "translit": "mashína",
+  "fr": "Voiture",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00608",
+  "ar": "самолёт",
+  "translit": "samolyót",
+  "fr": "Avion",
+  "theme": "transport",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00609",
+  "ar": "аэропо́рт",
+  "translit": "aeropórt",
+  "fr": "Aéroport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00610",
+  "ar": "па́спорт",
+  "translit": "pásport",
+  "fr": "Passeport",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00611",
+  "ar": "Вот мой па́спорт",
+  "translit": "Vot moy pásport.",
+  "fr": "Voici mon passeport",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00612",
+  "ar": "гости́ница",
+  "translit": "gostínitsa",
+  "fr": "Hôtel",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00613",
+  "ar": "Ско́лько сто́ит биле́т?",
+  "translit": "Skól'ko stóit bilét?",
+  "fr": "Combien coûte le billet ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00614",
+  "ar": "О́чень вку́сно!",
+  "translit": "Óchen' vkúsno!",
+  "fr": "C'est très bon !",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00615",
+  "ar": "Я живу́ в кварти́ре",
+  "translit": "Ya zhivú v kvartíre.",
+  "fr": "J'habite dans un appartement",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00616",
+  "ar": "Я до́ма",
+  "translit": "Ya dóma.",
+  "fr": "Je suis à la maison",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00617",
+  "ar": "ко́мната",
+  "translit": "kómnata",
+  "fr": "Pièce (d'un logement)",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00618",
+  "ar": "ку́хня",
+  "translit": "kúkhnya",
+  "fr": "Cuisine (pièce)",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00619",
+  "ar": "туале́т",
+  "translit": "tualét",
+  "fr": "Toilettes",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00620",
+  "ar": "окно́",
+  "translit": "oknó",
+  "fr": "Fenêtre",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00621",
+  "ar": "дверь",
+  "translit": "dver'",
+  "fr": "Porte",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00622",
+  "ar": "стол",
+  "translit": "stol",
+  "fr": "Table",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00623",
+  "ar": "стул",
+  "translit": "stul",
+  "fr": "Chaise",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00624",
+  "ar": "крова́ть",
+  "translit": "krovát'",
+  "fr": "Lit",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00625",
+  "ar": "ключ",
+  "translit": "klyuch",
+  "fr": "Clé",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00626",
+  "ar": "мя́со",
+  "translit": "myáso",
+  "fr": "Viande",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00627",
+  "ar": "ку́рица",
+  "translit": "kúritsa",
+  "fr": "Poulet",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00628",
+  "ar": "яйцо́",
+  "translit": "yaytsó",
+  "fr": "Œuf",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00629",
+  "ar": "сыр",
+  "translit": "syr",
+  "fr": "Fromage",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00630",
+  "ar": "сок",
+  "translit": "sok",
+  "fr": "Jus",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00631",
+  "ar": "я́блоко",
+  "translit": "yábloko",
+  "fr": "Pomme",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00632",
+  "ar": "суп",
+  "translit": "sup",
+  "fr": "Soupe",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00633",
+  "ar": "бана́н",
+  "translit": "banán",
+  "fr": "Banane",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00634",
+  "ar": "шокола́д",
+  "translit": "shokolád",
+  "fr": "Chocolat",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00635",
+  "ar": "за́втрак",
+  "translit": "závtrak",
+  "fr": "Petit-déjeuner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00636",
+  "ar": "обе́д",
+  "translit": "obéd",
+  "fr": "Déjeuner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00637",
+  "ar": "у́жин",
+  "translit": "úzhin",
+  "fr": "Dîner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00638",
+  "ar": "суперма́ркет",
+  "translit": "supermárket",
+  "fr": "Supermarché",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00639",
+  "ar": "де́ньги",
+  "translit": "dén'gi",
+  "fr": "Argent (monnaie)",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00640",
+  "ar": "рубль",
+  "translit": "rubl'",
+  "fr": "Rouble",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00641",
+  "ar": "пода́рок",
+  "translit": "podárok",
+  "fr": "Cadeau",
+  "theme": "courses",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00642",
+  "ar": "Да́йте, пожа́луйста, хлеб",
+  "translit": "Dáyte, pozháluysta, khleb.",
+  "fr": "Donnez-moi du pain, s'il vous plaît",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00643",
+  "ar": "Здесь есть вайфа́й?",
+  "translit": "Zdes' yest' vayfáy?",
+  "fr": "Il y a du wifi ici ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00644",
+  "ar": "Напиши́ мне",
+  "translit": "Napishí mne.",
+  "fr": "Écris-moi",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00645",
+  "ar": "Алло́!",
+  "translit": "Alló!",
+  "fr": "Allô !",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00646",
+  "ar": "Како́й у тебя́ но́мер?",
+  "translit": "Kakóy u tebyá nómer?",
+  "fr": "C'est quoi ton numéro ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00647",
+  "ar": "интерне́т",
+  "translit": "internét",
+  "fr": "Internet",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00648",
+  "ar": "компью́тер",
+  "translit": "komp'yúter",
+  "fr": "Ordinateur",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00649",
+  "ar": "но́мер телефо́на",
+  "translit": "nómer telefóna",
+  "fr": "Numéro de téléphone",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00650",
+  "ar": "фотогра́фия",
+  "translit": "fotográfiya",
+  "fr": "Photo",
+  "theme": "tech",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00651",
+  "ar": "Где вы рабо́таете?",
+  "translit": "Gde vy rabótayete?",
+  "fr": "Où travaillez-vous ?",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00652",
+  "ar": "Я на рабо́те",
+  "translit": "Ya na rabóte.",
+  "fr": "Je suis au travail",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00653",
+  "ar": "о́фис",
+  "translit": "ófis",
+  "fr": "Bureau (lieu de travail)",
+  "theme": "travail",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00654",
+  "ar": "шко́ла",
+  "translit": "shkóla",
+  "fr": "École",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00655",
+  "ar": "университе́т",
+  "translit": "universitét",
+  "fr": "Université",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00656",
+  "ar": "учи́тель",
+  "translit": "uchítel'",
+  "fr": "Professeur, instituteur",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00657",
+  "ar": "студе́нт",
+  "translit": "studént",
+  "fr": "Étudiant",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00658",
+  "ar": "уро́к",
+  "translit": "urók",
+  "fr": "Leçon, cours",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00659",
+  "ar": "кни́га",
+  "translit": "kníga",
+  "fr": "Livre",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00660",
+  "ar": "ру́чка",
+  "translit": "rúchka",
+  "fr": "Stylo",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00661",
+  "ar": "класс",
+  "translit": "klass",
+  "fr": "Classe",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00662",
+  "ar": "вопро́с",
+  "translit": "voprós",
+  "fr": "Question",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00663",
+  "ar": "отве́т",
+  "translit": "otvét",
+  "fr": "Réponse",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00664",
+  "ar": "Я учу́сь в университе́те",
+  "translit": "Ya uchús' v universitéte.",
+  "fr": "J'étudie à l'université",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00665",
+  "ar": "Мне ну́жен врач",
+  "translit": "Mne núzhen vrach.",
+  "fr": "J'ai besoin d'un médecin",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00666",
+  "ar": "парк",
+  "translit": "park",
+  "fr": "Parc",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00667",
+  "ar": "банк",
+  "translit": "bank",
+  "fr": "Banque",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00668",
+  "ar": "музе́й",
+  "translit": "muzéy",
+  "fr": "Musée",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00669",
+  "ar": "поли́ция",
+  "translit": "polítsiya",
+  "fr": "Police",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00670",
+  "ar": "вход",
+  "translit": "vkhod",
+  "fr": "Entrée",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00671",
+  "ar": "Где вход?",
+  "translit": "Gde vkhod?",
+  "fr": "Où est l'entrée ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00672",
+  "ar": "Где вы́ход?",
+  "translit": "Gde výkhod?",
+  "fr": "Où est la sortie ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00673",
+  "ar": "тури́ст",
+  "translit": "turíst",
+  "fr": "Touriste",
+  "theme": "voyage",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00674",
+  "ar": "Счастли́вого пути́!",
+  "translit": "Schastlívogo putí!",
+  "fr": "Bon voyage !",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00675",
+  "ar": "кино́",
+  "translit": "kinó",
+  "fr": "Cinéma (art, film)",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00676",
+  "ar": "му́зыка",
+  "translit": "múzyka",
+  "fr": "Musique",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00677",
+  "ar": "спорт",
+  "translit": "sport",
+  "fr": "Sport",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00678",
+  "ar": "футбо́л",
+  "translit": "futból",
+  "fr": "Football",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00679",
+  "ar": "игра́",
+  "translit": "igrá",
+  "fr": "Jeu",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00680",
+  "ar": "фильм",
+  "translit": "fil'm",
+  "fr": "Film",
+  "theme": "loisirs",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00681",
+  "ar": "Пойдём в кино́!",
+  "translit": "Poydyóm v kinó!",
+  "fr": "Allons au cinéma !",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00682",
+  "ar": "Я люблю́ чита́ть",
+  "translit": "Ya lyublyú chitát'.",
+  "fr": "J'aime lire",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00683",
+  "ar": "Я игра́ю в футбо́л",
+  "translit": "Ya igráyu v futból.",
+  "fr": "Je joue au football",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00684",
+  "ar": "Пойдём на пляж!",
+  "translit": "Poydyóm na plyazh!",
+  "fr": "Allons à la plage !",
+  "theme": "loisirs",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00685",
+  "ar": "пого́да",
+  "translit": "pogóda",
+  "fr": "Météo, temps qu'il fait",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00686",
+  "ar": "со́лнце",
+  "translit": "sóntse",
+  "fr": "Soleil",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00687",
+  "ar": "дождь",
+  "translit": "dozhd'",
+  "fr": "Pluie",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00688",
+  "ar": "снег",
+  "translit": "sneg",
+  "fr": "Neige",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00689",
+  "ar": "мо́ре",
+  "translit": "móre",
+  "fr": "Mer",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00690",
+  "ar": "река́",
+  "translit": "reká",
+  "fr": "Rivière, fleuve",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00691",
+  "ar": "лес",
+  "translit": "les",
+  "fr": "Forêt",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00692",
+  "ar": "Сего́дня жа́рко",
+  "translit": "Sevódnya zhárko.",
+  "fr": "Il fait chaud aujourd'hui",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00693",
+  "ar": "Сего́дня хо́лодно",
+  "translit": "Sevódnya khólodno.",
+  "fr": "Il fait froid aujourd'hui",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00694",
+  "ar": "Сего́дня тепло́",
+  "translit": "Sevódnya tepló.",
+  "fr": "Il fait doux aujourd'hui",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00695",
+  "ar": "Идёт дождь",
+  "translit": "Idyót dozhd'.",
+  "fr": "Il pleut",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00696",
+  "ar": "Идёт снег",
+  "translit": "Idyót sneg.",
+  "fr": "Il neige",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00697",
+  "ar": "Кака́я сего́дня пого́да?",
+  "translit": "Kakáya sevódnya pogóda?",
+  "fr": "Quel temps fait-il aujourd'hui ?",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00698",
+  "ar": "Хоро́шая пого́да",
+  "translit": "Khoróshaya pogóda.",
+  "fr": "Il fait beau",
+  "theme": "nature",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00699",
+  "ar": "Мне хо́лодно",
+  "translit": "Mne khólodno.",
+  "fr": "J'ai froid",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00700",
+  "ar": "Мне жа́рко",
+  "translit": "Mne zhárko.",
+  "fr": "J'ai chaud",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00701",
+  "ar": "Мне нра́вится э́тот го́род",
+  "translit": "Mne nrávitsya étot górod.",
+  "fr": "J'aime cette ville",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00702",
+  "ar": "Здесь краси́во",
+  "translit": "Zdes' krasívo.",
+  "fr": "C'est beau ici",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00703",
+  "ar": "соба́ка",
+  "translit": "sobáka",
+  "fr": "Chien",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00704",
+  "ar": "ко́шка",
+  "translit": "kóshka",
+  "fr": "Chat",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00705",
+  "ar": "пти́ца",
+  "translit": "ptítsa",
+  "fr": "Oiseau",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00706",
+  "ar": "ры́ба",
+  "translit": "rýba",
+  "fr": "Poisson",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00707",
+  "ar": "У тебя́ есть соба́ка?",
+  "translit": "U tebyá yest' sobáka?",
+  "fr": "Tu as un chien ?",
+  "theme": "animaux",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00708",
+  "ar": "спа́льня",
+  "translit": "spál'nya",
+  "fr": "Chambre à coucher",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00709",
+  "ar": "ва́нная",
+  "translit": "vánnaya",
+  "fr": "Salle de bain",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00710",
+  "ar": "дива́н",
+  "translit": "diván",
+  "fr": "Canapé",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00711",
+  "ar": "холоди́льник",
+  "translit": "kholodíl'nik",
+  "fr": "Réfrigérateur",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00712",
+  "ar": "эта́ж",
+  "translit": "etázh",
+  "fr": "Étage",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00713",
+  "ar": "ла́мпа",
+  "translit": "lámpa",
+  "fr": "Lampe",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00714",
+  "ar": "шкаф",
+  "translit": "shkaf",
+  "fr": "Armoire, placard",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00715",
+  "ar": "свет",
+  "translit": "svet",
+  "fr": "Lumière",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00716",
+  "ar": "посу́да",
+  "translit": "posúda",
+  "fr": "Vaisselle",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00717",
+  "ar": "зе́ркало",
+  "translit": "zérkalo",
+  "fr": "Miroir",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00718",
+  "ar": "душ",
+  "translit": "dush",
+  "fr": "Douche",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00719",
+  "ar": "сосе́д",
+  "translit": "soséd",
+  "fr": "Voisin",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00720",
+  "ar": "балко́н",
+  "translit": "balkón",
+  "fr": "Balcon",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00721",
+  "ar": "сад",
+  "translit": "sad",
+  "fr": "Jardin",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00722",
+  "ar": "стира́льная маши́на",
+  "translit": "stirál'naya mashína",
+  "fr": "Machine à laver",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00723",
+  "ar": "Проходи́те, сади́тесь",
+  "translit": "Prokhodíte, sadítes'.",
+  "fr": "Entrez, asseyez-vous",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00724",
+  "ar": "Закро́й дверь, пожа́луйста",
+  "translit": "Zakróy dver', pozháluysta.",
+  "fr": "Ferme la porte, s'il te plaît",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00725",
+  "ar": "Откро́й окно́",
+  "translit": "Otkróy oknó.",
+  "fr": "Ouvre la fenêtre",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00726",
+  "ar": "Вы́ключи свет",
+  "translit": "Výklyuchi svet.",
+  "fr": "Éteins la lumière",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00727",
+  "ar": "Где мои́ ключи́?",
+  "translit": "Gde moí klyuchí?",
+  "fr": "Où sont mes clés ?",
+  "theme": "maison",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00728",
+  "ar": "ма́сло",
+  "translit": "máslo",
+  "fr": "Beurre, huile",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00729",
+  "ar": "карто́шка",
+  "translit": "kartóshka",
+  "fr": "Pommes de terre (familier)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00730",
+  "ar": "помидо́р",
+  "translit": "pomidór",
+  "fr": "Tomate",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00731",
+  "ar": "огуре́ц",
+  "translit": "oguréts",
+  "fr": "Concombre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00732",
+  "ar": "морко́вь",
+  "translit": "morkóv'",
+  "fr": "Carotte",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00733",
+  "ar": "лук",
+  "translit": "luk",
+  "fr": "Oignon",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00734",
+  "ar": "рис",
+  "translit": "ris",
+  "fr": "Riz",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00735",
+  "ar": "сала́т",
+  "translit": "salát",
+  "fr": "Salade",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00736",
+  "ar": "са́хар",
+  "translit": "sákhar",
+  "fr": "Sucre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00737",
+  "ar": "соль",
+  "translit": "sol'",
+  "fr": "Sel",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00738",
+  "ar": "пи́во",
+  "translit": "pívo",
+  "fr": "Bière",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00739",
+  "ar": "вино́",
+  "translit": "vinó",
+  "fr": "Vin",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00740",
+  "ar": "торт",
+  "translit": "tort",
+  "fr": "Gâteau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00741",
+  "ar": "моро́женое",
+  "translit": "morózhenoye",
+  "fr": "Glace (dessert)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00742",
+  "ar": "апельси́н",
+  "translit": "apel'sín",
+  "fr": "Orange (fruit)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00743",
+  "ar": "виногра́д",
+  "translit": "vinográd",
+  "fr": "Raisin",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00744",
+  "ar": "клубни́ка",
+  "translit": "klubníka",
+  "fr": "Fraise",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00745",
+  "ar": "колбаса́",
+  "translit": "kolbasá",
+  "fr": "Saucisson",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00746",
+  "ar": "пече́нье",
+  "translit": "pechén'ye",
+  "fr": "Biscuit",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00747",
+  "ar": "ка́ша",
+  "translit": "kásha",
+  "fr": "Bouillie (kacha)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00748",
+  "ar": "блин",
+  "translit": "blin",
+  "fr": "Crêpe (blini)",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00749",
+  "ar": "борщ",
+  "translit": "borshch",
+  "fr": "Bortsch",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00750",
+  "ar": "мёд",
+  "translit": "myod",
+  "fr": "Miel",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00751",
+  "ar": "Мо́жно заплати́ть ка́ртой?",
+  "translit": "Mózhno zaplatít' kártoy?",
+  "fr": "Puis-je payer par carte ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00752",
+  "ar": "Я про́сто смотрю́",
+  "translit": "Ya prósto smotryú.",
+  "fr": "Je regarde seulement",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00753",
+  "ar": "Где ка́сса?",
+  "translit": "Gde kássa?",
+  "fr": "Où est la caisse ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00754",
+  "ar": "Мне ну́жен паке́т",
+  "translit": "Mne núzhen pakét.",
+  "fr": "J'ai besoin d'un sac",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00755",
+  "ar": "Я возьму́ э́то",
+  "translit": "Ya voz'mú éto.",
+  "fr": "Je prends ça",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00756",
+  "ar": "Когда́ открыва́ется магази́н?",
+  "translit": "Kogdá otkryváyetsya magazín?",
+  "fr": "Quand ouvre le magasin ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00757",
+  "ar": "Ско́лько с меня́?",
+  "translit": "Skól'ko s menyá?",
+  "fr": "Je vous dois combien ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00758",
+  "ar": "Где мо́жно поменя́ть де́ньги?",
+  "translit": "Gde mózhno pomenyát' dén'gi?",
+  "fr": "Où peut-on changer de l'argent ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00759",
+  "ar": "Где банкома́т?",
+  "translit": "Gde bankomát?",
+  "fr": "Où est le distributeur ?",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00760",
+  "ar": "Я хочу́ купи́ть пода́рок",
+  "translit": "Ya khochú kupít' podárok.",
+  "fr": "Je veux acheter un cadeau",
+  "theme": "courses",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00761",
+  "ar": "Сто́лик на двои́х, пожа́луйста",
+  "translit": "Stólik na dvoíkh, pozháluysta.",
+  "fr": "Une table pour deux, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00762",
+  "ar": "Я бы хоте́л ко́фе",
+  "translit": "Ya by khotél kófe.",
+  "fr": "Je voudrais un café (homme)",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00763",
+  "ar": "Что вы рекоменду́ете?",
+  "translit": "Shto vy rekomendúyete?",
+  "fr": "Que recommandez-vous ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00764",
+  "ar": "Без мя́са, пожа́луйста",
+  "translit": "Bez myása, pozháluysta.",
+  "fr": "Sans viande, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00765",
+  "ar": "Мо́жно воды́?",
+  "translit": "Mózhno vodý?",
+  "fr": "Je peux avoir de l'eau ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00766",
+  "ar": "Э́тот сто́лик свобо́ден?",
+  "translit": "Étot stólik svobóden?",
+  "fr": "Cette table est libre ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00767",
+  "ar": "Мне чай с молоко́м, пожа́луйста",
+  "translit": "Mne chay s molokóm, pozháluysta.",
+  "fr": "Un thé au lait pour moi, svp",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00768",
+  "ar": "Я не ем мя́со",
+  "translit": "Ya ne yem myáso.",
+  "fr": "Je ne mange pas de viande",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00769",
+  "ar": "Мо́жно ещё хле́ба?",
+  "translit": "Mózhno yeshchyó khléba?",
+  "fr": "Encore du pain, c'est possible ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00770",
+  "ar": "Что вы бу́дете пить?",
+  "translit": "Shto vy búdete pit'?",
+  "fr": "Que voulez-vous boire ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00771",
+  "ar": "Вы гото́вы заказа́ть?",
+  "translit": "Vy gotóvy zakazát'?",
+  "fr": "Vous êtes prêts à commander ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00772",
+  "ar": "Ещё оди́н, пожа́луйста",
+  "translit": "Yeshchyó odín, pozháluysta.",
+  "fr": "Encore un, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00773",
+  "ar": "Без са́хара",
+  "translit": "Bez sákhara.",
+  "fr": "Sans sucre",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00774",
+  "ar": "С собо́й, пожа́луйста",
+  "translit": "S sobóy, pozháluysta.",
+  "fr": "À emporter, s'il vous plaît",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00775",
+  "ar": "Здесь и́ли с собо́й?",
+  "translit": "Zdes' íli s sobóy?",
+  "fr": "Sur place ou à emporter ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00776",
+  "ar": "Где здесь мо́жно пое́сть?",
+  "translit": "Gde zdes' mózhno poyést'?",
+  "fr": "Où peut-on manger par ici ?",
+  "theme": "restaurant",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00777",
+  "ar": "Где нахо́дится вокза́л?",
+  "translit": "Gde nakhóditsya vokzál?",
+  "fr": "Où se trouve la gare ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00778",
+  "ar": "Как пройти́ к музе́ю?",
+  "translit": "Kak proytí k muzéyu?",
+  "fr": "Comment aller au musée ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00779",
+  "ar": "Иди́те пря́мо",
+  "translit": "Idíte pryámo.",
+  "fr": "Allez tout droit",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00780",
+  "ar": "Поверни́те напра́во",
+  "translit": "Poverníte naprávo.",
+  "fr": "Tournez à droite",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00781",
+  "ar": "Поверни́те нале́во",
+  "translit": "Poverníte nalévo.",
+  "fr": "Tournez à gauche",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00782",
+  "ar": "Я заблуди́лся",
+  "translit": "Ya zabludílsya.",
+  "fr": "Je suis perdu",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00783",
+  "ar": "Покажи́те на ка́рте, пожа́луйста",
+  "translit": "Pokazhíte na kárte, pozháluysta.",
+  "fr": "Montrez-moi sur la carte, svp",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00784",
+  "ar": "Где ближа́йшая апте́ка?",
+  "translit": "Gde blizháyshaya aptéka?",
+  "fr": "Où est la pharmacie la plus proche ?",
+  "theme": "ville",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00785",
+  "ar": "Оди́н биле́т до Москвы́, пожа́луйста",
+  "translit": "Odín bilét do Moskvý, pozháluysta.",
+  "fr": "Un billet pour Moscou, s'il vous plaît",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00786",
+  "ar": "Когда́ отправля́ется по́езд?",
+  "translit": "Kogdá otpravlyáyetsya póyezd?",
+  "fr": "Quand part le train ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00787",
+  "ar": "Э́тот авто́бус идёт в центр?",
+  "translit": "Étot avtóbus idyót v tsentr?",
+  "fr": "Ce bus va au centre ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00788",
+  "ar": "Где остано́вка авто́буса?",
+  "translit": "Gde ostanóvka avtóbusa?",
+  "fr": "Où est l'arrêt de bus ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00789",
+  "ar": "Мне ну́жно вы́йти здесь",
+  "translit": "Mne núzhno výyti zdes'.",
+  "fr": "Je dois descendre ici",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00790",
+  "ar": "Отвези́те меня́ по э́тому а́дресу",
+  "translit": "Otvezíte menyá po étomu ádresu.",
+  "fr": "Conduisez-moi à cette adresse",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00791",
+  "ar": "Останови́те здесь, пожа́луйста",
+  "translit": "Ostanovíte zdes', pozháluysta.",
+  "fr": "Arrêtez-vous ici, s'il vous plaît",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00792",
+  "ar": "Где я могу́ купи́ть биле́т?",
+  "translit": "Gde ya mogú kupít' bilét?",
+  "fr": "Où puis-je acheter un billet ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00793",
+  "ar": "Э́то ме́сто свобо́дно?",
+  "translit": "Éto mésto svobódno?",
+  "fr": "Cette place est libre ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00794",
+  "ar": "Э́то моё ме́сто",
+  "translit": "Éto moyó mésto.",
+  "fr": "C'est ma place",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00795",
+  "ar": "Как дое́хать до аэропо́рта?",
+  "translit": "Kak doyékhat' do aeropórta?",
+  "fr": "Comment aller à l'aéroport ?",
+  "theme": "transport",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00796",
+  "ar": "Где регистра́ция?",
+  "translit": "Gde registrátsiya?",
+  "fr": "Où est l'enregistrement ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00797",
+  "ar": "Я здесь как тури́ст",
+  "translit": "Ya zdes' kak turíst.",
+  "fr": "Je suis ici en touriste",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00798",
+  "ar": "Я потеря́л бага́ж",
+  "translit": "Ya poteryál bagázh.",
+  "fr": "J'ai perdu mes bagages",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00799",
+  "ar": "Я е́ду в о́тпуск",
+  "translit": "Ya yédu v ótpusk.",
+  "fr": "Je pars en vacances",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00800",
+  "ar": "Мы е́дем на мо́ре",
+  "translit": "My yédem na móre.",
+  "fr": "Nous partons à la mer",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00801",
+  "ar": "Куда́ вы е́дете?",
+  "translit": "Kudá vy yédete?",
+  "fr": "Où allez-vous ? (en véhicule)",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00802",
+  "ar": "Сфотографи́руйте нас, пожа́луйста",
+  "translit": "Sfotografíruyte nas, pozháluysta.",
+  "fr": "Prenez-nous en photo, svp",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00803",
+  "ar": "У меня́ заброни́рован но́мер",
+  "translit": "U menyá zabronírovan nómer.",
+  "fr": "J'ai une réservation",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00804",
+  "ar": "Я хочу́ заброни́ровать но́мер",
+  "translit": "Ya khochú zabronírovat' nómer.",
+  "fr": "Je veux réserver une chambre",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00805",
+  "ar": "У вас есть свобо́дные номера́?",
+  "translit": "U vas yest' svobódnyye nomerá?",
+  "fr": "Avez-vous des chambres libres ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00806",
+  "ar": "На ско́лько ноче́й?",
+  "translit": "Na skól'ko nochéy?",
+  "fr": "Pour combien de nuits ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00807",
+  "ar": "На ско́лько дней?",
+  "translit": "Na skól'ko dney?",
+  "fr": "Pour combien de jours ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00808",
+  "ar": "За́втрак включён?",
+  "translit": "Závtrak vklyuchyón?",
+  "fr": "Le petit-déjeuner est inclus ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00809",
+  "ar": "Во ско́лько за́втрак?",
+  "translit": "Vo skól'ko závtrak?",
+  "fr": "À quelle heure est le petit-déjeuner ?",
+  "theme": "voyage",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00810",
+  "ar": "Како́й паро́ль от вайфа́я?",
+  "translit": "Kakóy paról' ot vayfáya?",
+  "fr": "Quel est le mot de passe du wifi ?",
+  "theme": "tech",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00811",
+  "ar": "У меня́ встре́ча в три часа́",
+  "translit": "U menyá vstrécha v tri chasá.",
+  "fr": "J'ai une réunion à trois heures",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00812",
+  "ar": "Я ищу́ рабо́ту",
+  "translit": "Ya ishchú rabótu.",
+  "fr": "Je cherche du travail",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00813",
+  "ar": "Я в о́тпуске",
+  "translit": "Ya v ótpuske.",
+  "fr": "Je suis en vacances",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00814",
+  "ar": "Я рабо́таю врачо́м",
+  "translit": "Ya rabótayu vrachóm.",
+  "fr": "Je suis médecin (de métier)",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00815",
+  "ar": "Я рабо́таю из до́ма",
+  "translit": "Ya rabótayu iz dóma.",
+  "fr": "Je travaille de chez moi",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00816",
+  "ar": "У меня́ выходно́й",
+  "translit": "U menyá vykhodnóy.",
+  "fr": "C'est mon jour de congé",
+  "theme": "travail",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00817",
+  "ar": "Вы́зовите ско́рую!",
+  "translit": "Výzovite skóruyu!",
+  "fr": "Appelez une ambulance !",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00818",
+  "ar": "У меня́ температу́ра",
+  "translit": "U menyá temperatúra.",
+  "fr": "J'ai de la fièvre",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00819",
+  "ar": "У меня́ аллерги́я",
+  "translit": "U menyá allergíya.",
+  "fr": "J'ai une allergie",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00820",
+  "ar": "Вам на́до отдохну́ть",
+  "translit": "Vam nádo otdokhnút'.",
+  "fr": "Vous devez vous reposer",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00821",
+  "ar": "Как вы себя́ чу́вствуете?",
+  "translit": "Kak vy sebyá chúvstvuyete?",
+  "fr": "Comment vous sentez-vous ?",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00822",
+  "ar": "Я пло́хо себя́ чу́вствую",
+  "translit": "Ya plókho sebyá chúvstvuyu.",
+  "fr": "Je ne me sens pas bien",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00823",
+  "ar": "Мне на́до в апте́ку",
+  "translit": "Mne nádo v aptéku.",
+  "fr": "Je dois aller à la pharmacie",
+  "theme": "sante",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00824",
+  "ar": "Мо́жно приме́рить?",
+  "translit": "Mózhno primérit'?",
+  "fr": "Je peux l'essayer ?",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00825",
+  "ar": "Како́й у вас разме́р?",
+  "translit": "Kakóy u vas razmér?",
+  "fr": "Quelle est votre taille ?",
+  "theme": "vetements",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00826",
+  "ar": "Я тебя́ люблю́",
+  "translit": "ya tebyá lyublyú",
+  "fr": "Je t'aime",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00827",
+  "ar": "любо́вь",
+  "translit": "lyubóv'",
+  "fr": "Amour",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00828",
+  "ar": "Всё бу́дет хорошо́",
+  "translit": "vsyo búdet khoroshó",
+  "fr": "Tout ira bien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00829",
+  "ar": "Ну, пока́!",
+  "translit": "nu, poká",
+  "fr": "Bon, salut !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00830",
+  "ar": "Я рад тебя́ ви́деть",
+  "translit": "ya rad tebyá vídet'",
+  "fr": "Content de te voir",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00831",
+  "ar": "рад",
+  "translit": "rad",
+  "fr": "Content, ravi",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00832",
+  "ar": "сло́во",
+  "translit": "slóvo",
+  "fr": "Mot",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00833",
+  "ar": "ура́",
+  "translit": "urá",
+  "fr": "Hourra !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00834",
+  "ar": "ой",
+  "translit": "oy",
+  "fr": "Oh ! (surprise, douleur)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00835",
+  "ar": "отли́чно",
+  "translit": "otlíchno",
+  "fr": "Excellent",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00836",
+  "ar": "молоде́ц",
+  "translit": "molodéts",
+  "fr": "Bravo, bien joué",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 1
+ },
+ {
+  "id": "ru00837",
+  "ar": "Я уже́ до́ма",
+  "translit": "ya uzhé dóma",
+  "fr": "Je suis déjà à la maison",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00838",
+  "ar": "Скажи́ «пожа́луйста»",
+  "translit": "skazhí «pozháluysta»",
+  "fr": "Dis s'il te plaît",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00839",
+  "ar": "Я тебя́ понима́ю",
+  "translit": "ya tebyá ponimáyu",
+  "fr": "Je te comprends",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00840",
+  "ar": "Я говорю́ по-францу́зски",
+  "translit": "ya govoryú po-frantsúzski",
+  "fr": "Je parle français",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 1
+ },
+ {
+  "id": "ru00841",
+  "ar": "сча́стье",
+  "translit": "schást'ye",
+  "fr": "Bonheur",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00842",
+  "ar": "грусть",
+  "translit": "grust'",
+  "fr": "Tristesse",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00843",
+  "ar": "страх",
+  "translit": "strakh",
+  "fr": "Peur",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00844",
+  "ar": "чу́вство",
+  "translit": "chústvo",
+  "fr": "Sentiment",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00845",
+  "ar": "улы́бка",
+  "translit": "ulýbka",
+  "fr": "Sourire (nom)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00846",
+  "ar": "смех",
+  "translit": "smekh",
+  "fr": "Rire (nom)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00847",
+  "ar": "слёзы",
+  "translit": "slyózy",
+  "fr": "Larmes",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00848",
+  "ar": "поцелу́й",
+  "translit": "potselúy",
+  "fr": "Baiser (nom)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00849",
+  "ar": "серди́тый",
+  "translit": "serdítyy",
+  "fr": "Fâché",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00850",
+  "ar": "споко́йный",
+  "translit": "spokóynyy",
+  "fr": "Calme",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00851",
+  "ar": "не́рвный",
+  "translit": "nérvnyy",
+  "fr": "Nerveux",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00852",
+  "ar": "скуча́ть",
+  "translit": "skuchát'",
+  "fr": "S'ennuyer, manquer à qqn",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00853",
+  "ar": "боя́ться",
+  "translit": "boyát'sya",
+  "fr": "Avoir peur",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00854",
+  "ar": "пла́кать",
+  "translit": "plákat'",
+  "fr": "Pleurer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00855",
+  "ar": "смея́ться",
+  "translit": "smeyát'sya",
+  "fr": "Rire (verbe)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00856",
+  "ar": "улыба́ться",
+  "translit": "ulybát'sya",
+  "fr": "Sourire (verbe)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00857",
+  "ar": "извиня́ться",
+  "translit": "izvinyát'sya",
+  "fr": "S'excuser",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00858",
+  "ar": "обнима́ть",
+  "translit": "obnimát'",
+  "fr": "Serrer dans ses bras",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00859",
+  "ar": "целова́ть",
+  "translit": "tselovát'",
+  "fr": "Embrasser (donner un baiser)",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00860",
+  "ar": "шути́ть",
+  "translit": "shutít'",
+  "fr": "Plaisanter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00861",
+  "ar": "повтори́ть",
+  "translit": "povtorít'",
+  "fr": "Répéter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00862",
+  "ar": "переводи́ть",
+  "translit": "perevodít'",
+  "fr": "Traduire",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00863",
+  "ar": "граммати́ка",
+  "translit": "grammátika",
+  "fr": "Grammaire",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00864",
+  "ar": "слова́рь",
+  "translit": "slovár'",
+  "fr": "Dictionnaire",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00865",
+  "ar": "оши́бка",
+  "translit": "oshíbka",
+  "fr": "Erreur, faute",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00866",
+  "ar": "алфави́т",
+  "translit": "alfavít",
+  "fr": "Alphabet",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00867",
+  "ar": "бу́ква",
+  "translit": "búkva",
+  "fr": "Lettre (de l'alphabet)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00868",
+  "ar": "перево́д",
+  "translit": "perevód",
+  "fr": "Traduction",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00869",
+  "ar": "дома́шнее зада́ние",
+  "translit": "domáshneye zadániye",
+  "fr": "Devoirs (à la maison)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00870",
+  "ar": "ух ты",
+  "translit": "ukh ty",
+  "fr": "Waouh !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00871",
+  "ar": "кру́то",
+  "translit": "krúto",
+  "fr": "Trop cool !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00872",
+  "ar": "здо́рово",
+  "translit": "zdórovo",
+  "fr": "Génial !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00873",
+  "ar": "наконе́ц",
+  "translit": "nakonéts",
+  "fr": "Enfin !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00874",
+  "ar": "наприме́р",
+  "translit": "naprimér",
+  "fr": "Par exemple",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00875",
+  "ar": "ти́хо",
+  "translit": "tíkho",
+  "fr": "Silence ! (doucement)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00876",
+  "ar": "осторо́жно",
+  "translit": "ostorózhno",
+  "fr": "Attention !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00877",
+  "ar": "шу́тка",
+  "translit": "shútka",
+  "fr": "Plaisanterie",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00878",
+  "ar": "пра́здник",
+  "translit": "práznik",
+  "fr": "Fête",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00879",
+  "ar": "сове́т",
+  "translit": "sovét",
+  "fr": "Conseil",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00880",
+  "ar": "по́мощь",
+  "translit": "pómoshch'",
+  "fr": "Aide",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00881",
+  "ar": "успе́х",
+  "translit": "uspékh",
+  "fr": "Succès",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00882",
+  "ar": "ма́мочка",
+  "translit": "mámochka",
+  "fr": "Maman chérie",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00883",
+  "ar": "дорога́я",
+  "translit": "dorogáya",
+  "fr": "Ma chérie",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00884",
+  "ar": "ми́лый",
+  "translit": "mílyy",
+  "fr": "Mignon, chéri",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00885",
+  "ar": "сыно́к",
+  "translit": "synók",
+  "fr": "Fiston",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00886",
+  "ar": "дру́жба",
+  "translit": "drúzhba",
+  "fr": "Amitié",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2
+ },
+ {
+  "id": "ru00887",
+  "ar": "Я сча́стлив",
+  "translit": "ya schástliv",
+  "fr": "Je suis heureux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00888",
+  "ar": "Мне ску́чно",
+  "translit": "mne skúshno",
+  "fr": "Je m'ennuie",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00889",
+  "ar": "Я скуча́ю по тебе́",
+  "translit": "ya skucháyu po tebé",
+  "fr": "Tu me manques",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00890",
+  "ar": "Мне всё равно́",
+  "translit": "mne vsyo ravnó",
+  "fr": "Ça m'est égal",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00891",
+  "ar": "У меня́ плохо́е настрое́ние",
+  "translit": "u menyá plokhóye nastroyéniye",
+  "fr": "Je suis de mauvaise humeur",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00892",
+  "ar": "Не бо́йся",
+  "translit": "ne bóysya",
+  "fr": "N'aie pas peur",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00893",
+  "ar": "Мне хорошо́ с тобо́й",
+  "translit": "mne khoroshó s tobóy",
+  "fr": "Je me sens bien avec toi",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00894",
+  "ar": "Мне лу́чше",
+  "translit": "mne lúchshe",
+  "fr": "Je vais mieux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00895",
+  "ar": "С удово́льствием!",
+  "translit": "s udovól'stviyem",
+  "fr": "Avec plaisir !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00896",
+  "ar": "Ты прав",
+  "translit": "ty prav",
+  "fr": "Tu as raison (à un homme)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00897",
+  "ar": "Я согла́сен",
+  "translit": "ya soglásen",
+  "fr": "Je suis d'accord",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00898",
+  "ar": "Ты в поря́дке?",
+  "translit": "ty v poryádke",
+  "fr": "Tu vas bien ?",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00899",
+  "ar": "Посмо́трим",
+  "translit": "posmótrim",
+  "fr": "On verra",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00900",
+  "ar": "С Рождество́м!",
+  "translit": "s rozhdestvóm",
+  "fr": "Joyeux Noël !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00901",
+  "ar": "Жела́ю тебе́ сча́стья!",
+  "translit": "zheláyu tebé schást'ya",
+  "fr": "Je te souhaite du bonheur !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00902",
+  "ar": "Жела́ю здоро́вья!",
+  "translit": "zheláyu zdoróv'ya",
+  "fr": "Je te souhaite la santé !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00903",
+  "ar": "Я рад за тебя́",
+  "translit": "ya rad za tebyá",
+  "fr": "Je suis content pour toi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00904",
+  "ar": "Э́то моя́ вина́",
+  "translit": "éto moyá viná",
+  "fr": "C'est ma faute",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00905",
+  "ar": "Забу́дь",
+  "translit": "zabúd'",
+  "fr": "Oublie ça",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00906",
+  "ar": "Не пережива́й",
+  "translit": "ne perezhiváy",
+  "fr": "Ne t'en fais pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00907",
+  "ar": "Ты не одна́",
+  "translit": "ty ne odná",
+  "fr": "Tu n'es pas seule",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00908",
+  "ar": "Я с тобо́й",
+  "translit": "ya s tobóy",
+  "fr": "Je suis avec toi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00909",
+  "ar": "Я ве́рю в тебя́",
+  "translit": "ya véryu v tebyá",
+  "fr": "Je crois en toi",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00910",
+  "ar": "Шучу́!",
+  "translit": "shuchú",
+  "fr": "Je plaisante !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00911",
+  "ar": "Да ла́дно!",
+  "translit": "da ládno",
+  "fr": "Sans blague !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00912",
+  "ar": "Как здо́рово!",
+  "translit": "kak zdórovo",
+  "fr": "Comme c'est génial !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00913",
+  "ar": "Как жаль!",
+  "translit": "kak zhal'",
+  "fr": "Quel dommage !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00914",
+  "ar": "Бо́же мой!",
+  "translit": "bózhe moy",
+  "fr": "Mon Dieu !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00915",
+  "ar": "Ни за что!",
+  "translit": "ni za shto",
+  "fr": "Jamais de la vie !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00916",
+  "ar": "Ну вот!",
+  "translit": "nu vot",
+  "fr": "Et voilà !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00917",
+  "ar": "Хва́тит!",
+  "translit": "khvátit",
+  "fr": "Ça suffit !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00918",
+  "ar": "Как ми́ло!",
+  "translit": "kak mílo",
+  "fr": "Comme c'est mignon !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00919",
+  "ar": "Рад тебя́ слы́шать",
+  "translit": "rad tebyá slýshat'",
+  "fr": "Content de t'entendre",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00920",
+  "ar": "Па́па, ты лу́чший!",
+  "translit": "pápa, ty lúchshiy",
+  "fr": "Papa, tu es le meilleur !",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00921",
+  "ar": "Не волну́йтесь, у меня́ всё хорошо́",
+  "translit": "ne volnúytes', u menyá vsyo khoroshó",
+  "fr": "Ne vous inquiétez pas, tout va bien",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00922",
+  "ar": "Ма́ма, мо́жно я пойду́ гуля́ть?",
+  "translit": "máma, mózhno ya poydú gulyát'",
+  "fr": "Maman, je peux aller jouer dehors ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00923",
+  "ar": "Ты мой хоро́ший",
+  "translit": "ty moy khoróshiy",
+  "fr": "Mon trésor (à un garçon)",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00924",
+  "ar": "Сла́дких снов",
+  "translit": "sládkikh snov",
+  "fr": "Fais de beaux rêves",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00925",
+  "ar": "Вы́мой ру́ки",
+  "translit": "výmoy rúki",
+  "fr": "Lave-toi les mains",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00926",
+  "ar": "Иди́ ко мне",
+  "translit": "idí ko mne",
+  "fr": "Viens vers moi",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00927",
+  "ar": "Как прошёл день в шко́ле?",
+  "translit": "kak proshyól den' v shkóle",
+  "fr": "Comment s'est passée l'école ?",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00928",
+  "ar": "Дава́й встре́тимся",
+  "translit": "daváy vstrétimsya",
+  "fr": "Retrouvons-nous",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00929",
+  "ar": "Мы друзья́ навсегда́",
+  "translit": "my druz'yá navsegdá",
+  "fr": "Amis pour toujours",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00930",
+  "ar": "Звони́!",
+  "translit": "zvoní",
+  "fr": "Appelle-moi !",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00931",
+  "ar": "Как пи́шется э́то сло́во?",
+  "translit": "kak píshetsya éto slóvo",
+  "fr": "Comment s'écrit ce mot ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00932",
+  "ar": "Я учу́ ру́сский уже́ год",
+  "translit": "ya uchú rússkiy uzhé god",
+  "fr": "J'apprends le russe depuis un an",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00933",
+  "ar": "Я учу́ но́вые слова́ ка́ждый день",
+  "translit": "ya uchú nóvyye slová kázhdyy den'",
+  "fr": "J'apprends de nouveaux mots chaque jour",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00934",
+  "ar": "Я забы́л сло́во",
+  "translit": "ya zabýl slóvo",
+  "fr": "J'ai oublié le mot",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00935",
+  "ar": "Спаси́бо, я ещё учу́сь",
+  "translit": "spasíbo, ya yeshchyó uchús'",
+  "fr": "Merci, j'apprends encore",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00936",
+  "ar": "Что вы сказа́ли?",
+  "translit": "shto vy skazáli",
+  "fr": "Qu'avez-vous dit ?",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00937",
+  "ar": "Я учу́ ру́сский для рабо́ты",
+  "translit": "ya uchú rússkiy dlya rabóty",
+  "fr": "J'apprends le russe pour le travail",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00938",
+  "ar": "Дава́йте говори́ть по-ру́сски",
+  "translit": "daváyte govorít' po-rússki",
+  "fr": "Parlons en russe",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 2
+ },
+ {
+  "id": "ru00939",
+  "ar": "гнев",
+  "translit": "gnev",
+  "fr": "Colère",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00940",
+  "ar": "у́жас",
+  "translit": "úzhas",
+  "fr": "Horreur",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00941",
+  "ar": "трево́га",
+  "translit": "trevóga",
+  "fr": "Anxiété, alarme",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00942",
+  "ar": "оби́да",
+  "translit": "obída",
+  "fr": "Rancune, vexation",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00943",
+  "ar": "ску́ка",
+  "translit": "skúka",
+  "fr": "Ennui",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00944",
+  "ar": "стыд",
+  "translit": "styd",
+  "fr": "Honte",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00945",
+  "ar": "наде́жда",
+  "translit": "nadézhda",
+  "fr": "Espoir",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00946",
+  "ar": "благода́рность",
+  "translit": "blagodárnost'",
+  "fr": "Gratitude",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00947",
+  "ar": "волне́ние",
+  "translit": "volnéniye",
+  "fr": "Émotion, nervosité",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00948",
+  "ar": "споко́йствие",
+  "translit": "spokóystviye",
+  "fr": "Calme, sérénité",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00949",
+  "ar": "не́нависть",
+  "translit": "nénavist'",
+  "fr": "Haine",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00950",
+  "ar": "объя́тия",
+  "translit": "ob'yátiya",
+  "fr": "Étreinte",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00951",
+  "ar": "душа́",
+  "translit": "dushá",
+  "fr": "Âme",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00952",
+  "ar": "влюблённый",
+  "translit": "vlyublyónnyy",
+  "fr": "Amoureux",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00953",
+  "ar": "ревни́вый",
+  "translit": "revnívyy",
+  "fr": "Jaloux",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00954",
+  "ar": "винова́тый",
+  "translit": "vinovátyy",
+  "fr": "Coupable",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00955",
+  "ar": "испу́ганный",
+  "translit": "ispúgannyy",
+  "fr": "Effrayé",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00956",
+  "ar": "удивлённый",
+  "translit": "udivlyónnyy",
+  "fr": "Surpris",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00957",
+  "ar": "ла́сковый",
+  "translit": "láskovyy",
+  "fr": "Affectueux, câlin",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00958",
+  "ar": "го́рдый",
+  "translit": "górdyy",
+  "fr": "Fier",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00959",
+  "ar": "расстро́енный",
+  "translit": "rasstróyennyy",
+  "fr": "Contrarié, bouleversé",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00960",
+  "ar": "благода́рный",
+  "translit": "blagodárnyy",
+  "fr": "Reconnaissant",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00961",
+  "ar": "волнова́ться",
+  "translit": "volnovát'sya",
+  "fr": "S'inquiéter",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00962",
+  "ar": "серди́ться",
+  "translit": "serdít'sya",
+  "fr": "Se fâcher",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00963",
+  "ar": "ра́доваться",
+  "translit": "rádovat'sya",
+  "fr": "Se réjouir",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00964",
+  "ar": "утеша́ть",
+  "translit": "uteshát'",
+  "fr": "Consoler",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00965",
+  "ar": "проща́ть",
+  "translit": "proshchát'",
+  "fr": "Pardonner",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00966",
+  "ar": "горди́ться",
+  "translit": "gordít'sya",
+  "fr": "Être fier de",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00967",
+  "ar": "ненави́деть",
+  "translit": "nenavídet'",
+  "fr": "Détester, haïr",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00968",
+  "ar": "наде́яться",
+  "translit": "nadéyat'sya",
+  "fr": "Espérer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00969",
+  "ar": "пережива́ть",
+  "translit": "perezhivát'",
+  "fr": "Se faire du souci",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00970",
+  "ar": "произноси́ть",
+  "translit": "proiznosít'",
+  "fr": "Prononcer",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00971",
+  "ar": "запомина́ть",
+  "translit": "zapominát'",
+  "fr": "Mémoriser",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00972",
+  "ar": "произноше́ние",
+  "translit": "proiznoshéniye",
+  "fr": "Prononciation",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00973",
+  "ar": "акце́нт",
+  "translit": "aktsént",
+  "fr": "Accent (étranger)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00974",
+  "ar": "паде́ж",
+  "translit": "padézh",
+  "fr": "Cas (grammaire)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00975",
+  "ar": "глаго́л",
+  "translit": "glagól",
+  "fr": "Verbe (grammaire)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00976",
+  "ar": "кири́ллица",
+  "translit": "kirílitsa",
+  "fr": "Alphabet cyrillique",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00977",
+  "ar": "слова́рный запа́с",
+  "translit": "slovárnyy zapás",
+  "fr": "Vocabulaire",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00978",
+  "ar": "посло́вица",
+  "translit": "poslóvitsa",
+  "fr": "Proverbe",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00979",
+  "ar": "предложе́ние",
+  "translit": "predlozhéniye",
+  "fr": "Phrase (grammaire)",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00980",
+  "ar": "бе́да",
+  "translit": "bedá",
+  "fr": "Malheur",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00981",
+  "ar": "неуже́ли",
+  "translit": "neuzhéli",
+  "fr": "Vraiment ? Pas possible !",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00982",
+  "ar": "извине́ние",
+  "translit": "izvinéniye",
+  "fr": "Excuse (nom)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00983",
+  "ar": "комплиме́нт",
+  "translit": "komplimént",
+  "fr": "Compliment",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00984",
+  "ar": "пожела́ние",
+  "translit": "pozhelániye",
+  "fr": "Souhait, vœu",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00985",
+  "ar": "тост",
+  "translit": "tost",
+  "fr": "Toast (à table)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00986",
+  "ar": "подде́ржка",
+  "translit": "poddérzhka",
+  "fr": "Soutien",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00987",
+  "ar": "лентя́й",
+  "translit": "lentyáy",
+  "fr": "Paresseux (nom)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00988",
+  "ar": "болту́н",
+  "translit": "boltún",
+  "fr": "Bavard",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00989",
+  "ar": "па́почка",
+  "translit": "pápochka",
+  "fr": "Papa chéri",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00990",
+  "ar": "со́лнышко",
+  "translit": "sólnyshko",
+  "fr": "Mon soleil (affectueux)",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00991",
+  "ar": "до́ченька",
+  "translit": "dóchen'ka",
+  "fr": "Ma fille chérie",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3
+ },
+ {
+  "id": "ru00992",
+  "ar": "Я волну́юсь",
+  "translit": "ya volnúyus'",
+  "fr": "Je suis inquiet",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00993",
+  "ar": "Мне сты́дно",
+  "translit": "mne stýdno",
+  "fr": "J'ai honte",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00994",
+  "ar": "Я не́рвничаю",
+  "translit": "ya nérvnichayu",
+  "fr": "Je suis nerveux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00995",
+  "ar": "Я влюби́лся",
+  "translit": "ya vlyubílsya",
+  "fr": "Je suis tombé amoureux",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00996",
+  "ar": "Не серди́сь",
+  "translit": "ne serdís'",
+  "fr": "Ne te fâche pas",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00997",
+  "ar": "Успоко́йся",
+  "translit": "uspokóysya",
+  "fr": "Calme-toi",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00998",
+  "ar": "Я за тебя́ волну́юсь",
+  "translit": "ya za tebyá volnúyus'",
+  "fr": "Je m'inquiète pour toi",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru00999",
+  "ar": "Ты меня́ рассмеши́л!",
+  "translit": "ty menyá rassmeshíl",
+  "fr": "Tu m'as fait rire !",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01000",
+  "ar": "Я разочаро́ван",
+  "translit": "ya razocharóvan",
+  "fr": "Je suis déçu",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01001",
+  "ar": "Мне оби́дно",
+  "translit": "mne obídno",
+  "fr": "Ça me blesse",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01002",
+  "ar": "Я схожу́ с ума́",
+  "translit": "ya skhozhú s umá",
+  "fr": "Je deviens fou",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01003",
+  "ar": "Береги́те себя́",
+  "translit": "beregíte sebyá",
+  "fr": "Prenez soin de vous",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01004",
+  "ar": "Вы са́мые лу́чшие роди́тели",
+  "translit": "vy sámyye lúchshiye rodíteli",
+  "fr": "Vous êtes les meilleurs parents",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01005",
+  "ar": "Мне тебя́ не хвата́ет",
+  "translit": "mne tebyá ne khvatáyet",
+  "fr": "Tu me manques (je manque de toi)",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01006",
+  "ar": "Не балу́йся",
+  "translit": "ne balúysya",
+  "fr": "Ne fais pas de bêtises",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01007",
+  "ar": "Я о́чень тобо́й горжу́сь",
+  "translit": "ya óchen' tobóy gorzhús'",
+  "fr": "Je suis très fier de toi",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01008",
+  "ar": "Не разгова́ривай с незнако́мцами",
+  "translit": "ne razgovárivay s neznakómtsami",
+  "fr": "Ne parle pas aux inconnus",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01009",
+  "ar": "Я на твое́й стороне́",
+  "translit": "ya na tvoyéy storoné",
+  "fr": "Je suis de ton côté",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01010",
+  "ar": "Я всегда́ ря́дом",
+  "translit": "ya vsegdá ryádom",
+  "fr": "Je suis toujours là pour toi",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01011",
+  "ar": "Сто лет тебя́ не ви́дел!",
+  "translit": "sto let tebyá ne vídel",
+  "fr": "Ça fait un bail que je ne t'ai vu !",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01012",
+  "ar": "Всё пройдёт",
+  "translit": "vsyo proydyót",
+  "fr": "Tout passera",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01013",
+  "ar": "Не сдава́йся",
+  "translit": "ne sdaváysya",
+  "fr": "N'abandonne pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01014",
+  "ar": "Всё нала́дится",
+  "translit": "vsyo naláditsya",
+  "fr": "Tout va s'arranger",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01015",
+  "ar": "Так держа́ть!",
+  "translit": "tak derzhát'",
+  "fr": "Continue comme ça !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01016",
+  "ar": "Ты э́то заслужи́л",
+  "translit": "ty éto zasluzhíl",
+  "fr": "Tu l'as mérité",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01017",
+  "ar": "Я не хоте́л тебя́ оби́деть",
+  "translit": "ya ne khotél tebyá obídet'",
+  "fr": "Je ne voulais pas te vexer",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01018",
+  "ar": "Прошу́ проще́ния",
+  "translit": "proshú proshchéniya",
+  "fr": "Je vous demande pardon",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01019",
+  "ar": "Ну ты даёшь!",
+  "translit": "nu ty dayósh'",
+  "fr": "Tu es incroyable, toi !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01020",
+  "ar": "Вот э́то да!",
+  "translit": "vot éto da",
+  "fr": "Ça alors !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01021",
+  "ar": "Ничего́ себе́!",
+  "translit": "nichevó sebé",
+  "fr": "Rien que ça ! (étonnement)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01022",
+  "ar": "Не беда́",
+  "translit": "ne bedá",
+  "fr": "Pas de souci",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01023",
+  "ar": "Лу́чше по́здно, чем никогда́",
+  "translit": "lúchshe pózno, chem nikogdá",
+  "fr": "Mieux vaut tard que jamais",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01024",
+  "ar": "Попра́вьте меня́, е́сли я ошиба́юсь",
+  "translit": "popráv'te menyá, yésli ya oshibáyus'",
+  "fr": "Corrigez-moi si je me trompe",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01025",
+  "ar": "Я понима́ю лу́чше, чем говорю́",
+  "translit": "ya ponimáyu lúchshe, chem govoryú",
+  "fr": "Je comprends mieux que je ne parle",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01026",
+  "ar": "У вас хоро́шее произноше́ние",
+  "translit": "u vas khoróshee proiznoshéniye",
+  "fr": "Vous avez une bonne prononciation",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01027",
+  "ar": "Я чита́ю кни́ги на ру́сском",
+  "translit": "ya chitáyu knígi na rússkom",
+  "fr": "Je lis des livres en russe",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01028",
+  "ar": "Ру́сская грамма́тика сло́жная",
+  "translit": "rússkaya grammátika slózhnaya",
+  "fr": "La grammaire russe est complexe",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01029",
+  "ar": "Я сдал экза́мен!",
+  "translit": "ya sdal ekzámen",
+  "fr": "J'ai réussi l'examen !",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 3
+ },
+ {
+  "id": "ru01030",
+  "ar": "злость",
+  "translit": "zlost'",
+  "fr": "Rage, méchanceté",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01031",
+  "ar": "ре́вность",
+  "translit": "révnost'",
+  "fr": "Jalousie",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01032",
+  "ar": "за́висть",
+  "translit": "závist'",
+  "fr": "Envie (jalousie)",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01033",
+  "ar": "тоска́",
+  "translit": "toská",
+  "fr": "Mélancolie, nostalgie",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01034",
+  "ar": "не́жность",
+  "translit": "nézhnost'",
+  "fr": "Tendresse",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01035",
+  "ar": "раздраже́ние",
+  "translit": "razdrazhéniye",
+  "fr": "Irritation",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01036",
+  "ar": "разочарова́ние",
+  "translit": "razocharovániye",
+  "fr": "Déception",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01037",
+  "ar": "восто́рг",
+  "translit": "vostórg",
+  "fr": "Ravissement, enthousiasme",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01038",
+  "ar": "жа́лость",
+  "translit": "zhálost'",
+  "fr": "Pitié",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01039",
+  "ar": "взволно́ванный",
+  "translit": "vzvolnóvannyy",
+  "fr": "Ému, agité",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01040",
+  "ar": "равноду́шный",
+  "translit": "ravnodúshnyy",
+  "fr": "Indifférent",
+  "theme": "emotions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01041",
+  "ar": "дразни́ть",
+  "translit": "draznít'",
+  "fr": "Taquiner",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01042",
+  "ar": "ревнова́ть",
+  "translit": "revnovát'",
+  "fr": "Être jaloux",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01043",
+  "ar": "спряже́ние",
+  "translit": "spryazhéniye",
+  "fr": "Conjugaison",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01044",
+  "ar": "погово́рка",
+  "translit": "pogovórka",
+  "fr": "Dicton",
+  "theme": "ecole",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01045",
+  "ar": "со́ня",
+  "translit": "sónya",
+  "fr": "Marmotte (gros dormeur)",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01046",
+  "ar": "сладкое́жка",
+  "translit": "sladkoyézhka",
+  "fr": "Gourmand(e) de sucreries",
+  "theme": "expressions",
+  "kind": "mot",
+  "rarity": 4
+ },
+ {
+  "id": "ru01047",
+  "ar": "Я в восто́рге!",
+  "translit": "ya v vostórge",
+  "fr": "Je suis ravi !",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01048",
+  "ar": "Я без ума́ от э́того",
+  "translit": "ya bez umá ot étovo",
+  "fr": "J'en suis fou (j'adore ça)",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01049",
+  "ar": "Я на седьмо́м не́бе",
+  "translit": "ya na sed'móm nébe",
+  "fr": "Je suis au septième ciel",
+  "theme": "emotions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01050",
+  "ar": "Не капри́зничай",
+  "translit": "ne kapríznichay",
+  "fr": "Ne fais pas de caprices",
+  "theme": "famille",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01051",
+  "ar": "Не принима́й бли́зко к се́рдцу",
+  "translit": "ne prinimáy blízko k sértsu",
+  "fr": "Ne le prends pas à cœur",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01052",
+  "ar": "К чёрту!",
+  "translit": "k chyórtu",
+  "fr": "Merde ! (réponse rituelle)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01053",
+  "ar": "Ах ты хитре́ц!",
+  "translit": "akh ty khitréts",
+  "fr": "Ah, petit malin !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01054",
+  "ar": "Не ворчи́",
+  "translit": "ne vorchí",
+  "fr": "Ne râle pas",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01055",
+  "ar": "Ну и ну!",
+  "translit": "nu i nu",
+  "fr": "Eh bien, eh bien !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01056",
+  "ar": "Поду́маешь!",
+  "translit": "podúmayesh'",
+  "fr": "La belle affaire !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01057",
+  "ar": "Ско́лько лет, ско́лько зим!",
+  "translit": "skól'ko let, skól'ko zim",
+  "fr": "Ça fait une éternité !",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01058",
+  "ar": "Ти́ше е́дешь — да́льше бу́дешь",
+  "translit": "tíshe yédesh' — dál'she búdesh'",
+  "fr": "Qui va doucement va loin",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01059",
+  "ar": "Друзья́ познаю́тся в беде́",
+  "translit": "druz'yá poznayútsya v bedé",
+  "fr": "C'est dans le malheur qu'on voit ses amis",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01060",
+  "ar": "Не всё то зо́лото, что блести́т",
+  "translit": "ne vsyo to zóloto, shto blestít",
+  "fr": "Tout ce qui brille n'est pas or",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01061",
+  "ar": "Что посе́ешь, то и пожнёшь",
+  "translit": "shto poséyesh', to i pozhnyósh'",
+  "fr": "On récolte ce que l'on sème",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01062",
+  "ar": "Аппети́т прихо́дит во вре́мя еды́",
+  "translit": "appetít prikhódit vo vrémya yedý",
+  "fr": "L'appétit vient en mangeant",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01063",
+  "ar": "Не откла́дывай на за́втра то, что мо́жно сде́лать сего́дня",
+  "translit": "ne otkládyvay na závtra to, shto mózhno sdélat' sevódnya",
+  "fr": "Ne remets pas à demain ce que tu peux faire",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01064",
+  "ar": "Кто ра́но встаёт, тому́ Бог подаёт",
+  "translit": "kto ráno vstayót, tomú bog podayót",
+  "fr": "L'avenir appartient à ceux qui se lèvent tôt",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01065",
+  "ar": "Москва́ не сра́зу стро́илась",
+  "translit": "moskvá ne srázu stróilas'",
+  "fr": "Rome ne s'est pas faite en un jour",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01066",
+  "ar": "Волко́в боя́ться — в лес не ходи́ть",
+  "translit": "volkóv boyát'sya — v les ne khodít'",
+  "fr": "Qui ne risque rien n'a rien",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01067",
+  "ar": "На вкус и цвет това́рищей нет",
+  "translit": "na vkus i tsvet továrishchey net",
+  "fr": "Chacun ses goûts",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01068",
+  "ar": "Ни ры́ба ни мя́со",
+  "translit": "ni rýba ni myáso",
+  "fr": "Ni chair ni poisson",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01069",
+  "ar": "Ру́ку на се́рдце",
+  "translit": "rúku na sértse",
+  "fr": "La main sur le cœur",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01070",
+  "ar": "Лома́ть го́лову",
+  "translit": "lomát' gólovu",
+  "fr": "Se creuser la tête",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01071",
+  "ar": "Глаго́лы движе́ния — э́то тру́дно",
+  "translit": "glagóly dvizhéniya — éto trúdno",
+  "fr": "Les verbes de mouvement, c'est dur",
+  "theme": "ecole",
+  "kind": "phrase",
+  "rarity": 4
+ },
+ {
+  "id": "ru01072",
+  "ar": "Глаза́ боя́тся, а ру́ки де́лают",
+  "translit": "glazá boyátsya, a rúki délayut",
+  "fr": "Les yeux ont peur, les mains agissent",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01073",
+  "ar": "Па́лка о двух конца́х",
+  "translit": "pálka o dvukh kontsákh",
+  "fr": "C'est à double tranchant",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01074",
+  "ar": "В ти́хом о́муте че́рти во́дятся",
+  "translit": "v tíkhom ómute chérti vódyatsya",
+  "fr": "Il faut se méfier de l'eau qui dort",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01075",
+  "ar": "Бить баклу́ши",
+  "translit": "bit' baklúshi",
+  "fr": "Se tourner les pouces",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01076",
+  "ar": "Как с гу́ся вода́",
+  "translit": "kak s gúsya vodá",
+  "fr": "Ça lui glisse dessus",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01077",
+  "ar": "Душа́ в ду́шу",
+  "translit": "dushá v dúshu",
+  "fr": "En parfaite harmonie",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01078",
+  "ar": "Де́ло в шля́пе",
+  "translit": "délo v shlyápe",
+  "fr": "L'affaire est dans le sac",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01079",
+  "ar": "Оста́ться с но́сом",
+  "translit": "ostát'sya s nósom",
+  "fr": "Rester le bec dans l'eau",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ },
+ {
+  "id": "ru01080",
+  "ar": "Язы́к до Ки́ева доведёт",
+  "translit": "yazýk do kíyeva dovedyót",
+  "fr": "Qui a langue va à Rome",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 5
+ }
+]
