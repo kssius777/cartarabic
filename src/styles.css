@@ -747,8 +747,13 @@ p {
     inset 0 0 0 3px rgba(255, 255, 255, 0.25);
   position: relative;
   overflow: hidden;
-  animation: wobble 2.4s ease-in-out infinite;
   color: #fff;
+  touch-action: manipulation;
+}
+
+/* L'animation est sur l'enveloppe pour que le booster reste facile à toucher. */
+.pack-float {
+  animation: wobble 2.4s ease-in-out infinite;
 }
 
 .pack-top {
@@ -772,7 +777,7 @@ p {
   font-size: 5rem;
   color: var(--gold);
   text-shadow: 0 4px 0 rgba(0, 0, 0, 0.3);
-  line-height: 1;
+  line-height: 1.6;
 }
 
 .pack-body b {

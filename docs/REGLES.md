@@ -5,7 +5,7 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
 ## Les cartes
 
 - Chaque carte est un mot ou une phrase en **arabe littéraire**, écrit avec toutes ses voyelles (harakat).
-- **Recto** : l'arabe en grand et la translittération dessous. **Verso** : la traduction en français.
+- **Recto** : l'arabe en grand, et la translittération dessous une fois la réponse donnée. **Verso** : la traduction en français.
 - Chaque carte a un **thème**, qui joue le rôle du « type » Pokémon (couleur, symbole et illustration du cadre) :
   salutations, pronoms, famille, nourriture, maison, corps, nature, animaux, nombres, couleurs, temps, ville, adjectifs, questions, verbes, expressions, phrases.
 - Chaque carte a une **rareté**, liée à sa difficulté :
@@ -43,8 +43,9 @@ Version 1, appliquée dans le jeu. Les cartes sont dans [cartes.json](../data/ca
 - Les questions deviennent plus dures avec la maîtrise de la carte :
   1. arabe → choisir la traduction (4 choix) ;
   2. français → choisir l'arabe (4 choix) ;
-  3. arabe sans translittération → choisir la traduction ;
+  3. arabe → choisir la traduction parmi des cartes qui se ressemblent (même thème) ;
   4. français → retrouver l'arabe parmi des cartes qui se ressemblent.
+- La translittération est cachée pendant la question et n'apparaît qu'avec la réponse.
 - **Bonne réponse** : la carte progresse. Après 3 bonnes réponses espacées dans le temps (une réponse ne compte que si la carte était « à revoir »), tu gagnes **un exemplaire de plus**.
 - Délais avant de revoir une carte : immédiat, 10 min, 1 jour, 3 jours, 7 jours, 14 jours, 30 jours (doublés pour une carte brillante).
 - **Oubli (mauvaise réponse)** : la punition.

@@ -52,7 +52,7 @@ function intervalFor(box: number, brillant: boolean) {
 
 // ---------- Questions ----------
 
-/** ar-fr : arabe → français ; fr-ar : français → arabe ; -nt : sans translittération. */
+/** ar-fr : arabe → français ; fr-ar : français → arabe ; -nt : choix qui se ressemblent (même thème). */
 export type QType = 'ar-fr' | 'fr-ar' | 'ar-fr-nt' | 'fr-ar-nt'
 
 export interface Question {
