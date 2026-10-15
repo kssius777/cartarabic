@@ -17,8 +17,10 @@ export const CARDS = raw as Card[]
 export const CARD_BY_ID = new Map(CARDS.map((c) => [c.id, c]))
 export const TOTAL = CARDS.length
 
+const INDEX = new Map(CARDS.map((c, i) => [c, i]))
+
 export function cardNumber(card: Card): string {
-  return `${String(CARDS.indexOf(card) + 1).padStart(3, '0')}/${TOTAL}`
+  return `${String((INDEX.get(card) ?? 0) + 1).padStart(3, '0')}/${TOTAL}`
 }
 
 export interface ThemeInfo {

@@ -75,21 +75,34 @@ export function questionTypeFor(o: Owned | undefined): QType {
   return 'fr-ar-nt'
 }
 
+const BY_THEME = new Map<string, Card[]>()
+for (const c of CARDS) BY_THEME.set(c.theme, [...(BY_THEME.get(c.theme) ?? []), c])
+
 export function makeQuestion(card: Card, type: QType, rng: Rng): Question {
-  const pool = CARDS.filter((c) => c.kind === card.kind && c.fr !== card.fr && c.ar !== card.ar)
-  const hard = type !== 'ar-fr'
-  // Les questions difficiles proposent des cartes qui se ressemblent (même thème).
-  const scored = shuffle(pool, rng).map((c) => ({
-    c,
-    score: hard ? (c.theme === card.theme ? 2 : 0) + (c.rarity === card.rarity ? 1 : 0) : 0,
-  }))
-  scored.sort((a, b) => b.score - a.score)
   const distractors: Card[] = []
-  for (const { c } of scored) {
-    if (distractors.length === 3) break
-    if (distractors.some((d) => d.fr === c.fr || d.ar === c.ar)) continue
-    distractors.push(c)
+  const fits = (c: Card) =>
+    c.kind === card.kind &&
+    c.fr !== card.fr &&
+    c.ar !== card.ar &&
+    !distractors.some((d) => d === c || d.fr === c.fr || d.ar === c.ar)
+  const takeFrom = (list: Card[]) => {
+    for (const c of shuffle(list, rng)) {
+      if (distractors.length === 3) return
+      if (fits(c)) distractors.push(c)
+    }
   }
+  // Les questions difficiles proposent des cartes qui se ressemblent (même thème, puis même niveau).
+  if (type !== 'ar-fr') {
+    const theme = BY_THEME.get(card.theme) ?? []
+    takeFrom(theme.filter((c) => c.rarity === card.rarity))
+    takeFrom(theme)
+  }
+  // Sinon, des cartes au hasard : on pioche directement pour rester rapide avec des milliers de cartes.
+  for (let tries = 0; distractors.length < 3 && tries < 300; tries++) {
+    const c = CARDS[Math.floor(rng() * CARDS.length)]
+    if (fits(c)) distractors.push(c)
+  }
+  if (distractors.length < 3) takeFrom(CARDS)
   return { card, type, choices: shuffle([card, ...distractors], rng) }
 }
 

@@ -1232,3 +1232,7 @@ p {
     transition: none !important;
   }
 }
+
+.btn.more {
+  margin-top: 16px;
+}

@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import { EmptySlot, GameCard } from '../components/GameCard'
-import { CARDS, THEMES, type Card } from '../game/cards'
+import { CARDS, RARITIES, THEMES, type Card, type Rarity } from '../game/cards'
 import { BRILLANT, isBrillant, PROGRESS_FOR_COPY, stats, type Save } from '../game/rules'
 
 type Filter = 'all' | 'owned' | 'brillant'
+const PAGE = 120
 
 export function Binder({ save, onExit }: { save: Save; onExit: () => void }) {
   const [filter, setFilter] = useState<Filter>('all')
   const [theme, setTheme] = useState<string | null>(null)
+  const [level, setLevel] = useState<Rarity | null>(null)
+  // Avec des milliers de cartes, on n'affiche qu'une page à la fois pour rester fluide sur téléphone.
+  const [limit, setLimit] = useState(PAGE)
   const [open, setOpen] = useState<Card | null>(null)
   const [flipped, setFlipped] = useState(false)
   const s = stats(save)
@@ -15,6 +19,7 @@ export function Binder({ save, onExit }: { save: Save; onExit: () => void }) {
   const shown = CARDS.filter((c) => {
     const o = save.owned[c.id]
     if (theme && c.theme !== theme) return false
+    if (level && c.rarity !== level) return false
     if (filter === 'owned') return !!o
     if (filter === 'brillant') return isBrillant(o)
     return true
@@ -34,23 +39,62 @@ export function Binder({ save, onExit }: { save: Save; onExit: () => void }) {
       </div>
       <div className="chips">
         {(['all', 'owned', 'brillant'] as Filter[]).map((f) => (
-          <button key={f} className={`chip ${filter === f ? 'on' : ''}`} onClick={() => setFilter(f)}>
+          <button key={f} className={`chip ${filter === f ? 'on' : ''}`} onClick={() => {
+              setFilter(f)
+              setLimit(PAGE)
+            }}>
             {{ all: 'Toutes', owned: 'Possédées', brillant: 'Brillantes' }[f]}
           </button>
         ))}
       </div>
       <div className="chips">
-        <button className={`chip ${theme === null ? 'on' : ''}`} onClick={() => setTheme(null)}>
+        <button
+          className={`chip ${level === null ? 'on' : ''}`}
+          onClick={() => {
+            setLevel(null)
+            setLimit(PAGE)
+          }}
+        >
+          Tous niveaux
+        </button>
+        {([1, 2, 3, 4, 5] as Rarity[]).map((r) => (
+          <button
+            key={r}
+            className={`chip ${level === r ? 'on' : ''}`}
+            onClick={() => {
+              setLevel(r)
+              setLimit(PAGE)
+            }}
+          >
+            {RARITIES[r].symbol} {RARITIES[r].name}
+          </button>
+        ))}
+      </div>
+      <div className="chips">
+        <button
+          className={`chip ${theme === null ? 'on' : ''}`}
+          onClick={() => {
+            setTheme(null)
+            setLimit(PAGE)
+          }}
+        >
           Tous thèmes
         </button>
         {Object.entries(THEMES).map(([key, t]) => (
-          <button key={key} className={`chip ${theme === key ? 'on' : ''}`} onClick={() => setTheme(key)}>
+          <button
+            key={key}
+            className={`chip ${theme === key ? 'on' : ''}`}
+            onClick={() => {
+              setTheme(key)
+              setLimit(PAGE)
+            }}
+          >
             {t.icon} {t.label}
           </button>
         ))}
       </div>
       <div className="binder-grid">
-        {shown.map((c) =>
+        {shown.slice(0, limit).map((c) =>
           save.owned[c.id] ? (
             <GameCard
               key={c.id}
@@ -68,6 +112,11 @@ export function Binder({ save, onExit }: { save: Save; onExit: () => void }) {
         )}
         {shown.length === 0 && <p className="muted">Aucune carte ici pour l'instant.</p>}
       </div>
+      {shown.length > limit && (
+        <button className="btn big more" onClick={() => setLimit(limit + PAGE)}>
+          Voir plus ({shown.length - limit} restantes)
+        </button>
+      )}
 
       {open && o && (
         <div className="modal" onClick={() => setOpen(null)}>
