@@ -3,6 +3,8 @@ import { CARDS } from './cards'
 import { FIGURE_BOOSTER_PRICE, FIGURE_BOOSTER_SIZE, FIGURES } from './figures'
 import {
   BOOSTER_SIZE,
+  cardsToWork,
+  dayKey,
   COINS_PER_CORRECT,
   buyFigureBooster,
   answerBooster,
@@ -148,8 +150,19 @@ describe('punitions', () => {
     expect(r2.save.owned[a.id]).toBeUndefined()
   })
 
-  it('rater une carte non possédée retire une autre carte', () => {
+  it("rater une carte jamais vue n'est pas puni, mais elle est notée", () => {
     const save: Save = { ...newSave(), owned: { [a.id]: { copies: 1, box: 1, due: NOW, progress: 0 } } }
+    const r = answerBooster(save, b, false, NOW, seeded())
+    expect(r.outcome.kind).toBe('discovered')
+    expect(r.save.owned[a.id].copies).toBe(1)
+    expect(r.save.missed).toContain(b.id)
+    expect(r.save.fails[b.id]).toBe(1)
+    expect(r.save.history.days[dayKey(NOW)]).toEqual([0, 1])
+    expect(cardsToWork(r.save).map((x) => x.card)).toEqual([b])
+  })
+
+  it('rater une carte déjà vue et non possédée retire une autre carte', () => {
+    const save: Save = { ...newSave(), owned: { [a.id]: { copies: 1, box: 1, due: NOW, progress: 0 } }, fails: { [b.id]: 1 } }
     const r = answerBooster(save, b, false, NOW, seeded())
     expect(r.outcome).toMatchObject({ kind: 'lost-other', lost: a })
     expect(r.save.owned).toEqual({})

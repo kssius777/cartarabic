@@ -38,12 +38,35 @@ export interface Save {
   figures: Record<string, number>
   /** Cartes ratées ou oubliées, qui reviennent en priorité dans les prochains boosters. */
   missed: string[]
+  /** Nombre d'erreurs par carte, pour retrouver celles qu'on ne maîtrise pas. */
+  fails: Record<string, number>
+  /** Bonnes réponses / réponses, par jour, par niveau et par thème, pour les statistiques. */
+  history: History
+}
+
+export type Tally = [correct: number, total: number]
+
+export interface History {
+  days: Record<string, Tally>
+  levels: Record<string, Tally>
+  themes: Record<string, Tally>
 }
 
 export type Rng = () => number
 
 export function newSave(): Save {
-  return { version: 1, level: null, owned: {}, boosters: 0, reviewsDone: 0, coins: START_COINS, figures: {}, missed: [] }
+  return {
+    version: 1,
+    level: null,
+    owned: {},
+    boosters: 0,
+    reviewsDone: 0,
+    coins: START_COINS,
+    figures: {},
+    missed: [],
+    fails: {},
+    history: { days: {}, levels: {}, themes: {} },
+  }
 }
 
 export function shuffle<T>(items: T[], rng: Rng): T[] {
@@ -237,6 +260,7 @@ export type Outcome =
   | { kind: 'progress'; card: Card; copies: number; gainedCopy: boolean; progress: number }
   | { kind: 'lost-copy'; card: Card; copiesLeft: number }
   | { kind: 'lost-other'; card: Card; lost: Card | null; copiesLeft: number }
+  | { kind: 'discovered'; card: Card }
 
 function loseCopy(owned: Record<string, Owned>, id: string, now: number): number {
   const o = owned[id]
@@ -269,8 +293,51 @@ function punish(save: Save, card: Card, now: number, rng: Rng): { save: Save; ou
   }
 }
 
+/** Clé du jour en heure locale, ex. 2026-10-15. */
+export function dayKey(t: number) {
+  const d = new Date(t)
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+}
+
+const HISTORY_DAYS = 120
+
+function bump(map: Record<string, Tally>, key: string, correct: boolean): Record<string, Tally> {
+  const [c, t] = map[key] ?? [0, 0]
+  return { ...map, [key]: [c + (correct ? 1 : 0), t + 1] }
+}
+
+/** Note la réponse pour les statistiques et la liste des cartes à travailler. */
+function record(save: Save, card: Card, correct: boolean, now: number): Save {
+  let days = bump(save.history.days, dayKey(now), correct)
+  const keys = Object.keys(days)
+  if (keys.length > HISTORY_DAYS)
+    days = Object.fromEntries(
+      keys
+        .sort()
+        .slice(-HISTORY_DAYS)
+        .map((k) => [k, days[k]]),
+    )
+  const history = {
+    days,
+    levels: bump(save.history.levels, String(card.rarity), correct),
+    themes: bump(save.history.themes, card.theme, correct),
+  }
+  const fails = correct ? save.fails : { ...save.fails, [card.id]: (save.fails[card.id] ?? 0) + 1 }
+  return { ...save, history, fails }
+}
+
 /** Réponse à une carte de booster : la gagner, ou être puni. */
 export function answerBooster(save: Save, card: Card, correct: boolean, now: number, rng: Rng) {
+  const r = boosterCore(save, card, correct, now, rng)
+  return { ...r, save: record(r.save, card, correct, now) }
+}
+
+function boosterCore(save: Save, card: Card, correct: boolean, now: number, rng: Rng): { save: Save; outcome: Outcome } {
+  // On ne peut pas connaître un mot jamais vu : la première erreur n'est pas punie, la carte reviendra.
+  const neverSeen = !save.owned[card.id] && !save.missed.includes(card.id) && !save.fails[card.id]
+  if (!correct && neverSeen) {
+    return { save: { ...save, missed: remember(save.missed, card.id) }, outcome: { kind: 'discovered', card } }
+  }
   if (!correct) return punish(save, card, now, rng)
   const owned = { ...save.owned }
   const o = owned[card.id]
@@ -282,8 +349,13 @@ export function answerBooster(save: Save, card: Card, correct: boolean, now: num
 
 /** Réponse en révision : la carte progresse, ou on perd un exemplaire. */
 export function answerReview(save: Save, card: Card, correct: boolean, now: number, rng: Rng) {
+  const r = reviewCore(save, card, correct, now, rng)
+  return { ...r, save: record(r.save, card, correct, now) }
+}
+
+function reviewCore(save: Save, card: Card, correct: boolean, now: number, rng: Rng): { save: Save; outcome: Outcome } {
   const o = save.owned[card.id]
-  if (!o) return answerBooster(save, card, correct, now, rng)
+  if (!o) return boosterCore(save, card, correct, now, rng)
   if (!correct) return punish(save, card, now, rng)
   const wasDue = o.due <= now
   // Réviser en avance ne rallonge pas l'intervalle : seule une réponse au bon moment prouve qu'on a retenu.
@@ -374,4 +446,14 @@ export function stats(save: Save) {
 
 export function hasWon(save: Save): boolean {
   return CARDS.every((c) => isBrillant(save.owned[c.id]))
+}
+
+// ---------- Statistiques ----------
+
+/** Cartes pas encore brillantes sur lesquelles on s'est déjà trompé, les plus ratées d'abord. */
+export function cardsToWork(save: Save): { card: Card; fails: number }[] {
+  return Object.entries(save.fails)
+    .filter(([id, n]) => n > 0 && CARD_BY_ID.has(id) && !isBrillant(save.owned[id]))
+    .map(([id, n]) => ({ card: CARD_BY_ID.get(id)!, fails: n }))
+    .sort((a, b) => b.fails - a.fails || Number(!save.owned[b.card.id]) - Number(!save.owned[a.card.id]))
 }

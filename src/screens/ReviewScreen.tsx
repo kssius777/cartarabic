@@ -3,17 +3,22 @@ import { OutcomeText, outcomeGlow } from '../components/OutcomeText'
 import { QuestionView } from '../components/QuestionView'
 import { answerReview, finishReview, makeQuestion, questionTypeFor, reviewSession, type Outcome, type Save } from '../game/rules'
 import { Progress } from './Placement'
+import type { Card } from '../game/cards'
 
 interface Props {
   save: Save
   setSave: (s: Save) => void
   onExit: () => void
   onAgain: () => void
+  /** Cartes imposées (ex. les cartes à travailler) au lieu de la séance habituelle. */
+  cards?: Card[]
 }
 
-export function ReviewScreen({ save, setSave, onExit, onAgain }: Props) {
+export function ReviewScreen({ save, setSave, onExit, onAgain, cards }: Props) {
   const [questions] = useState(() =>
-    reviewSession(save, Date.now(), Math.random).map((c) => makeQuestion(c, questionTypeFor(save.owned[c.id]), Math.random)),
+    (cards ?? reviewSession(save, Date.now(), Math.random)).map((c) =>
+      makeQuestion(c, questionTypeFor(save.owned[c.id]), Math.random),
+    ),
   )
   const [i, setI] = useState(0)
   const [outcomes, setOutcomes] = useState<Outcome[]>([])
@@ -78,7 +83,7 @@ export function ReviewScreen({ save, setSave, onExit, onAgain }: Props) {
   const outcome = outcomes[i] ?? null
   return (
     <div className="screen">
-      <Progress value={i + (outcome ? 1 : 0)} max={questions.length} label="Révision" />
+      <Progress value={i + (outcome ? 1 : 0)} max={questions.length} label={cards ? 'À travailler' : 'Révision'} />
       <QuestionView
         key={q.card.id}
         question={q}

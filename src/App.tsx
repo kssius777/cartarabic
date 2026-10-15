@@ -1,10 +1,23 @@
 import { useEffect, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
-import { CARDS, RARITIES, type Rarity } from './game/cards'
+import { CARDS, RARITIES, type Card, type Rarity } from './game/cards'
 import { FIGURE_BOOSTER_PRICE, FIGURES } from './game/figures'
-import { applyPlacement, dueCount, hasWon, levelGoal, levelUp, newSave, rescue, stats, type Save } from './game/rules'
+import {
+  applyPlacement,
+  cardsToWork,
+  dueCount,
+  REVIEW_SIZE,
+  hasWon,
+  levelGoal,
+  levelUp,
+  newSave,
+  rescue,
+  stats,
+  type Save,
+} from './game/rules'
 import { clearSave, loadSave, requestPersistence, storeSave } from './game/storage'
 import { BackupScreen } from './screens/BackupScreen'
+import { StatsScreen } from './screens/StatsScreen'
 import { Binder } from './screens/Binder'
 import { BoosterScreen } from './screens/BoosterScreen'
 import { Landing } from './screens/Landing'
@@ -12,7 +25,7 @@ import { Placement } from './screens/Placement'
 import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
 
-type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing' | 'backup'
+type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing' | 'backup' | 'stats'
 
 export default function App() {
   const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
@@ -21,6 +34,7 @@ export default function App() {
   const [confirmReset, setConfirmReset] = useState(false)
   const [testStarted, setTestStarted] = useState(false)
   const [reviewRound, setReviewRound] = useState(0)
+  const [focus, setFocus] = useState<Card[] | null>(null)
 
   function setSave(next: Save) {
     const leveled = levelUp(rescue(next))
@@ -41,7 +55,10 @@ export default function App() {
     window.scrollTo(0, 0)
   }, [screen])
 
-  const home = () => setScreen('home')
+  const home = () => {
+    setFocus(null)
+    setScreen('home')
+  }
 
   if (!save.level && !testStarted) return <Landing onStart={() => setTestStarted(true)} />
   if (!save.level) {
@@ -50,11 +67,39 @@ export default function App() {
   if (screen === 'booster') return <BoosterScreen save={save} setSave={setSave} onExit={home} />
   if (screen === 'review')
     return (
-      <ReviewScreen key={reviewRound} save={save} setSave={setSave} onExit={home} onAgain={() => setReviewRound((n) => n + 1)} />
+      <ReviewScreen
+        key={reviewRound}
+        save={save}
+        setSave={setSave}
+        onExit={focus ? () => setScreen('stats') : home}
+        onAgain={() => {
+          if (focus) {
+            const next = cardsToWork(save)
+              .slice(0, REVIEW_SIZE)
+              .map((w) => w.card)
+            if (!next.length) return setScreen('stats')
+            setFocus(next)
+          }
+          setReviewRound((n) => n + 1)
+        }}
+        cards={focus ?? undefined}
+      />
     )
   if (screen === 'binder') return <Binder save={save} onExit={home} />
   if (screen === 'rules') return <Rules onExit={home} />
   if (screen === 'landing') return <Landing returning onStart={home} />
+  if (screen === 'stats')
+    return (
+      <StatsScreen
+        save={save}
+        onExit={home}
+        onWork={(cards) => {
+          setFocus(cards)
+          setReviewRound((n) => n + 1)
+          setScreen('review')
+        }}
+      />
+    )
   if (screen === 'backup')
     return (
       <BackupScreen
@@ -74,6 +119,7 @@ export default function App() {
   const next = save.level < 5 ? RARITIES[(save.level + 1) as Rarity] : null
   const { tier, goal: tierGoal } = levelGoal(save.level)
   const tierOwned = tier.filter((c) => save.owned[c.id]).length
+  const toWork = cardsToWork(save).length
   const showcase = CARDS.filter((c) => save.owned[c.id]).slice(-5)
 
   return (
@@ -186,6 +232,13 @@ export default function App() {
             </small>
           </span>
         </button>
+        <button className="tile tile-stats" onClick={() => setScreen('stats')}>
+          <span className="tile-icon">📊</span>
+          <span className="tile-text">
+            <b>Statistiques</b>
+            <small>{toWork > 0 ? `${toWork} carte${toWork > 1 ? 's' : ''} à travailler` : 'Ta progression en chiffres'}</small>
+          </span>
+        </button>
       </div>
 
       <div className="foot-links">
@@ -252,9 +305,10 @@ function Rules({ onExit }: { onExit: () => void }) {
       </p>
       <h3>💥 Punition</h3>
       <p>
-        Si tu oublies une carte que tu possèdes, tu perds un exemplaire. Si tu rates une carte que tu ne possèdes pas, tu perds un
-        exemplaire d'une autre carte au hasard. Une carte ratée ou perdue revient dans tes prochains boosters (jusqu'à 3 par
-        booster), pour que tu puisses la retenter.
+        Si tu oublies une carte que tu possèdes, tu perds un exemplaire. La première fois que tu rates une carte jamais vue, pas
+        de punition : regarde bien la réponse. Ensuite, si tu rates une carte que tu ne possèdes pas, tu perds un exemplaire d'une
+        autre carte au hasard. Une carte ratée ou perdue revient dans tes prochains boosters (jusqu'à 3 par booster), pour que tu
+        puisses la retenter.
       </p>
       <h3>✨ Brillance et victoire</h3>
       <p>À 3 exemplaires, une carte devient brillante. Le but : toute la collection en brillant !</p>

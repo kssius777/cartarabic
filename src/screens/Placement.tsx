@@ -48,7 +48,9 @@ export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => 
         key={q.card.id}
         question={q}
         onAnswer={(correct) => setResults((r) => [...r, { card: q.card, correct }])}
-        feedback={results[i]?.correct ? <p className="good">✅ Bravo !</p> : <p className="bad">Ce n'est pas grave, on continue.</p>}
+        feedback={
+          results[i]?.correct ? <p className="good">✅ Bravo !</p> : <p className="bad">Ce n'est pas grave, on continue.</p>
+        }
         glow={results[i]?.correct ? 'win' : 'lose'}
         onNext={() => setI(i + 1)}
         nextLabel={i + 1 === questions.length ? 'Voir mon niveau' : 'Suivante'}

@@ -1,6 +1,6 @@
 import { CARD_BY_ID, type Rarity } from './cards'
 import { FIGURE_BY_ID } from './figures'
-import { newSave, START_COINS, type Owned, type Save } from './rules'
+import { newSave, START_COINS, type History, type Owned, type Save, type Tally } from './rules'
 
 const KEY = 'cartarabic-save-v1'
 
@@ -34,10 +34,38 @@ export function sanitize(raw: unknown): Save {
     reviewsDone: Math.max(0, Math.floor(num(r.reviewsDone, 0))),
     coins: Math.max(0, Math.floor(num(r.coins, START_COINS))),
     figures: cleanFigures(r.figures),
+    fails: cleanCounts(r.fails, (id) => CARD_BY_ID.has(id)),
+    history: cleanHistory(r.history),
     missed: Array.isArray(r.missed)
       ? r.missed.filter((id): id is string => typeof id === 'string' && CARD_BY_ID.has(id)).slice(-60)
       : [],
   }
+}
+
+function cleanCounts(raw: unknown, valid: (id: string) => boolean): Record<string, number> {
+  const out: Record<string, number> = {}
+  if (!raw || typeof raw !== 'object') return out
+  for (const [id, n] of Object.entries(raw)) {
+    const v = Math.floor(num(n, 0))
+    if (valid(id) && v > 0) out[id] = v
+  }
+  return out
+}
+
+function cleanTallies(raw: unknown): Record<string, Tally> {
+  const out: Record<string, Tally> = {}
+  if (!raw || typeof raw !== 'object') return out
+  for (const [k, v] of Object.entries(raw)) {
+    if (!Array.isArray(v)) continue
+    const total = Math.max(0, Math.floor(num(v[1], 0)))
+    if (total > 0) out[k] = [Math.min(total, Math.max(0, Math.floor(num(v[0], 0)))), total]
+  }
+  return out
+}
+
+function cleanHistory(raw: unknown): History {
+  const h = (raw && typeof raw === 'object' ? raw : {}) as Partial<History>
+  return { days: cleanTallies(h.days), levels: cleanTallies(h.levels), themes: cleanTallies(h.themes) }
 }
 
 function cleanFigures(raw: unknown): Record<string, number> {

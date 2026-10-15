@@ -3,6 +3,7 @@ import { BRILLANT, COINS_PER_CORRECT, PROGRESS_FOR_COPY } from '../game/rules'
 
 export function outcomeGlow(o: Outcome | null): 'win' | 'lose' | null {
   if (!o) return null
+  if (o.kind === 'discovered') return null
   return o.kind === 'won' || o.kind === 'progress' ? 'win' : 'lose'
 }
 
@@ -36,6 +37,12 @@ export function OutcomeText({ outcome }: { outcome: Outcome }) {
               Progression {outcome.progress}/{PROGRESS_FOR_COPY}
             </span>
           )}
+        </p>
+      )
+    case 'discovered':
+      return (
+        <p className="discover">
+          📘 Nouvelle carte : regarde bien la réponse. Pas de punition cette fois, elle reviendra dans un prochain booster.
         </p>
       )
     case 'lost-copy':

@@ -58,7 +58,7 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
         <span className="coins">🪙 {save.coins}</span>
       </div>
       <button className={`btn small translate ${french ? 'on' : ''}`} onClick={toggleFrench}>
-        {french ? 'عَرَبِيٌّ · Revenir à l\'arabe' : '🌐 Traduire en français'}
+        {french ? "عَرَبِيٌّ · Revenir à l'arabe" : '🌐 Traduire en français'}
       </button>
       <div className="chips">
         <button className={`chip ${tab === 'shop' ? 'on' : ''}`} onClick={() => setTab('shop')}>
