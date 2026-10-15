@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "c001",
+  "ar": "السَّلَامُ عَلَيْكُمْ",
+  "translit": "as-salāmu ʿalaykum",
+  "fr": "Bonjour (la paix soit sur vous)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c002",
+  "ar": "وَعَلَيْكُمُ السَّلَام",
+  "translit": "wa ʿalaykumu s-salām",
+  "fr": "Et sur vous la paix (réponse)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c003",
+  "ar": "مَرْحَبًا",
+  "translit": "marḥaban",
+  "fr": "Salut / bienvenue",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c004",
+  "ar": "صَبَاحُ الْخَيْر",
+  "translit": "ṣabāḥu l-khayr",
+  "fr": "Bonjour (le matin)",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c005",
+  "ar": "مَسَاءُ الْخَيْر",
+  "translit": "masā'u l-khayr",
+  "fr": "Bonsoir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c006",
+  "ar": "شُكْرًا",
+  "translit": "chukran",
+  "fr": "Merci",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c007",
+  "ar": "عَفْوًا",
+  "translit": "ʿafwan",
+  "fr": "De rien / pardon",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c008",
+  "ar": "نَعَم",
+  "translit": "naʿam",
+  "fr": "Oui",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c009",
+  "ar": "لَا",
+  "translit": "lā",
+  "fr": "Non",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c010",
+  "ar": "مِنْ فَضْلِك",
+  "translit": "min faḍlik",
+  "fr": "S'il te plaît",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c011",
+  "ar": "مَعَ السَّلَامَة",
+  "translit": "maʿa s-salāma",
+  "fr": "Au revoir",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c012",
+  "ar": "أَهْلًا وَسَهْلًا",
+  "translit": "ahlan wa sahlan",
+  "fr": "Bienvenue",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c013",
+  "ar": "كَيْفَ حَالُك؟",
+  "translit": "kayfa ḥāluk ?",
+  "fr": "Comment vas-tu ?",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c014",
+  "ar": "أَنَا بِخَيْر",
+  "translit": "anā bikhayr",
+  "fr": "Je vais bien",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c015",
+  "ar": "تَشَرَّفْنَا",
+  "translit": "tacharrafnā",
+  "fr": "Enchanté(e)",
+  "theme": "salutations",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c016",
+  "ar": "إِلَى اللِّقَاء",
+  "translit": "ilā l-liqā'",
+  "fr": "À bientôt",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c017",
+  "ar": "تُصْبِحُ عَلَى خَيْر",
+  "translit": "tuṣbiḥu ʿalā khayr",
+  "fr": "Bonne nuit",
+  "theme": "salutations",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c018",
+  "ar": "أَنَا",
+  "translit": "anā",
+  "fr": "Je / moi",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c019",
+  "ar": "أَنْتَ",
+  "translit": "anta",
+  "fr": "Tu (masculin)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c020",
+  "ar": "أَنْتِ",
+  "translit": "anti",
+  "fr": "Tu (féminin)",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c021",
+  "ar": "هُوَ",
+  "translit": "huwa",
+  "fr": "Il / lui",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c022",
+  "ar": "هِيَ",
+  "translit": "hiya",
+  "fr": "Elle",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c023",
+  "ar": "نَحْنُ",
+  "translit": "naḥnu",
+  "fr": "Nous",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c024",
+  "ar": "هُمْ",
+  "translit": "hum",
+  "fr": "Ils / eux",
+  "theme": "pronoms",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c025",
+  "ar": "أَب",
+  "translit": "ab",
+  "fr": "Père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c026",
+  "ar": "أُمّ",
+  "translit": "umm",
+  "fr": "Mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c027",
+  "ar": "أَخ",
+  "translit": "akh",
+  "fr": "Frère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c028",
+  "ar": "أُخْت",
+  "translit": "ukht",
+  "fr": "Sœur",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c029",
+  "ar": "بِنْت",
+  "translit": "bint",
+  "fr": "Fille",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c030",
+  "ar": "رَجُل",
+  "translit": "rajul",
+  "fr": "Homme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c031",
+  "ar": "اِبْن",
+  "translit": "ibn",
+  "fr": "Fils",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c032",
+  "ar": "جَدّ",
+  "translit": "jadd",
+  "fr": "Grand-père",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c033",
+  "ar": "جَدَّة",
+  "translit": "jadda",
+  "fr": "Grand-mère",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c034",
+  "ar": "عَائِلَة",
+  "translit": "ʿā'ila",
+  "fr": "Famille",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c035",
+  "ar": "صَدِيق",
+  "translit": "ṣadīq",
+  "fr": "Ami",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c036",
+  "ar": "طِفْل",
+  "translit": "ṭifl",
+  "fr": "Enfant",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c037",
+  "ar": "اِمْرَأَة",
+  "translit": "imra'a",
+  "fr": "Femme",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c038",
+  "ar": "زَوْج",
+  "translit": "zawj",
+  "fr": "Mari",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c039",
+  "ar": "زَوْجَة",
+  "translit": "zawja",
+  "fr": "Épouse",
+  "theme": "famille",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c040",
+  "ar": "مَاء",
+  "translit": "mā'",
+  "fr": "Eau",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c041",
+  "ar": "خُبْز",
+  "translit": "khubz",
+  "fr": "Pain",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c042",
+  "ar": "حَلِيب",
+  "translit": "ḥalīb",
+  "fr": "Lait",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c043",
+  "ar": "قَهْوَة",
+  "translit": "qahwa",
+  "fr": "Café",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c044",
+  "ar": "شَاي",
+  "translit": "chāy",
+  "fr": "Thé",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c045",
+  "ar": "مَوْز",
+  "translit": "mawz",
+  "fr": "Banane",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c046",
+  "ar": "لَحْم",
+  "translit": "laḥm",
+  "fr": "Viande",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c047",
+  "ar": "دَجَاج",
+  "translit": "dajāj",
+  "fr": "Poulet",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c048",
+  "ar": "سَمَك",
+  "translit": "samak",
+  "fr": "Poisson",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c049",
+  "ar": "أَرُزّ",
+  "translit": "aruzz",
+  "fr": "Riz",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c050",
+  "ar": "تُفَّاحَة",
+  "translit": "tuffāḥa",
+  "fr": "Pomme",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c051",
+  "ar": "بَيْض",
+  "translit": "bayḍ",
+  "fr": "Œufs",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c052",
+  "ar": "سُكَّر",
+  "translit": "sukkar",
+  "fr": "Sucre",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c053",
+  "ar": "طَعَام",
+  "translit": "ṭaʿām",
+  "fr": "Nourriture / repas",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c054",
+  "ar": "مِلْح",
+  "translit": "milḥ",
+  "fr": "Sel",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c055",
+  "ar": "فُطُور",
+  "translit": "fuṭūr",
+  "fr": "Petit-déjeuner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c056",
+  "ar": "غَدَاء",
+  "translit": "ghadā'",
+  "fr": "Déjeuner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c057",
+  "ar": "عَشَاء",
+  "translit": "ʿachā'",
+  "fr": "Dîner",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c058",
+  "ar": "بَيْت",
+  "translit": "bayt",
+  "fr": "Maison",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c059",
+  "ar": "بَاب",
+  "translit": "bāb",
+  "fr": "Porte",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c060",
+  "ar": "كِتَاب",
+  "translit": "kitāb",
+  "fr": "Livre",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c061",
+  "ar": "قَلَم",
+  "translit": "qalam",
+  "fr": "Stylo",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c062",
+  "ar": "غُرْفَة",
+  "translit": "ghurfa",
+  "fr": "Chambre / pièce",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c063",
+  "ar": "سَرِير",
+  "translit": "sarīr",
+  "fr": "Lit",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c064",
+  "ar": "كُرْسِيّ",
+  "translit": "kursiyy",
+  "fr": "Chaise",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c065",
+  "ar": "طَاوِلَة",
+  "translit": "ṭāwila",
+  "fr": "Table",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c066",
+  "ar": "هَاتِف",
+  "translit": "hātif",
+  "fr": "Téléphone",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c067",
+  "ar": "سَيَّارَة",
+  "translit": "sayyāra",
+  "fr": "Voiture",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c068",
+  "ar": "نَافِذَة",
+  "translit": "nāfidha",
+  "fr": "Fenêtre",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c069",
+  "ar": "مَطْبَخ",
+  "translit": "maṭbakh",
+  "fr": "Cuisine",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c070",
+  "ar": "مِفْتَاح",
+  "translit": "miftāḥ",
+  "fr": "Clé",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c071",
+  "ar": "يَد",
+  "translit": "yad",
+  "fr": "Main",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c072",
+  "ar": "رَأْس",
+  "translit": "ra's",
+  "fr": "Tête",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c073",
+  "ar": "عَيْن",
+  "translit": "ʿayn",
+  "fr": "Œil",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c074",
+  "ar": "قَلْب",
+  "translit": "qalb",
+  "fr": "Cœur",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c075",
+  "ar": "فَم",
+  "translit": "fam",
+  "fr": "Bouche",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c076",
+  "ar": "أَنْف",
+  "translit": "anf",
+  "fr": "Nez",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c077",
+  "ar": "أُذُن",
+  "translit": "udhun",
+  "fr": "Oreille",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c078",
+  "ar": "رِجْل",
+  "translit": "rijl",
+  "fr": "Jambe / pied",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c079",
+  "ar": "شَعْر",
+  "translit": "chaʿr",
+  "fr": "Cheveux",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c080",
+  "ar": "وَجْه",
+  "translit": "wajh",
+  "fr": "Visage",
+  "theme": "corps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c081",
+  "ar": "شَمْس",
+  "translit": "chams",
+  "fr": "Soleil",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c082",
+  "ar": "قَمَر",
+  "translit": "qamar",
+  "fr": "Lune",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c083",
+  "ar": "نَجْم",
+  "translit": "najm",
+  "fr": "Étoile",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c084",
+  "ar": "سَمَاء",
+  "translit": "samā'",
+  "fr": "Ciel",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c085",
+  "ar": "بَحْر",
+  "translit": "baḥr",
+  "fr": "Mer",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c086",
+  "ar": "شَجَرَة",
+  "translit": "chajara",
+  "fr": "Arbre",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c087",
+  "ar": "وَرْدَة",
+  "translit": "warda",
+  "fr": "Rose / fleur",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c088",
+  "ar": "نَار",
+  "translit": "nār",
+  "fr": "Feu",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c089",
+  "ar": "جَبَل",
+  "translit": "jabal",
+  "fr": "Montagne",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c090",
+  "ar": "مَطَر",
+  "translit": "maṭar",
+  "fr": "Pluie",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c091",
+  "ar": "رِيح",
+  "translit": "rīḥ",
+  "fr": "Vent",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c092",
+  "ar": "أَرْض",
+  "translit": "arḍ",
+  "fr": "Terre / sol",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c093",
+  "ar": "صَحْرَاء",
+  "translit": "ṣaḥrā'",
+  "fr": "Désert",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c094",
+  "ar": "قِطّ",
+  "translit": "qiṭṭ",
+  "fr": "Chat",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c095",
+  "ar": "كَلْب",
+  "translit": "kalb",
+  "fr": "Chien",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c096",
+  "ar": "حِصَان",
+  "translit": "ḥiṣān",
+  "fr": "Cheval",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c097",
+  "ar": "جَمَل",
+  "translit": "jamal",
+  "fr": "Chameau",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c098",
+  "ar": "فِيل",
+  "translit": "fīl",
+  "fr": "Éléphant",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c099",
+  "ar": "أَسَد",
+  "translit": "asad",
+  "fr": "Lion",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c100",
+  "ar": "طَائِر",
+  "translit": "ṭā'ir",
+  "fr": "Oiseau",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c101",
+  "ar": "بَقَرَة",
+  "translit": "baqara",
+  "fr": "Vache",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c102",
+  "ar": "ذِئْب",
+  "translit": "dhi'b",
+  "fr": "Loup",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c103",
+  "ar": "نَحْلَة",
+  "translit": "naḥla",
+  "fr": "Abeille",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c104",
+  "ar": "وَاحِد",
+  "translit": "wāḥid",
+  "fr": "Un",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c105",
+  "ar": "اِثْنَان",
+  "translit": "ithnān",
+  "fr": "Deux",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c106",
+  "ar": "ثَلَاثَة",
+  "translit": "thalātha",
+  "fr": "Trois",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c107",
+  "ar": "أَرْبَعَة",
+  "translit": "arbaʿa",
+  "fr": "Quatre",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c108",
+  "ar": "خَمْسَة",
+  "translit": "khamsa",
+  "fr": "Cinq",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c109",
+  "ar": "سِتَّة",
+  "translit": "sitta",
+  "fr": "Six",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c110",
+  "ar": "سَبْعَة",
+  "translit": "sabʿa",
+  "fr": "Sept",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c111",
+  "ar": "ثَمَانِيَة",
+  "translit": "thamāniya",
+  "fr": "Huit",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c112",
+  "ar": "تِسْعَة",
+  "translit": "tisʿa",
+  "fr": "Neuf",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c113",
+  "ar": "عَشَرَة",
+  "translit": "ʿachara",
+  "fr": "Dix",
+  "theme": "nombres",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c114",
+  "ar": "أَحْمَر",
+  "translit": "aḥmar",
+  "fr": "Rouge",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c115",
+  "ar": "أَزْرَق",
+  "translit": "azraq",
+  "fr": "Bleu",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c116",
+  "ar": "أَخْضَر",
+  "translit": "akhḍar",
+  "fr": "Vert",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c117",
+  "ar": "أَبْيَض",
+  "translit": "abyaḍ",
+  "fr": "Blanc",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c118",
+  "ar": "أَسْوَد",
+  "translit": "aswad",
+  "fr": "Noir",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c119",
+  "ar": "أَصْفَر",
+  "translit": "aṣfar",
+  "fr": "Jaune",
+  "theme": "couleurs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c120",
+  "ar": "يَوْم",
+  "translit": "yawm",
+  "fr": "Jour",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c121",
+  "ar": "لَيْل",
+  "translit": "layl",
+  "fr": "Nuit",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c122",
+  "ar": "اَلْيَوْم",
+  "translit": "al-yawm",
+  "fr": "Aujourd'hui",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c123",
+  "ar": "غَدًا",
+  "translit": "ghadan",
+  "fr": "Demain",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c124",
+  "ar": "سَاعَة",
+  "translit": "sāʿa",
+  "fr": "Heure / montre",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c125",
+  "ar": "أَمْس",
+  "translit": "ams",
+  "fr": "Hier",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c126",
+  "ar": "أُسْبُوع",
+  "translit": "usbūʿ",
+  "fr": "Semaine",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c127",
+  "ar": "شَهْر",
+  "translit": "chahr",
+  "fr": "Mois",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c128",
+  "ar": "سَنَة",
+  "translit": "sana",
+  "fr": "Année",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c129",
+  "ar": "اَلْآن",
+  "translit": "al-ān",
+  "fr": "Maintenant",
+  "theme": "temps",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c130",
+  "ar": "مَدِينَة",
+  "translit": "madīna",
+  "fr": "Ville",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c131",
+  "ar": "مَدْرَسَة",
+  "translit": "madrasa",
+  "fr": "École",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c132",
+  "ar": "مَسْجِد",
+  "translit": "masjid",
+  "fr": "Mosquée",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c133",
+  "ar": "سُوق",
+  "translit": "sūq",
+  "fr": "Marché",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c134",
+  "ar": "شَارِع",
+  "translit": "chāriʿ",
+  "fr": "Rue",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c135",
+  "ar": "مَطْعَم",
+  "translit": "maṭʿam",
+  "fr": "Restaurant",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c136",
+  "ar": "عَمَل",
+  "translit": "ʿamal",
+  "fr": "Travail",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c137",
+  "ar": "مَال",
+  "translit": "māl",
+  "fr": "Argent",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c138",
+  "ar": "مُسْتَشْفَى",
+  "translit": "mustachfā",
+  "fr": "Hôpital",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c139",
+  "ar": "كَبِير",
+  "translit": "kabīr",
+  "fr": "Grand",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c140",
+  "ar": "صَغِير",
+  "translit": "ṣaghīr",
+  "fr": "Petit",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 1,
+  "rarityName": "commune"
+ },
+ {
+  "id": "c141",
+  "ar": "جَمِيل",
+  "translit": "jamīl",
+  "fr": "Beau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c142",
+  "ar": "جَدِيد",
+  "translit": "jadīd",
+  "fr": "Nouveau",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c143",
+  "ar": "قَدِيم",
+  "translit": "qadīm",
+  "fr": "Ancien",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c144",
+  "ar": "حَارّ",
+  "translit": "ḥārr",
+  "fr": "Chaud",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c145",
+  "ar": "بَارِد",
+  "translit": "bārid",
+  "fr": "Froid",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c146",
+  "ar": "سَعِيد",
+  "translit": "saʿīd",
+  "fr": "Heureux",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c147",
+  "ar": "طَوِيل",
+  "translit": "ṭawīl",
+  "fr": "Long / grand (taille)",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c148",
+  "ar": "سَرِيع",
+  "translit": "sarīʿ",
+  "fr": "Rapide",
+  "theme": "adjectifs",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c149",
+  "ar": "أَيْنَ؟",
+  "translit": "ayna ?",
+  "fr": "Où ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c150",
+  "ar": "مَنْ؟",
+  "translit": "man ?",
+  "fr": "Qui ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c151",
+  "ar": "مَاذَا؟",
+  "translit": "mādhā ?",
+  "fr": "Quoi ? / Qu'est-ce que ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c152",
+  "ar": "مَتَى؟",
+  "translit": "matā ?",
+  "fr": "Quand ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c153",
+  "ar": "كَمْ؟",
+  "translit": "kam ?",
+  "fr": "Combien ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c154",
+  "ar": "لِمَاذَا؟",
+  "translit": "limādhā ?",
+  "fr": "Pourquoi ?",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c155",
+  "ar": "هَلْ…؟",
+  "translit": "hal… ?",
+  "fr": "Est-ce que… ? (question oui/non)",
+  "theme": "questions",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c156",
+  "ar": "أُرِيدُ",
+  "translit": "urīdu",
+  "fr": "Je veux",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c157",
+  "ar": "أُحِبُّ",
+  "translit": "uḥibbu",
+  "fr": "J'aime",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c158",
+  "ar": "أَفْهَمُ",
+  "translit": "afhamu",
+  "fr": "Je comprends",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c159",
+  "ar": "آكُلُ",
+  "translit": "ākulu",
+  "fr": "Je mange",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c160",
+  "ar": "أَشْرَبُ",
+  "translit": "achrabu",
+  "fr": "Je bois",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c161",
+  "ar": "أَذْهَبُ",
+  "translit": "adhhabu",
+  "fr": "Je vais",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c162",
+  "ar": "أَعْرِفُ",
+  "translit": "aʿrifu",
+  "fr": "Je sais / je connais",
+  "theme": "verbes",
+  "kind": "mot",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c163",
+  "ar": "إِنْ شَاءَ اللّٰه",
+  "translit": "in chā'a llāh",
+  "fr": "Si Dieu le veut",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c164",
+  "ar": "اَلْحَمْدُ لِلّٰه",
+  "translit": "al-ḥamdu li-llāh",
+  "fr": "Dieu merci",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c165",
+  "ar": "بِسْمِ اللّٰه",
+  "translit": "bismi llāh",
+  "fr": "Au nom de Dieu",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c166",
+  "ar": "مَا شَاءَ اللّٰه",
+  "translit": "mā chā'a llāh",
+  "fr": "Formidable ! (ce que Dieu a voulu)",
+  "theme": "expressions",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c167",
+  "ar": "مَا اسْمُكَ؟",
+  "translit": "mā smuka ?",
+  "fr": "Comment t'appelles-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c168",
+  "ar": "اِسْمِي …",
+  "translit": "ismī …",
+  "fr": "Je m'appelle …",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c169",
+  "ar": "لَا أَفْهَمُ",
+  "translit": "lā afhamu",
+  "fr": "Je ne comprends pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c170",
+  "ar": "لَا أَعْرِفُ",
+  "translit": "lā aʿrifu",
+  "fr": "Je ne sais pas",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c171",
+  "ar": "أَنَا مِنْ فَرَنْسَا",
+  "translit": "anā min faransā",
+  "fr": "Je viens de France",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c172",
+  "ar": "مِنْ أَيْنَ أَنْتَ؟",
+  "translit": "min ayna anta ?",
+  "fr": "D'où viens-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c173",
+  "ar": "أَيْنَ الْحَمَّامُ؟",
+  "translit": "ayna l-ḥammām ?",
+  "fr": "Où sont les toilettes ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c174",
+  "ar": "كَمِ السِّعْرُ؟",
+  "translit": "kami s-siʿr ?",
+  "fr": "Combien ça coûte ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c175",
+  "ar": "أُرِيدُ كُوبَ مَاءٍ",
+  "translit": "urīdu kūba mā'in",
+  "fr": "Je veux un verre d'eau",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c176",
+  "ar": "أَنَا جَائِع",
+  "translit": "anā jā'iʿ",
+  "fr": "J'ai faim",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c177",
+  "ar": "أَنَا مُتْعَب",
+  "translit": "anā mutʿab",
+  "fr": "Je suis fatigué",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c178",
+  "ar": "هٰذَا كِتَابِي",
+  "translit": "hādhā kitābī",
+  "fr": "C'est mon livre",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c179",
+  "ar": "أَنَا أُحِبُّ الْقَهْوَةَ",
+  "translit": "anā uḥibbu l-qahwa",
+  "fr": "J'aime le café",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c180",
+  "ar": "اَلْبَيْتُ كَبِير",
+  "translit": "al-baytu kabīr",
+  "fr": "La maison est grande",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c181",
+  "ar": "اَلْمَاءُ بَارِد",
+  "translit": "al-mā'u bārid",
+  "fr": "L'eau est froide",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c182",
+  "ar": "عِنْدِي سُؤَال",
+  "translit": "ʿindī su'āl",
+  "fr": "J'ai une question",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c183",
+  "ar": "أَيْنَ تَسْكُنُ؟",
+  "translit": "ayna taskunu ?",
+  "fr": "Où habites-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c184",
+  "ar": "أَيْنَ الْمَحَطَّةُ؟",
+  "translit": "ayna l-maḥaṭṭa ?",
+  "fr": "Où est la gare ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c185",
+  "ar": "اَلْجَوُّ جَمِيلٌ الْيَوْمَ",
+  "translit": "al-jawwu jamīlun l-yawm",
+  "fr": "Il fait beau aujourd'hui",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c186",
+  "ar": "أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا",
+  "translit": "atakallamu l-ʿarabiyyata qalīlan",
+  "fr": "Je parle un peu arabe",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c187",
+  "ar": "هَلْ تَتَكَلَّمُ الْفَرَنْسِيَّةَ؟",
+  "translit": "hal tatakallamu l-faransiyya ?",
+  "fr": "Parles-tu français ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c188",
+  "ar": "سَاعِدْنِي مِنْ فَضْلِك",
+  "translit": "sāʿidnī min faḍlik",
+  "fr": "Aide-moi, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c189",
+  "ar": "أَعِدْ مِنْ فَضْلِك",
+  "translit": "aʿid min faḍlik",
+  "fr": "Répète, s'il te plaît",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c190",
+  "ar": "تَكَلَّمْ بِبُطْء",
+  "translit": "takallam bi-buṭ'",
+  "fr": "Parle lentement",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ },
+ {
+  "id": "c191",
+  "ar": "كُوب",
+  "translit": "kūb",
+  "fr": "Verre / tasse",
+  "theme": "maison",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c192",
+  "ar": "فَاكِهَة",
+  "translit": "fākiha",
+  "fr": "Fruit",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 2,
+  "rarityName": "peu commune"
+ },
+ {
+  "id": "c193",
+  "ar": "خُضَار",
+  "translit": "khuḍār",
+  "fr": "Légumes",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c194",
+  "ar": "زَيْت",
+  "translit": "zayt",
+  "fr": "Huile",
+  "theme": "nourriture",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c195",
+  "ar": "نَهْر",
+  "translit": "nahr",
+  "fr": "Fleuve / rivière",
+  "theme": "nature",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c196",
+  "ar": "فَأْر",
+  "translit": "fa'r",
+  "fr": "Souris",
+  "theme": "animaux",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c197",
+  "ar": "طَرِيق",
+  "translit": "ṭarīq",
+  "fr": "Route / chemin",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c198",
+  "ar": "مَحَطَّة",
+  "translit": "maḥaṭṭa",
+  "fr": "Gare / station",
+  "theme": "ville",
+  "kind": "mot",
+  "rarity": 3,
+  "rarityName": "rare"
+ },
+ {
+  "id": "c199",
+  "ar": "أَنَا عَطْشَان",
+  "translit": "anā ʿaṭchān",
+  "fr": "J'ai soif",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 4,
+  "rarityName": "épique"
+ },
+ {
+  "id": "c200",
+  "ar": "إِلَى أَيْنَ تَذْهَبُ؟",
+  "translit": "ilā ayna tadhhabu ?",
+  "fr": "Où vas-tu ?",
+  "theme": "phrases",
+  "kind": "phrase",
+  "rarity": 5,
+  "rarityName": "légendaire"
+ }
+]
