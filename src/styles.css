@@ -12,7 +12,9 @@
   --gold-soft: #e6cf8f;
   --good: #57c194;
   --bad: #e0675f;
-  --ar: 'Amiri', 'Noto Naskh Arabic', 'Geeza Pro', serif;
+  --ar: 'Noto Naskh Arabic', 'Geeza Pro', serif;
+  /* Amiri empile les lettres (ligatures calligraphiques) : réservée aux titres décoratifs. */
+  --ar-deco: 'Amiri', 'Noto Naskh Arabic', serif;
   --serif: 'Cormorant Garamond', 'Cormorant', Georgia, serif;
   --sans: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   color-scheme: dark;
@@ -1604,7 +1606,7 @@ p {
 }
 
 .fcard-callig span {
-  font-family: var(--ar);
+  font-family: var(--ar-deco);
   font-weight: 700;
   font-size: 11cqw;
   line-height: 1.6;
