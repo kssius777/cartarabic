@@ -1,4 +1,4 @@
-import { useEffect, useState, type CSSProperties } from 'react'
+import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Card, type Rarity } from './game/cards'
 import { FIGURE_BOOSTER_PRICE, FIGURES } from './game/figures'
@@ -16,6 +16,7 @@ import {
   type Save,
 } from './game/rules'
 import { clearSave, loadSave, requestPersistence, storeSave } from './game/storage'
+import { getSession, markChanged, pull, push, readSessionFromUrl } from './game/cloud'
 import { BackupScreen } from './screens/BackupScreen'
 import { StatsScreen } from './screens/StatsScreen'
 import { Binder } from './screens/Binder'
@@ -31,6 +32,8 @@ type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | '
 
 export default function App() {
   const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
+  const saveRef = useRef(save)
+  saveRef.current = save
   const [screen, setScreen] = useState<Screen>('home')
   const [levelMsg, setLevelMsg] = useState<string | null>(null)
   const [confirmReset, setConfirmReset] = useState(false)
@@ -38,7 +41,12 @@ export default function App() {
   const [reviewRound, setReviewRound] = useState(0)
   const [focus, setFocus] = useState<Card[] | null>(null)
 
+  // Partie modifiée ici et pas encore envoyée sur le compte.
+  const dirty = useRef(false)
+
   function setSave(next: Save) {
+    markChanged()
+    dirty.current = true
     const leveled = levelUp(rescue(next))
     if (leveled.level !== next.level && leveled.level) {
       setLevelMsg(`Niveau supérieur ! Les cartes ${RARITIES[leveled.level].name} arrivent dans tes boosters.`)
@@ -48,7 +56,31 @@ export default function App() {
 
   useEffect(() => {
     storeSave(save)
+    if (!dirty.current || !getSession()) return
+    // On regroupe les envois : une seconde et demie après la dernière réponse.
+    const t = setTimeout(() => {
+      dirty.current = false
+      push(save).catch(() => {
+        dirty.current = true
+      })
+    }, 1500)
+    return () => clearTimeout(t)
   }, [save])
+
+  // Compte : au retour du lien de connexion, au démarrage et quand on revient sur l'onglet, on récupère la partie du compte.
+  useEffect(() => {
+    readSessionFromUrl()
+    const sync = () => {
+      if (!getSession() || dirty.current) return
+      pull(saveRef.current)
+        .then((remote) => remote && setSaveState(remote))
+        .catch(() => {})
+    }
+    sync()
+    const onVisible = () => document.visibilityState === 'visible' && sync()
+    document.addEventListener('visibilitychange', onVisible)
+    return () => document.removeEventListener('visibilitychange', onVisible)
+  }, [])
   useEffect(() => {
     requestPersistence()
   }, [])
@@ -107,9 +139,10 @@ export default function App() {
       <BackupScreen
         save={save}
         onRestore={(s) => {
-          setSaveState(s)
+          setSave(s)
           home()
         }}
+        onCloud={(s) => setSaveState(s)}
         onExit={home}
       />
     )
@@ -256,7 +289,7 @@ export default function App() {
           Règles
         </button>
         <button className="btn ghost small" onClick={() => setScreen('backup')}>
-          Sauvegarde
+          Compte et sauvegarde
         </button>
         {confirmReset ? (
           <>
