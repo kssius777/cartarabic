@@ -185,13 +185,7 @@ export default function App() {
       </header>
       <div className="welcome">
         <p className="eyebrow">Ta collection</p>
-        <h1>
-          {s.owned === 0
-            ? 'Ouvre ton premier booster.'
-            : due > 0
-              ? `${due} carte${due > 1 ? 's' : ''} t’attendent.`
-              : 'Tout est à jour.'}
-        </h1>
+        <h1>{s.owned === 0 ? 'Ouvre ton premier booster.' : due > 0 ? 'C’est l’heure de réviser.' : 'Tout est à jour.'}</h1>
       </div>
 
       {s.owned === 0 && (
@@ -206,45 +200,49 @@ export default function App() {
         </div>
       )}
 
-      <section className="trainer" style={{ '--lvl': level.color } as CSSProperties}>
-        <div className="lvl-badge">
-          <b>{level.name}</b>
-          <small>{level.symbol}</small>
-        </div>
-        <div className="trainer-info">
-          <div className="trainer-head">
-            <b>Niveau {level.name}</b>
-            <span>{level.desc}</span>
+      <section className="overview" style={{ '--lvl': level.color } as CSSProperties}>
+        <div className="overview-level">
+          <div className="lvl-badge">
+            <b>{level.name}</b>
+            <small>{level.symbol}</small>
           </div>
-          {next ? (
-            <>
-              <div className="bar">
-                <div style={{ width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%`, background: next.color }} />
-              </div>
-              <small className="muted">
-                Vers {next.name} : {tierOwned}/{tierGoal} cartes {level.name}
-              </small>
-            </>
-          ) : (
-            <small className="muted">Niveau maximum atteint</small>
-          )}
+          <div className="trainer-info">
+            <div className="trainer-head">
+              <b>Niveau {level.name}</b>
+              <span>{level.desc}</span>
+            </div>
+            {next ? (
+              <>
+                <div className="bar">
+                  <div style={{ width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%`, background: next.color }} />
+                </div>
+                <small className="muted">
+                  Vers {next.name} : {tierOwned}/{tierGoal} cartes {level.name}
+                </small>
+              </>
+            ) : (
+              <small className="muted">Niveau maximum atteint</small>
+            )}
+          </div>
         </div>
+        <dl className="overview-stats">
+          <div>
+            <dt>Cartes</dt>
+            <dd>
+              {s.owned}
+              <small>/{s.total}</small>
+            </dd>
+          </div>
+          <div>
+            <dt>Brillantes</dt>
+            <dd>{s.brillant}</dd>
+          </div>
+          <div>
+            <dt>À travailler</dt>
+            <dd>{toWork}</dd>
+          </div>
+        </dl>
       </section>
-
-      <div className="chips">
-        <span>
-          🃏 <b>{s.owned}</b>/{s.total} cartes
-        </span>
-        <span>
-          ✨ <b>{s.brillant}</b> brillante{s.brillant > 1 ? 's' : ''}
-        </span>
-        <span className="gold-chip">
-          🪙 <b>{save.coins}</b> dinars
-        </span>
-        <span className={due > 0 ? 'hot' : ''}>
-          📖 <b>{due}</b> à revoir
-        </span>
-      </div>
 
       {showcase.length > 0 && (
         <div className="showcase" onClick={() => setScreen('binder')}>
@@ -256,50 +254,42 @@ export default function App() {
         </div>
       )}
 
-      <div className="menu tiles">
-        <button className="tile tile-booster" onClick={() => setScreen('booster')}>
-          <span className="tile-icon">🎁</span>
-          <span className="tile-text">
-            <b>Ouvrir un booster</b>
-            <small>10 cartes · illimité</small>
-          </span>
-          <span className="tile-shine" />
+      <div className="actions">
+        <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
+          <span aria-hidden>🎁</span> Ouvrir un booster
+        </button>
+        <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
+          <span aria-hidden>📖</span> Réviser
+          {due > 0 && <span className="action-count">{due}</span>}
+        </button>
+      </div>
+
+      <nav className="home-grid">
+        <button className="tile tile-binder" onClick={() => setScreen('binder')}>
+          <span className="tile-icon">🗂️</span>
+          <b>Classeur</b>
+          <small>Tes cartes par thème</small>
         </button>
         {LANG.figures && (
           <button className="tile tile-figures" onClick={() => setScreen('figures')}>
             <span className="tile-icon">🕌</span>
-            <span className="tile-text">
-              <b>Personnages</b>
-              <small>
-                {Object.keys(save.figures).length}/{FIGURES.length} · booster {FIGURE_BOOSTER_PRICE} 🪙
-              </small>
-            </span>
+            <b>Personnages</b>
+            <small>
+              {Object.keys(save.figures).length}/{FIGURES.length} · {FIGURE_BOOSTER_PRICE} 🪙
+            </small>
           </button>
         )}
-        <button className="tile tile-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
-          <span className="tile-icon">📖</span>
-          <span className="tile-text">
-            <b>Réviser</b>
-            <small>{due > 0 ? `${due} carte${due > 1 ? 's' : ''} à revoir` : 'Entraîne ta mémoire'}</small>
-          </span>
-        </button>
-        <button className="tile tile-binder" onClick={() => setScreen('binder')}>
-          <span className="tile-icon">🗂️</span>
-          <span className="tile-text">
-            <b>Mon classeur</b>
-            <small>
-              {s.owned} carte{s.owned > 1 ? 's' : ''}
-            </small>
-          </span>
-        </button>
         <button className="tile tile-stats" onClick={() => setScreen('stats')}>
           <span className="tile-icon">📊</span>
-          <span className="tile-text">
-            <b>Statistiques</b>
-            <small>{toWork > 0 ? `${toWork} carte${toWork > 1 ? 's' : ''} à travailler` : 'Ta progression en chiffres'}</small>
-          </span>
+          <b>Statistiques</b>
+          <small>Ta progression</small>
         </button>
-      </div>
+        <button className="tile tile-account" onClick={() => setScreen('backup')}>
+          <span className="tile-icon">☁️</span>
+          <b>Compte</b>
+          <small>Synchro et sauvegarde</small>
+        </button>
+      </nav>
 
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('landing')}>
@@ -307,9 +297,6 @@ export default function App() {
         </button>
         <button className="btn ghost small" onClick={() => setScreen('rules')}>
           Règles
-        </button>
-        <button className="btn ghost small" onClick={() => setScreen('backup')}>
-          Compte et sauvegarde
         </button>
         {confirmReset ? (
           <>
