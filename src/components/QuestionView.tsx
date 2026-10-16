@@ -4,7 +4,7 @@ import type { Question } from '../game/rules'
 import { GameCard, type Face } from './GameCard'
 import { LANG, TEXT_ATTRS } from '../game/lang'
 import { TargetText } from './TargetText'
-import { GeorgianAlphabet } from './GeorgianAlphabet'
+import { Alphabet } from './Alphabet'
 
 interface Props {
   question: Question
@@ -81,7 +81,7 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
           </button>
         </div>
       )}
-      {LANG.id === 'ka' && <GeorgianAlphabet />}
+      <Alphabet />
     </div>
   )
 }
