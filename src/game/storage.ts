@@ -1,5 +1,5 @@
 import { CARD_BY_ID, type Rarity } from './cards'
-import { LANG } from './lang'
+import { LANG, LANGS } from './lang'
 import { FIGURE_BY_ID } from './figures'
 import { newSave, START_COINS, type History, type Owned, type Save, type Tally } from './rules'
 
@@ -87,6 +87,19 @@ export function loadSave(): Save {
     // Stockage indisponible ou sauvegarde illisible : on repart d'une partie neuve.
   }
   return newSave()
+}
+
+/** Vrai si une partie existe déjà dans une autre langue : ce n'est pas une première visite. */
+export function playedOtherLang(): boolean {
+  return Object.values(LANGS).some((l) => {
+    if (l.id === LANG.id) return false
+    try {
+      const raw = localStorage.getItem(l.saveKey)
+      return !!raw && !!JSON.parse(raw).level
+    } catch {
+      return false
+    }
+  })
 }
 
 export function storeSave(save: Save) {

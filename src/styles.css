@@ -3020,3 +3020,15 @@ html[data-lang='ka'] .gcard-ar {
   color: var(--ink);
   font: 1rem var(--sans);
 }
+
+.placement-offer {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.placement-offer b {
+  color: var(--gold);
+}

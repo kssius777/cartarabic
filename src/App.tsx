@@ -14,8 +14,9 @@ import {
   rescue,
   stats,
   type Save,
+  START_BOOSTERS,
 } from './game/rules'
-import { clearSave, loadSave, requestPersistence, storeSave } from './game/storage'
+import { clearSave, loadSave, playedOtherLang, requestPersistence, storeSave } from './game/storage'
 import { getSession, markChanged, pull, push, readSessionFromUrl } from './game/cloud'
 import { BackupScreen } from './screens/BackupScreen'
 import { StatsScreen } from './screens/StatsScreen'
@@ -28,10 +29,14 @@ import { Placement } from './screens/Placement'
 import { FiguresScreen } from './screens/FiguresScreen'
 import { ReviewScreen } from './screens/ReviewScreen'
 
-type Screen = 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing' | 'backup' | 'stats'
+type Screen = 'placement' | 'home' | 'booster' | 'review' | 'binder' | 'rules' | 'figures' | 'landing' | 'backup' | 'stats'
 
 export default function App() {
-  const [save, setSaveState] = useState<Save>(() => rescue(loadSave()))
+  // Nouvelle langue pour quelqu'un qui joue déjà : on arrive directement sur le jeu, le test de niveau reste proposé.
+  const [save, setSaveState] = useState<Save>(() => {
+    const s = loadSave()
+    return rescue(!s.level && playedOtherLang() ? { ...s, level: 1, boosters: START_BOOSTERS } : s)
+  })
   const saveRef = useRef(save)
   saveRef.current = save
   const [screen, setScreen] = useState<Screen>('home')
@@ -98,6 +103,16 @@ export default function App() {
   if (!save.level) {
     return <Placement onDone={(results) => setSave(applyPlacement(save, results, Date.now()))} />
   }
+  if (screen === 'placement')
+    return (
+      <Placement
+        onDone={(results) => {
+          // Le test ne redonne pas de boosters : on garde ceux de départ.
+          setSave({ ...applyPlacement(save, results, Date.now()), boosters: save.boosters })
+          setScreen('home')
+        }}
+      />
+    )
   if (screen === 'booster') return <BoosterScreen save={save} setSave={setSave} onExit={home} />
   if (screen === 'review')
     return (
@@ -179,6 +194,11 @@ export default function App() {
         </h1>
       </div>
 
+      {s.owned === 0 && (
+        <button className="banner placement-offer" onClick={() => setScreen('placement')}>
+          Tu connais déjà un peu {LANG.the} ? <b>Fais le test de niveau</b> pour commencer au bon niveau.
+        </button>
+      )}
       {hasWon(save) && <div className="banner">🏆 Collection complète et brillante ! Tu as gagné.</div>}
       {levelMsg && (
         <div className="banner" onClick={() => setLevelMsg(null)}>
