@@ -45,7 +45,7 @@ export function Landing({ onStart, returning }: Props) {
     <div className="landing">
       <nav className="lnav">
         <span className="brand">
-          Cartarabic <span {...TEXT_ATTRS}>{LANG.brand}</span>
+          Polyglot <span {...TEXT_ATTRS}>{LANG.brand}</span>
         </span>
         <span className="lnav-right">
           <LangPicker />
@@ -174,7 +174,7 @@ export function Landing({ onStart, returning }: Props) {
       </section>
 
       <footer className="lfoot">
-        <span>Cartarabic</span>
+        <span>Polyglot</span>
         <span>
           {LANG.figures
             ? 'Arabe littéraire (fuṣḥā) · photos des personnages : Wikipédia et Wikimedia Commons'

@@ -128,7 +128,7 @@ export default function App() {
     <div className="screen center home">
       <header className="appbar">
         <span className="brand">
-          Cartarabic <span {...TEXT_ATTRS}>{LANG.brand}</span>
+          Polyglot <span {...TEXT_ATTRS}>{LANG.brand}</span>
         </span>
         <span className="appbar-right">
           <LangPicker />

@@ -61,7 +61,7 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
             <div className="pack-top" />
             <div className="pack-body">
               <span {...TEXT_ATTRS}>{LANG.glyph}</span>
-              <b>Cartarabic</b>
+              <b>Polyglot</b>
               <small>Touche pour ouvrir</small>
             </div>
           </button>

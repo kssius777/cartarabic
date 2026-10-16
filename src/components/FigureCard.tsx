@@ -105,7 +105,7 @@ export function FigureCard({ figure, width = '220px', copies, onClick, french = 
             </div>
           )}
           <div className="fcard-foot" dir="ltr">
-            <span>Cartarabic · {ar ? 'شَخْصِيَّات' : 'Personnages'}</span>
+            <span>Polyglot · {ar ? 'شَخْصِيَّات' : 'Personnages'}</span>
             <span className="fcard-rarity">
               {number}/{FIGURES.length} {SYMBOL[figure.rarity]}
             </span>

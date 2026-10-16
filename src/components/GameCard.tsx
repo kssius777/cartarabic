@@ -125,7 +125,7 @@ export function CardBack() {
       <div className="backside-ring">
         <span {...TEXT_ATTRS}>{LANG.glyph}</span>
       </div>
-      <div className="backside-title">Cartarabic</div>
+      <div className="backside-title">Polyglot</div>
     </div>
   )
 }

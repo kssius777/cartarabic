@@ -2906,3 +2906,87 @@ html[data-lang='ka'] .gcard-ar {
     display: none;
   }
 }
+
+/* Alphabet géorgien : à côté de la carte sur grand écran, en dessous sur téléphone */
+.question {
+  position: relative;
+}
+.abc-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 4px;
+}
+.abc-grid li {
+  display: grid;
+  grid-template-columns: 1.6em auto;
+  grid-template-rows: auto auto;
+  column-gap: 8px;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.abc-grid b {
+  grid-row: 1 / 3;
+  font-family: 'Noto Serif Georgian', serif;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  color: var(--ink);
+  text-align: center;
+}
+.abc-grid span {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--gold-soft);
+}
+.abc-grid small {
+  font-size: 0.68rem;
+  color: var(--muted);
+  line-height: 1.1;
+}
+.abc-side {
+  display: none;
+}
+.abc-below {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+.abc-below .abc-grid {
+  grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+}
+.abc-title {
+  margin: 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+@media (min-width: 1000px) {
+  .abc-below {
+    display: none;
+  }
+  .abc-side {
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 190px;
+  }
+  .abc-side .abc-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .abc-left {
+    right: calc(100% + 24px);
+  }
+  .abc-right {
+    left: calc(100% + 24px);
+  }
+}
+.abc-grid li:not(:has(small)) span {
+  grid-row: 1 / 3;
+}
