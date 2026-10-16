@@ -1,23 +1,30 @@
 :root {
-  /* Nuit d'encre, ivoire et or : une palette retenue, inspirée des manuscrits enluminés. */
-  --bg: #0c0e13;
-  --bg2: #12151c;
-  --surface: #161a22;
-  --ink: #f2ece0;
-  --muted: #9d978a;
-  --panel: rgba(242, 236, 224, 0.04);
-  --line: rgba(242, 236, 224, 0.1);
-  --primary: #2f8f77;
-  --gold: #c9a24c;
-  --gold-soft: #e6cf8f;
-  --good: #57c194;
-  --bad: #e0675f;
+  /* Thème clair : papier ivoire, encre brune, or discret, et une couleur par langue. */
+  --bg: #f6f2ea;
+  --bg2: #efe9dd;
+  --surface: #fffdf9;
+  --ink: #1f1c17;
+  --ink-soft: #4b463d;
+  --muted: #7b7468;
+  --panel: rgba(31, 28, 23, 0.035);
+  --line: rgba(31, 28, 23, 0.11);
+  --line-strong: rgba(31, 28, 23, 0.22);
+  --primary: #1f1c17;
+  --on-primary: #fffdf9;
+  --gold: #a07a24;
+  --gold-soft: #8a6719;
+  --gold-tint: rgba(176, 134, 40, 0.1);
+  --good: #23845a;
+  --bad: #c2453c;
+  --lang: #1f7a64;
+  --lang-tint: rgba(31, 122, 100, 0.08);
+  --shadow: 0 1px 2px rgba(31, 28, 23, 0.05), 0 6px 18px -10px rgba(31, 28, 23, 0.18);
   --ar: 'Noto Naskh Arabic', 'Geeza Pro', serif;
   /* Amiri empile les lettres (ligatures calligraphiques) : réservée aux titres décoratifs. */
   --ar-deco: 'Amiri', 'Noto Naskh Arabic', serif;
   --serif: 'Cormorant Garamond', 'Cormorant', Georgia, serif;
   --sans: 'Inter Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 * {
@@ -31,12 +38,16 @@ body {
 }
 
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
   color: var(--ink);
   background:
     radial-gradient(circle at 20% 0%, rgba(47, 143, 119, 0.35), transparent 50%),
-    radial-gradient(circle at 100% 100%, rgba(245, 197, 66, 0.15), transparent 45%),
-    var(--bg);
+    radial-gradient(circle at 100% 100%, rgba(245, 197, 66, 0.15), transparent 45%), var(--bg);
   background-attachment: fixed;
   -webkit-tap-highlight-color: transparent;
 }
@@ -112,7 +123,9 @@ p {
   border-radius: 14px;
   padding: 10px 18px;
   cursor: pointer;
-  transition: transform 0.1s, background 0.2s;
+  transition:
+    transform 0.1s,
+    background 0.2s;
 }
 
 .btn:active:not(:disabled) {
@@ -349,8 +362,7 @@ p {
   padding: 14px;
   border-radius: 18px;
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--lvl) 28%, transparent), transparent 60%),
-    rgba(255, 255, 255, 0.06);
+    linear-gradient(135deg, color-mix(in srgb, var(--lvl) 28%, transparent), transparent 60%), rgba(255, 255, 255, 0.06);
   border: 1px solid color-mix(in srgb, var(--lvl) 55%, transparent);
   text-align: left;
 }
@@ -486,7 +498,9 @@ p {
   gap: 12px;
   text-align: left;
   cursor: pointer;
-  transition: transform 0.12s, border-color 0.2s;
+  transition:
+    transform 0.12s,
+    border-color 0.2s;
   touch-action: manipulation;
 }
 
@@ -605,7 +619,10 @@ p {
   align-items: center;
   justify-content: center;
   gap: 2px;
-  transition: background 0.2s, border-color 0.2s, opacity 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    opacity 0.2s;
 }
 
 .choice:hover:not(:disabled) {
@@ -796,7 +813,9 @@ p {
   place-items: center;
   font-size: 5.4cqw;
   background: var(--theme);
-  box-shadow: inset 0 -0.8cqw 0 rgba(0, 0, 0, 0.2), 0 0 0 0.8cqw rgba(255, 255, 255, 0.8);
+  box-shadow:
+    inset 0 -0.8cqw 0 rgba(0, 0, 0, 0.2),
+    0 0 0 0.8cqw rgba(255, 255, 255, 0.8);
 }
 
 .gcard-art {
@@ -815,7 +834,10 @@ p {
     radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.2) 0 14%, transparent 15%),
     conic-gradient(from 45deg, rgba(255, 255, 255, 0.1) 0 25%, transparent 0 50%, rgba(255, 255, 255, 0.1) 0 75%, transparent 0),
     radial-gradient(circle at 50% 120%, rgba(255, 255, 255, 0.5), transparent 60%);
-  background-size: 14cqw 14cqw, 14cqw 14cqw, 100% 100%;
+  background-size:
+    14cqw 14cqw,
+    14cqw 14cqw,
+    100% 100%;
 }
 
 .gcard-ar {
@@ -933,8 +955,12 @@ p {
   background:
     linear-gradient(115deg, transparent 25%, rgba(255, 255, 255, 0.7) 45%, transparent 60%),
     linear-gradient(125deg, #ff9a9e88, #fad0c488, #a1c4fd88, #c2e9fb88, #d4fc7988, #ff9a9e88);
-  background-size: 250% 100%, 300% 300%;
-  animation: shine 3.5s infinite, holo 6s linear infinite;
+  background-size:
+    250% 100%,
+    300% 300%;
+  animation:
+    shine 3.5s infinite,
+    holo 6s linear infinite;
   mix-blend-mode: color-dodge;
   opacity: 0.7;
 }
@@ -950,7 +976,9 @@ p {
 
 @keyframes holo {
   to {
-    background-position: -50% 0, 300% 300%;
+    background-position:
+      -50% 0,
+      300% 300%;
   }
 }
 
@@ -1249,7 +1277,6 @@ p {
   margin-top: 16px;
 }
 
-
 /* ---------- Personnages ---------- */
 
 .gold-chip {
@@ -1267,8 +1294,7 @@ p {
   grid-column: 1 / -1;
   border-color: rgba(245, 197, 66, 0.55);
   background:
-    radial-gradient(circle at 90% 50%, rgba(245, 197, 66, 0.25), transparent 55%),
-    linear-gradient(135deg, #0f5e4a, #0b3d33);
+    radial-gradient(circle at 90% 50%, rgba(245, 197, 66, 0.25), transparent 55%), linear-gradient(135deg, #0f5e4a, #0b3d33);
 }
 
 .coins {
@@ -1856,7 +1882,6 @@ p {
   line-height: 1.9;
 }
 
-
 /* =====================================================================
    Design system v2 : typographie éditoriale, surfaces sobres, or discret.
    ===================================================================== */
@@ -1867,8 +1892,7 @@ body {
   letter-spacing: -0.005em;
   background:
     radial-gradient(1200px 600px at 50% -10%, rgba(201, 162, 76, 0.09), transparent 60%),
-    radial-gradient(800px 500px at 100% 100%, rgba(47, 143, 119, 0.08), transparent 60%),
-    var(--bg);
+    radial-gradient(800px 500px at 100% 100%, rgba(47, 143, 119, 0.08), transparent 60%), var(--bg);
   background-attachment: fixed;
 }
 
@@ -2160,8 +2184,7 @@ h3 {
 
 .tile-figures {
   background:
-    radial-gradient(circle at 90% 50%, rgba(201, 162, 76, 0.16), transparent 55%),
-    linear-gradient(135deg, #10322b, #0d211d);
+    radial-gradient(circle at 90% 50%, rgba(201, 162, 76, 0.16), transparent 55%), linear-gradient(135deg, #10322b, #0d211d);
   border-color: rgba(201, 162, 76, 0.35);
 }
 
@@ -2400,9 +2423,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background:
-    radial-gradient(600px 300px at 50% 0%, rgba(201, 162, 76, 0.18), transparent 70%),
-    var(--surface);
+  background: radial-gradient(600px 300px at 50% 0%, rgba(201, 162, 76, 0.18), transparent 70%), var(--surface);
   border: 1px solid var(--line);
 }
 
@@ -2544,7 +2565,11 @@ h3 {
   border: 1px solid var(--line);
   background: var(--surface);
   color: var(--ink);
-  font: 0.8rem/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+  font:
+    0.8rem/1.4 ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    monospace;
   resize: vertical;
   word-break: break-all;
 }
@@ -2679,7 +2704,7 @@ h3 {
 }
 .day-ok {
   width: 100%;
-  background: var(--primary);
+  background: var(--good);
 }
 .level-row {
   display: grid;
@@ -3039,4 +3064,287 @@ html[data-lang='ka'] .gcard-ar {
 }
 .placement-offer b {
   color: var(--gold);
+}
+
+/* =====================================================================
+   Thème clair (v3) : plus lumineux, plus compact, boutons plus discrets.
+   Les cartes elles-mêmes ne changent pas.
+   ===================================================================== */
+
+html[data-lang='ru'] {
+  --lang: #a8353a;
+  --lang-tint: rgba(168, 53, 58, 0.07);
+}
+html[data-lang='ka'] {
+  --lang: #84365f;
+  --lang-tint: rgba(132, 54, 95, 0.07);
+}
+
+body {
+  color: var(--ink);
+  background: radial-gradient(900px 420px at 50% -120px, var(--lang-tint), transparent 70%), var(--bg);
+  background-attachment: fixed;
+}
+
+/* Boutons */
+.btn {
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 0.92rem;
+  border-color: var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+.btn:hover:not(:disabled) {
+  border-color: var(--line-strong);
+}
+.btn.primary {
+  background: var(--primary);
+  color: var(--on-primary);
+  border-color: transparent;
+}
+.btn.primary:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--primary) 85%, var(--lang));
+}
+.btn.gold {
+  background: var(--gold);
+  color: #fffdf9;
+  box-shadow: none;
+  border-color: transparent;
+}
+.btn.ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--muted);
+}
+.btn.ghost:hover:not(:disabled) {
+  color: var(--ink);
+  border-color: transparent;
+}
+.btn.big {
+  padding: 11px 18px;
+  font-size: 0.95rem;
+}
+.btn.small {
+  padding: 5px 10px;
+  font-size: 0.85rem;
+}
+.btn.translate {
+  border-color: var(--line);
+}
+.btn.translate.on {
+  background: var(--gold-tint);
+  border-color: var(--gold);
+}
+.chip.on {
+  background: var(--ink);
+  color: var(--on-primary);
+}
+.badge {
+  background: var(--panel);
+}
+.bar {
+  background: rgba(31, 28, 23, 0.08);
+}
+.modal {
+  background: rgba(31, 28, 23, 0.35);
+  backdrop-filter: blur(4px);
+}
+.lang-sheet {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 20px 50px -20px rgba(31, 28, 23, 0.35);
+}
+.banner {
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--gold);
+  box-shadow: var(--shadow);
+}
+.choice {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+}
+.choice.right {
+  background: color-mix(in srgb, var(--good) 14%, var(--surface));
+  border-color: var(--good);
+}
+.choice.wrong {
+  background: color-mix(in srgb, var(--bad) 12%, var(--surface));
+  border-color: var(--bad);
+}
+
+/* Accueil de l'application */
+.home {
+  gap: 16px;
+}
+.appbar-coins {
+  color: var(--gold-soft);
+  border-color: color-mix(in srgb, var(--gold) 40%, transparent);
+  background: var(--surface);
+  padding: 5px 11px;
+}
+.welcome h1 {
+  font-size: clamp(1.8rem, 6vw, 2.3rem);
+}
+.welcome .eyebrow,
+.home .eyebrow {
+  color: var(--lang);
+}
+.trainer {
+  background: var(--surface);
+  border-color: var(--line);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+}
+.lvl-badge {
+  width: 50px;
+  height: 50px;
+}
+.chips span {
+  background: var(--surface);
+  border-color: var(--line);
+  color: var(--ink-soft);
+}
+.chips .hot {
+  border-color: color-mix(in srgb, var(--gold) 55%, transparent);
+  background: var(--gold-tint);
+  color: var(--gold-soft);
+}
+.showcase::before {
+  background: radial-gradient(ellipse, rgba(176, 134, 40, 0.16), transparent 70%);
+}
+
+.tiles {
+  gap: 10px;
+}
+.tile {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: var(--shadow);
+  color: var(--ink);
+}
+.tile:hover:not(:disabled) {
+  border-color: var(--line-strong);
+}
+.tile-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--panel);
+  font-size: 1.15rem;
+}
+.tile-text b {
+  font-family: var(--sans);
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+.tile-text small {
+  color: var(--muted);
+  opacity: 1;
+}
+.tile-booster {
+  color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--gold) 45%, transparent);
+  background:
+    radial-gradient(circle at 92% 0%, rgba(214, 170, 70, 0.22), transparent 55%), linear-gradient(135deg, #fff8e6, #f6e6bd);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+}
+.tile-booster .tile-icon {
+  width: 42px;
+  height: 42px;
+  font-size: 1.4rem;
+  background: rgba(255, 255, 255, 0.7);
+}
+.tile-booster .tile-text b {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+}
+.tile-shine {
+  background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.7) 50%, transparent 65%);
+}
+.tile-figures {
+  background: radial-gradient(circle at 95% 50%, rgba(31, 122, 100, 0.1), transparent 60%), var(--surface);
+  border-color: var(--line);
+}
+.tile-review {
+  background: var(--surface);
+  border-color: var(--line);
+}
+.foot-links .btn {
+  color: var(--muted);
+}
+
+/* Page de présentation */
+.landing .lhero {
+  padding: 56px 0 48px;
+}
+.lhero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+}
+.lhero h1 em,
+.lhero .eyebrow {
+  color: var(--lang);
+}
+.lead,
+.lsteps p {
+  color: var(--ink-soft);
+}
+.lfacts b {
+  font-size: 2.2rem;
+}
+.lfacts div {
+  padding: 22px 18px;
+}
+.lsteps article,
+.llevels div {
+  box-shadow: var(--shadow);
+}
+.lfinal {
+  background: radial-gradient(600px 300px at 50% 0%, var(--lang-tint), transparent 70%), var(--surface);
+  padding: 56px 24px;
+}
+.lfinal-ar {
+  color: var(--lang);
+}
+
+/* Autres écrans */
+.rules p {
+  color: var(--ink-soft);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.slot {
+  border-color: var(--line-strong);
+  background: var(--panel);
+}
+.stat.hot {
+  border-color: color-mix(in srgb, var(--gold) 50%, transparent);
+}
+.account {
+  border-color: color-mix(in srgb, var(--gold) 40%, transparent);
+}
+.gold-chip {
+  border-color: color-mix(in srgb, var(--gold) 55%, transparent) !important;
+  background: var(--gold-tint) !important;
+}
+.lang-btn,
+.lang-option {
+  background: var(--surface);
+}
+.lang-option.on {
+  border-color: var(--lang);
+}
+.day-bar {
+  background: color-mix(in srgb, var(--bad) 30%, transparent);
+}
+.lhero-langs {
+  margin-top: 14px;
 }
