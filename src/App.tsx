@@ -254,6 +254,16 @@ export default function App() {
         <h1>{s.owned === 0 ? 'Ouvre ton premier booster.' : due > 0 ? 'C’est l’heure de réviser.' : 'Tout est à jour.'}</h1>
       </div>
 
+      <div className="actions">
+        <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
+          <span aria-hidden>🎁</span> Ouvrir un booster
+        </button>
+        <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
+          <span aria-hidden>📖</span> Réviser
+          {due > 0 && <span className="action-count">{due}</span>}
+        </button>
+      </div>
+
       {s.owned === 0 && (
         <button className="banner placement-offer" onClick={() => setScreen('placement')}>
           Tu connais déjà un peu {LANG.the} ? <b>Fais le test de niveau</b> pour commencer au bon niveau.
@@ -340,16 +350,6 @@ export default function App() {
           ))}
         </div>
       )}
-
-      <div className="actions">
-        <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
-          <span aria-hidden>🎁</span> Ouvrir un booster
-        </button>
-        <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
-          <span aria-hidden>📖</span> Réviser
-          {due > 0 && <span className="action-count">{due}</span>}
-        </button>
-      </div>
 
       <nav className="home-grid">
         <button className="tile tile-binder" onClick={() => setScreen('binder')}>
