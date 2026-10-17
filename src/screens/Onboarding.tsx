@@ -5,7 +5,7 @@ import { applyPlacement, START_BOOSTERS, type PlacementResult, type Save } from 
 import { GOALS } from '../game/storage'
 import { Placement } from './Placement'
 
-type Step = 'welcome' | 'lang' | 'reason' | 'goal' | 'level' | 'test'
+type Step = 'lang' | 'reason' | 'goal' | 'level' | 'test'
 
 const STEP_KEY = 'polyglot-onboarding-step'
 
@@ -53,12 +53,12 @@ interface Props {
 
 /** L'accueil des nouveaux : la langue, la motivation, l'objectif du jour, le niveau, puis un premier booster. */
 export function Onboarding({ save, returning, onDone, onAccount, onLanding }: Props) {
-  const [step, setStep] = useState<Step>(() => savedStep() ?? (returning ? 'reason' : 'welcome'))
+  const [step, setStep] = useState<Step>(() => savedStep() ?? (returning ? 'reason' : 'lang'))
   const [reason, setReason] = useState('')
   const [goal, setGoal] = useState(20)
 
-  const order: Step[] = ['welcome', 'lang', 'reason', 'goal', 'level']
-  const progress = Math.max(0, order.indexOf(step === 'test' ? 'level' : step)) / (order.length - 1)
+  const order: Step[] = ['lang', 'reason', 'goal', 'level']
+  const progress = (order.indexOf(step === 'test' ? 'level' : step) + 1) / order.length
 
   function back() {
     const i = order.indexOf(step === 'test' ? 'level' : step)
@@ -97,48 +97,22 @@ export function Onboarding({ save, returning, onDone, onAccount, onLanding }: Pr
 
   return (
     <div className="screen onb">
-      {step !== 'welcome' && (
-        <header className="onb-top">
-          <button className="onb-back" onClick={back} aria-label="Retour" disabled={returning && step === 'reason'}>
-            ←
-          </button>
-          <div className="bar onb-bar">
-            <div style={{ width: `${progress * 100}%` }} />
-          </div>
-        </header>
-      )}
-
-      {step === 'welcome' && (
-        <section className="onb-welcome">
-          <div className="onb-flags" aria-hidden>
-            {Object.values(LANGS).map((l) => (
-              <span key={l.id}>{l.flag}</span>
-            ))}
-          </div>
-          <h1>
-            Apprends une langue,
-            <br />
-            <em>une carte à la fois.</em>
-          </h1>
-          <p className="onb-lead">
-            Arabe, russe, géorgien ou chinois : ouvre des boosters, gagne des cartes en les comprenant, garde-les en les révisant.
-          </p>
-          <div className="onb-actions">
-            <button className="btn primary big" onClick={() => setStep('lang')}>
-              C'est parti
-            </button>
-            <button className="btn big" onClick={onAccount}>
-              J'ai déjà un compte
-            </button>
-            <button className="btn ghost" onClick={onLanding}>
-              Découvrir Polyglot
-            </button>
-          </div>
-        </section>
-      )}
+      <header className="onb-top">
+        <button
+          className="onb-back"
+          onClick={back}
+          aria-label="Retour"
+          disabled={step === 'lang' || (returning && step === 'reason')}
+        >
+          ←
+        </button>
+        <div className="bar onb-bar">
+          <div style={{ width: `${progress * 100}%` }} />
+        </div>
+      </header>
 
       {step === 'lang' && (
-        <Ask text="Quelle langue veux-tu apprendre ?">
+        <Ask text="Salut ! Quelle langue veux-tu apprendre ?">
           <div className="onb-grid">
             {Object.values(LANGS).map((l) => (
               <button key={l.id} className={`onb-option big ${l.id === LANG.id ? 'on' : ''}`} onClick={() => pickLang(l.id)}>
@@ -149,6 +123,15 @@ export function Onboarding({ save, returning, onDone, onAccount, onLanding }: Pr
                 </small>
               </button>
             ))}
+          </div>
+          <p className="onb-lead">Ouvre des boosters, gagne des cartes en les comprenant, garde-les en les révisant.</p>
+          <div className="onb-links">
+            <button className="btn ghost" onClick={onAccount}>
+              J'ai déjà un compte
+            </button>
+            <button className="btn ghost" onClick={onLanding}>
+              Découvrir Polyglot
+            </button>
           </div>
         </Ask>
       )}

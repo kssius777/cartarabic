@@ -1,18 +1,4 @@
-import {
-  BookOpen,
-  ChartColumn,
-  Coins,
-  Flame,
-  GraduationCap,
-  Landmark,
-  Layers,
-  LibraryBig,
-  PackageOpen,
-  RotateCcw,
-  Target,
-  Trophy,
-  UserRound,
-} from 'lucide-react'
+import { BookOpen, ChartColumn, Coins, Landmark, LibraryBig, Trophy, UserRound } from 'lucide-react'
 import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Card, type Rarity } from './game/cards'
@@ -266,23 +252,72 @@ export default function App() {
           </button>
         </span>
       </header>
-      <div className="dash-head">
-        <div className="dash-title">
-          <p className="dash-date">
-            {new Date().toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })}
+      <section className="hero">
+        <div className="hero-glow" aria-hidden />
+        <div className="hero-main">
+          <p className="hero-kicker">
+            Niveau {level.name} · {level.desc}
           </p>
-          <h1>{s.owned === 0 ? 'Ouvre ton premier booster' : due > 0 ? 'C’est l’heure de réviser' : 'Tout est à jour'}</h1>
+          <h1>
+            {s.owned === 0 ? (
+              'Ta collection t’attend'
+            ) : due > 0 ? (
+              <>
+                <span className="hero-num">{fr(due)}</span> carte{due > 1 ? 's' : ''} à réviser
+              </>
+            ) : (
+              'Tout est révisé'
+            )}
+          </h1>
+          <p className="hero-sub">
+            {s.owned === 0
+              ? 'Ouvre un booster pour gagner tes premières cartes.'
+              : due > 0
+                ? 'Revois-les maintenant pour ne pas les perdre.'
+                : 'Ouvre un booster pour gagner de nouvelles cartes.'}
+          </p>
+          <div className="hero-actions">
+            {due > 0 ? (
+              <>
+                <button className="hero-cta action-review" onClick={() => setScreen('review')}>
+                  <BookOpen size={20} aria-hidden /> Réviser
+                </button>
+                <button className="hero-alt action-booster" onClick={() => setScreen('booster')}>
+                  <span className="hero-foil" aria-hidden /> Ouvrir un booster
+                </button>
+              </>
+            ) : (
+              <>
+                <button className="hero-cta action-booster" onClick={() => setScreen('booster')}>
+                  <span className="hero-foil" aria-hidden /> Ouvrir un booster
+                </button>
+                {s.owned > 0 && (
+                  <button className="hero-alt action-review" onClick={() => setScreen('review')}>
+                    <BookOpen size={18} aria-hidden /> Réviser quand même
+                  </button>
+                )}
+              </>
+            )}
+          </div>
         </div>
-        <div className="actions">
-          <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
-            <PackageOpen size={18} aria-hidden /> Ouvrir un booster
-          </button>
-          <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
-            <BookOpen size={18} aria-hidden /> Réviser
-            {due > 0 && <span className="action-count">{fr(due)}</span>}
-          </button>
+        <div className="hero-goal" title="Objectif du jour">
+          <svg viewBox="0 0 44 44" aria-hidden>
+            <circle cx="22" cy="22" r="19" className="ring-bg" />
+            <circle
+              cx="22"
+              cy="22"
+              r="19"
+              className="ring-fg"
+              strokeDasharray={`${Math.min(1, today / save.goal) * 119.4} 119.4`}
+            />
+          </svg>
+          <b>
+            {Math.min(today, save.goal)}
+            <small>/{save.goal}</small>
+          </b>
+          <span>{today >= save.goal ? 'Objectif atteint' : 'Objectif du jour'}</span>
         </div>
-      </div>
+      </section>
 
       {s.owned === 0 && (
         <button className="banner placement-offer" onClick={() => setScreen('placement')}>
@@ -296,115 +331,46 @@ export default function App() {
         </div>
       )}
 
-      <section className="kpis">
-        <div className="kpi">
-          <span className="kpi-icon">
-            <GraduationCap size={18} aria-hidden />
-          </span>
-          <span className="kpi-label">Niveau</span>
-          <b className="kpi-value">
-            {level.name} <small>{level.desc}</small>
-          </b>
-          {next ? (
-            <>
-              <div className="kpi-bar">
-                <div style={{ width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%` }} />
-              </div>
-              <span className="kpi-sub">
-                {tierOwned}/{tierGoal} cartes vers {next.name}
-              </span>
-            </>
-          ) : (
-            <span className="kpi-sub">Niveau maximum atteint</span>
-          )}
-        </div>
-        <div className="kpi">
-          <span className="kpi-icon">
-            {today >= save.goal ? <Flame size={18} aria-hidden /> : <Target size={18} aria-hidden />}
-          </span>
-          <span className="kpi-label">Objectif du jour</span>
-          <b className="kpi-value">
-            {Math.min(today, save.goal)} <small>/ {save.goal} réponses</small>
-          </b>
-          <div className="kpi-bar">
-            <div style={{ width: `${Math.min(100, (today / save.goal) * 100)}%` }} />
-          </div>
-          <span className="kpi-sub">{today >= save.goal ? 'Atteint, bravo' : `Encore ${save.goal - today}`}</span>
-        </div>
-        <div className="kpi">
-          <span className="kpi-icon">
-            <Layers size={18} aria-hidden />
-          </span>
-          <span className="kpi-label">Cartes</span>
-          <b className="kpi-value">
-            {fr(s.owned)} <small>/ {fr(s.total)}</small>
-          </b>
-          <span className="kpi-sub">
-            {fr(s.brillant)} brillante{s.brillant > 1 ? 's' : ''}
-          </span>
-        </div>
-        <div className="kpi">
-          <span className="kpi-icon">
-            <RotateCcw size={18} aria-hidden />
-          </span>
-          <span className="kpi-label">À travailler</span>
-          <b className="kpi-value">{fr(toWork)}</b>
-          <span className="kpi-sub">{toWork ? 'Cartes ratées récemment' : 'Rien en retard'}</span>
-        </div>
-      </section>
-
-      <nav className="home-grid">
-        <button className="tile tile-binder" onClick={() => setScreen('binder')}>
-          <span className="tile-icon">
-            <LibraryBig size={18} aria-hidden />
-          </span>
-          <b>Classeur</b>
-          <small>Tes cartes par thème</small>
-        </button>
-        {LANG.figures && (
-          <button className="tile tile-figures" onClick={() => setScreen('figures')}>
-            <span className="tile-icon">
-              <Landmark size={18} aria-hidden />
-            </span>
-            <b>Personnages</b>
-            <small>
-              {Object.keys(save.figures).length} sur {fr(FIGURES.length)}
-            </small>
-          </button>
-        )}
-        <button className="tile tile-stats" onClick={() => setScreen('stats')}>
-          <span className="tile-icon">
-            <ChartColumn size={18} aria-hidden />
-          </span>
-          <b>Statistiques</b>
-          <small>Ta progression</small>
-        </button>
-        <button className="tile tile-board" onClick={() => setScreen('board')}>
-          <span className="tile-icon">
-            <Trophy size={18} aria-hidden />
-          </span>
-          <b>Classement</b>
-          <small>{fr(weekXp(save, Date.now()))} XP cette semaine</small>
-        </button>
-      </nav>
-
       {showcase.length > 0 && (
-        <section className="dash-recent">
-          <div className="dash-section-head">
-            <h2>Dernières cartes</h2>
-            <button className="btn ghost small" onClick={() => setScreen('binder')}>
-              Voir le classeur
-            </button>
-          </div>
-          <div className="showcase" onClick={() => setScreen('binder')}>
-            {showcase.map((c, k) => (
-              <div key={c.id} className="showcase-card" style={{ '--k': k - (showcase.length - 1) / 2 } as CSSProperties}>
-                <GameCard card={c} copies={save.owned[c.id].copies} width="var(--sw)" />
-              </div>
-            ))}
-          </div>
+        <section className="showcase" onClick={() => setScreen('binder')} aria-label="Tes dernières cartes">
+          {showcase.map((c, k) => (
+            <div key={c.id} className="showcase-card" style={{ '--k': k - (showcase.length - 1) / 2 } as CSSProperties}>
+              <GameCard card={c} copies={save.owned[c.id].copies} width="var(--sw)" />
+            </div>
+          ))}
         </section>
       )}
+
+      <p className="home-line">
+        {fr(s.owned)} carte{s.owned > 1 ? 's' : ''} · {fr(s.brillant)} brillante{s.brillant > 1 ? 's' : ''}
+        {next && (
+          <>
+            {' '}
+            · {tierOwned}/{tierGoal} vers {next.name}
+          </>
+        )}
+      </p>
+
+      <nav className="dock">
+        <button className="dock-item tile-binder" onClick={() => setScreen('binder')}>
+          <LibraryBig size={20} aria-hidden />
+          <span>Classeur</span>
+        </button>
+        <button className="dock-item tile-board" onClick={() => setScreen('board')}>
+          <Trophy size={20} aria-hidden />
+          <span>Classement</span>
+        </button>
+        <button className="dock-item tile-stats" onClick={() => setScreen('stats')}>
+          <ChartColumn size={20} aria-hidden />
+          <span>Progrès</span>
+        </button>
+        {LANG.figures && (
+          <button className="dock-item tile-figures" onClick={() => setScreen('figures')}>
+            <Landmark size={20} aria-hidden />
+            <span>Personnages</span>
+          </button>
+        )}
+      </nav>
 
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('landing')}>
