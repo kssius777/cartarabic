@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { Eye, EyeOff } from 'lucide-react'
 import { LANG, type LangId } from '../game/lang'
 
 type Letter = [letter: string, sound: string, hint?: string]
@@ -190,8 +192,25 @@ export function Alphabet() {
         <Grid letters={marks} />
       </>
     ) : null
+  const [hidden, setHidden] = useState(readHidden)
+  const what = LANG.id === 'zh' ? 'le pinyin' : "l'alphabet"
+  const toggle = (
+    <button
+      className="abc-toggle"
+      onClick={() => {
+        writeHidden(!hidden)
+        setHidden(!hidden)
+      }}
+      aria-pressed={!hidden}
+    >
+      {hidden ? <Eye size={15} aria-hidden /> : <EyeOff size={15} aria-hidden />}
+      {hidden ? `Afficher ${what}` : `Masquer ${what}`}
+    </button>
+  )
+  if (hidden) return toggle
   return (
     <>
+      {toggle}
       <aside className="abc abc-side abc-left" aria-label={`${name} (1/2)`}>
         <Grid letters={letters.slice(0, half)} />
       </aside>
@@ -206,4 +225,24 @@ export function Alphabet() {
       </aside>
     </>
   )
+}
+
+const hiddenKey = () => `polyglot-abc-hidden-${LANG.id}`
+
+/** Le choix de masquer l'aide reste mémorisé pour chaque langue. */
+function readHidden() {
+  try {
+    return localStorage.getItem(hiddenKey()) === '1'
+  } catch {
+    return false
+  }
+}
+
+function writeHidden(hidden: boolean) {
+  try {
+    if (hidden) localStorage.setItem(hiddenKey(), '1')
+    else localStorage.removeItem(hiddenKey())
+  } catch {
+    // Navigation privée : le choix ne vaudra que pour cette page.
+  }
 }

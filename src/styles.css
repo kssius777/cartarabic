@@ -5341,3 +5341,200 @@ h3 {
   text-align: center;
   margin: 4px auto 0;
 }
+
+/* Bouton pour masquer ou afficher l'alphabet (mémorisé par langue) */
+.abc-toggle {
+  position: fixed;
+  z-index: 15;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 99px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 6px 18px -8px rgba(20, 24, 40, 0.3);
+  color: var(--ink-soft);
+  font: 600 0.8rem var(--sans);
+  cursor: pointer;
+}
+.abc-toggle:hover {
+  color: var(--lang-dark);
+  border-color: var(--line-strong);
+}
+
+/* ===== Cartes v2 « premium » : fond mat profond, liseré métallique selon le niveau ===== */
+.gcard {
+  --metal: linear-gradient(135deg, #f4f6f9, #a7afba 30%, #eef1f5 52%, #8f98a4 75%, #dfe3e8);
+  --metal-ink: #c9d0da;
+  border-radius: 5cqw;
+}
+.gcard.r2 {
+  --metal: linear-gradient(135deg, #f6dcc0, #a86f43 30%, #f1caa1 52%, #8d5a33 75%, #e3b48a);
+  --metal-ink: #e2b48a;
+}
+.gcard.r3 {
+  --metal: linear-gradient(135deg, #fff4cc, #c39a2e 30%, #fbe39a 52%, #9c7618 75%, #f3d77c);
+  --metal-ink: #ecc965;
+}
+.gcard.r4 {
+  --metal: linear-gradient(135deg, #e9dcff, #8a6fd6 25%, #d9c6ff 45%, #7fb6e6 65%, #efe0ff 85%, #9c86e0);
+  --metal-ink: #c7b4ff;
+}
+.gcard.r5 {
+  --metal: conic-gradient(from 210deg, #ff9fc0, #ffd27a, #8fe8b6, #7cc8ff, #c6a2ff, #ff9fc0);
+  --metal-ink: #ffd27a;
+}
+.gcard-side {
+  border-radius: 5cqw;
+  box-shadow:
+    0 1.5cqw 5cqw rgba(12, 14, 30, 0.35),
+    0 0.4cqw 1cqw rgba(12, 14, 30, 0.25);
+}
+.gcard-frame,
+.r1 .gcard-frame,
+.r2 .gcard-frame,
+.r3 .gcard-frame,
+.r4 .gcard-frame {
+  padding: 2.6cqw;
+  background: var(--metal);
+  color: #f4f1ea;
+}
+.gcard-frame::before {
+  inset: 1.8cqw;
+  border-radius: 4cqw;
+  background:
+    radial-gradient(120% 70% at 50% 0%, color-mix(in srgb, var(--theme) 34%, #1c2036) 0%, transparent 70%),
+    radial-gradient(90% 60% at 50% 110%, color-mix(in srgb, var(--theme) 14%, #151829) 0%, transparent 70%),
+    #12152a;
+  box-shadow: inset 0 0 0 0.3cqw rgba(255, 255, 255, 0.06);
+}
+.gcard-top {
+  padding: 3.4cqw 4cqw 1cqw;
+  gap: 2.4cqw;
+}
+.gcard-kind {
+  background: none;
+  padding: 0;
+  font-size: 3cqw;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--metal-ink);
+}
+.gcard-name {
+  font-size: 3.4cqw;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(244, 241, 234, 0.55);
+  text-align: right;
+}
+.gcard-type {
+  display: none;
+}
+.gcard-art,
+.gcard-art-fr {
+  margin: 0 4cqw;
+  height: 52%;
+  border: 0;
+  border-bottom: 0.3cqw solid color-mix(in srgb, var(--metal-ink) 35%, transparent);
+  border-radius: 0;
+  box-shadow: none;
+  background: none;
+  padding: 2cqw;
+}
+.gcard-ar {
+  color: #fbf8f0;
+  text-shadow: 0 0 5cqw color-mix(in srgb, var(--theme) 22%, transparent);
+}
+.gcard-fr {
+  color: #fbf8f0;
+  font-weight: 600;
+  text-shadow: none;
+}
+.gcard-caption {
+  margin: 2cqw 4cqw 0;
+  padding: 0;
+  background: none;
+  font-style: normal;
+  font-size: 2.8cqw;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(244, 241, 234, 0.42);
+}
+.gcard-translit {
+  font-weight: 500;
+  font-size: 6.6cqw;
+  color: rgba(244, 241, 234, 0.88);
+}
+.gcard-translit.small {
+  color: #fbf8f0;
+}
+.gcard-translit.tiny {
+  color: rgba(244, 241, 234, 0.6);
+}
+.gcard-translit.muted {
+  color: rgba(244, 241, 234, 0.35);
+}
+.gcard-foot {
+  padding: 1cqw 4cqw 3cqw;
+  font-size: 2.9cqw;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: rgba(244, 241, 234, 0.4);
+}
+.gcard-copies {
+  color: var(--metal-ink);
+  filter: none;
+  letter-spacing: 0.6cqw;
+}
+.gcard-rarity {
+  color: var(--metal-ink);
+  text-shadow: none;
+  font-size: 3.8cqw;
+}
+/* Reflet discret réservé aux niveaux les plus hauts */
+.r5 .gcard-frame::after,
+.r4 .gcard-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.22) 48%, transparent 60%);
+  background-size: 260% 100%;
+  animation: shine 5s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+.r4 .gcard-frame::after {
+  animation-duration: 8s;
+  opacity: 0.6;
+}
+/* Cartes brillantes (3 exemplaires) : voile holographique doux */
+.holo::after {
+  opacity: 0.16;
+  mix-blend-mode: screen;
+}
+/* Dos de carte assorti */
+.gcard-backside {
+  border: 1.3cqw solid transparent;
+  background:
+    radial-gradient(circle at 50% 45%, color-mix(in srgb, var(--lang) 30%, #1c2036), #10132a 70%) padding-box,
+    linear-gradient(135deg, #fff4cc, #c39a2e 30%, #fbe39a 52%, #9c7618 75%, #f3d77c) border-box;
+}
+.backside-ring {
+  background: none;
+  border: 0.6cqw solid #e6c35c;
+  box-shadow: 0 0 8cqw color-mix(in srgb, var(--lang) 40%, transparent);
+}
+.backside-ring span {
+  color: #f3d77c;
+}
+.backside-title {
+  color: #e6c35c;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+}
