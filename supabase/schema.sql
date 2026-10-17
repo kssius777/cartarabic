@@ -1,7 +1,7 @@
 -- Polyglot : une sauvegarde par joueur et par langue
 create table if not exists public.saves (
   user_id uuid not null default auth.uid() references auth.users on delete cascade,
-  lang text not null check (lang in ('ar', 'ru', 'ka')),
+  lang text not null check (lang in ('ar', 'ru', 'ka', 'zh')),
   data jsonb not null,
   updated_at timestamptz not null default now(),
   primary key (user_id, lang)

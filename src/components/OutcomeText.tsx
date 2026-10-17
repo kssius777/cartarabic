@@ -1,64 +1,78 @@
-import type { Outcome } from '../game/rules'
-import { BRILLANT, COINS_PER_CORRECT, PROGRESS_FOR_COPY } from '../game/rules'
+import type { Outcome } from "../game/rules";
+import { BRILLANT, COINS_PER_CORRECT, PROGRESS_FOR_COPY } from "../game/rules";
 
-export function outcomeGlow(o: Outcome | null): 'win' | 'lose' | null {
-  if (!o) return null
-  if (o.kind === 'discovered') return null
-  return o.kind === 'won' || o.kind === 'progress' ? 'win' : 'lose'
+export function outcomeGlow(o: Outcome | null): "win" | "lose" | null {
+  if (!o) return null;
+  if (o.kind === "discovered") return null;
+  return o.kind === "won" || o.kind === "progress" ? "win" : "lose";
 }
 
 export function OutcomeText({ outcome }: { outcome: Outcome }) {
   switch (outcome.kind) {
-    case 'won':
+    case "won":
       return (
         <p className="good">
-          🎉 Carte gagnée ! {outcome.copies > 1 && `(${outcome.copies} exemplaires)`}{' '}
+          🎉 Carte gagnée !{" "}
+          {outcome.copies > 1 && `(${outcome.copies} exemplaires)`}{" "}
           <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
         </p>
-      )
-    case 'progress':
+      );
+    case "progress":
       if (outcome.gainedCopy && outcome.copies >= BRILLANT)
         return (
           <p className="good">
-            ✨ Carte brillante ! Tu la connais par cœur. <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
+            ✨ Carte brillante ! Tu la connais par cœur.{" "}
+            <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
           </p>
-        )
+        );
       if (outcome.gainedCopy)
         return (
           <p className="good">
-            🃏 +1 exemplaire ({outcome.copies}/{BRILLANT}) <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
+            🃏 +1 exemplaire ({outcome.copies}/{BRILLANT}){" "}
+            <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>
           </p>
-        )
+        );
       return (
         <p className="good">
-          ✅ Bien joué ! <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>{' '}
+          ✅ Bien joué !{" "}
+          <span className="coin-gain">+{COINS_PER_CORRECT} 🪙</span>{" "}
           {outcome.copies < BRILLANT && (
             <span className="muted">
               Progression {outcome.progress}/{PROGRESS_FOR_COPY}
             </span>
           )}
         </p>
-      )
-    case 'discovered':
+      );
+    case "discovered":
       return (
         <p className="discover">
-          📘 Nouvelle carte : regarde bien la réponse. Pas de punition cette fois, elle reviendra dans un prochain booster.
+          📘 Nouvelle carte : regarde bien la réponse. Pas de punition cette
+          fois, elle reviendra dans un prochain booster.
         </p>
-      )
-    case 'lost-copy':
+      );
+    case "lost-copy":
       return outcome.copiesLeft > 0 ? (
-        <p className="bad">💥 Oubliée ! Tu perds un exemplaire (il en reste {outcome.copiesLeft}).</p>
+        <p className="bad">
+          💥 Oubliée ! Tu perds un exemplaire (il en reste {outcome.copiesLeft}
+          ).
+        </p>
       ) : (
-        <p className="bad">💥 Oubliée ! La carte quitte ton classeur. Elle reviendra dans un prochain booster.</p>
-      )
-    case 'lost-other':
+        <p className="bad">
+          💥 Oubliée ! La carte quitte ton classeur. Elle reviendra dans un
+          prochain booster.
+        </p>
+      );
+    case "lost-other":
       return outcome.lost ? (
         <p className="bad">
           💥 Raté ! En punition, tu perds un exemplaire de « {outcome.lost.fr} »
-          {outcome.copiesLeft === 0 ? ', qui quitte ton classeur.' : '.'} Cette carte reviendra dans un prochain booster.
+          {outcome.copiesLeft === 0 ? ", qui quitte ton classeur." : "."} Cette
+          carte reviendra dans un prochain booster.
         </p>
       ) : (
-        <p className="bad">💥 Raté ! Cette carte reviendra dans un prochain booster.</p>
-      )
+        <p className="bad">
+          💥 Raté ! Cette carte reviendra dans un prochain booster.
+        </p>
+      );
   }
 }
