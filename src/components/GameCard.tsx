@@ -49,7 +49,14 @@ export function GameCard({ card, face = 'front', translit = true, copies, width 
               {theme.label} · {card.kind === 'mot' ? 'Mot' : 'Phrase'} · {rarity.name}
             </div>
             <div className="gcard-body">
-              {translit ? <div className="gcard-translit">{card.translit}</div> : <div className="gcard-translit muted">?</div>}
+              {translit ? (
+                <>
+                  <div className="gcard-translit">{card.translit}</div>
+                  <div className="gcard-meaning">{card.fr}</div>
+                </>
+              ) : (
+                <div className="gcard-translit muted">?</div>
+              )}
             </div>
           </Frame>
         </div>
@@ -61,7 +68,7 @@ export function GameCard({ card, face = 'front', translit = true, copies, width 
               <div className="gcard-art gcard-art-fr">
                 <div className="gcard-fr">{card.fr}</div>
               </div>
-              <div className="gcard-caption">Traduction</div>
+              <div className="gcard-caption">En français</div>
               <div className="gcard-body">
                 {/* Question français → arabe : la réponse reste cachée tant qu'on n'a pas répondu. */}
                 {translit ? (

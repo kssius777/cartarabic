@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Cloud, Download, Upload } from 'lucide-react'
 import { stats, type Save } from '../game/rules'
 import { exportSave, importSave } from '../game/storage'
 import { getSession, lastSync, logout, pull, push, sendLoginLink } from '../game/cloud'
@@ -57,10 +58,12 @@ export function BackupScreen({ save, onRestore, onExit, onCloud }: Props) {
         Sans compte, ta partie reste dans ce navigateur. Tu peux aussi copier ce code pour la reprendre ailleurs ou la mettre à
         l'abri si le navigateur efface ses données.
       </p>
-      <h3>📤 Ma partie</h3>
+      <h3 className="icon-title">
+        <Download size={18} aria-hidden /> Ma partie
+      </h3>
       <p>
         Niveau {save.level ? ['A1', 'A2', 'B1', 'B2', 'C1'][save.level - 1] : '—'} · {mine.owned} cartes · {mine.brillant}{' '}
-        brillantes · {Object.keys(save.figures).length} personnages · {save.coins} 🪙
+        brillantes · {Object.keys(save.figures).length} personnages · {save.coins} pièces
       </p>
       <textarea id="backup-code" className="backup-code" readOnly value={code} rows={3} onFocus={(e) => e.target.select()} />
       <div className="backup-actions">
@@ -72,7 +75,9 @@ export function BackupScreen({ save, onRestore, onExit, onCloud }: Props) {
         </button>
       </div>
 
-      <h3>📥 Reprendre une partie</h3>
+      <h3 className="icon-title">
+        <Upload size={18} aria-hidden /> Reprendre une partie
+      </h3>
       <textarea
         className="backup-code"
         rows={3}
@@ -100,7 +105,7 @@ export function BackupScreen({ save, onRestore, onExit, onCloud }: Props) {
         <div className="backup-confirm">
           <p>
             Sauvegarde trouvée : {stats(pending).owned} cartes, {Object.keys(pending.figures).length} personnages, {pending.coins}{' '}
-            🪙. Elle remplacera ta partie actuelle.
+            pièces. Elle remplacera ta partie actuelle.
           </p>
           <button className="btn primary" onClick={() => onRestore(pending)}>
             Remplacer ma partie
@@ -145,7 +150,9 @@ function Account({ save, onCloud }: { save: Save; onCloud: (s: Save) => void }) 
   if (session) {
     return (
       <section className="account">
-        <h3>☁️ Mon compte</h3>
+        <h3 className="icon-title">
+          <Cloud size={18} aria-hidden /> Mon compte
+        </h3>
         <p>
           Connecté avec <b>{session.email || 'ton adresse'}</b>. Ta partie {LANG.inLang} se synchronise toute seule entre ton
           téléphone et ton ordinateur.
@@ -179,7 +186,9 @@ function Account({ save, onCloud }: { save: Save; onCloud: (s: Save) => void }) 
 
   return (
     <section className="account">
-      <h3>☁️ Mon compte</h3>
+      <h3 className="icon-title">
+        <Cloud size={18} aria-hidden /> Mon compte
+      </h3>
       <p>
         Connecte-toi pour retrouver ta partie sur ton téléphone et ton ordinateur. Pas de mot de passe : tu reçois un lien par
         e-mail.

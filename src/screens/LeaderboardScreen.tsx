@@ -60,7 +60,7 @@ export function LeaderboardScreen({ save, onExit, onAccount }: Props) {
           Crée ton profil pour apparaître dans le classement <b>→</b>
         </button>
       )}
-      {error && <p className="bad">Impossible de charger le classement. Vérifie ta connexion.</p>}
+      {error && <p className="board-empty">Le classement ne répond pas pour l’instant. Réessaie dans un moment.</p>}
       {!rows && !error && <p className="muted">Chargement…</p>}
       {rows && rows.length === 0 && (
         <p className="muted">Personne encore cette semaine. Réponds à quelques cartes pour être premier !</p>

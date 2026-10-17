@@ -40,9 +40,8 @@ export function QuestionView({ question, copies, onAnswer, feedback, glow, onNex
     if (answered) afterRef.current?.scrollIntoView?.({ block: 'nearest', behavior: 'smooth' })
   }, [answered])
 
-  // Avant la réponse on montre le côté de la question ; après, la carte se retourne.
-  const promptFace: Face = toArabic ? 'back' : 'front'
-  const face: Face = answered ? (toArabic ? 'front' : 'back') : promptFace
+  // Avant la réponse on montre le côté de la question ; après, le recto révèle tout : le mot, sa prononciation et son sens.
+  const face: Face = answered || !toArabic ? 'front' : 'back'
 
   function choose(c: Card) {
     if (answered) return

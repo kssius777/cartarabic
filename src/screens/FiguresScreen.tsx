@@ -1,3 +1,4 @@
+import { Coins } from 'lucide-react'
 import { useState, type CSSProperties } from 'react'
 import { FigureCard, FigureCredit } from '../components/FigureCard'
 import { FIG_CATEGORIES, FIG_RARITIES, FIGURE_BOOSTER_PRICE, FIGURE_BOOSTER_SIZE, FIGURES, type Figure } from '../game/figures'
@@ -55,7 +56,9 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
           ← Accueil
         </button>
         <h2>Personnages</h2>
-        <span className="coins">🪙 {save.coins}</span>
+        <span className="coins">
+          <Coins size={15} aria-hidden /> {save.coins}
+        </span>
       </div>
       <button className={`btn small translate ${french ? 'on' : ''}`} onClick={toggleFrench}>
         {french ? "عَرَبِيٌّ · Revenir à l'arabe" : '🌐 Traduire en français'}
@@ -80,12 +83,12 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
             <small>{FIGURE_BOOSTER_SIZE} cartes</small>
           </div>
           <button className="btn gold big" disabled={!canBuy} onClick={buy}>
-            Acheter pour {FIGURE_BOOSTER_PRICE} 🪙
+            Acheter pour {FIGURE_BOOSTER_PRICE} dinars
           </button>
           <p className="muted">
             {canBuy
               ? 'Figures, lieux et événements du monde musulman et abrahamique, avec photos de Wikipédia.'
-              : `Il te manque ${FIGURE_BOOSTER_PRICE - save.coins} 🪙. Chaque bonne réponse en booster ou en révision rapporte ${COINS_PER_CORRECT} 🪙.`}
+              : `Il te manque ${FIGURE_BOOSTER_PRICE - save.coins} dinars. Chaque bonne réponse en booster ou en révision rapporte ${COINS_PER_CORRECT} dinars.`}
           </p>
           <div className="odds">
             {([1, 2, 3, 4, 5] as const).map((r) => (
@@ -122,7 +125,7 @@ export function FiguresScreen({ save, setSave, onExit }: Props) {
             ) : (
               <>
                 <button className="btn gold" disabled={!canBuy} onClick={buy}>
-                  Encore un ({FIGURE_BOOSTER_PRICE} 🪙)
+                  Encore un ({FIGURE_BOOSTER_PRICE} dinars)
                 </button>
                 <button
                   className="btn"

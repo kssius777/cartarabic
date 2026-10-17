@@ -1,12 +1,12 @@
 import { useState } from 'react'
+import { RotateCcw, Sparkles } from 'lucide-react'
+import { plural, SessionSummary } from '../components/SessionSummary'
 import { BoosterPack } from '../components/BoosterPack'
-import { GameCard } from '../components/GameCard'
 import { OutcomeText, outcomeGlow } from '../components/OutcomeText'
 import { QuestionView } from '../components/QuestionView'
 import type { Card } from '../game/cards'
 import { answerBooster, consumeBooster, makeQuestion, openBooster, type Outcome, type Question, type Save } from '../game/rules'
 import { Progress } from './Placement'
-import { LANG, TEXT_ATTRS } from '../game/lang'
 
 interface Props {
   save: Save
@@ -70,28 +70,40 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
 
   if (stage === 'summary') {
     const won = outcomes.filter((o) => o.kind === 'won').map((o) => o.card)
-    const lost = outcomes.filter((o) => o.kind !== 'won')
+    const lost = outcomes.filter((o) => o.kind !== 'won').map((o) => o.card)
     return (
-      <div className="screen center">
-        <h2>
-          {won.length}/{cards.length} cartes gagnées
-        </h2>
-        {won.length > 0 && (
-          <div className="card-row">
-            {won.map((c) => (
-              <GameCard key={c.id} card={c} copies={save.owned[c.id]?.copies} width="110px" />
-            ))}
-          </div>
-        )}
-        {lost.length > 0 && (
-          <p className="muted">
-            Ratées : {lost.map((o) => `${o.card.ar} (${o.card.fr})`).join(' · ')}. Elles reviendront dans un prochain booster.
-          </p>
-        )}
+      <SessionSummary
+        title="Booster ouvert"
+        good={won.length}
+        total={cards.length}
+        lines={[
+          ...(won.length
+            ? [
+                {
+                  icon: <Sparkles size={16} aria-hidden />,
+                  text: `${plural(won.length, 'carte', 'gagnée')}`,
+                  tone: 'good' as const,
+                },
+              ]
+            : []),
+          ...(lost.length
+            ? [
+                {
+                  icon: <RotateCcw size={16} aria-hidden />,
+                  text: `${plural(lost.length, 'carte')} à revoir : elles reviendront dans un prochain booster`,
+                },
+              ]
+            : []),
+        ]}
+        groups={[
+          { title: 'Tes nouvelles cartes', cards: won },
+          { title: 'À revoir', cards: lost },
+        ]}
+      >
         <button className="btn primary big" onClick={onExit}>
           Retour à l'accueil
         </button>
-      </div>
+      </SessionSummary>
     )
   }
 

@@ -4,8 +4,8 @@ import { QuestionView } from '../components/QuestionView'
 import { answerReview, finishReview, makeQuestion, questionTypeFor, reviewSession, type Outcome, type Save } from '../game/rules'
 import { Progress } from './Placement'
 import type { Card } from '../game/cards'
-import { TEXT_ATTRS } from '../game/lang'
-import { TargetText } from '../components/TargetText'
+import { Copy, HeartCrack } from 'lucide-react'
+import { plural, SessionSummary } from '../components/SessionSummary'
 
 interface Props {
   save: Save
@@ -44,40 +44,33 @@ export function ReviewScreen({ save, setSave, onExit, onAgain, cards }: Props) {
     // Les cartes ratées, à relire tout de suite : c'est le meilleur moment pour les retenir.
     const missed = outcomes.filter((o) => o.kind !== 'progress').map((o) => o.card)
     return (
-      <div className="screen center">
-        <h2>Révision terminée</h2>
-        <p className="big-score">
-          {good.length}/{outcomes.length}
-        </p>
-        <ul className="summary">
-          {gained > 0 && <li>🃏 {gained} exemplaire(s) gagné(s)</li>}
-          {lost > 0 && <li>💥 {lost} carte(s) oubliée(s) : un exemplaire perdu à chaque fois</li>}
-        </ul>
-        {missed.length > 0 && (
-          <section className="to-learn">
-            <h3>À retenir</h3>
-            <ul>
-              {missed.map((c) => (
-                <li key={c.id}>
-                  <span className="to-learn-ar" {...TEXT_ATTRS}>
-                    <TargetText text={c.ar} />
-                  </span>
-                  <span className="to-learn-tr">{c.translit}</span>
-                  <span className="to-learn-fr">{c.fr}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-        <div className="end-actions">
-          <button className="btn primary big" onClick={onAgain}>
-            Nouvelle séance
-          </button>
-          <button className="btn ghost" onClick={onExit}>
-            Retour à l'accueil
-          </button>
-        </div>
-      </div>
+      <SessionSummary
+        title="Révision terminée"
+        good={good.length}
+        total={outcomes.length}
+        lines={[
+          ...(gained > 0
+            ? [{ icon: <Copy size={16} aria-hidden />, text: plural(gained, 'exemplaire', 'gagné'), tone: 'good' as const }]
+            : []),
+          ...(lost > 0
+            ? [
+                {
+                  icon: <HeartCrack size={16} aria-hidden />,
+                  text: `${plural(lost, 'carte', 'oubliée')} : un exemplaire perdu pour chacune`,
+                  tone: 'bad' as const,
+                },
+              ]
+            : []),
+        ]}
+        groups={[{ title: 'À retenir', cards: missed }]}
+      >
+        <button className="btn primary big" onClick={onAgain}>
+          Nouvelle séance
+        </button>
+        <button className="btn ghost" onClick={onExit}>
+          Retour à l'accueil
+        </button>
+      </SessionSummary>
     )
   }
 

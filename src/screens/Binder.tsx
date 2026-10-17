@@ -76,7 +76,7 @@ export function Binder({ save, onExit }: { save: Save; onExit: () => void }) {
           </button>
         ))}
       </div>
-      <div className="chips">
+      <div className="chips chips-themes">
         <button
           className={`chip ${theme === null ? 'on' : ''}`}
           onClick={() => {

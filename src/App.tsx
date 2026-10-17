@@ -1,4 +1,16 @@
-import { BookOpen, ChartColumn, Coins, Landmark, LibraryBig, Trophy, UserRound } from 'lucide-react'
+import {
+  BookOpen,
+  ChartColumn,
+  Coins,
+  HeartCrack,
+  Landmark,
+  Languages,
+  LibraryBig,
+  PackageOpen,
+  Sparkles,
+  Trophy,
+  UserRound,
+} from 'lucide-react'
 import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Card, type Rarity } from './game/cards'
@@ -415,9 +427,13 @@ function Rules({ onExit }: { onExit: () => void }) {
         ← Accueil
       </button>
       <h2>Règles</h2>
-      <h3>🎁 Boosters</h3>
+      <h3 className="icon-title">
+        <PackageOpen size={18} aria-hidden /> Boosters
+      </h3>
       <p>Chaque booster contient 10 cartes face cachée. Trouve ce que veut dire une carte pour la gagner.</p>
-      <h3>📖 Révisions</h3>
+      <h3 className="icon-title">
+        <BookOpen size={18} aria-hidden /> Révisions
+      </h3>
       <p>
         Une séance tire 15 cartes de ton classeur, en priorité celles à revoir. Réviser une carte en avance entraîne ta mémoire
         mais ne la fait pas progresser : seules les réponses au bon moment comptent. Plus tu connais une carte, plus la question
@@ -429,7 +445,9 @@ function Rules({ onExit }: { onExit: () => void }) {
       </p>
       {LANG.figures && (
         <>
-          <h3>🪙 Dinars et personnages</h3>
+          <h3 className="icon-title">
+            <Coins size={18} aria-hidden /> Dinars et personnages
+          </h3>
           <p>
             Chaque bonne réponse rapporte 10 dinars. Avec 150 dinars, tu ouvres un booster de 5 personnages : figures, lieux et
             événements du monde musulman et abrahamique, en 5 raretés (bronze, argent, or, platine, légendaire). Par respect, les
@@ -437,16 +455,22 @@ function Rules({ onExit }: { onExit: () => void }) {
           </p>
         </>
       )}
-      <h3>💥 Punition</h3>
+      <h3 className="icon-title">
+        <HeartCrack size={18} aria-hidden /> Punition
+      </h3>
       <p>
         Si tu oublies une carte que tu possèdes, tu perds un exemplaire. La première fois que tu rates une carte jamais vue, pas
         de punition : regarde bien la réponse. Ensuite, si tu rates une carte que tu ne possèdes pas, tu perds un exemplaire d'une
         autre carte au hasard. Une carte ratée ou perdue revient dans tes prochains boosters (jusqu'à 3 par booster), pour que tu
         puisses la retenter.
       </p>
-      <h3>✨ Brillance et victoire</h3>
+      <h3 className="icon-title">
+        <Sparkles size={18} aria-hidden /> Brillance et victoire
+      </h3>
       <p>À 3 exemplaires, une carte devient brillante. Le but : toute la collection en brillant !</p>
-      <h3>🔤 Translittération</h3>
+      <h3 className="icon-title">
+        <Languages size={18} aria-hidden /> Translittération
+      </h3>
       <p>{LANG.translitHelp}</p>
     </div>
   )
