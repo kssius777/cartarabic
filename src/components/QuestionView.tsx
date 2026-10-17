@@ -26,7 +26,7 @@ const PROMPTS = {
 }
 
 // La carte rétrécit sur les petits écrans pour que les réponses et le bouton « Suivante » tiennent sans défiler.
-const CARD_WIDTH = 'max(150px, min(64vw, 250px, calc((100dvh - 400px) * 0.716)))'
+const CARD_WIDTH = 'max(150px, min(72vw, 300px, calc((100dvh - 380px) * 0.716)))'
 
 export function QuestionView({ question, copies, onAnswer, feedback, glow, onNext, nextLabel = 'Continuer' }: Props) {
   const [chosen, setChosen] = useState<Card | null>(null)

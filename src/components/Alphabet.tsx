@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Eye, EyeOff } from 'lucide-react'
 import { LANG, type LangId } from '../game/lang'
 
@@ -192,25 +192,10 @@ export function Alphabet() {
         <Grid letters={marks} />
       </>
     ) : null
-  const [hidden, setHidden] = useState(readHidden)
-  const what = LANG.id === 'zh' ? 'le pinyin' : "l'alphabet"
-  const toggle = (
-    <button
-      className="abc-toggle"
-      onClick={() => {
-        writeHidden(!hidden)
-        setHidden(!hidden)
-      }}
-      aria-pressed={!hidden}
-    >
-      {hidden ? <Eye size={15} aria-hidden /> : <EyeOff size={15} aria-hidden />}
-      {hidden ? `Afficher ${what}` : `Masquer ${what}`}
-    </button>
-  )
-  if (hidden) return toggle
+  const [hidden] = useAbcHidden()
+  if (hidden) return null
   return (
     <>
-      {toggle}
       <aside className="abc abc-side abc-left" aria-label={`${name} (1/2)`}>
         <Grid letters={letters.slice(0, half)} />
       </aside>
@@ -245,4 +230,36 @@ function writeHidden(hidden: boolean) {
   } catch {
     // Navigation privée : le choix ne vaudra que pour cette page.
   }
+}
+
+const listeners = new Set<(hidden: boolean) => void>()
+
+/** État partagé entre le bouton (dans la barre du haut) et les panneaux de l'alphabet. */
+function useAbcHidden(): [boolean, (hidden: boolean) => void] {
+  const [hidden, setHidden] = useState(readHidden)
+  useEffect(() => {
+    listeners.add(setHidden)
+    return () => {
+      listeners.delete(setHidden)
+    }
+  }, [])
+  return [
+    hidden,
+    (h) => {
+      writeHidden(h)
+      listeners.forEach((l) => l(h))
+    },
+  ]
+}
+
+/** Bouton « Masquer / Afficher l'alphabet », posé à côté de la progression. */
+export function AlphabetToggle() {
+  const [hidden, setHidden] = useAbcHidden()
+  const what = LANG.id === 'zh' ? 'le pinyin' : "l'alphabet"
+  return (
+    <button className={`abc-toggle ${hidden ? 'off' : 'on'}`} onClick={() => setHidden(!hidden)} aria-pressed={!hidden}>
+      {hidden ? <Eye size={16} aria-hidden /> : <EyeOff size={16} aria-hidden />}
+      <span>{hidden ? `Afficher ${what}` : `Masquer ${what}`}</span>
+    </button>
+  )
 }

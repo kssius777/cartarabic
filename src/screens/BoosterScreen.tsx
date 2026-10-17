@@ -97,7 +97,7 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
 
   const outcome = outcomes[i] ?? null
   return (
-    <div className="screen">
+    <div className="screen quiz-screen">
       <Progress value={i + (outcome ? 1 : 0)} max={cards.length} label="Booster" />
       {question && (
         <QuestionView

@@ -1,3 +1,4 @@
+import { AlphabetToggle } from '../components/Alphabet'
 import { useMemo, useState } from 'react'
 import { GameCard } from '../components/GameCard'
 import { QuestionView } from '../components/QuestionView'
@@ -42,7 +43,7 @@ export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => 
 
   const q = questions[i]
   return (
-    <div className="screen">
+    <div className="screen quiz-screen">
       <Progress value={i} max={questions.length} label="Test de niveau" />
       <QuestionView
         key={q.card.id}
@@ -62,13 +63,14 @@ export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => 
 export function Progress({ value, max, label }: { value: number; max: number; label: string }) {
   return (
     <div className="progress">
-      <span>{label}</span>
+      <span className="progress-label">{label}</span>
       <div className="bar">
         <div style={{ width: `${(value / max) * 100}%` }} />
       </div>
       <span>
         {value}/{max}
       </span>
+      <AlphabetToggle />
     </div>
   )
 }

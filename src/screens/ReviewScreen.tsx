@@ -84,7 +84,7 @@ export function ReviewScreen({ save, setSave, onExit, onAgain, cards }: Props) {
   const q = questions[i]
   const outcome = outcomes[i] ?? null
   return (
-    <div className="screen">
+    <div className="screen quiz-screen">
       <Progress value={i + (outcome ? 1 : 0)} max={questions.length} label={cards ? 'À travailler' : 'Révision'} />
       <QuestionView
         key={q.card.id}
