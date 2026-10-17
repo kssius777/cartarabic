@@ -1,39 +1,23 @@
-import { useMemo, useState } from "react";
-import { GameCard } from "../components/GameCard";
-import { QuestionView } from "../components/QuestionView";
-import { RARITIES } from "../game/cards";
-import {
-  makeQuestion,
-  placementCards,
-  placementLevel,
-  type PlacementResult,
-} from "../game/rules";
+import { useMemo, useState } from 'react'
+import { GameCard } from '../components/GameCard'
+import { QuestionView } from '../components/QuestionView'
+import { RARITIES } from '../game/cards'
+import { makeQuestion, placementCards, placementLevel, type PlacementResult } from '../game/rules'
 
-export function Placement({
-  onDone,
-}: {
-  onDone: (results: PlacementResult[]) => void;
-}) {
-  const questions = useMemo(
-    () =>
-      placementCards(Math.random).map((c) =>
-        makeQuestion(c, "ar-fr", Math.random),
-      ),
-    [],
-  );
-  const [i, setI] = useState(0);
-  const [results, setResults] = useState<PlacementResult[]>([]);
-  const finished = results.length === questions.length && i >= questions.length;
+export function Placement({ onDone }: { onDone: (results: PlacementResult[]) => void }) {
+  const questions = useMemo(() => placementCards(Math.random).map((c) => makeQuestion(c, 'ar-fr', Math.random)), [])
+  const [i, setI] = useState(0)
+  const [results, setResults] = useState<PlacementResult[]>([])
+  const finished = results.length === questions.length && i >= questions.length
 
   if (finished) {
-    const level = placementLevel(results);
-    const won = results.filter((r) => r.correct);
+    const level = placementLevel(results)
+    const won = results.filter((r) => r.correct)
     return (
       <div className="screen center">
         <h2>Test terminé !</h2>
         <p>
-          {won.length} bonne{won.length > 1 ? "s" : ""} réponse
-          {won.length > 1 ? "s" : ""} sur {results.length}. Ton niveau :{" "}
+          {won.length} bonne{won.length > 1 ? 's' : ''} réponse{won.length > 1 ? 's' : ''} sur {results.length}. Ton niveau :{' '}
           <b style={{ color: RARITIES[level].color }}>
             {RARITIES[level].symbol} {RARITIES[level].name}
           </b>
@@ -43,12 +27,7 @@ export function Placement({
             <p>Les cartes que tu as reconnues sont à toi :</p>
             <div className="card-row">
               {won.map((r) => (
-                <GameCard
-                  key={r.card.id}
-                  card={r.card}
-                  copies={1}
-                  width="120px"
-                />
+                <GameCard key={r.card.id} card={r.card} copies={1} width="120px" />
               ))}
             </div>
           </>
@@ -58,43 +37,29 @@ export function Placement({
           C'est parti !
         </button>
       </div>
-    );
+    )
   }
 
-  const q = questions[i];
+  const q = questions[i]
   return (
     <div className="screen">
       <Progress value={i} max={questions.length} label="Test de niveau" />
       <QuestionView
         key={q.card.id}
         question={q}
-        onAnswer={(correct) =>
-          setResults((r) => [...r, { card: q.card, correct }])
-        }
+        onAnswer={(correct) => setResults((r) => [...r, { card: q.card, correct }])}
         feedback={
-          results[i]?.correct ? (
-            <p className="good">✅ Bravo !</p>
-          ) : (
-            <p className="bad">Ce n'est pas grave, on continue.</p>
-          )
+          results[i]?.correct ? <p className="good">✅ Bravo !</p> : <p className="bad">Ce n'est pas grave, on continue.</p>
         }
-        glow={results[i]?.correct ? "win" : "lose"}
+        glow={results[i]?.correct ? 'win' : 'lose'}
         onNext={() => setI(i + 1)}
-        nextLabel={i + 1 === questions.length ? "Voir mon niveau" : "Suivante"}
+        nextLabel={i + 1 === questions.length ? 'Voir mon niveau' : 'Suivante'}
       />
     </div>
-  );
+  )
 }
 
-export function Progress({
-  value,
-  max,
-  label,
-}: {
-  value: number;
-  max: number;
-  label: string;
-}) {
+export function Progress({ value, max, label }: { value: number; max: number; label: string }) {
   return (
     <div className="progress">
       <span>{label}</span>
@@ -105,5 +70,5 @@ export function Progress({
         {value}/{max}
       </span>
     </div>
-  );
+  )
 }

@@ -1,58 +1,46 @@
-import { GameCard } from "../components/GameCard";
-import { FigureCard } from "../components/FigureCard";
-import {
-  CARD_BY_ID,
-  CARDS,
-  RARITIES,
-  THEMES,
-  type Rarity,
-} from "../game/cards";
-import { FIGURE_BY_ID, FIGURES } from "../game/figures";
-import { LANG, LANGS, switchLang, TEXT_ATTRS, type LangId } from "../game/lang";
-import { LangPicker } from "../components/LangPicker";
+import { GameCard } from '../components/GameCard'
+import { FigureCard } from '../components/FigureCard'
+import { CARD_BY_ID, CARDS, RARITIES, THEMES, type Rarity } from '../game/cards'
+import { FIGURE_BY_ID, FIGURES } from '../game/figures'
+import { LANG, LANGS, switchLang, TEXT_ATTRS, type LangId } from '../game/lang'
+import { LangPicker } from '../components/LangPicker'
 
 interface Props {
-  onStart: () => void;
+  onStart: () => void
   /** Joueur déjà inscrit : le bouton ramène à son accueil au lieu du test. */
-  returning?: boolean;
+  returning?: boolean
 }
 
-const fmt = (n: number) => n.toLocaleString("fr-FR");
+const fmt = (n: number) => n.toLocaleString('fr-FR')
 
 // Trois cartes d'exemple : des classiques en arabe, sinon les premières cartes A1 de la langue.
 const SAMPLE_CARDS = (
-  LANG.id === "ar"
-    ? ["c001", "c156", "c004"]
-        .map((id) => CARD_BY_ID.get(id))
-        .filter((c) => !!c)
-    : CARDS.filter((c) => c.rarity === 1 && c.ar.length < 14).filter(
-        (_, i) => i % 7 === 0,
-      )
-).slice(0, 3);
-const SAMPLE_FIGURES = ["p0011", "p0300", "p0500"]
-  .map((id) => FIGURE_BY_ID.get(id))
-  .filter((f) => !!f);
+  LANG.id === 'ar'
+    ? ['c001', 'c156', 'c004'].map((id) => CARD_BY_ID.get(id)).filter((c) => !!c)
+    : CARDS.filter((c) => c.rarity === 1 && c.ar.length < 14).filter((_, i) => i % 7 === 0)
+).slice(0, 3)
+const SAMPLE_FIGURES = ['p0011', 'p0300', 'p0500'].map((id) => FIGURE_BY_ID.get(id)).filter((f) => !!f)
 
 const STEPS = [
   {
-    n: "I",
-    title: "Le test de niveau",
-    text: "Douze cartes, de la plus simple à la plus exigeante. Ton niveau, de A1 à C1, décide des cartes qui t’attendent.",
+    n: 'I',
+    title: 'Le test de niveau',
+    text: 'Douze cartes, de la plus simple à la plus exigeante. Ton niveau, de A1 à C1, décide des cartes qui t’attendent.',
   },
   {
-    n: "II",
-    title: "Les boosters",
-    text: "Dix cartes par paquet. Pour en garder une, il faut savoir ce qu’elle veut dire. Sinon, elle repart.",
+    n: 'II',
+    title: 'Les boosters',
+    text: 'Dix cartes par paquet. Pour en garder une, il faut savoir ce qu’elle veut dire. Sinon, elle repart.',
   },
   {
-    n: "III",
-    title: "La révision",
-    text: "Tes cartes reviennent au bon moment, de plus en plus difficiles. Oublie-les, et tu en perds un exemplaire.",
+    n: 'III',
+    title: 'La révision',
+    text: 'Tes cartes reviennent au bon moment, de plus en plus difficiles. Oublie-les, et tu en perds un exemplaire.',
   },
-];
+]
 
 export function Landing({ onStart, returning }: Props) {
-  const cta = returning ? "Retour à ma collection" : "Faire le test de niveau";
+  const cta = returning ? 'Retour à ma collection' : 'Faire le test de niveau'
   return (
     <div className="landing">
       <nav className="lnav">
@@ -62,7 +50,7 @@ export function Landing({ onStart, returning }: Props) {
         <span className="lnav-right">
           <LangPicker />
           <button className="btn primary small" onClick={onStart}>
-            {returning ? "Ma collection" : "Commencer"}
+            {returning ? 'Ma collection' : 'Commencer'}
           </button>
         </span>
       </nav>
@@ -76,9 +64,8 @@ export function Landing({ onStart, returning }: Props) {
             <em>une carte à la fois.</em>
           </h1>
           <p className="lead">
-            {fmt(CARDS.length)} mots et phrases {LANG.script} à collectionner.
-            Chaque carte se mérite : il faut la comprendre pour la garder, et la
-            retenir pour ne pas la perdre.
+            {fmt(CARDS.length)} mots et phrases {LANG.script} à collectionner. Chaque carte se mérite : il faut la comprendre pour
+            la garder, et la retenir pour ne pas la perdre.
           </p>
           <div className="lhero-cta">
             <button className="btn primary big" onClick={onStart}>
@@ -90,11 +77,7 @@ export function Landing({ onStart, returning }: Props) {
           </div>
           <div className="lhero-langs">
             {(Object.keys(LANGS) as LangId[]).map((id) => (
-              <button
-                key={id}
-                className={`chip ${id === LANG.id ? "on" : ""}`}
-                onClick={() => id !== LANG.id && switchLang(id)}
-              >
+              <button key={id} className={`chip ${id === LANG.id ? 'on' : ''}`} onClick={() => id !== LANG.id && switchLang(id)}>
                 {LANGS[id].flag} {LANGS[id].name}
               </button>
             ))}
@@ -150,10 +133,9 @@ export function Landing({ onStart, returning }: Props) {
             <p className="eyebrow">Collection Personnages</p>
             <h2>Mille figures de l’histoire, à gagner en dinars.</h2>
             <p className="lead">
-              Chaque bonne réponse rapporte des dinars. Ils ouvrent des paquets
-              de savants, poètes, califes, lieux saints et grands événements,
-              avec leur nom calligraphié et leur histoire en arabe. Par respect,
-              les prophètes et les compagnons ne sont jamais représentés.
+              Chaque bonne réponse rapporte des dinars. Ils ouvrent des paquets de savants, poètes, califes, lieux saints et
+              grands événements, avec leur nom calligraphié et leur histoire en arabe. Par respect, les prophètes et les
+              compagnons ne sont jamais représentés.
             </p>
           </div>
           <div className="lfig-cards" aria-hidden="true">
@@ -174,9 +156,7 @@ export function Landing({ onStart, returning }: Props) {
             <div key={r} style={{ borderColor: RARITIES[r].color }}>
               <b style={{ color: RARITIES[r].color }}>{RARITIES[r].name}</b>
               <span>{RARITIES[r].desc}</span>
-              <small>
-                {fmt(CARDS.filter((c) => c.rarity === r).length)} cartes
-              </small>
+              <small>{fmt(CARDS.filter((c) => c.rarity === r).length)} cartes</small>
             </div>
           ))}
         </div>
@@ -197,10 +177,10 @@ export function Landing({ onStart, returning }: Props) {
         <span>Polyglot</span>
         <span>
           {LANG.figures
-            ? "Arabe littéraire (fuṣḥā) · photos des personnages : Wikipédia et Wikimedia Commons"
+            ? 'Arabe littéraire (fuṣḥā) · photos des personnages : Wikipédia et Wikimedia Commons'
             : `${LANG.name} · ${LANG.native}`}
         </span>
       </footer>
     </div>
-  );
+  )
 }

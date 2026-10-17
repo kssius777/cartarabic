@@ -1,73 +1,62 @@
-import { useState } from "react";
-import { BoosterPack } from "../components/BoosterPack";
-import { GameCard } from "../components/GameCard";
-import { OutcomeText, outcomeGlow } from "../components/OutcomeText";
-import { QuestionView } from "../components/QuestionView";
-import type { Card } from "../game/cards";
-import {
-  answerBooster,
-  consumeBooster,
-  makeQuestion,
-  openBooster,
-  type Outcome,
-  type Question,
-  type Save,
-} from "../game/rules";
-import { Progress } from "./Placement";
-import { LANG, TEXT_ATTRS } from "../game/lang";
+import { useState } from 'react'
+import { BoosterPack } from '../components/BoosterPack'
+import { GameCard } from '../components/GameCard'
+import { OutcomeText, outcomeGlow } from '../components/OutcomeText'
+import { QuestionView } from '../components/QuestionView'
+import type { Card } from '../game/cards'
+import { answerBooster, consumeBooster, makeQuestion, openBooster, type Outcome, type Question, type Save } from '../game/rules'
+import { Progress } from './Placement'
+import { LANG, TEXT_ATTRS } from '../game/lang'
 
 interface Props {
-  save: Save;
-  setSave: (s: Save) => void;
-  onExit: () => void;
+  save: Save
+  setSave: (s: Save) => void
+  onExit: () => void
 }
 
-type Stage = "pack" | "question" | "summary";
+type Stage = 'pack' | 'question' | 'summary'
 
 export function BoosterScreen({ save, setSave, onExit }: Props) {
-  const [stage, setStage] = useState<Stage>("pack");
-  const [opening, setOpening] = useState(false);
-  const [cards, setCards] = useState<Card[]>([]);
-  const [i, setI] = useState(0);
-  const [question, setQuestion] = useState<Question | null>(null);
-  const [outcomes, setOutcomes] = useState<Outcome[]>([]);
+  const [stage, setStage] = useState<Stage>('pack')
+  const [opening, setOpening] = useState(false)
+  const [cards, setCards] = useState<Card[]>([])
+  const [i, setI] = useState(0)
+  const [question, setQuestion] = useState<Question | null>(null)
+  const [outcomes, setOutcomes] = useState<Outcome[]>([])
 
   function tear() {
-    if (opening) return;
-    setOpening(true);
-    const drawn = openBooster(save, Math.random);
-    setSave(consumeBooster(save));
-    setCards(drawn);
-    setTimeout(() => show(drawn[0]), 1100);
+    if (opening) return
+    setOpening(true)
+    const drawn = openBooster(save, Math.random)
+    setSave(consumeBooster(save))
+    setCards(drawn)
+    setTimeout(() => show(drawn[0]), 1100)
   }
 
   // Chaque carte arrive directement avec sa question, sans clic pour la retourner.
   function show(card: Card) {
-    setQuestion(makeQuestion(card, "ar-fr", Math.random));
-    setStage("question");
+    setQuestion(makeQuestion(card, 'ar-fr', Math.random))
+    setStage('question')
   }
 
   function answer(correct: boolean) {
-    const r = answerBooster(save, cards[i], correct, Date.now(), Math.random);
-    setSave(r.save);
-    setOutcomes((o) => [...o, r.outcome]);
+    const r = answerBooster(save, cards[i], correct, Date.now(), Math.random)
+    setSave(r.save)
+    setOutcomes((o) => [...o, r.outcome])
   }
 
   function next() {
     if (i + 1 < cards.length) {
-      setI(i + 1);
-      show(cards[i + 1]);
-    } else setStage("summary");
+      setI(i + 1)
+      show(cards[i + 1])
+    } else setStage('summary')
   }
 
-  if (stage === "pack") {
+  if (stage === 'pack') {
     return (
       <div className="screen center pack-screen">
         <p className="pack-kicker">BOOSTER</p>
-        <p className="pack-sub">
-          10 cartes t'attendent. Pour garder une carte, trouve ce qu'elle veut
-          dire.
-        </p>
+        <p className="pack-sub">10 cartes t'attendent. Pour garder une carte, trouve ce qu'elle veut dire.</p>
         <BoosterPack opening={opening} onOpen={tear} />
         <button className="btn primary big" onClick={tear} disabled={opening}>
           Ouvrir le booster
@@ -76,12 +65,12 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
           Retour
         </button>
       </div>
-    );
+    )
   }
 
-  if (stage === "summary") {
-    const won = outcomes.filter((o) => o.kind === "won").map((o) => o.card);
-    const lost = outcomes.filter((o) => o.kind !== "won");
+  if (stage === 'summary') {
+    const won = outcomes.filter((o) => o.kind === 'won').map((o) => o.card)
+    const lost = outcomes.filter((o) => o.kind !== 'won')
     return (
       <div className="screen center">
         <h2>
@@ -90,37 +79,26 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
         {won.length > 0 && (
           <div className="card-row">
             {won.map((c) => (
-              <GameCard
-                key={c.id}
-                card={c}
-                copies={save.owned[c.id]?.copies}
-                width="110px"
-              />
+              <GameCard key={c.id} card={c} copies={save.owned[c.id]?.copies} width="110px" />
             ))}
           </div>
         )}
         {lost.length > 0 && (
           <p className="muted">
-            Ratées :{" "}
-            {lost.map((o) => `${o.card.ar} (${o.card.fr})`).join(" · ")}. Elles
-            reviendront dans un prochain booster.
+            Ratées : {lost.map((o) => `${o.card.ar} (${o.card.fr})`).join(' · ')}. Elles reviendront dans un prochain booster.
           </p>
         )}
         <button className="btn primary big" onClick={onExit}>
           Retour à l'accueil
         </button>
       </div>
-    );
+    )
   }
 
-  const outcome = outcomes[i] ?? null;
+  const outcome = outcomes[i] ?? null
   return (
     <div className="screen">
-      <Progress
-        value={i + (outcome ? 1 : 0)}
-        max={cards.length}
-        label="Booster"
-      />
+      <Progress value={i + (outcome ? 1 : 0)} max={cards.length} label="Booster" />
       {question && (
         <QuestionView
           key={question.card.id}
@@ -129,11 +107,9 @@ export function BoosterScreen({ save, setSave, onExit }: Props) {
           feedback={outcome && <OutcomeText outcome={outcome} />}
           glow={outcomeGlow(outcome)}
           onNext={next}
-          nextLabel={
-            i + 1 < cards.length ? "Carte suivante" : "Voir le résultat"
-          }
+          nextLabel={i + 1 < cards.length ? 'Carte suivante' : 'Voir le résultat'}
         />
       )}
     </div>
-  );
+  )
 }
