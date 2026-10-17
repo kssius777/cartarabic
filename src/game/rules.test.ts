@@ -111,6 +111,38 @@ describe('boosters', () => {
       expect(cards.every((c) => c.rarity <= 3)).toBe(true)
     }
   })
+
+  it('deux nouveaux joueurs ne reçoivent pas le même premier booster', () => {
+    // Le tirage vient de Math.random à chaque ouverture : aucune graine commune à tous les joueurs.
+    const first = () =>
+      openBooster({ ...newSave(), level: 1 }, Math.random)
+        .map((c) => c.id)
+        .sort()
+        .join()
+    const players = Array.from({ length: 20 }, first)
+    expect(new Set(players).size).toBe(players.length)
+    // Le même joueur n'a pas non plus deux fois la même suite de cartes.
+    const order = () =>
+      openBooster({ ...newSave(), level: 1 }, Math.random)
+        .map((c) => c.id)
+        .join()
+    expect(order()).not.toBe(order())
+  })
+
+  it('les révisions et le test de niveau changent d’une fois à l’autre', () => {
+    const owned = Object.fromEntries(CARDS.slice(0, 40).map((c) => [c.id, { copies: 1, box: 1, due: 0, progress: 0 }]))
+    const save: Save = { ...newSave(), level: 1, owned }
+    const session = () =>
+      reviewSession(save, Date.now(), Math.random)
+        .map((c) => c.id)
+        .join()
+    expect(session()).not.toBe(session())
+    const test = () =>
+      placementCards(Math.random)
+        .map((c) => c.id)
+        .join()
+    expect(test()).not.toBe(test())
+  })
 })
 
 describe('dinars', () => {
