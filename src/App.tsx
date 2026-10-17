@@ -1,3 +1,18 @@
+import {
+  BookOpen,
+  ChartColumn,
+  Coins,
+  Flame,
+  GraduationCap,
+  Landmark,
+  Layers,
+  LibraryBig,
+  PackageOpen,
+  RotateCcw,
+  Target,
+  Trophy,
+  UserRound,
+} from 'lucide-react'
 import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import { GameCard } from './components/GameCard'
 import { CARDS, RARITIES, type Card, type Rarity } from './game/cards'
@@ -238,30 +253,35 @@ export default function App() {
         </span>
         <span className="appbar-right">
           <LangPicker />
-          <span className="appbar-coins">🪙 {save.coins}</span>
+          <span className="appbar-coins" title="Pièces">
+            <Coins size={16} aria-hidden /> {fr(save.coins)}
+          </span>
           <button
             className="appbar-avatar"
             onClick={() => setScreen('backup')}
             aria-label="Mon compte"
             title={profile?.pseudo ?? 'Mon compte'}
           >
-            {profile?.avatar ?? '👤'}
+            {profile?.avatar ?? <UserRound size={18} aria-hidden />}
           </button>
         </span>
       </header>
-      <div className="welcome">
-        <p className="eyebrow">Ta collection</p>
-        <h1>{s.owned === 0 ? 'Ouvre ton premier booster.' : due > 0 ? 'C’est l’heure de réviser.' : 'Tout est à jour.'}</h1>
-      </div>
-
-      <div className="actions">
-        <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
-          <span aria-hidden>🎁</span> Ouvrir un booster
-        </button>
-        <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
-          <span aria-hidden>📖</span> Réviser
-          {due > 0 && <span className="action-count">{due}</span>}
-        </button>
+      <div className="dash-head">
+        <div className="dash-title">
+          <p className="dash-date">
+            {new Date().toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' })}
+          </p>
+          <h1>{s.owned === 0 ? 'Ouvre ton premier booster' : due > 0 ? 'C’est l’heure de réviser' : 'Tout est à jour'}</h1>
+        </div>
+        <div className="actions">
+          <button className="action action-main action-booster" onClick={() => setScreen('booster')}>
+            <PackageOpen size={18} aria-hidden /> Ouvrir un booster
+          </button>
+          <button className="action action-review" disabled={s.owned === 0} onClick={() => setScreen('review')}>
+            <BookOpen size={18} aria-hidden /> Réviser
+            {due > 0 && <span className="action-count">{fr(due)}</span>}
+          </button>
+        </div>
       </div>
 
       {s.owned === 0 && (
@@ -276,107 +296,115 @@ export default function App() {
         </div>
       )}
 
-      <section className="overview" style={{ '--lvl': level.color } as CSSProperties}>
-        <div className="overview-level">
-          <div className="lvl-badge">
-            <b>{level.name}</b>
-            <small>{level.symbol}</small>
-          </div>
-          <div className="trainer-info">
-            <div className="trainer-head">
-              <b>Niveau {level.name}</b>
-              <span>{level.desc}</span>
-            </div>
-            {next ? (
-              <>
-                <div className="bar">
-                  <div
-                    style={{
-                      width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%`,
-                      background: next.color,
-                    }}
-                  />
-                </div>
-                <small className="muted">
-                  Vers {next.name} : {tierOwned}/{tierGoal} cartes {level.name}
-                </small>
-              </>
-            ) : (
-              <small className="muted">Niveau maximum atteint</small>
-            )}
-          </div>
+      <section className="kpis">
+        <div className="kpi">
+          <span className="kpi-icon">
+            <GraduationCap size={18} aria-hidden />
+          </span>
+          <span className="kpi-label">Niveau</span>
+          <b className="kpi-value">
+            {level.name} <small>{level.desc}</small>
+          </b>
+          {next ? (
+            <>
+              <div className="kpi-bar">
+                <div style={{ width: `${Math.min(100, (tierOwned / tierGoal) * 100)}%` }} />
+              </div>
+              <span className="kpi-sub">
+                {tierOwned}/{tierGoal} cartes vers {next.name}
+              </span>
+            </>
+          ) : (
+            <span className="kpi-sub">Niveau maximum atteint</span>
+          )}
         </div>
-        <div className="overview-goal">
-          <span className="overview-goal-icon">{today >= save.goal ? '🔥' : '🎯'}</span>
-          <div className="overview-goal-text">
-            <b>Objectif du jour</b>
-            <div className="bar goal-bar">
-              <div
-                style={{
-                  width: `${Math.min(100, (today / save.goal) * 100)}%`,
-                }}
-              />
-            </div>
+        <div className="kpi">
+          <span className="kpi-icon">
+            {today >= save.goal ? <Flame size={18} aria-hidden /> : <Target size={18} aria-hidden />}
+          </span>
+          <span className="kpi-label">Objectif du jour</span>
+          <b className="kpi-value">
+            {Math.min(today, save.goal)} <small>/ {save.goal} réponses</small>
+          </b>
+          <div className="kpi-bar">
+            <div style={{ width: `${Math.min(100, (today / save.goal) * 100)}%` }} />
           </div>
-          <span className="overview-goal-n">
-            {Math.min(today, save.goal)}/{save.goal}
+          <span className="kpi-sub">{today >= save.goal ? 'Atteint, bravo' : `Encore ${save.goal - today}`}</span>
+        </div>
+        <div className="kpi">
+          <span className="kpi-icon">
+            <Layers size={18} aria-hidden />
+          </span>
+          <span className="kpi-label">Cartes</span>
+          <b className="kpi-value">
+            {fr(s.owned)} <small>/ {fr(s.total)}</small>
+          </b>
+          <span className="kpi-sub">
+            {fr(s.brillant)} brillante{s.brillant > 1 ? 's' : ''}
           </span>
         </div>
-        <dl className="overview-stats">
-          <div>
-            <dt>Cartes</dt>
-            <dd>
-              {s.owned}
-              <small>/{s.total}</small>
-            </dd>
-          </div>
-          <div>
-            <dt>Brillantes</dt>
-            <dd>{s.brillant}</dd>
-          </div>
-          <div>
-            <dt>À travailler</dt>
-            <dd>{toWork}</dd>
-          </div>
-        </dl>
-      </section>
-
-      {showcase.length > 0 && (
-        <div className="showcase" onClick={() => setScreen('binder')}>
-          {showcase.map((c, k) => (
-            <div key={c.id} className="showcase-card" style={{ '--k': k - (showcase.length - 1) / 2 } as CSSProperties}>
-              <GameCard card={c} copies={save.owned[c.id].copies} width="var(--sw)" />
-            </div>
-          ))}
+        <div className="kpi">
+          <span className="kpi-icon">
+            <RotateCcw size={18} aria-hidden />
+          </span>
+          <span className="kpi-label">À travailler</span>
+          <b className="kpi-value">{fr(toWork)}</b>
+          <span className="kpi-sub">{toWork ? 'Cartes ratées récemment' : 'Rien en retard'}</span>
         </div>
-      )}
+      </section>
 
       <nav className="home-grid">
         <button className="tile tile-binder" onClick={() => setScreen('binder')}>
-          <span className="tile-icon">🗂️</span>
+          <span className="tile-icon">
+            <LibraryBig size={18} aria-hidden />
+          </span>
           <b>Classeur</b>
           <small>Tes cartes par thème</small>
         </button>
         {LANG.figures && (
           <button className="tile tile-figures" onClick={() => setScreen('figures')}>
-            <span className="tile-icon">🕌</span>
+            <span className="tile-icon">
+              <Landmark size={18} aria-hidden />
+            </span>
             <b>Personnages</b>
             <small>
-              {Object.keys(save.figures).length}/{FIGURES.length} · {FIGURE_BOOSTER_PRICE} 🪙
+              {Object.keys(save.figures).length} sur {fr(FIGURES.length)}
             </small>
           </button>
         )}
         <button className="tile tile-stats" onClick={() => setScreen('stats')}>
-          <span className="tile-icon">📊</span>
+          <span className="tile-icon">
+            <ChartColumn size={18} aria-hidden />
+          </span>
           <b>Statistiques</b>
           <small>Ta progression</small>
         </button>
         <button className="tile tile-board" onClick={() => setScreen('board')}>
-          <span className="tile-icon">🏆</span>
+          <span className="tile-icon">
+            <Trophy size={18} aria-hidden />
+          </span>
           <b>Classement</b>
-          <small>{weekXp(save, Date.now())} XP cette semaine</small>
+          <small>{fr(weekXp(save, Date.now()))} XP cette semaine</small>
         </button>
       </nav>
+
+      {showcase.length > 0 && (
+        <section className="dash-recent">
+          <div className="dash-section-head">
+            <h2>Dernières cartes</h2>
+            <button className="btn ghost small" onClick={() => setScreen('binder')}>
+              Voir le classeur
+            </button>
+          </div>
+          <div className="showcase" onClick={() => setScreen('binder')}>
+            {showcase.map((c, k) => (
+              <div key={c.id} className="showcase-card" style={{ '--k': k - (showcase.length - 1) / 2 } as CSSProperties}>
+                <GameCard card={c} copies={save.owned[c.id].copies} width="var(--sw)" />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="foot-links">
         <button className="btn ghost small" onClick={() => setScreen('landing')}>
@@ -411,6 +439,8 @@ export default function App() {
     </div>
   )
 }
+
+const fr = (n: number) => n.toLocaleString('fr-FR')
 
 function Rules({ onExit }: { onExit: () => void }) {
   return (

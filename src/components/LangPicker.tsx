@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Check, ChevronDown } from 'lucide-react'
 import { LANG, LANGS, switchLang, type LangId } from '../game/lang'
 
 /** Bouton de langue : chaque langue garde sa propre collection, on passe de l'une à l'autre sans rien perdre. */
@@ -7,7 +8,7 @@ export function LangPicker() {
   return (
     <>
       <button className="lang-btn" onClick={() => setOpen(true)} aria-label="Changer de langue">
-        <span>{LANG.flag}</span> {LANG.name} <span className="lang-caret">▾</span>
+        <span className="lang-dot" aria-hidden /> {LANG.name} <ChevronDown size={14} className="lang-caret" aria-hidden />
       </button>
       {open && (
         <div className="modal" onClick={() => setOpen(false)}>
@@ -29,7 +30,7 @@ export function LangPicker() {
                       {l.native}
                     </span>
                   </span>
-                  {id === LANG.id && <span className="lang-check">✓</span>}
+                  {id === LANG.id && <Check size={16} className="lang-check" aria-hidden />}
                 </button>
               )
             })}

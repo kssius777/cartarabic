@@ -50,19 +50,19 @@ export function StatsScreen({ save, onExit, onWork }: Props) {
       <div className="stat-grid">
         <div className="stat">
           <b>{mastered}</b>
-          <span>✨ maîtrisées</span>
+          <span>Maîtrisées</span>
         </div>
         <div className="stat">
           <b>{learning}</b>
-          <span>🃏 en cours</span>
+          <span>En cours</span>
         </div>
         <div className="stat hot">
           <b>{work.length}</b>
-          <span>🎯 à travailler</span>
+          <span>À travailler</span>
         </div>
         <div className="stat">
           <b>{all[1] ? `${pct(all)} %` : '—'}</b>
-          <span>✅ de réussite</span>
+          <span>De réussite</span>
         </div>
       </div>
 
